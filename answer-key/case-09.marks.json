@@ -7,9 +7,9 @@
       "page": 1,
       "type": "stamp",
       "box": [
-        0.0662,
-        0.0838,
-        0.2501,
+        0.0687,
+        0.0856,
+        0.245,
         0.1569
       ],
       "label_en": "Registry date stamp (training sample)",
