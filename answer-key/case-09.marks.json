@@ -7,10 +7,10 @@
       "page": 1,
       "type": "stamp",
       "box": [
-        0.0687,
-        0.0856,
-        0.245,
-        0.1569
+        0.0662,
+        0.0905,
+        0.2627,
+        0.1525
       ],
       "label_en": "Registry date stamp (training sample)",
       "text_ar": "قلم القيد — نموذج تدريبي — 21/10/2026"

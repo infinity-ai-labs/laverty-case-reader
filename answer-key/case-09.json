@@ -8,7 +8,7 @@
     {"page": 2, "document_en": "Dealer's workshop job card (repair order JC-2026-04417) with the technician's handwritten findings and second repair", "document_ar": "بطاقة عمل — أمر إصلاح"}
   ],
   "court": {"name_en": "Sharjah Federal Court of First Instance, Minor Commercial Circuit", "name_ar": "محكمة الشارقة الاتحادية الابتدائية — الدائرة التجارية الجزئية", "pages": [1], "note": "No case number yet; the registry stamp on page 1 gives only the filing date."},
-  "vehicle": {"en": "Alcoria Sarab 2.0 Turbo, 2026 model (fictional make), chassis no. 00000000000000000, Sharjah plate 00000", "ar": "ألكوريا سراب 2.0 توربو موديل 2026", "price_aed": 136500, "warranty_en": "3 years or 100,000 km", "delivered": "2026-06-16", "pages": [1, 2]},
+  "vehicle": {"en": "Alcoria Sarab 2.0 Turbo, 2026 model (fictional make), chassis no. 00000000000000000, Sharjah plate 00000", "ar": "ألكوريا سراب 2.0 توربو موديل 2026", "price_aed": 136500, "warranty_en": "3 years or 100,000 km", "bought_and_delivered": "2026-06-16", "pages": [1, 2]},
   "parties": [
     {"role": "claimant (buyer, consumer)", "name_ar": "مريم خالد الزعابي", "name_en": "Maryam Khalid Al Zaabi", "details_en": "Sharjah", "pages": [1, 2]},
     {"role": "claimant's lawyer", "name_ar": "إبراهيم يعقوب الحوسني", "name_en": "Ibrahim Yaqoub Al Hosani", "details_en": "Ibrahim Al Hosani Advocates, Sharjah", "pages": [1]},
@@ -16,7 +16,7 @@
     {"role": "dealer's workshop technician", "name_ar": "وائل فهمي عبدالقادر", "name_en": "Wael Fahmy Abdelqader", "details_en": "Technician named on the job card; wrote the findings and signed", "pages": [2]}
   ],
   "dates": [
-    {"date": "2026-06-16", "what_en": "Car delivered to the buyer; the warranty and the one-year period of Article 13 run from here", "page": 1},
+    {"date": "2026-06-16", "what_en": "Car bought and delivered to the buyer the same day; the warranty and the one-year period of Article 13 run from delivery", "page": 1},
     {"date": "2026-07-28", "what_en": "Car received at the dealer's workshop at 09:40 (job card JC-2026-04417, odometer 3,184 km): first repair", "page": 2},
     {"date": "2026-08-08", "what_en": "Car handed back to the buyer after the first repair", "page": 2},
     {"date": "2026-08-24", "what_en": "Second repair for the same fault, control unit replaced (technician's handwritten note only)", "page": 2, "source": "handwriting"},
@@ -37,7 +37,7 @@
     {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
   ],
   "key_facts": [
-    {"fact_en": "Price AED 136,500 with a warranty of 3 years or 100,000 km; delivered 16 Jun 2026, after 1 June 2026, so the 2025 Civil Transactions Law governs the sale", "page": 1},
+    {"fact_en": "Price AED 136,500 with a warranty of 3 years or 100,000 km; bought and delivered on 16 Jun 2026, after 1 June 2026, so the 2025 Civil Transactions Law governs the sale", "page": 1},
     {"fact_en": "First repair under warranty, job card JC-2026-04417 (28 Jul 2026, 3,184 km): judder on pulling away, late shift from second to third gear and a gearbox warning; diagnosis, control-unit software update, valve body and gearbox oil replaced; car returned 8 Aug 2026 at no charge", "page": 2},
     {"fact_en": "The technician's handwritten findings: third-gear clutch slipping and gearbox oil overheating, 'manufacturing defect'", "page": 2, "source": "handwriting"},
     {"fact_en": "The same fault returned and the car was repaired again on 24 Aug 2026, with the control unit replaced; this appears only in the technician's handwriting on the same job card", "page": 2, "source": "handwriting"},
@@ -58,7 +58,7 @@
     "The date of the second repair (24 Aug 2026) appears only in the technician's handwritten note on the job card; the statement of claim mentions the second repair without a date.",
     "The technician's handwritten finding calls the gearbox fault a manufacturing defect; this admission is in handwriting only.",
     "Article 13 needs the same fault three times within the first year after delivery. The file shows the first repair (28 Jul 2026, printed job card), the second (24 Aug 2026, handwriting only) and the third failure (6 Oct 2026, stated only in the claim, with no job card in the file).",
-    "The car was delivered on 16 Jun 2026, after 1 June 2026, so the sale falls under the 2025 Civil Transactions Law (Federal Decree-Law No. 25 of 2025), which the claim cites, not the 1985 law.",
+    "The car was bought and delivered on 16 Jun 2026, after 1 June 2026, so the sale falls under the 2025 Civil Transactions Law (Federal Decree-Law No. 25 of 2025), which the claim cites, not the 1985 law.",
     "The 36 days of car hire (AED 7,920) are not broken down; the file documents only the first workshop stay (28 Jul to 8 Aug 2026)."
   ]
 }

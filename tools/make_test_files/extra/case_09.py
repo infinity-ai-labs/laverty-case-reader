@@ -4,8 +4,8 @@
 Everything here is fictional: the buyer, the dealer, the car make and model, the numbers and the
 events. The laws cited are real UAE laws, checked against the official texts on 29 Oct 2026, except
 one deliberately invalid citation: Article 45 of the Consumer Protection Law, which has 38 articles.
-The car was sold on 16 Jun 2026, after 1 June 2026, so the 2025 Civil Transactions Law governs the
-sale. The date of the second repair appears only in the technician's handwriting on the job card.
+The car was bought and delivered on 16 Jun 2026, after 1 June 2026, so the 2025 Civil Transactions
+Law governs the sale. The date of the second repair appears only in the technician's handwriting on the job card.
 """
 from cases import BLUE, PURPLE, INK, BLACK_INK, RED  # noqa: F401  (RED kept for parity with cases.py)
 
@@ -33,7 +33,7 @@ CASE = {
 </table>
 <h2>الوقائع</h2>
 <ol>
-  <li>اشترت المدعية من المدعى عليها سيارة ألكوريا سراب 2.0 توربو موديل 2026 (رقم الهيكل 00000000000000000) بثمن (136,500) درهم مع ضمان (3) سنوات أو (100,000) كم، وتسلمتها بتاريخ 16/06/2026.</li>
+  <li>اشترت المدعية من المدعى عليها بتاريخ 16/06/2026 سيارة ألكوريا سراب 2.0 توربو موديل 2026 (رقم الهيكل 00000000000000000) بثمن (136,500) درهم مع ضمان (3) سنوات أو (100,000) كم، وتسلمتها في اليوم ذاته.</li>
   <li>ظهر بناقل الحركة عطل (ارتجاج وتأخر في التبديل)، فأُدخلت السيارة ورشة المدعى عليها ببطاقة العمل رقم JC-2026-04417 المرفقة، وأثبت الفني فيها أنه عيب مصنعي.</li>
   <li>وتكرر العطل ذاته فأعيد إصلاحه ثانيةً على البطاقة ذاتها، ثم تعطل للمرة الثالثة بتاريخ 06/10/2026.</li>
   <li>ورفضت المدعى عليها في 13/10/2026 طلب المدعية المؤرخ 08/10/2026 الاستبدال أو الرد خلال سبعة أيام.</li>
@@ -54,8 +54,8 @@ CASE = {
 """,
             "marks": [
                 {"id": "c9-p1-stamp-registry", "type": "stamp", "kind": "oval", "color": PURPLE,
-                 "lines": ["قلم القيد", "نموذج تدريبي", "21/10/2026"], "top": 98, "left": 52, "width": 140,
-                 "height": 78, "rotate": 7, "seed": 97,
+                 "lines": ["قلم القيد", "نموذج تدريبي", "21/10/2026"], "top": 104, "left": 50, "width": 156,
+                 "height": 66, "rotate": 7, "seed": 97,
                  "label_en": "Registry date stamp (training sample)", "text_ar": "قلم القيد — نموذج تدريبي — 21/10/2026"},
                 {"id": "c9-p1-signature-lawyer", "type": "signature", "color": INK, "top": 990, "left": 118,
                  "width": 170, "height": 60, "rotate": -3, "seed": 101,

@@ -54,8 +54,8 @@ CASE = {
 """,
             "marks": [
                 {"id": "c8-p1-stamp-registry", "type": "stamp", "kind": "oval", "color": PURPLE,
-                 "lines": ["قلم القيد", "نموذج تدريبي", "20/10/2026"], "top": 96, "left": 50, "width": 156,
-                 "height": 80, "rotate": -6, "seed": 37,
+                 "lines": ["قلم القيد", "نموذج تدريبي", "20/10/2026"], "top": 104, "left": 50, "width": 152,
+                 "height": 66, "rotate": -6, "seed": 37,
                  "label_en": "Registry date stamp (training sample)", "text_ar": "قلم القيد — نموذج تدريبي — 20/10/2026"},
                 {"id": "c8-p1-signature-lawyer", "type": "signature", "color": INK, "top": 986, "left": 118,
                  "width": 170, "height": 62, "rotate": -4, "seed": 43,
