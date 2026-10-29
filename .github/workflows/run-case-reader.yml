@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      RUN_NAME: run-${{ github.run_number }}
+      RUN_NAME: run-${{ github.run_number }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@v4
 
@@ -63,7 +63,7 @@ jobs:
           SWEEP: ${{ inputs.sweep }}
           MIN_CONFIDENCE: ${{ inputs.min_confidence }}
         run: |
-          set -uo pipefail
+          set +e -uo pipefail
           args=(read-all --out "runs/$RUN_NAME" --effort "$EFFORT" --min-confidence "$MIN_CONFIDENCE")
           if [ -n "$CASES" ]; then args+=(--cases "$CASES"); fi
           if [ "$SWEEP" = "true" ]; then args+=(--sweep); fi

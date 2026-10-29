@@ -65,7 +65,8 @@ class _FallbackClient:
         self.modes.append(mode)
         if mode == "json_schema":
             raise MetaAPIError(400, "schema not supported")
-        answer = {"case_title_en": "Test", "dates": [{"date": "06/10/2026", "page": 1}]}
+        answer = {"case_title_en": "Test", "summary_en": "", "pages": [], "court": {}, "parties": [],
+                  "dates": [{"date": "06/10/2026", "page": 1}], "deadlines": [], "claims": []}
         return {"choices": [{"message": {"content": json.dumps(answer)}}]}
 
 
@@ -77,3 +78,72 @@ def test_read_case_falls_back_when_a_mode_is_refused(tmp_path):
     assert summary["case_title_en"] == "Test"
     assert summary["dates"][0]["date"] == "2026-10-06"
     assert (tmp_path / "reader.json_schema.error.txt").exists()
+
+
+def test_closest_enum_never_guesses():
+    from case_reader.schema import _closest_enum, MARK_TYPES, ROLES, SOURCES
+    assert _closest_enum("printed text", MARK_TYPES) == "not_a_mark"
+    assert _closest_enum("Handwritten", MARK_TYPES) == "handwriting"
+    assert _closest_enum("banana", MARK_TYPES) == ""
+    assert _closest_enum("claimant's lawyer", ROLES) == "claimant_lawyer"
+    assert _closest_enum("claimant (creditor)", ROLES) == "claimant"
+    assert _closest_enum("unknown", SOURCES) == ""
+
+
+class _ShapeClient:
+    """First answer has the wrong shape, the second is wrapped in one key."""
+
+    def __init__(self):
+        self.modes = []
+
+    def chat(self, model, messages, response_format=None, **kwargs):
+        mode = (response_format or {}).get("type", "plain")
+        self.modes.append(mode)
+        if mode == "json_schema":
+            content = json.dumps({"error": "could not read the file"})
+        else:
+            content = json.dumps({"case_summary": {"case_title_en": "Wrapped", "summary_en": "", "pages": [],
+                                                   "parties": [], "dates": [], "claims": [], "citations": []}})
+        return {"choices": [{"message": {"content": content}, "finish_reason": "stop"}]}
+
+
+def test_wrong_shaped_answers_are_not_taken_as_empty_summaries(tmp_path):
+    client = _ShapeClient()
+    summary, mode = read_case(client, [_page(tmp_path)], [], out_dir=tmp_path)
+    assert client.modes == ["json_schema", "json_object"]
+    assert mode == "json_object" and summary["case_title_en"] == "Wrapped"
+
+
+class _CutOffClient:
+    def chat(self, model, messages, **kwargs):
+        return {"choices": [{"message": {"content": '{"case_title_en": "trunc'}, "finish_reason": "length"}]}
+
+
+def test_a_cut_off_answer_stops_with_a_clear_error(tmp_path):
+    import pytest
+    with pytest.raises(RuntimeError, match="cut off"):
+        read_case(_CutOffClient(), [_page(tmp_path)], [], out_dir=tmp_path)
+
+
+def test_closest_enum_reads_the_last_word_and_representatives():
+    from case_reader.schema import _closest_enum, MARK_TYPES, ROLES
+    assert _closest_enum("judge's clerk", ROLES) == "clerk"
+    assert _closest_enum("handwritten signature", MARK_TYPES) == "signature"
+    assert _closest_enum("claimant's general manager", ROLES) == "claimant_representative"
+    assert _closest_enum("defendant (debtor)", ROLES) == "defendant"
+    assert _closest_enum("claimant's attorney", ROLES) == "claimant_lawyer"
+
+
+def test_the_page_limit_applies_before_any_model_call(tmp_path, monkeypatch):
+    import pytest
+    from case_reader import pipeline
+    folder = tmp_path / "file"
+    folder.mkdir()
+    for n in (1, 2):
+        Image.new("RGB", (100, 140), "white").save(folder / f"page-{n}.jpg")
+    monkeypatch.setattr(pipeline, "MAX_PAGES", 1)
+    calls = []
+    with pytest.raises(ValueError, match="up to 1"):
+        pipeline.read_file(folder, tmp_path / "out", case_id="x", make_client=lambda pages: calls.append(1),
+                           log=lambda m: None)
+    assert calls == []

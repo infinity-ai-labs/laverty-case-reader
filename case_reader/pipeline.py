@@ -13,7 +13,7 @@ from .assemble import assemble, to_markdown
 from .marks import DEFAULT_CONCEPTS, clean_marks, find_marks_on_page
 from .meta_api import SAM_MODEL
 from .pages import Page, load_pages
-from .reader import READER_MODEL, read_case
+from .reader import MAX_PAGES, READER_MODEL, read_case
 
 
 def _now() -> str:
@@ -43,6 +43,8 @@ def read_file(
 
     pages = load_pages(source, out_dir)
     log(f"{case_id}: {len(pages)} pages")
+    if len(pages) > MAX_PAGES:  # before any paid call
+        raise ValueError(f"The file has {len(pages)} pages; the Case Reader reads up to {MAX_PAGES} at a time.")
     client = make_client(pages)
 
     found: list[dict[str, Any]] = []

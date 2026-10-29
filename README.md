@@ -17,7 +17,7 @@ The **Case Reader** is a new LAVERTY feature built during this hackathon on Meta
 1. **Pages.** The PDF is rendered page by page.
 2. **Marks, with SAM 3.1.** On every page, SAM 3.1 is asked for "rubber stamp", "signature" and "handwritten text", and returns a box for each one it finds. Weak, oversized and duplicate boxes are dropped, and the rest are numbered M1, M2, ... in reading order.
 3. **Reading, with Muse Spark 1.3.** Muse Spark reads all the pages together, plus a close-up of every mark, and fills in a fixed JSON schema: court, parties, dates, deadlines, claims, key facts, citations, and what each stamp, signature and handwritten note says. Every item carries its page. An item known only from a stamp or a handwritten note says so and points to the mark, and a handwritten correction of printed text is flagged with both values.
-4. **Citation check.** Every cited article is checked against the official law text: does the article exist, and does any quoted wording match word for word? A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the three laws cited in the test files (`laws/`).
+4. **Citation check.** Every cited article is checked against the official law text: is it the right law (federal, or the right emirate's), does the article exist, and does any quoted wording match word for word? The article is read from the citation as written on the page, and a citation naming two articles is checked twice. A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the three laws cited in the test files (`laws/`).
 5. **Output.** `summary.json` for software and `summary.md` for people, starting with the points a lawyer should check first.
 
 The reader extracts and the check verifies: Muse Spark never decides whether an article exists.
@@ -49,7 +49,7 @@ Everything here was made during the hackathon.
 | `case_reader/` | The Case Reader: SAM 3.1 marks, Muse Spark reading, citation check, summary |
 | `laws/` | The law index used by the open citation check |
 | `test-files/` | Three made-up scanned Arabic case files (labour, commercial, tenancy), 8 pages in all, with stamps, signatures and handwritten notes |
-| `answer-key/` | The hand-checked answers used to score the reader, and the exact position of every stamp, signature and handwritten note |
+| `answer-key/` | The hand-checked answers used to score the reader, and the position of every stamp, signature and handwritten note, measured tight around the ink |
 | `tools/score.py` | Scores a run against the answer key |
 | `tools/make_test_files/` | The generator that made the test files |
 | `tools/fonts/` | Open-licence Arabic fonts used by the generator (SIL Open Font License) |

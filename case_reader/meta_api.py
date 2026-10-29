@@ -115,7 +115,8 @@ class MetaClient:
         with self.usage_log.open("a", encoding="utf-8") as f:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-    def _post(self, path: str, payload: dict[str, Any], label: str, timeout: float | None = None) -> dict[str, Any]:
+    def _post(self, path: str, payload: dict[str, Any], label: str, timeout: float | None = None,
+              retry_read_timeouts: bool = True) -> dict[str, Any]:
         url = f"{self.base_url}{path}"
         body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         for attempt in range(self.max_retries + 1):
@@ -125,6 +126,9 @@ class MetaClient:
             except requests.RequestException as exc:
                 self._log({"label": label, "model": payload.get("model"), "error": type(exc).__name__,
                            "attempt": attempt})
+                if isinstance(exc, requests.exceptions.ReadTimeout) and not retry_read_timeouts:
+                    # The model may have finished; asking again would generate (and bill) the answer twice.
+                    raise MetaAPIError(0, f"no answer within {timeout or self.timeout:.0f} seconds") from None
                 if attempt >= self.max_retries:
                     raise MetaAPIError(0, f"network error ({type(exc).__name__})") from None
                 self._sleep_before_retry(attempt, None)
@@ -178,7 +182,7 @@ class MetaClient:
             payload["temperature"] = temperature
         if seed is not None:
             payload["seed"] = seed
-        return self._post("/chat/completions", payload, label)
+        return self._post("/chat/completions", payload, label, retry_read_timeouts=False)
 
     def segment(self, concept: str, image_url: str, *, include_confidence: bool = True,
                 label: str = "sam") -> str:

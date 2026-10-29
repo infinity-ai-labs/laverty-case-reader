@@ -106,3 +106,28 @@ def test_missing_key(monkeypatch):
     monkeypatch.delenv("META_API_KEY", raising=False)
     with pytest.raises(meta_api.MissingKeyError):
         MetaClient(base_url="http://127.0.0.1:9/v1")
+
+
+class _SlowHandler(_Handler):
+    def do_POST(self):
+        body = json.loads(self.rfile.read(int(self.headers["Content-Length"])))
+        type(self).calls.append((self.path, body, self.headers["Authorization"]))
+        threading.Event().wait(1.0)  # not time.sleep: the test turns that off for the client's back-off
+        return self._send(200, {"choices": [{"message": {"content": "{}"}}]})
+
+
+def test_a_slow_chat_answer_is_not_asked_again(monkeypatch):
+    monkeypatch.setenv("MODEL_API_KEY", "test-key")
+    monkeypatch.setenv("NO_PROXY", "127.0.0.1,localhost")
+    monkeypatch.setenv("no_proxy", "127.0.0.1,localhost")
+    monkeypatch.setattr(meta_api.time, "sleep", lambda s: None)
+    _SlowHandler.calls = []
+    httpd = HTTPServer(("127.0.0.1", 0), _SlowHandler)
+    threading.Thread(target=httpd.serve_forever, daemon=True).start()
+    try:
+        client = MetaClient(base_url=f"http://127.0.0.1:{httpd.server_port}/v1", timeout=0.3)
+        with pytest.raises(MetaAPIError, match="no answer within"):
+            client.chat("muse-spark-1.3", [{"role": "user", "content": "hi"}])
+        assert len(_SlowHandler.calls) == 1  # one generation billed, not six
+    finally:
+        httpd.shutdown()

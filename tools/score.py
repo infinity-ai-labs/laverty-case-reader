@@ -53,18 +53,23 @@ def score_parties(found: list[dict], key: list[dict]) -> dict[str, Any]:
     return {"correct": correct, "total": len(key), "found": len(found), "misses": misses}
 
 
-def score_dated(found: list[dict], key: list[dict], label: str) -> dict[str, Any]:
-    pool = defaultdict(set)
-    for f in found:
-        pool[f["date"]].add(f["page"])
+def score_dated(found: list[dict], key: list[dict], label: str, elsewhere: list[dict] | None = None) -> dict[str, Any]:
+    """Same calendar date on the same page, matched one to one."""
+    unused = [(f["date"], f["page"]) for f in found]
     correct, misses = 0, []
     for k in key:
-        pages = pool.get(k["date"], set())
-        if k["page"] in pages:
+        if (k["date"], k["page"]) in unused:
+            unused.remove((k["date"], k["page"]))
             correct += 1
+            continue
+        pages = sorted({f["page"] for f in found if f["date"] == k["date"]})
+        if pages:
+            where = f"found on page {pages}"
+        elif elsewhere and any(e["date"] == k["date"] for e in elsewhere):
+            where = "listed only under deadlines"
         else:
-            where = f"found on page {sorted(pages)}" if pages else "not found"
-            misses.append(f"{label} {k['date']} (page {k['page']}, {k['what_en']}): {where}")
+            where = "not found"
+        misses.append(f"{label} {k['date']} (page {k['page']}, {k['what_en']}): {where}")
     return {"correct": correct, "total": len(key), "found": len(found), "misses": misses}
 
 
@@ -83,6 +88,11 @@ def score_claims(found: list[dict], key: list[dict]) -> dict[str, Any]:
     return {"correct": correct, "total": len(want), "found": len(amounts), "misses": misses}
 
 
+def _checked_article(c: dict) -> str:
+    """The article the check looked at (after reading the citation as written), else the raw field."""
+    return c.get("article_checked") or (c.get("check") or {}).get("article") or article_key(c.get("article", ""))
+
+
 def score_citations(found: list[dict], key: list[dict]) -> dict[str, Any]:
     def law_of(c: dict) -> tuple[str, int]:
         return to_ascii_digits(str(c.get("law_number", ""))).lstrip("0"), int(c.get("law_year") or 0)
@@ -93,7 +103,7 @@ def score_citations(found: list[dict], key: list[dict]) -> dict[str, Any]:
         law = parse_law(k["law"])
         want = ((law["number"], law["year"]), k["article"])
         candidates = [i for i, c in enumerate(found)
-                      if i not in used and (law_of(c), article_key(c.get("article", ""))) == want]
+                      if i not in used and (law_of(c), _checked_article(c)) == want]
         same_page = [i for i in candidates if found[i].get("page") == k["page"]]
         pick = (same_page or candidates or [None])[0]
         if not k["valid"]:
@@ -170,13 +180,32 @@ def score_phrases(found_raw: list[dict], key_marks: list[dict], min_confidence: 
     return rows
 
 
-def score_case(case_dir: Path, key_dir: Path) -> dict[str, Any] | None:
+def unread_case(case_id: str, key: dict[str, Any], marks_key: dict[str, Any], mock: bool) -> dict[str, Any]:
+    """A case the run could not read scores zero on everything the key holds."""
+    def zero(total: int, **extra: Any) -> dict[str, Any]:
+        return {"correct": 0, "total": total, "found": 0, "misses": ["the case could not be read"], **extra}
+    return {
+        "case": case_id, "mock": mock, "unread": True,
+        "parties": zero(len(key["parties"])), "dates": zero(len(key["dates"])),
+        "deadlines": zero(len(key["deadlines"])),
+        "claims": zero(sum(1 for c in key["claims"] if c["amount_aed"] is not None)),
+        "citations": zero(len(key["citations"]), invalid_caught=0,
+                          invalid_total=sum(1 for c in key["citations"] if not c["valid"])),
+        "marks": zero(len(marks_key["marks"]), right_place_any_type=0, mean_iou=0.0),
+        "handwriting_dates": {"correct": 0, "total": sum(1 for d in key["dates"] if d.get("source") == "handwriting")},
+        "phrases": [],
+    }
+
+
+def score_case(case_dir: Path, key_dir: Path, mock: bool = False) -> dict[str, Any] | None:
     case_id = case_dir.name
     loaded = load_answer_key(case_id, key_dir)
-    summary_file = case_dir / "summary.json"
-    if loaded is None or not summary_file.exists():
+    if loaded is None:
         return None
     key, marks_key = loaded
+    summary_file = case_dir / "summary.json"
+    if not summary_file.exists():
+        return unread_case(case_id, key, marks_key, mock)
     s = json.loads(summary_file.read_text(encoding="utf-8"))
     found_raw_file = case_dir / "marks.found.json"
     found_raw = json.loads(found_raw_file.read_text(encoding="utf-8")) if found_raw_file.exists() else []
@@ -184,7 +213,7 @@ def score_case(case_dir: Path, key_dir: Path) -> dict[str, Any] | None:
         "case": case_id,
         "mock": s.get("mock", False),
         "parties": score_parties(s["parties"], key["parties"]),
-        "dates": score_dated(s["dates"] + s["deadlines"], key["dates"], "date"),
+        "dates": score_dated(s["dates"], key["dates"], "date", elsewhere=s["deadlines"]),
         "deadlines": score_dated(s["deadlines"], key["deadlines"], "deadline"),
         "claims": score_claims(s["claims"], key["claims"]),
         "citations": score_citations(s["citations"], key["citations"]),
@@ -222,6 +251,9 @@ def to_markdown(cases: list[dict[str, Any]], run_name: str) -> str:
     lines.append(f"| Extra marks found (not in the key) | " + " | ".join(
         str(c["marks"]["found"] - c["marks"]["correct"]) for c in cases) + " | |")
 
+    unread = [c["case"] for c in cases if c.get("unread")]
+    if unread:
+        lines.append(f"\n**Not read:** {', '.join(unread)}; these cases score zero above.")
     lines.append("\n## Misses\n")
     for c in cases:
         misses = [m for key, _ in CATEGORIES for m in c[key]["misses"]]
@@ -248,7 +280,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--answer-key", default=str(ANSWER_KEY_DIR))
     args = parser.parse_args(argv)
     run = Path(args.run)
-    cases = [r for d in sorted(run.iterdir()) if d.is_dir() and (r := score_case(d, Path(args.answer_key)))]
+    key_dir = Path(args.answer_key)
+    run_info = json.loads((run / "run.json").read_text(encoding="utf-8")) if (run / "run.json").exists() else {}
+    case_ids = {d.name for d in run.iterdir() if d.is_dir()} | {c["case"] for c in run_info.get("cases", [])}
+    cases = [r for case_id in sorted(case_ids)
+             if (r := score_case(run / case_id, key_dir, mock=bool(run_info.get("mock"))))]
     if not cases:
         print(f"No scored cases in {run}", file=sys.stderr)
         return 1

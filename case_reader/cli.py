@@ -61,21 +61,34 @@ def cmd_read_all(args: argparse.Namespace) -> int:
     tests = Path(args.tests)
     out_root = Path(args.out)
     out_root.mkdir(parents=True, exist_ok=True)
-    results = []
-    for case_dir in sorted(p for p in tests.iterdir() if p.is_dir()):
+    results: list[dict] = []
+    case_dirs = sorted(p for p in tests.iterdir() if p.is_dir())
+    wanted = [c.strip() for c in args.cases.split(",") if c.strip()]
+    unknown = sorted(set(wanted) - {_case_id(d) for d in case_dirs})
+    if unknown:
+        print(f"No test file for: {', '.join(unknown)}", file=sys.stderr)
+        return 2
+    chosen = [d for d in case_dirs if not wanted or _case_id(d) in wanted]
+    run = {"mock": args.mock, "model": args.model, "effort": args.effort, "sweep": args.sweep,
+           "cases": [{"case": _case_id(d), "status": "not started"} for d in chosen]}
+    run_file = out_root / "run.json"
+
+    def save_run() -> None:
+        run_file.write_text(json.dumps(run, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    save_run()  # written first, so a run that is stopped part-way still lists every case it was asked to read
+    for i, case_dir in enumerate(chosen):
         pdfs = sorted(case_dir.glob("*.pdf"))
         source = pdfs[0] if pdfs else case_dir
         case_id = _case_id(case_dir)
-        if args.cases and case_id not in args.cases.split(","):
-            continue
         try:
             _read_one(args, source, out_root / case_id, case_id, out_root / "usage.jsonl")
-            results.append({"case": case_id, "status": "done"})
+            run["cases"][i] = {"case": case_id, "status": "done"}
         except Exception as exc:  # keep going with the other cases
             traceback.print_exc()
-            results.append({"case": case_id, "status": "failed", "error": f"{type(exc).__name__}: {exc}"[:500]})
-    run = {"mock": args.mock, "model": args.model, "effort": args.effort, "sweep": args.sweep, "cases": results}
-    (out_root / "run.json").write_text(json.dumps(run, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            run["cases"][i] = {"case": case_id, "status": "failed", "error": f"{type(exc).__name__}: {exc}"[:500]}
+        save_run()
+    results = run["cases"]
     failed = [r for r in results if r["status"] != "done"]
     print(f"Read {len(results) - len(failed)} of {len(results)} case files into {out_root}")
     return 1 if failed else 0

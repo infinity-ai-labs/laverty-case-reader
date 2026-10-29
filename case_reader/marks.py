@@ -16,6 +16,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from .meta_api import MetaAPIError
 from .pages import Page, image_data_url
 
 MARK_TYPES = ("stamp", "signature", "handwriting")
@@ -89,6 +90,9 @@ def parse_sam_output(text: str) -> tuple[list[SamBox], list[str]]:
             continue
         header = _HEADER.match(line)
         body = line[header.end():] if header else line
+        leftover = _RECORD.sub("", body).strip(", ")
+        if leftover:
+            problems.append(f"line {line_number}: could not read {leftover[:80]!r}")
         for record in _RECORD.finditer(body):
             object_id = int(record.group(1))
             tokens = {name: _fields(fields) for name, fields in _TOKEN.findall(record.group(2))}
@@ -135,7 +139,14 @@ def find_marks_on_page(client: Any, page: Page, concepts: dict[str, list[str]],
     found: list[dict[str, Any]] = []
     for mark_type, phrases in concepts.items():
         for phrase in phrases:
-            text = client.segment(phrase, image_url, label=f"sam:p{page.number}:{_slug(phrase)}")
+            try:
+                text = client.segment(phrase, image_url, label=f"sam:p{page.number}:{_slug(phrase)}")
+            except MetaAPIError as exc:
+                if exc.status in (401, 403):
+                    raise  # the key is wrong; every other call would fail too
+                found.append({"page": page.number, "type": mark_type, "found_as": phrase,
+                              "problem": f"SAM 3.1 call failed: {exc}"})
+                continue
             if raw_dir is not None:
                 raw_dir.mkdir(parents=True, exist_ok=True)
                 (raw_dir / f"page-{page.number}.{mark_type}.{_slug(phrase)}.txt").write_text(text or "", encoding="utf-8")
@@ -153,8 +164,30 @@ def find_marks_on_page(client: Any, page: Page, concepts: dict[str, list[str]],
     return found
 
 
+def _reading_order(marks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Arabic reading order: page by page, lines top to bottom, and right to left within a line.
+    Two marks share a line when they overlap vertically by at least half the shorter one's height."""
+    ordered: list[dict[str, Any]] = []
+    for page in sorted({m["page"] for m in marks}):
+        lines: list[list[dict[str, Any]]] = []
+        for m in sorted((m for m in marks if m["page"] == page), key=lambda m: m["box"][1]):
+            top, bottom = m["box"][1], m["box"][3]
+            for line in lines:
+                l_top = min(x["box"][1] for x in line)
+                l_bottom = max(x["box"][3] for x in line)
+                overlap = min(bottom, l_bottom) - max(top, l_top)
+                if overlap >= 0.5 * min(bottom - top, l_bottom - l_top):
+                    line.append(m)
+                    break
+            else:
+                lines.append([m])
+        for line in lines:
+            ordered += sorted(line, key=lambda m: -m["box"][2])
+    return ordered
+
+
 def clean_marks(found: list[dict[str, Any]], *, min_confidence: float = 0.3, min_area: float = 0.0002,
-                max_area: float = 0.35, same_type_iou: float = 0.5, cross_type_iou: float = 0.6) -> list[dict[str, Any]]:
+                max_area: float = 0.35, same_type_iou: float = 0.5, cross_type_iou: float = 0.8) -> list[dict[str, Any]]:
     """Drop weak, tiny, huge and duplicate boxes; number the rest M1, M2, ... in reading order."""
     candidates = [
         f for f in found
@@ -185,8 +218,7 @@ def clean_marks(found: list[dict[str, Any]], *, min_confidence: float = 0.3, min
         if not duplicate:
             kept.append(dict(f))
 
-    # Reading order: page, then top to bottom, then right to left (Arabic pages).
-    kept.sort(key=lambda f: (f["page"], round(f["box"][1], 2), -f["box"][2]))
+    kept = _reading_order(kept)
     for i, f in enumerate(kept, 1):
         f["mark_id"] = f"M{i}"
     return kept

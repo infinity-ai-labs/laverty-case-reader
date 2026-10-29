@@ -101,7 +101,7 @@ class MockClient:
             law = parse_law(c["law"])
             quote = ""
             if c.get("quote_matches_official_text"):
-                found = law_index.find(law["number"], law["year"])
+                found, _ = law_index.find(law["number"], law["year"], law["kind"], law["emirate"])
                 quote = (found or {}).get("texts", {}).get(c["article"], {}).get("ar", "")
             citations.append({"text_ar": c["text_ar"], "law_kind": law["kind"], "emirate": law["emirate"],
                               "law_number": law["number"], "law_year": law["year"], "law_title_en": c["law"],

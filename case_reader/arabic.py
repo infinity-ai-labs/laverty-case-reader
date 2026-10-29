@@ -72,9 +72,21 @@ def compare_quote(quote: str, official: str) -> tuple[float, list[dict[str, str]
     differences = []
     matcher = SequenceMatcher(None, q_words, best_window, autojunk=False)
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
-        if tag != "equal":
-            differences.append({"in_file": " ".join(q_words[i1:i2]), "official": " ".join(best_window[j1:j2])})
+        if tag == "equal":
+            continue
+        in_file, official_words = q_words[i1:i2], best_window[j1:j2]
+        reading = tag == "replace" and len(in_file) == len(official_words) and all(
+            _same_word_misread(a, b) for a, b in zip(in_file, official_words))
+        differences.append({"in_file": " ".join(in_file), "official": " ".join(official_words),
+                            "kind": "reading" if reading else "wording"})
     return min(best_ratio, 0.999), differences
+
+
+def _same_word_misread(a: str, b: str) -> bool:
+    """True when two words differ only as a scan misreading would (a letter or two), not as another word."""
+    if abs(len(a) - len(b)) > 1 or min(len(a), len(b)) < 4:
+        return False
+    return SequenceMatcher(None, a, b, autojunk=False).ratio() >= 0.8
 
 
 def best_window_ratio(needle: str, haystack: str) -> float:

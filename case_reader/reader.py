@@ -15,6 +15,9 @@ from .schema import CASE_SCHEMA, conform
 
 READER_MODEL = "muse-spark-1.3"
 MAX_IMAGES = 48  # the API takes up to 50 images per request
+MAX_PAGES = 40  # longer files need splitting first
+CORE_KEYS = ("case_title_en", "summary_en", "pages", "court", "parties", "dates", "deadlines", "claims",
+             "key_facts", "citations", "marks", "flags")
 
 SYSTEM_PROMPT = """\
 You are the Case Reader inside LAVERTY, an Arabic-English legal assistant for lawyers in the UAE.
@@ -26,7 +29,8 @@ Rules:
 1. Use only what the pages show. Never invent a party, date, amount, case number or law. When something \
 is unclear, say so in flags.
 2. Every item carries the page it comes from. Pages are numbered from 1 in the order given.
-3. Dates are Gregorian, written YYYY-MM-DD. Read Arabic-Indic digits (٠١٢٣٤٥٦٧٨٩) carefully.
+3. Dates are Gregorian, written YYYY-MM-DD. Read Arabic-Indic digits (٠١٢٣٤٥٦٧٨٩) carefully. List every \
+date that matters in dates, including the dates that are also deadlines.
 4. Amounts are numbers in AED without commas. Set has_amount to false (and amount_aed to 0) when the \
 file states no amount.
 5. Printed text and marks: when an item is known only from a stamp or a handwritten note, set source to \
@@ -35,10 +39,13 @@ text, use the corrected value, set changes_printed_text on that mark, and add a 
 6. Deadlines: what must be done, by whom and by when. When the file sets a deadline relative to another \
 date (for example "within 15 days of receipt"), compute the date, set computed to true and explain the \
 basis in basis_en.
-7. Citations: copy each citation exactly as written in Arabic (text_ar). Give the law's kind, number and \
-year and the article, also when the text says "the same law" (resolve it to the law named before). When \
-the file quotes the article's words, copy the quote into quoted_text_ar; otherwise leave it empty. Do \
-not judge whether an article exists: a separate citation check does that against the official law text.
+7. Citations: copy each citation exactly as written in Arabic (text_ar). Give the law's kind, number, year \
+and emirate (for a local law), also when the text says "the same law" (resolve it to the law named before). \
+Make one entry per article: when one citation names two articles, make two entries with the same text_ar. \
+Put only the article number in article (for example "47") and any clause or item in clause (for example \
+"1/أ"). When the file quotes the article's words, copy the quote into quoted_text_ar; otherwise leave it \
+empty. Do not judge whether an article exists: a separate citation check does that against the official \
+law text.
 8. Marks: return one entry for every mark id you received. Confirm its type, or use "not_a_mark" when \
 the close-up shows printed text or noise. Transcribe its Arabic text and say in plain English what it \
 records. Report any stamp, signature or handwriting you see that has no mark id, with ids X1, X2, ...
@@ -131,10 +138,22 @@ def parse_json_text(text: str) -> dict[str, Any] | None:
     return None
 
 
+def _usable(parsed: dict[str, Any]) -> dict[str, Any] | None:
+    """The summary object if it has the expected shape (unwrapping {"case_summary": {...}}), else None."""
+    if len(parsed) == 1:
+        inner = next(iter(parsed.values()))
+        if isinstance(inner, dict):
+            parsed = inner
+    present = sum(1 for key in CORE_KEYS if key in parsed)
+    return parsed if present >= len(CORE_KEYS) // 2 else None
+
+
 def read_case(client: Any, pages: list[Page], marks: list[dict[str, Any]], *, out_dir: Path,
               model: str = READER_MODEL, reasoning_effort: str | None = "high",
               max_completion_tokens: int = 32000) -> tuple[dict[str, Any], str]:
     """Ask Muse Spark for the case summary. Returns (summary, how the JSON was obtained)."""
+    if len(pages) > MAX_PAGES:
+        raise ValueError(f"The file has {len(pages)} pages; the Case Reader reads up to {MAX_PAGES} at a time.")
     attempts: list[tuple[str, dict[str, Any] | None]] = [
         ("json_schema", {"type": "json_schema", "json_schema": {"name": "case_summary", "schema": CASE_SCHEMA}}),
         ("json_object", {"type": "json_object"}),
@@ -155,8 +174,13 @@ def read_case(client: Any, pages: list[Page], marks: list[dict[str, Any]], *, ou
             raise
         (out_dir / f"reader.{mode}.response.json").write_text(
             json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        finish = ((data.get("choices") or [{}])[0] or {}).get("finish_reason")
+        if finish == "length":
+            raise RuntimeError(f"Muse Spark's answer was cut off at {max_completion_tokens} tokens "
+                               "(finish_reason=length); raise the limit or read fewer pages.")
         parsed = parse_json_text(chat_output_text(data))
-        if parsed is not None:
-            return _fix_dates(conform(parsed, CASE_SCHEMA)), mode
-        last_error = ValueError(f"no JSON object in the {mode} answer")
+        usable = _usable(parsed) if parsed is not None else None
+        if usable is not None:
+            return _fix_dates(conform(usable, CASE_SCHEMA)), mode
+        last_error = ValueError(f"no case summary in the {mode} answer")
     raise RuntimeError(f"Muse Spark did not return a usable answer: {last_error}")

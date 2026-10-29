@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from typing import Any
 
-from .citations import LawIndex, check_citation
+from .citations import LawIndex, check_citation, split_multi_article
 from .pages import Page
 
 SOURCE_WORDS = {"stamp": ("a stamp", "ختم"), "handwriting": ("a handwritten note", "ملاحظة بخط اليد")}
@@ -29,11 +29,14 @@ def _merge_marks(found: list[dict[str, Any]], reviews: list[dict[str, Any]]) -> 
             if review["type"] == "not_a_mark":
                 rejected.append(entry)
                 continue
-            entry["type"] = review["type"]
+            if review["type"]:
+                entry["type"] = review["type"]
+            else:
+                entry["reviewed"] = False  # the reader's answer named no known type; keep SAM's
         marks.append(entry)
     # Marks the reader saw that the image model did not find (no position known).
     for review in review_by_id.values():
-        if review["type"] == "not_a_mark":
+        if review["type"] in ("not_a_mark", ""):
             continue
         marks.append({
             "mark_id": review["mark_id"], "page": review["page"], "box": None, "type": review["type"],
@@ -58,9 +61,10 @@ def _auto_flags(summary: dict[str, Any]) -> list[dict[str, Any]]:
             add(f"Citation on page {c['page']} ({c['text_ar']}): {check['label_en']}", check["label_ar"],
                 c["page"], "medium")
         quote = check.get("quote")
-        if quote and quote["status"] in ("differs", "does_not_match"):
+        if quote and quote["status"] != "matches":
+            severity = "medium" if quote["status"] == "not_checked" else "high"
             add(f"Quote of article {check['article']} on page {c['page']}: {quote['label_en']}", quote["label_ar"],
-                c["page"], "high" if quote["status"] == "does_not_match" else "medium")
+                c["page"], severity)
 
     for kind in ("dates", "deadlines"):
         for d in summary[kind]:
@@ -111,7 +115,7 @@ def assemble(*, case_id: str, source: Path, out_dir: Path, pages: list[Page], fo
         "deadlines": sorted(reader["deadlines"], key=lambda d: (d["date"], d["page"])),
         "claims": reader["claims"],
         "key_facts": reader["key_facts"],
-        "citations": [{**c, "check": check_citation(c, law_index)} for c in reader["citations"]],
+        "citations": [{**c, "check": check_citation(c, law_index)} for c in split_multi_article(reader["citations"])],
         "marks": marks,
         "rejected_marks": rejected,
     }
@@ -203,7 +207,8 @@ def to_markdown(s: dict[str, Any]) -> str:
     out += [f"- {c['item_ar'] or c['item_en']}" + (f": {c['amount_aed']:,.0f} درهم" if c["has_amount"] else "")
             for c in s["claims"]]
     out.append("\n## التحقق من الاستشهادات\n")
-    out += [f"- {c['text_ar']}: {c['check']['label_ar']}" for c in s["citations"]]
+    out += [f"- {c['text_ar']}: {c['check']['label_ar']}"
+            + (f" {c['check']['quote']['label_ar']}" if c["check"].get("quote") else "") for c in s["citations"]]
     out.append("\n## نقاط تستوجب الانتباه\n")
     out += [f"- الصفحة {f['page']}: {f['flag_ar'] or f['flag_en']}" for f in s["flags"]]
     out.append("\n</div>\n")

@@ -6,6 +6,7 @@ value is an empty string, an empty list, 0 or false.
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 SOURCES = ["printed", "stamp", "handwriting", "computed"]
@@ -90,17 +91,52 @@ CASE_SCHEMA: dict[str, Any] = _obj({
 })
 
 
+SYNONYMS = {
+    # mark types
+    "printed": "not_a_mark", "printed_text": "not_a_mark", "text": "not_a_mark", "noise": "not_a_mark",
+    "none": "not_a_mark", "not_mark": "not_a_mark", "no_mark": "not_a_mark", "false_positive": "not_a_mark",
+    "seal": "stamp", "official_seal": "stamp", "rubber_stamp": "stamp", "ink_stamp": "stamp",
+    "handwritten": "handwriting", "handwritten_note": "handwriting", "handwritten_text": "handwriting",
+    "sign": "signature", "signed": "signature",
+    # sources
+    "print": "printed", "typed": "printed", "typed_text": "printed", "calculated": "computed", "derived": "computed",
+    # roles
+    "plaintiff": "claimant", "respondent": "defendant", "plaintiff_lawyer": "claimant_lawyer",
+    "claimant_attorney": "claimant_lawyer", "defendant_attorney": "defendant_lawyer",
+    "claimant_counsel": "claimant_lawyer", "defendant_counsel": "defendant_lawyer",
+    "respondent_lawyer": "defendant_lawyer",
+}
+
+
+REPRESENTATIVE_WORDS = {"manager", "owner", "representative", "agent", "director", "partner"}
+
+
 def _closest_enum(text: str, values: list[str]) -> str:
-    """Map a near miss ("Handwritten", "claimant lawyer") onto an allowed value."""
-    key = text.strip().casefold().replace(" ", "_").replace("-", "_")
-    for v in values:
-        if v == key:
-            return v
+    """Map a near miss ("Handwritten", "claimant's lawyer") onto an allowed value.
+
+    Only an exact, synonym or unique-prefix match is accepted; anything else becomes
+    "other" where the list has it, or "" (unknown) where it doesn't, never a guess.
+    """
+    key = re.sub(r"[^a-z0-9]+", "_", text.strip().casefold().replace("'s ", " ").replace("’s ", " ")).strip("_")
+    if key in values:
+        return key
+    if SYNONYMS.get(key) in values:
+        return SYNONYMS[key]
+    words = key.split("_")
+    # "claimant_general_manager" -> claimant_representative
+    if len(words) > 1 and words[0] in ("claimant", "defendant") and words[-1] in REPRESENTATIVE_WORDS \
+            and f"{words[0]}_representative" in values:
+        return f"{words[0]}_representative"
+    if len(words) > 1 and words[-1] in values:  # "presiding_judge" -> judge; "handwritten_signature" -> signature
+        return words[-1]
+    leading = [v for v in values if key.startswith(v + "_")]  # "claimant_creditor" -> "claimant"
+    if leading:
+        return max(leading, key=len)
     if len(key) >= 5:
-        for v in values:
-            if v.startswith(key[:5]):
-                return v
-    return "other" if "other" in values else values[0]
+        prefixed = [v for v in values if v.startswith(key[:5])]
+        if len(prefixed) == 1:
+            return prefixed[0]
+    return "other" if "other" in values else ""
 
 
 def conform(value: Any, schema: dict[str, Any]) -> Any:
