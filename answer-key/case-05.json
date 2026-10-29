@@ -1,0 +1,68 @@
+{
+  "case": "case-05",
+  "file": "test-files/case-05-cheques/case-05-cheques.pdf",
+  "fictional": true,
+  "title_en": "Commercial claim: three returned cheques and a provisional attachment of bank accounts",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, commercial case: claim to establish the right on three returned cheques and to confirm the provisional attachment", "document_ar": "صحيفة دعوى تجارية"},
+    {"page": 2, "document_en": "Drawee bank's certificate of returned cheques", "document_ar": "إفادة بارتجاع شيكات"},
+    {"page": 3, "document_en": "Summary judge's decision on the provisional attachment application (printed form, decision handwritten)", "document_ar": "قرار في طلب حجز تحفظي"}
+  ],
+  "court": {"name_en": "Sharjah Federal Court of First Instance, commercial circuit", "name_ar": "محكمة الشارقة الاتحادية الابتدائية — الدائرة التجارية", "attachment_application": "412/2026 provisional attachment (commercial), decided by the judge for expedited (summary) matters", "attachment_application_ar": "412/2026 حجز تحفظي تجاري", "pages": [1, 3]},
+  "parties": [
+    {"role": "claimant (creditor)", "name_ar": "شركة ومضة النور لتوريد المعدات الكهربائية ذ.م.م", "name_en": "Wamdat Al Noor Electrical Equipment Supply LLC", "details_en": "Sharjah; holder of the three cheques; applicant for the attachment", "pages": [1, 2, 3]},
+    {"role": "claimant's lawyer", "name_ar": "ماجد عيسى البلوشي", "name_en": "Majid Eisa Al Balushi", "details_en": "Diraa Al Qanoon Advocates & Legal Consultants", "pages": [1, 3]},
+    {"role": "defendant (debtor)", "name_ar": "شركة أعمدة الشروق للمقاولات ذ.م.م", "name_en": "Amidat Al Shorouq Contracting LLC", "details_en": "Sharjah, Al Sajaa Industrial Area; drawer of the cheques; respondent to the attachment", "pages": [1, 2, 3]},
+    {"role": "defendant's manager", "name_ar": "عمار سليم القباني", "name_en": "Ammar Salim Al Qabbani", "pages": [1]},
+    {"role": "summary judge", "name_ar": "سعيد مبارك الطنيجي", "name_en": "Saeed Mubarak Al Tunaiji", "details_en": "Judge for expedited matters who ordered the attachment", "pages": [3]},
+    {"role": "drawee bank", "name_ar": "مصرف الكثبان الوطني", "name_en": "Al Kuthban National Bank PJSC", "details_en": "Al Sajaa branch, Sharjah; the bank the cheques were drawn on; issued the return certificate", "pages": [1, 2, 3]}
+  ],
+  "dates": [
+    {"date": "2026-02-10", "what_en": "Supply agreement signed", "page": 1},
+    {"date": "2026-06-15", "what_en": "Date of cheque no. 000731 (AED 96,400)", "page": 1},
+    {"date": "2026-07-15", "what_en": "Date of cheque no. 000732 (AED 112,750)", "page": 1},
+    {"date": "2026-08-15", "what_en": "Date of cheque no. 000733 (AED 88,600)", "page": 1},
+    {"date": "2026-06-16", "what_en": "Cheque no. 000731 returned unpaid, insufficient funds (presented 15 Jun 2026)", "page": 2},
+    {"date": "2026-07-16", "what_en": "Cheque no. 000732 returned unpaid, insufficient funds (presented 15 Jul 2026)", "page": 2},
+    {"date": "2026-08-17", "what_en": "Cheque no. 000733 presented for payment", "page": 2},
+    {"date": "2026-08-18", "what_en": "Cheque no. 000733 returned unpaid, signature mismatch", "page": 2},
+    {"date": "2026-09-03", "what_en": "Bank's return certificate dated", "page": 2},
+    {"date": "2026-09-07", "what_en": "Provisional attachment application no. 412/2026 filed", "page": 3},
+    {"date": "2026-09-09", "what_en": "Summary judge's decision ordering the provisional attachment (date printed on the form and on the court stamp)", "page": 3, "source": "printed + stamp"},
+    {"date": "2026-09-14", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-09-15", "what_en": "Claim registered (registry stamp)", "page": 1, "source": "stamp"}
+  ],
+  "deadlines": [
+    {"date": "2026-09-17", "who": "claimant (creditor)", "what_en": "File the claim to establish the right (main claim) within 8 days of the attachment decision of 9 Sep 2026, or the attachment is deemed void (Civil Procedure Law Article 250(2); the decision day is not counted, Article 12(1); 17 Sep 2026 is a Thursday, a working day). The handwritten decision gives the period, not the date. The claim dated 14 Sep and registered 15 Sep 2026 is within it.", "page": 3, "computed": true, "source": "handwriting"}
+  ],
+  "claims": [
+    {"item_en": "Confirm the provisional attachment ordered in application no. 412/2026", "amount_aed": null, "page": 1},
+    {"item_en": "Principal: value of the three returned cheques", "amount_aed": 297750, "page": 1},
+    {"item_en": "Delay interest at 5% a year from each cheque's due date", "amount_aed": null, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Under a supply agreement of 10 Feb 2026 the defendant gave the claimant three cheques drawn on Al Kuthban National Bank: no. 000731 for AED 96,400 (15 Jun 2026), no. 000732 for AED 112,750 (15 Jul 2026) and no. 000733 for AED 88,600 (15 Aug 2026), total AED 297,750", "page": 1},
+    {"fact_en": "Cheques 000731 and 000732 came back for insufficient funds and cheque 000733 for a signature mismatch; the bank wrote a dated return statement on each cheque and reported the two insufficient-funds cheques to the Central Bank", "page": 2},
+    {"fact_en": "On 9 Sep 2026 the summary judge ordered a provisional attachment of the defendant's balances with banks operating in the UAE up to AED 297,750, and required the applicant to file the claim to establish the right within 8 days of the decision, failing which the attachment is void", "page": 3, "source": "handwriting"},
+    {"fact_en": "The claim asks the court to confirm the attachment and to order payment of AED 297,750 with 5% a year interest, fees and costs", "page": 1}
+  ],
+  "citations": [
+    {"text_ar": "المادة (648) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "648", "valid": true, "page": 1},
+    {"text_ar": "المواد (663-665) من قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "663", "valid": true, "page": 1},
+    {"text_ar": "المواد (663-665) من قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "664", "valid": true, "page": 1},
+    {"text_ar": "المواد (663-665) من قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "665", "valid": true, "page": 1},
+    {"text_ar": "المادة (247) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "247", "valid": true, "page": 1},
+    {"text_ar": "المادة (250) من القانون ذاته", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "250", "valid": true, "page": 1},
+    {"text_ar": "المادة (350) من قانون الإجراءات المدنية", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "350", "valid": false, "why_invalid_en": "This law has 338 articles; there is no Article 350. Costs and lawyer's fees are governed by Article 133.", "page": 1},
+    {"text_ar": "المادة (249) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "249", "valid": true, "page": 3}
+  ],
+  "marks_file": "answer-key/case-05.marks.json",
+  "reader_should_flag": [
+    "Article 350 of the Civil Procedure Law does not exist (the law has 338 articles); the costs request should rely on Article 133.",
+    "'المواد (663-665) من قانون المعاملات التجارية' is a range: it cites Articles 663, 664 and 665, all valid and all on recourse against the drawer after payment is refused.",
+    "The main claim had to be filed within 8 days of the attachment decision of 9 Sep 2026, so by 17 Sep 2026 (Civil Procedure Law Article 250(2)), or the attachment is void; the claim dated 14 Sep and registered 15 Sep 2026 was filed in time.",
+    "The attachment order and the 8-day period appear only in the judge's handwritten decision on page 3.",
+    "Cheque 000733 was returned for a signature mismatch, not for lack of funds, so unlike the other two it is not an executive instrument under Article 667 of the Commercial Transactions Law; the drawer may contest that signature."
+  ]
+}

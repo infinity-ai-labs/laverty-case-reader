@@ -1,0 +1,67 @@
+{
+  "case": "case-04",
+  "file": "test-files/case-04-labour-abudhabi/case-04-labour-abudhabi.pdf",
+  "fictional": true,
+  "title_en": "Labour claim (Abu Dhabi): unpaid wages, annual leave, gratuity and notice allowance",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, labour case (facts, legal grounds and claims table)", "document_ar": "صحيفة دعوى عمالية"},
+    {"page": 2, "document_en": "Ministry of Human Resources and Emiratisation referral memo: amicable settlement failed, dispute referred to court", "document_ar": "مذكرة إحالة نزاع عمالي إلى المحكمة المختصة"}
+  ],
+  "court": {"name_en": "Abu Dhabi Labour Court of First Instance", "name_ar": "محكمة أبوظبي العمالية الابتدائية", "pages": [1], "note": "No case number appears in the file; the registry stamp shows only the filing date. The first hearing date is in the lawyer's handwritten note on page 2."},
+  "ministry": {"name_en": "Ministry of Human Resources and Emiratisation, Labour Relations Department, Abu Dhabi", "name_ar": "وزارة الموارد البشرية والتوطين — إدارة علاقات العمل — أبوظبي", "complaint_number": "AUH-2026-47102", "pages": [1, 2]},
+  "parties": [
+    {"role": "claimant", "name_ar": "مازن رياض العطار", "name_en": "Mazen Riyad Al Attar", "details_en": "Lebanese, sales manager at the defendant", "pages": [1, 2]},
+    {"role": "claimant's lawyer", "name_ar": "نورة سالم المهيري", "name_en": "Noura Salem Al Muhairi", "details_en": "Manarat Al Haq Advocates & Legal Consultants, Abu Dhabi; initials ن.م on the handwritten note on page 2", "pages": [1]},
+    {"role": "defendant", "name_ar": "شركة قوس الندى للتجارة العامة ذ.م.م", "name_en": "Qaws Al Nada General Trading LLC", "details_en": "Mussafah, Abu Dhabi; the employer", "pages": [1, 2]},
+    {"role": "defendant's HR manager", "name_ar": "فراس حسن الدباغ", "name_en": "Firas Hassan Al Dabbagh", "details_en": "Represented the employer before the Ministry", "pages": [2]},
+    {"role": "ministry legal researcher", "name_ar": "موزة خلفان الرميثي", "name_en": "Moza Khalfan Al Rumaithi", "details_en": "Signed the referral memo", "pages": [2]}
+  ],
+  "dates": [
+    {"date": "2022-03-01", "what_en": "Employment started (unlimited contract, sales manager)", "page": 1},
+    {"date": "2026-08-31", "what_en": "Employer ended the employment by letter, effective the same day, without notice", "page": 1},
+    {"date": "2026-09-07", "what_en": "Complaint filed with the Ministry of Human Resources and Emiratisation (no. AUH-2026-47102)", "page": 1},
+    {"date": "2026-09-15", "what_en": "Employer's written settlement offer: AED 60,000 in three monthly instalments, in full and final settlement", "page": 2},
+    {"date": "2026-09-16", "what_en": "Settlement session at the Ministry (Wednesday); the worker refused the written offer", "page": 2},
+    {"date": "2026-09-28", "what_en": "Ministry referral memo dated; dispute referred to the competent court", "page": 2, "source": "printed + stamp"},
+    {"date": "2026-10-07", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-10-08", "what_en": "Claim registered (court registry stamp)", "page": 1, "source": "stamp"},
+    {"date": "2026-11-10", "what_en": "First hearing before the labour court (lawyer's handwritten note only)", "page": 2, "source": "handwriting"}
+  ],
+  "deadlines": [
+    {"date": "2026-09-14", "who": "defendant", "what_en": "Pay the worker's wages and all dues within 14 days of the end of the contract on 31 Aug 2026 (Labour Law Article 53); passed without payment", "page": 1, "computed": true},
+    {"date": "2026-11-10", "who": "both parties", "what_en": "First hearing (handwritten note only)", "page": 2, "source": "handwriting"}
+  ],
+  "claims": [
+    {"item_en": "Unpaid wages for July and August 2026 (2 x AED 22,000)", "amount_aed": 44000, "page": 1},
+    {"item_en": "Unused annual leave, 24 days on the basic wage", "amount_aed": 11200, "page": 1},
+    {"item_en": "End-of-service gratuity (4 years 6 months x 21 days on the basic wage)", "amount_aed": 44100, "page": 1},
+    {"item_en": "Notice allowance (30 days)", "amount_aed": 22000, "page": 1},
+    {"item_en": "Total", "amount_aed": 121300, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Monthly salary AED 22,000 in total, of which AED 14,000 basic; the contract sets a 30-day notice period", "page": 1},
+    {"fact_en": "Wages for July and August 2026 were not paid; the employment ended on 31 Aug 2026 without notice, with 24 days of annual leave unused", "page": 1},
+    {"fact_en": "Service from 1 Mar 2022 to 31 Aug 2026 is 4 years 6 months, all within the first five years: gratuity 94.5 days x AED 466.67 (14,000 / 30) = AED 44,100; leave 24 x 466.67 = AED 11,200; the four items add up to AED 121,300", "page": 1},
+    {"fact_en": "The employer admitted the late wages, disputed the notice allowance (saying the termination was agreed), and offered AED 60,000 in writing; the worker refused it on 16 Sep 2026", "page": 2},
+    {"fact_en": "After the referral the employer offered AED 85,000 orally; the claimant refused (lawyer's handwritten note)", "page": 2, "source": "handwriting"},
+    {"fact_en": "The Ministry referred the dispute to court because settlement failed and the claim exceeds AED 50,000; it found the wages, leave and gratuity due and left the notice allowance to the court", "page": 2}
+  ],
+  "citations": [
+    {"text_ar": "المادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "54", "valid": true, "page": 1},
+    {"text_ar": "المادة (22) من المرسوم بقانون المشار إليه", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "22", "valid": true, "page": 1},
+    {"text_ar": "البند (9) من المادة (29)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "29", "valid": true, "page": 1},
+    {"text_ar": "المادة رقم (51)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "51", "valid": true, "page": 1},
+    {"text_ar": "المادة (43)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "43", "valid": true, "page": 1},
+    {"text_ar": "المادة (53)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "53", "valid": true, "page": 1},
+    {"text_ar": "المادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "54", "valid": true, "page": 2}
+  ],
+  "marks_file": "answer-key/case-04.marks.json",
+  "reader_should_flag": [
+    "The first hearing date (10 Nov 2026) appears only in the claimant's lawyer's handwritten note on the Ministry memo (page 2).",
+    "The employer's oral settlement offer of AED 85,000 is recorded only in that handwritten note; the written offer was AED 60,000; the claimant refused both.",
+    "Page 1 cites 'البند (9) من المادة (29)' clause first: it is Article 29, clause 9, of the Labour Law (valid).",
+    "Page 1 cites 'المادة رقم (51)' with the word رقم: it is Article 51 of the Labour Law (valid).",
+    "The employer's 14-day deadline to pay all dues (Article 53) ended on 14 Sep 2026 without payment."
+  ]
+}

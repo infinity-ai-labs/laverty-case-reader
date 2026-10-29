@@ -1,0 +1,97 @@
+{
+  "case": "case-05",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c5-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0699,
+        0.1055,
+        0.2836,
+        0.1851
+      ],
+      "label_en": "Court registry date stamp (training sample)",
+      "text_ar": "قلم قيد الدعاوى — نموذج تدريبي — 15/09/2026"
+    },
+    {
+      "id": "c5-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1687,
+        0.8684,
+        0.3678,
+        0.9256
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c5-p2-signature-bank",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.1516,
+        0.7043,
+        0.3262,
+        0.7361
+      ],
+      "label_en": "Bank's authorised signatory signature",
+      "text_ar": null
+    },
+    {
+      "id": "c5-p2-stamp-bank",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.3763,
+        0.6752,
+        0.6631,
+        0.7847
+      ],
+      "label_en": "Bank stamp (training sample)",
+      "text_ar": "مصرف الكثبان الوطني — نموذج تدريبي — فرع الصجعة — الشارقة"
+    },
+    {
+      "id": "c5-p3-hand-decision",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.1114,
+        0.4566,
+        0.8999,
+        0.5383
+      ],
+      "label_en": "Judge's handwritten decision: attachment ordered; main claim to be filed within 8 days",
+      "text_ar": "قررنا: توقيع الحجز التحفظي على أرصدة المطلوب ضدها لدى المصارف العاملة في الدولة في حدود مبلغ 297,750 درهماً، وعلى الطالبة رفع دعوى ثبوت الحق خلال (8) ثمانية أيام من تاريخ صدور هذا القرار وإلا اعتبر الحجز كأن لم يكن."
+    },
+    {
+      "id": "c5-p3-signature-judge",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1591,
+        0.714,
+        0.3487,
+        0.7719
+      ],
+      "label_en": "Summary judge's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c5-p3-stamp-court",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.4198,
+        0.7082,
+        0.7215,
+        0.8045
+      ],
+      "label_en": "Court stamp (training sample)",
+      "text_ar": "محكمة الشارقة الاتحادية الابتدائية — نموذج تدريبي — 09/09/2026"
+    }
+  ]
+}
