@@ -1,0 +1,136 @@
+{
+  "case": "case-10",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c10-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1514,
+        0.8694,
+        0.3453,
+        0.9181
+      ],
+      "label_en": "Signature of the applicant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c10-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.3828,
+        0.8448,
+        0.6812,
+        0.9498
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب درة الساحل للمحاماة — دبي"
+    },
+    {
+      "id": "c10-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.7194,
+        0.8347,
+        0.9093,
+        0.9203
+      ],
+      "label_en": "Court of Appeal registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 20/10/2026"
+    },
+    {
+      "id": "c10-p2-signature-presiding",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.7123,
+        0.7655,
+        0.871,
+        0.8108
+      ],
+      "label_en": "Presiding arbitrator's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c10-p2-signature-arbitrator-2",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.4315,
+        0.7704,
+        0.5976,
+        0.806
+      ],
+      "label_en": "Co-arbitrator's signature (engineer)",
+      "text_ar": null
+    },
+    {
+      "id": "c10-p2-signature-arbitrator-3",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.1354,
+        0.7617,
+        0.2885,
+        0.8119
+      ],
+      "label_en": "Co-arbitrator's signature (lawyer)",
+      "text_ar": null
+    },
+    {
+      "id": "c10-p2-stamp-centre",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.4091,
+        0.7902,
+        0.624,
+        0.8765
+      ],
+      "label_en": "Arbitration centre stamp (training sample)",
+      "text_ar": "مركز الشراع الأبيض للتحكيم — نموذج تدريبي — دبي"
+    },
+    {
+      "id": "c10-p3-signature-judge",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1883,
+        0.6555,
+        0.3634,
+        0.7005
+      ],
+      "label_en": "Judge's signature (delegated by the Chief Justice)",
+      "text_ar": null
+    },
+    {
+      "id": "c10-p3-stamp-court",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.3735,
+        0.6511,
+        0.5757,
+        0.7409
+      ],
+      "label_en": "Court of Appeal stamp (training sample)",
+      "text_ar": "محكمة الاستئناف — نموذج تدريبي — 26/10/2026"
+    },
+    {
+      "id": "c10-p3-hand-execution",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.3726,
+        0.7909,
+        0.8392,
+        0.8369
+      ],
+      "label_en": "Execution clerk's handwritten note: execution file number and date",
+      "text_ar": "قيد ملف التنفيذ رقم 752 / 2026 تنفيذ تجاري بتاريخ 28/10/2026"
+    }
+  ]
+}
