@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAVERTY Case Reader</title>
+<meta name="description" content="Reads a scanned Arabic case file with Meta's Muse Spark and SAM 3.1, and returns a checked Arabic–English case summary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #070B17;
+  --panel: #111827;
+  --panel-2: #0c1222;
+  --line: #1f2a40;
+  --text: #e8edf7;
+  --muted: #93a0b8;
+  --blue: #2563EB;
+  --cyan: #00D4FF;
+  --purple: #7C3AED;
+  --stamp: #00D4FF;
+  --signature: #B79CFF;
+  --handwriting: #FBBF24;
+  --ok: #34D399;
+  --bad: #F87171;
+  --warn: #FBBF24;
+  --radius-lg: 14px;
+  --radius-sm: 7px;
+  --ar: "IBM Plex Sans Arabic", "Noto Naskh Arabic", Tahoma, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, rgba(37, 99, 235, .16), transparent 60%),
+              radial-gradient(900px 500px at 100% 0%, rgba(124, 58, 237, .12), transparent 55%),
+              var(--bg);
+  color: var(--text);
+  font: 15px/1.55 Inter, system-ui, sans-serif;
+  font-feature-settings: "tnum" 1, "cv11" 1;
+  min-height: 100vh;
+}
+h1, h2, h3 { font-family: "Space Grotesk", Inter, sans-serif; letter-spacing: -0.01em; margin: 0; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+[lang="ar"], .ar { font-family: var(--ar); }
+
+/* Top bar */
+.top {
+  display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+  padding: 18px 28px; border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(7, 11, 23, .86); backdrop-filter: blur(10px);
+}
+.brand { display: flex; align-items: baseline; gap: 10px; }
+.brand b { font-family: "Space Grotesk", Inter, system-ui, sans-serif; font-size: 20px; letter-spacing: .06em; }
+.brand span { color: var(--muted); font-size: 15px; }
+.cases { display: flex; gap: 6px; flex-wrap: wrap; }
+.cases button {
+  background: transparent; border: 1px solid var(--line); border-radius: 999px;
+  padding: 7px 14px; cursor: pointer; color: var(--muted);
+}
+.cases button[aria-pressed="true"] { color: var(--text); border-color: var(--blue); background: rgba(37, 99, 235, .18); }
+.lang { margin-inline-start: auto; display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.lang button { background: none; border: 0; padding: 7px 14px; cursor: pointer; color: var(--muted); }
+.lang button[aria-pressed="true"] { background: var(--panel); color: var(--text); }
+
+.notice { margin: 16px 28px 0; padding: 10px 14px; border-radius: var(--radius-sm); font-size: 14px;
+  border: 1px solid rgba(251, 191, 36, .45); background: rgba(251, 191, 36, .08); color: #fde8b0; }
+.notice[hidden] { display: none; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 28px; padding: 22px 28px 40px; }
+@media (max-width: 980px) { .layout { grid-template-columns: 1fr; padding: 18px 16px 32px; } .viewer { position: static !important; } .top { position: static; padding: 14px 16px; gap: 12px; } .notice { margin: 12px 16px 0; } .foot { padding: 22px 16px 32px; } }
+
+/* Page viewer: the light table */
+.viewer { position: sticky; top: 84px; align-self: start; }
+.pager { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.pager button {
+  min-width: 40px; padding: 6px 10px; border-radius: var(--radius-sm); cursor: pointer;
+  background: var(--panel); border: 1px solid var(--line); color: var(--muted);
+}
+.pager button[aria-pressed="true"] { color: var(--text); border-color: var(--cyan); }
+.pager .doc { color: var(--muted); font-size: 14px; margin-inline-start: 8px; }
+.stage-wrap {
+  background: #0a0f1d; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 18px; box-shadow: 0 30px 80px rgba(0, 0, 0, .45), inset 0 0 0 1px rgba(255, 255, 255, .02);
+}
+.stage { position: relative; margin: 0 auto; max-width: 640px; line-height: 0; }
+.stage img { width: 100%; height: auto; border-radius: 4px; display: block; box-shadow: 0 0 0 1px rgba(255,255,255,.06); }
+.stage.flash img { animation: flash .9s ease-out; }
+@keyframes flash { 0% { box-shadow: 0 0 0 3px var(--cyan); } 100% { box-shadow: 0 0 0 1px rgba(255,255,255,.06); } }
+.mark {
+  position: absolute; border: 2px solid currentColor; border-radius: 6px; padding: 0; cursor: pointer;
+  background: color-mix(in srgb, currentColor 9%, transparent);
+  box-shadow: 0 0 0 1px rgba(7, 11, 23, .5), 0 0 18px color-mix(in srgb, currentColor 35%, transparent);
+  transition: background .15s;
+}
+.mark:hover, .mark.on { background: color-mix(in srgb, currentColor 20%, transparent); }
+.mark.on { animation: glow 1.4s ease-out 1; }
+@keyframes glow { 0% { box-shadow: 0 0 0 0 currentColor; } 60% { box-shadow: 0 0 0 10px transparent, 0 0 30px currentColor; } 100% { box-shadow: 0 0 0 1px rgba(7,11,23,.5), 0 0 18px color-mix(in srgb, currentColor 35%, transparent); } }
+.mark .tag {
+  position: absolute; inset-inline-start: -2px; bottom: 100%; margin-bottom: 3px; line-height: 1.2;
+  font: 600 11px/1.3 Inter, sans-serif; padding: 2px 6px; border-radius: 5px; white-space: nowrap;
+  background: currentColor;
+}
+.mark .tag i { font-style: normal; color: #070B17; }
+.mark .tag b { font-weight: 600; color: #070B17; display: none; }
+.mark:hover .tag b, .mark.on .tag b, .mark:focus-visible .tag b { display: inline; }
+.mark.stamp { color: var(--stamp); }
+.mark.signature { color: var(--signature); }
+.mark.handwriting { color: var(--handwriting); }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 12px; color: var(--muted); font-size: 13px; }
+.legend span::before { content: ""; display: inline-block; width: 11px; height: 11px; border: 2px solid currentColor; border-radius: 3px; margin-inline-end: 7px; vertical-align: -2px; }
+.legend .stamp { color: var(--stamp); } .legend .signature { color: var(--signature); } .legend .handwriting { color: var(--handwriting); }
+.legend span { color: inherit; }
+.markinfo { margin-top: 14px; padding: 14px 16px; border-radius: var(--radius-sm); background: var(--panel); border: 1px solid var(--line); line-height: 1.5; }
+.markinfo[hidden] { display: none; }
+.markinfo h3 { font-size: 15px; margin-bottom: 4px; }
+.markinfo .said { font-family: var(--ar); font-size: 17px; margin: 6px 0; direction: rtl; text-align: right; }
+.markinfo .meta { color: var(--muted); font-size: 13px; }
+
+/* Summary */
+.summary { min-width: 0; }
+.summary[dir="rtl"] { font-family: var(--ar); }
+.summary[dir="rtl"] h1, .summary[dir="rtl"] h2 { font-family: var(--ar); letter-spacing: 0; }
+.case-title { font-size: 30px; line-height: 1.15; margin-bottom: 10px; }
+.lede { color: #c9d3e6; font-size: 16px; max-width: 70ch; margin: 0 0 6px; }
+.source { color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+section { margin-top: 30px; }
+section h2 { font-size: 18px; margin-bottom: 12px; display: flex; align-items: baseline; gap: 10px; }
+section h2 small { color: var(--muted); font: 400 13px Inter, sans-serif; }
+.summary[dir="rtl"] section h2 small { font-family: var(--ar); }
+
+.first { border: 1px solid rgba(248, 113, 113, .5); background: linear-gradient(180deg, rgba(248,113,113,.10), rgba(248,113,113,.03)); border-radius: var(--radius-lg); padding: 16px 18px; }
+.first h2 { color: #fecaca; margin-bottom: 8px; }
+.first ul { margin: 0; padding: 0; list-style: none; }
+.first li { padding: 8px 0; border-top: 1px solid rgba(248,113,113,.18); display: flex; gap: 10px; align-items: flex-start; }
+.first li:first-child { border-top: 0; }
+
+.rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.rows > li { border-bottom: 1px solid var(--line); }
+.row { display: grid; grid-template-columns: 132px minmax(0, 1fr) auto; gap: 14px; align-items: start; padding: 11px 4px; width: 100%; text-align: start; background: none; border: 0; cursor: pointer; }
+.row:hover { background: rgba(255, 255, 255, .025); }
+.row .k { color: var(--muted); font-size: 14px; }
+.row .v { min-width: 0; }
+.row .v .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.row .amount { font-weight: 600; white-space: nowrap; }
+
+.timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.timeline::before { content: ""; position: absolute; inset-block: 8px; inset-inline-start: 7px; width: 2px; background: linear-gradient(var(--blue), var(--purple)); opacity: .6; }
+.timeline li { position: relative; padding-inline-start: 30px; }
+.timeline li::before { content: ""; position: absolute; inset-inline-start: 2px; top: 17px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--cyan); }
+.timeline .row { grid-template-columns: 1fr auto; }
+.when { font-family: "Space Grotesk", Inter, system-ui, sans-serif; font-size: 19px; font-weight: 600; }
+.summary[dir="rtl"] .when { font-family: var(--ar); }
+.who { color: var(--muted); font-size: 13px; }
+
+.chips { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.chip { font-size: 12px; line-height: 1; padding: 5px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; background: transparent; }
+button.chip { cursor: pointer; }
+button.chip:hover { background: rgba(0, 212, 255, .08); }
+.chip.page { border-color: rgba(0, 212, 255, .35); color: #9be9ff; }
+.chip.handwriting { border-color: rgba(251, 191, 36, .5); color: var(--handwriting); }
+.chip.stamp { border-color: rgba(0, 212, 255, .5); color: var(--stamp); }
+.chip.signature { border-color: rgba(183, 156, 255, .5); color: var(--signature); }
+.chip.computed { border-color: rgba(147, 160, 184, .5); }
+
+.cite { padding: 13px 4px; }
+.cite .as { font-family: var(--ar); font-size: 16px; direction: rtl; text-align: right; }
+.cite .verdict { display: flex; gap: 10px; align-items: flex-start; margin-top: 8px; }
+.pill { font-size: 12px; font-weight: 600; padding: 4px 9px; border-radius: 999px; white-space: nowrap; }
+.pill.valid { background: rgba(52, 211, 153, .14); color: var(--ok); }
+.pill.invalid { background: rgba(248, 113, 113, .16); color: var(--bad); }
+.pill.not_checked { background: rgba(251, 191, 36, .14); color: var(--warn); }
+.cite .label { color: #c9d3e6; font-size: 14px; }
+.cite details { margin-top: 8px; }
+.cite summary { cursor: pointer; color: #9be9ff; font-size: 13px; }
+.official { margin-top: 8px; padding: 12px 14px; border-radius: var(--radius-sm); background: var(--panel-2); border: 1px solid var(--line); font-size: 14px; }
+.official .ar { direction: rtl; text-align: right; font-size: 15px; margin-bottom: 10px; white-space: pre-line; }
+.official .en { color: #c9d3e6; white-space: pre-line; }
+.official a { color: #9be9ff; font-size: 13px; }
+.cite .quote { margin-top: 6px; font-size: 13px; }
+.cite .quote.matches { color: var(--ok); } .cite .quote.differs, .cite .quote.does_not_match { color: var(--bad); }
+
+.markrow .row { grid-template-columns: 68px minmax(0, 1fr) auto; }
+.dot { width: 12px; height: 12px; border-radius: 3px; border: 2px solid currentColor; display: inline-block; margin-inline-end: 8px; vertical-align: -1px; }
+.dot.stamp { color: var(--stamp); } .dot.signature { color: var(--signature); } .dot.handwriting { color: var(--handwriting); }
+.said-inline { font-family: var(--ar); direction: rtl; unicode-bidi: isolate; }
+
+.foot { padding: 26px 28px 40px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); display: grid; gap: 6px; }
+.foot a { color: #9be9ff; }
+.empty { color: var(--muted); font-size: 14px; padding: 8px 4px; }
+/* Read your own file */
+.upload-open { border: 1px solid var(--cyan); background: rgba(0, 212, 255, .08); color: #bff3ff; border-radius: 999px; padding: 7px 14px; cursor: pointer; }
+.upload-open[hidden] { display: none; }
+dialog.upload { width: min(560px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--panel); color: var(--text); padding: 22px 24px; }
+dialog.upload::backdrop { background: rgba(3, 6, 14, .7); backdrop-filter: blur(3px); }
+dialog.upload h2 { font-size: 20px; margin-bottom: 8px; }
+dialog.upload p { color: #c9d3e6; margin: 0 0 12px; font-size: 14px; }
+dialog.upload .fine { color: var(--muted); font-size: 13px; }
+dialog.upload input[type=file] { width: 100%; padding: 14px; border: 1px dashed var(--line); border-radius: var(--radius-sm); background: var(--panel-2); color: var(--muted); }
+dialog.upload .actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 16px; }
+dialog.upload .actions button { border-radius: 999px; padding: 8px 16px; cursor: pointer; border: 1px solid var(--line); background: transparent; }
+dialog.upload .actions .go { background: var(--blue); border-color: var(--blue); color: #fff; }
+dialog.upload .actions .go:disabled { opacity: .5; cursor: default; }
+.status { margin-top: 12px; font-size: 14px; min-height: 1.5em; }
+.status.err { color: var(--bad); }
+@media (prefers-reduced-motion: reduce) { .mark.on, .stage.flash img { animation: none; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><b>LAVERTY</b><span id="t-product">Case Reader</span></div>
+  <nav class="cases" id="cases" aria-label="Case files"></nav>
+  <button type="button" class="upload-open" id="upload-open" hidden>Read your own file</button>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="ar" aria-pressed="false" lang="ar">العربية</button>
+  </div>
+</header>
+<p class="notice" id="notice" hidden></p>
+
+<main class="layout">
+  <div class="viewer" aria-label="Case file pages">
+    <div class="pager" id="pager"></div>
+    <div class="stage-wrap"><div class="stage" id="stage"></div></div>
+    <div class="legend" id="legend"></div>
+    <div class="markinfo" id="markinfo" hidden aria-live="polite"></div>
+  </div>
+  <article class="summary" id="summary"></article>
+</main>
+
+<footer class="foot" id="foot"></footer>
+
+<dialog class="upload" id="upload" aria-labelledby="upload-title">
+  <form method="dialog" id="upload-form">
+    <h2 id="upload-title">Read your own file</h2>
+    <p>Choose a scanned Arabic case file: a PDF of up to 6 pages, or a page image. The Case Reader finds the stamps, signatures and handwriting, reads every page and checks the citations. It takes one to three minutes.</p>
+    <p class="fine">Use only fictional or public documents. The file is sent to Meta's Muse Spark and SAM 3.1 through the Meta Model API to be read, and the Case Reader keeps nothing.</p>
+    <input type="file" id="upload-file" accept="application/pdf,image/jpeg,image/png">
+    <div class="status" id="upload-status" aria-live="polite"></div>
+    <div class="actions">
+      <button type="button" id="upload-cancel">Close</button>
+      <button type="button" class="go" id="upload-go" disabled>Read the file</button>
+    </div>
+  </form>
+</dialog>
+<script src="config.js" onerror="void 0"></script>
+
+<script>
+"use strict";
+const T = {
+  en: {
+    product: "Case Reader",
+    pages: "pages", page: "Page", p: "p.",
+    readWith: (r, m, when) => `Read with ${r} and ${m}${when ? ` on ${when}` : ""}.`,
+    mock: "Test data: this page was filled without calling the models, to check the page itself. It is not a model result.",
+    first: "Check these first", deadlines: "Deadlines", citations: "Citations", citationsNote: "checked against the official law text",
+    parties: "Parties", claims: "Claims", facts: "Key facts", marks: "Stamps, signatures and handwriting",
+    marksNote: "found by SAM 3.1, read by Muse Spark", dates: "All dates", other: "Other points to check",
+    stamp: "Stamp", signature: "Signature", handwriting: "Handwriting",
+    fromHand: "from handwriting", fromStamp: "from a stamp", computed: "worked out",
+    valid: "Exists", invalid: "Does not exist", not_checked: "Not checked",
+    showOfficial: "Show the official text", source: "Official source",
+    noneFound: "None found.", says: "Says", conf: "SAM 3.1 confidence", foundAs: "found as",
+    court: "Court", caseNo: "Case no.",
+    foot1: "The three case files are fictional: every person, company and case number in them is invented, and every page says so.",
+    foot2: "Built during the Meta Global AI Developer Hackathon on Muse Spark 1.3 and SAM 3.1.",
+    code: "Code and test files",
+  },
+  ar: {
+    product: "قارئ القضايا",
+    pages: "صفحات", page: "الصفحة", p: "ص",
+    readWith: (r, m, when) => `قُرئت باستخدام ${r} و${m}${when ? ` بتاريخ ${when}` : ""}.`,
+    mock: "بيانات اختبار: مُلئت هذه الصفحة دون استدعاء النماذج لاختبار الصفحة نفسها، وليست نتيجة للنماذج.",
+    first: "يُرجى مراجعة هذه النقاط أولاً", deadlines: "المواعيد", citations: "الاستشهادات القانونية", citationsNote: "تم التحقق منها مقابل النص الرسمي",
+    parties: "الأطراف", claims: "الطلبات", facts: "الوقائع الرئيسية", marks: "الأختام والتواقيع والكتابة اليدوية",
+    marksNote: "حددها SAM 3.1 وقرأها Muse Spark", dates: "جميع التواريخ", other: "نقاط أخرى للمراجعة",
+    stamp: "ختم", signature: "توقيع", handwriting: "خط يد",
+    fromHand: "من ملاحظة بخط اليد", fromStamp: "من ختم", computed: "محسوب",
+    valid: "موجودة", invalid: "غير موجودة", not_checked: "لم يتم التحقق",
+    showOfficial: "عرض النص الرسمي", source: "المصدر الرسمي",
+    noneFound: "لا يوجد.", says: "النص", conf: "درجة ثقة SAM 3.1", foundAs: "وُجد باسم",
+    court: "المحكمة", caseNo: "رقم الدعوى",
+    foot1: "ملفات القضايا الثلاث خيالية: جميع الأشخاص والشركات وأرقام القضايا فيها مُختلقة، وكل صفحة تنص على ذلك.",
+    foot2: "طُوّر خلال هاكاثون Meta العالمي لمطوري الذكاء الاصطناعي باستخدام Muse Spark 1.3 وSAM 3.1.",
+    code: "الشيفرة وملفات الاختبار",
+  },
+};
+const REPO = "https://github.com/infinity-ai-labs/laverty-case-reader";
+const state = { lang: "en", cases: [], data: {}, current: null, page: 1, mark: null };
+
+const $ = (sel, el = document) => el.querySelector(sel);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const t = (k) => T[state.lang][k];
+const pick = (o, base) => (state.lang === "ar" && o[`${base}_ar`]) ? o[`${base}_ar`] : (o[`${base}_en`] ?? o[base] ?? "");
+const fmtDate = (iso) => {
+  const d = new Date(iso + "T00:00:00Z");
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString(state.lang === "ar" ? "ar-AE" : "en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+};
+const fmtAmount = (n) => (state.lang === "ar" ? `${Number(n).toLocaleString("ar-AE")} درهم` : `AED ${Number(n).toLocaleString("en-US")}`);
+
+async function load() {
+  if (window.CASE_DATA) {
+    state.cases = window.CASE_DATA.cases;
+    state.data = window.CASE_DATA.data;
+  } else {
+    const index = await (await fetch("data/cases.json")).json();
+    state.cases = index.cases;
+    for (const c of state.cases) state.data[c.case] = await (await fetch(`data/${c.case}.json`)).json();
+  }
+  const wanted = location.hash.slice(1);
+  state.current = state.data[wanted] ? wanted : state.cases[0].case;
+  render();
+}
+
+function setCase(id) { state.current = id; state.page = 1; state.mark = null; history.replaceState(null, "", `#${id}`); render(); }
+function setLang(lang) { state.lang = lang; document.documentElement.lang = lang; render(); }
+
+function render() {
+  const s = state.data[state.current];
+  $("#t-product").textContent = t("product");
+  document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === state.lang)));
+  $("#cases").innerHTML = state.cases.map((c) => {
+    const d = state.data[c.case];
+    const label = state.lang === "ar" ? c.short_ar : c.short_en;
+    return `<button type="button" data-case="${c.case}" aria-pressed="${c.case === state.current}">${esc(label)}</button>`;
+  }).join("");
+  const notice = $("#notice");
+  notice.hidden = !s.mock;
+  notice.textContent = s.mock ? t("mock") : "";
+  renderViewer(s);
+  renderSummary(s);
+  $("#foot").innerHTML = `<div>${esc(t("foot1"))}</div><div>${esc(t("foot2"))} <a href="${REPO}">${esc(t("code"))}</a></div>`;
+}
+
+function renderViewer(s, flash = false) {
+  const page = s.pages.find((p) => p.page === state.page) || s.pages[0];
+  $("#pager").innerHTML = s.pages.map((p) => `<button type="button" data-page="${p.page}" aria-pressed="${p.page === page.page}" aria-label="${esc(t("page"))} ${p.page}">${p.page}</button>`).join("")
+    + `<span class="doc">${esc(pick(page, "document"))}</span>`;
+  const marks = s.marks.filter((m) => m.page === page.page && m.box);
+  $("#stage").innerHTML = `<img src="${esc(page.src || page.image)}" alt="${esc(t("page"))} ${page.page}: ${esc(pick(page, "document"))}">`
+    + marks.map((m) => {
+      const [x0, y0, x1, y1] = m.box;
+      const style = `left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`;
+      return `<button type="button" class="mark ${m.type}${state.mark === m.mark_id ? " on" : ""}" data-mark="${m.mark_id}" style="${style}" aria-label="${m.mark_id} ${esc(t(m.type))}"><span class="tag"><i>${m.mark_id}</i><b> ${esc(t(m.type))}</b></span></button>`;
+    }).join("");
+  if (flash) { const st = $("#stage"); st.classList.remove("flash"); void st.offsetWidth; st.classList.add("flash"); }
+  $("#legend").innerHTML = ["stamp", "signature", "handwriting"].map((k) => `<span class="${k}">${esc(t(k))}</span>`).join("");
+  const info = $("#markinfo");
+  const m = s.marks.find((x) => x.mark_id === state.mark);
+  if (!m) { info.hidden = true; return; }
+  info.hidden = false;
+  const meaning = state.lang === "ar" && m.meaning_ar ? m.meaning_ar : m.meaning_en;
+  info.innerHTML = `<h3><span class="dot ${m.type}"></span>${m.mark_id} ${esc(t(m.type))}</h3>`
+    + (m.text_ar ? `<div class="said" lang="ar">${esc(m.text_ar)}</div>` : "")
+    + (meaning ? `<div>${esc(meaning)}</div>` : "")
+    + `<div class="meta">${esc(t("page"))} ${m.page}.${m.confidence != null ? ` ${esc(t("conf"))}: ${Math.round(m.confidence * 100)}%.` : ""}${m.found_as && m.found_as !== "reader" ? ` ${esc(t("foundAs"))} “${esc(m.found_as)}”.` : ""}</div>`;
+}
+
+function chips(item) {
+  const out = [];
+  if (item.source === "handwriting") out.push(`<span class="chip handwriting">${esc(t("fromHand"))}</span>`);
+  if (item.source === "stamp") out.push(`<span class="chip stamp">${esc(t("fromStamp"))}</span>`);
+  if (item.computed) out.push(`<span class="chip computed">${esc(t("computed"))}</span>`);
+  (item.mark_ids || []).forEach((id) => out.push(`<span class="chip">${esc(id)}</span>`));
+  const pages = item.pages || (item.page ? [item.page] : []);
+  pages.forEach((p) => out.push(`<span class="chip page">${esc(t("p"))} ${p}</span>`));
+  return `<span class="chips">${out.join("")}</span>`;
+}
+const target = (item) => `data-page="${(item.pages || [item.page])[0] || ""}" data-marks="${esc((item.mark_ids || []).join(","))}"`;
+
+function renderSummary(s) {
+  const el = $("#summary");
+  el.dir = state.lang === "ar" ? "rtl" : "ltr";
+  el.lang = state.lang;
+  const title = state.lang === "ar" && s.title_ar ? s.title_ar : s.title_en;
+  const lede = state.lang === "ar" && s.summary_ar ? s.summary_ar : s.summary_en;
+  const run = s.run || {};
+  const when = run.finished ? fmtDate(run.finished.slice(0, 10)) : "";
+  const high = s.flags.filter((f) => f.severity === "high");
+  const rest = s.flags.filter((f) => f.severity !== "high");
+  const flagText = (f) => (state.lang === "ar" && f.flag_ar ? f.flag_ar : f.flag_en);
+  const court = s.court || {};
+
+  let html = `<h1 class="case-title">${esc(title)}</h1>
+    <p class="lede">${esc(lede)}</p>
+    <p class="source">${esc(court.name_en && state.lang === "en" ? court.name_en : court.name_ar || court.name_en || "")}${court.case_number ? ` — ${esc(t("caseNo"))} ${esc(court.case_number)}` : ""}<br>${esc(s.source_file)}, ${s.pages.length} ${esc(t("pages"))}. ${esc(t("readWith")(run.reader_model || "Muse Spark", run.marks_model || "SAM 3.1", s.mock ? "" : when))}</p>`;
+
+  if (high.length) {
+    html += `<section class="first"><h2>${esc(t("first"))}</h2><ul>`
+      + high.map((f) => `<li><span style="flex:1">${esc(flagText(f))}</span><button type="button" class="chip page" data-page="${f.page}">${esc(t("p"))} ${f.page}</button></li>`).join("")
+      + `</ul></section>`;
+  }
+
+  html += `<section><h2>${esc(t("deadlines"))}</h2><ol class="timeline">`
+    + (s.deadlines.length ? s.deadlines.map((d) => `<li><button type="button" class="row" ${target(d)}>
+        <span class="v"><span class="when">${esc(fmtDate(d.date))}${d.time ? `, ${esc(d.time)}` : ""}</span>
+        <div>${esc(pick(d, "what"))}</div><div class="who">${esc(d.who_en || "")}${d.computed && d.basis_en && state.lang === "en" ? ` — ${esc(d.basis_en)}` : ""}</div></span>
+        ${chips(d)}</button></li>`).join("") : `<li class="empty">${esc(t("noneFound"))}</li>`)
+    + `</ol></section>`;
+
+  html += `<section><h2>${esc(t("citations"))} <small>${esc(t("citationsNote"))}</small></h2><ul class="rows">`
+    + (s.citations.length ? s.citations.map((c) => {
+      const ch = c.check;
+      const label = state.lang === "ar" ? ch.label_ar : ch.label_en;
+      const quote = ch.quote ? `<div class="quote ${ch.quote.status}">${esc(state.lang === "ar" ? ch.quote.label_ar : ch.quote.label_en)}</div>` : "";
+      const official = ch.official_text_ar ? `<details><summary>${esc(t("showOfficial"))}</summary><div class="official">
+          <div class="ar" lang="ar">${esc(ch.official_text_ar)}</div>${ch.official_text_en ? `<div class="en" lang="en">${esc(ch.official_text_en)}</div>` : ""}
+          ${ch.source_url_en ? `<div><a href="${esc(state.lang === "ar" ? ch.source_url_ar : ch.source_url_en)}" target="_blank" rel="noopener">${esc(t("source"))}</a></div>` : ""}</div></details>` : "";
+      return `<li class="cite"><div class="as" lang="ar">${esc(c.text_ar)}</div>
+        <div class="verdict"><span class="pill ${ch.status}">${esc(t(ch.status))}</span><span class="label" style="flex:1">${esc(label)}</span>
+        <button type="button" class="chip page" data-page="${c.page}">${esc(t("p"))} ${c.page}</button></div>${quote}${official}</li>`;
+    }).join("") : `<li class="empty">${esc(t("noneFound"))}</li>`)
+    + `</ul></section>`;
+
+  html += `<section><h2>${esc(t("parties"))}</h2><ul class="rows">`
+    + s.parties.map((p) => `<li><button type="button" class="row" ${target(p)}><span class="k">${esc(state.lang === "ar" && p.role_ar ? p.role_ar : p.role_en)}</span>
+        <span class="v"><div>${esc(state.lang === "ar" ? (p.name_ar || p.name_en) : p.name_en)}</div><div class="sub ar" lang="ar">${state.lang === "en" ? esc(p.name_ar) : ""}</div></span>${chips(p)}</button></li>`).join("")
+    + `</ul></section>`;
+
+  html += `<section><h2>${esc(t("claims"))}</h2><ul class="rows">`
+    + s.claims.map((c) => `<li><button type="button" class="row" ${target(c)} style="grid-template-columns:minmax(0,1fr) auto auto">
+        <span class="v">${esc(pick(c, "item"))}</span><span class="amount">${c.has_amount ? esc(fmtAmount(c.amount_aed)) : ""}</span>${chips(c)}</button></li>`).join("")
+    + `</ul></section>`;
+
+  html += `<section><h2>${esc(t("facts"))}</h2><ul class="rows">`
+    + s.key_facts.map((f) => `<li><button type="button" class="row" ${target(f)} style="grid-template-columns:minmax(0,1fr) auto"><span class="v">${esc(pick(f, "fact"))}</span>${chips(f)}</button></li>`).join("")
+    + `</ul></section>`;
+
+  html += `<section><h2>${esc(t("marks"))} <small>${esc(t("marksNote"))}</small></h2><ul class="rows markrow">`
+    + (s.marks.length ? s.marks.map((m) => `<li><button type="button" class="row" data-page="${m.page}" data-marks="${m.mark_id}">
+        <span class="k"><span class="dot ${m.type}"></span>${m.mark_id}</span>
+        <span class="v">${m.text_ar ? `<div class="said-inline" lang="ar">${esc(m.text_ar)}</div>` : ""}<div class="sub">${esc(state.lang === "ar" && m.meaning_ar ? m.meaning_ar : m.meaning_en)}</div></span>
+        <span class="chips"><span class="chip ${m.type}">${esc(t(m.type))}</span><span class="chip page">${esc(t("p"))} ${m.page}</span></span></button></li>`).join("") : `<li class="empty">${esc(t("noneFound"))}</li>`)
+    + `</ul></section>`;
+
+  html += `<section><h2>${esc(t("dates"))}</h2><ul class="rows">`
+    + s.dates.map((d) => `<li><button type="button" class="row" ${target(d)}><span class="k">${esc(fmtDate(d.date))}</span><span class="v">${esc(pick(d, "what"))}</span>${chips(d)}</button></li>`).join("")
+    + `</ul></section>`;
+
+  if (rest.length) {
+    html += `<section><h2>${esc(t("other"))}</h2><ul class="rows">`
+      + rest.map((f) => `<li><button type="button" class="row" data-page="${f.page}" style="grid-template-columns:minmax(0,1fr) auto"><span class="v">${esc(flagText(f))}</span><span class="chips"><span class="chip page">${esc(t("p"))} ${f.page}</span></span></button></li>`).join("")
+      + `</ul></section>`;
+  }
+  el.innerHTML = html;
+}
+
+function focusOn(page, markIds) {
+  const s = state.data[state.current];
+  const changed = page && page !== state.page;
+  if (page) state.page = page;
+  state.mark = markIds && markIds.length ? markIds[0] : null;
+  renderViewer(s, !state.mark || changed);
+  if (window.matchMedia("(max-width: 980px)").matches) $(".viewer").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+document.addEventListener("click", (e) => {
+  const caseBtn = e.target.closest("[data-case]");
+  if (caseBtn) return setCase(caseBtn.dataset.case);
+  const langBtn = e.target.closest("[data-lang]");
+  if (langBtn) return setLang(langBtn.dataset.lang);
+  const mark = e.target.closest(".mark");
+  if (mark) { state.mark = mark.dataset.mark; return renderViewer(state.data[state.current]); }
+  const pageBtn = e.target.closest("[data-page]");
+  if (pageBtn && !e.target.closest("summary")) {
+    const marks = (pageBtn.dataset.marks || "").split(",").filter(Boolean);
+    const valid = marks.filter((id) => state.data[state.current].marks.some((m) => m.mark_id === id && m.box));
+    focusOn(Number(pageBtn.dataset.page) || state.page, valid);
+  }
+});
+/* Read your own file (only where a Case Reader API is available) */
+const STEPS = [
+  [/SAM 3\.1 found|Reading the pages/, "Reading the pages with Muse Spark 1.3…"],
+  [/Muse Spark answered|Checking the citations/, "Checking the citations against the official law text…"],
+  [/pages|Finding the marks/, "Finding stamps, signatures and handwriting with SAM 3.1…"],
+];
+function stepText(step) {
+  for (const [re, text] of STEPS) if (re.test(step || "")) return text;
+  return "Opening the file…";
+}
+function setupUpload() {
+  const api = window.CASE_READER_API;
+  if (!api) return;
+  const dialog = $("#upload"), file = $("#upload-file"), go = $("#upload-go"), status = $("#upload-status");
+  $("#upload-open").hidden = false;
+  $("#upload-open").addEventListener("click", () => { status.textContent = ""; status.className = "status"; dialog.showModal(); });
+  $("#upload-cancel").addEventListener("click", () => dialog.close());
+  file.addEventListener("change", () => { go.disabled = !file.files.length; });
+  go.addEventListener("click", async () => {
+    const chosen = file.files[0];
+    if (!chosen) return;
+    go.disabled = true;
+    status.className = "status";
+    status.textContent = "Sending the file…";
+    try {
+      const form = new FormData();
+      form.append("file", chosen);
+      const res = await fetch(`${api}/read`, { method: "POST", body: form });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(body.detail || "The file could not be sent. Try again.");
+      const started = Date.now();
+      while (Date.now() - started < 12 * 60 * 1000) {
+        await new Promise((r) => setTimeout(r, 3000));
+        const poll = await (await fetch(`${api}/jobs/${body.job}`)).json();
+        if (poll.status === "done") {
+          const id = "your-file";
+          if (!state.cases.some((c) => c.case === id)) state.cases.push({ case: id, short_en: "Your file", short_ar: "ملفك" });
+          state.data[id] = poll.summary;
+          dialog.close();
+          setCase(id);
+          return;
+        }
+        if (poll.status === "failed") throw new Error(poll.error || "The file could not be read. Try another file.");
+        status.textContent = stepText(poll.step);
+      }
+      throw new Error("This is taking too long. Try again later.");
+    } catch (err) {
+      status.className = "status err";
+      status.textContent = err.message;
+    } finally {
+      go.disabled = !file.files.length;
+    }
+  });
+}
+setupUpload();
+load().catch((err) => { $("#summary").innerHTML = `<p class="empty">Could not load the case data: ${esc(err.message)}</p>`; });
+</script>
+</body>
+</html>
