@@ -209,6 +209,9 @@ def check_citation(citation: dict[str, Any], index: LawIndex) -> dict[str, Any]:
     base = {"law_id": law["id"], "law_title_en": law["title_en"], "law_title_ar": law["title_ar"],
             "article_count": law["article_count"],
             "source_url_en": law["source"]["url_en"], "source_url_ar": law["source"]["url_ar"]}
+    if law.get("status", {}).get("state") == "repealed":
+        # The article may exist and still be the wrong law for the facts: say so every time.
+        base["law_status"] = law["status"]
     if "article_checked" in citation:
         key = citation["article_checked"]
     else:
