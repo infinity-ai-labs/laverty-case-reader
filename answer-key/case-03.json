@@ -1,0 +1,54 @@
+{
+  "case": "case-03",
+  "file": "test-files/case-03-tenancy/case-03-tenancy.pdf",
+  "fictional": true,
+  "title_en": "Tenancy claim: eviction for unpaid rent (Dubai)",
+  "pages": [
+    {"page": 1, "document_en": "Eviction and rent-arrears claim to the Rental Disputes Center, Dubai", "document_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة"},
+    {"page": 2, "document_en": "Payment notice to the tenant (attachment 1)", "document_ar": "إخطار بالسداد"}
+  ],
+  "court": {"name_en": "Rental Disputes Center, Dubai", "name_ar": "مركز فض المنازعات الإيجارية — دبي", "pages": [1]},
+  "parties": [
+    {"role": "landlord (claimant)", "name_ar": "عائشة محمد بن حارب الكتبي", "name_en": "Aisha Mohammed bin Hareb Al Ketbi", "details_en": "UAE national, Dubai", "pages": [1, 2]},
+    {"role": "tenant (defendant)", "name_ar": "شركة مسار الواحة للتجارة العامة ذ.م.م", "name_en": "Masar Al Waha General Trading LLC", "pages": [1, 2]}
+  ],
+  "property": {"en": "Shop no. 12, building no. 7, Al Qusais Industrial Area 2, Dubai", "ar": "محل رقم (12)، مبنى رقم (7)، منطقة القصيص الصناعية الثانية، دبي", "pages": [1, 2]},
+  "lease": {"start": "2026-01-01", "end": "2026-12-31", "annual_rent_aed": 95000, "instalments": "4 cheques of AED 23,750", "page": 1},
+  "dates": [
+    {"date": "2026-01-01", "what_en": "Lease starts", "page": 1},
+    {"date": "2026-04-01", "what_en": "Second rent cheque (no. 100002, AED 23,750) due; returned unpaid", "page": 1},
+    {"date": "2026-07-01", "what_en": "Third rent cheque (no. 100003, AED 23,750) due; returned unpaid", "page": 1},
+    {"date": "2026-09-01", "what_en": "Payment notice dated", "page": 2},
+    {"date": "2026-09-02", "what_en": "Notice served through the notary public; tenant's cashier signed for it (handwritten)", "page": 2, "source": "stamp + handwriting"},
+    {"date": "2026-10-02", "what_en": "30-day payment period ended without payment", "page": 1},
+    {"date": "2026-10-07", "what_en": "Claim filed and registered", "page": 1, "source": "printed + stamp"},
+    {"date": "2026-11-12", "what_en": "Hearing at 10:00 (handwritten note)", "page": 1, "source": "handwriting"},
+    {"date": "2026-12-31", "what_en": "Lease ends", "page": 1}
+  ],
+  "deadlines": [
+    {"date": "2026-10-02", "who": "tenant", "what_en": "Pay the arrears within 30 days of the notice; passed without payment", "page": 1},
+    {"date": "2026-11-12", "who": "both parties", "what_en": "Hearing at 10:00", "page": 1}
+  ],
+  "claims": [
+    {"item_en": "Eviction from the shop and handover vacant", "amount_aed": null, "page": 1},
+    {"item_en": "Rent arrears", "amount_aed": 47500, "page": 1},
+    {"item_en": "Rent falling due until the actual eviction", "amount_aed": null, "page": 1},
+    {"item_en": "Fees and costs", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Annual rent AED 95,000, paid by four cheques of AED 23,750", "page": 1},
+    {"fact_en": "Two cheques (nos. 100002 and 100003) bounced, so AED 47,500 is overdue", "page": 2},
+    {"fact_en": "The tenant received the original notice on 2 Sep 2026 (handwritten receipt by the cashier)", "page": 2, "source": "handwriting"}
+  ],
+  "citations": [
+    {"text_ar": "المادة (19)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "19", "valid": true, "page": 1},
+    {"text_ar": "البند (1/أ) من المادة (25)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "25", "valid": true, "page": 1},
+    {"text_ar": "المادة (31)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "31", "valid": true, "page": 1},
+    {"text_ar": "البند (1/أ) من المادة (25) من القانون رقم (26) لسنة 2007", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "25", "valid": true, "page": 2}
+  ],
+  "marks_file": "answer-key/case-03.marks.json",
+  "reader_should_flag": [
+    "The hearing date and time (12 Nov 2026, 10:00) appear only as a handwritten note.",
+    "The tenant's receipt of the notice is a handwritten note with a signature and company stamp."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "case": "case-01",
+  "file": "test-files/case-01-labour/case-01-labour.pdf",
+  "fictional": true,
+  "title_en": "Labour claim: unpaid wages, gratuity and unlawful dismissal",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, labour case (part 1)", "document_ar": "صحيفة دعوى عمالية"},
+    {"page": 2, "document_en": "Statement of claim, labour case (part 2: legal grounds and claims)", "document_ar": "صحيفة دعوى عمالية (تابع)"},
+    {"page": 3, "document_en": "Hearing minutes, 27 Oct 2026", "document_ar": "محضر جلسة"}
+  ],
+  "court": {"name_en": "Labour Court of First Instance, Dubai", "name_ar": "المحكمة العمالية الابتدائية — إمارة دبي", "case_number": "1234/2026 labour (partial)", "case_number_ar": "1234 لسنة 2026 عمالي جزئي", "pages": [1, 3], "note": "On page 1 the case number is handwritten; on page 3 it is printed."},
+  "parties": [
+    {"role": "claimant", "name_ar": "سامر خليل الحداد", "name_en": "Samer Khalil Al Haddad", "details_en": "Jordanian, senior accountant at the defendant", "pages": [1]},
+    {"role": "claimant's lawyer", "name_ar": "يوسف عبدالله المرزوقي", "name_en": "Yousef Abdullah Al Marzouqi", "details_en": "Najm Al Sidra Advocates & Legal Consultants", "pages": [1, 2, 3]},
+    {"role": "defendant", "name_ar": "شركة نجمة الخليج للمقاولات العامة ذ.م.م", "name_en": "Najmat Al Khaleej General Contracting LLC", "details_en": "Al Quoz Industrial Area 3, Dubai", "pages": [1]},
+    {"role": "defendant's lawyer", "name_ar": "هند سعيد الكعبي", "name_en": "Hind Saeed Al Kaabi", "pages": [3]},
+    {"role": "presiding judge", "name_ar": "خالد سالم النعيمي", "name_en": "Khalid Salem Al Nuaimi", "pages": [3]},
+    {"role": "court clerk", "name_ar": "مريم أحمد الشامسي", "name_en": "Maryam Ahmed Al Shamsi", "pages": [3]}
+  ],
+  "dates": [
+    {"date": "2019-03-01", "what_en": "Employment started", "page": 1},
+    {"date": "2026-08-04", "what_en": "Complaint filed with the Ministry of Human Resources and Emiratisation (no. MO-2026-58213)", "page": 1},
+    {"date": "2026-08-15", "what_en": "Employer terminated the employment, without notice", "page": 1},
+    {"date": "2026-09-22", "what_en": "Ministry referred the dispute to court", "page": 1},
+    {"date": "2026-10-05", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-10-06", "what_en": "Claim registered (registry stamp and handwritten note)", "page": 1, "source": "stamp + handwriting"},
+    {"date": "2026-10-27", "what_en": "First hearing held", "page": 3},
+    {"date": "2026-11-10", "what_en": "Defendant's reply memorandum and documents due", "page": 3},
+    {"date": "2026-11-17", "what_en": "Next hearing", "page": 3}
+  ],
+  "deadlines": [
+    {"date": "2026-11-10", "who": "defendant", "what_en": "File the reply memorandum with documents, including the original employment contract and the claimant's payslips for January to August 2026", "page": 3},
+    {"date": "2026-11-17", "who": "both parties", "what_en": "Next hearing", "page": 3}
+  ],
+  "claims": [
+    {"item_en": "Unpaid wages: June and July 2026, and 1 to 15 August 2026", "amount_aed": 45000, "page": 2},
+    {"item_en": "Notice allowance (30 days)", "amount_aed": 18000, "page": 2},
+    {"item_en": "End-of-service gratuity", "amount_aed": 71460, "page": 2},
+    {"item_en": "Unused annual leave (20 days)", "amount_aed": 8000, "page": 2},
+    {"item_en": "Compensation for unlawful termination", "amount_aed": 54000, "page": 2},
+    {"item_en": "Total", "amount_aed": 196460, "page": 2},
+    {"item_en": "Experience certificate; court fees, costs and lawyer's fees", "amount_aed": null, "page": 2}
+  ],
+  "key_facts": [
+    {"fact_en": "Monthly salary AED 18,000 in total, of which AED 12,000 basic", "page": 1},
+    {"fact_en": "The employer stopped paying wages from June 2026", "page": 1},
+    {"fact_en": "Termination came 11 days after the claimant's complaint to the Ministry, which the claim argues makes it unlawful", "page": 1},
+    {"fact_en": "The Ministry referred the case to court because the claim exceeds AED 50,000", "page": 1},
+    {"fact_en": "At the 27 Oct hearing the defendant's lawyer asked for time; the court adjourned and ordered the defendant to produce the original contract and payslips", "page": 3}
+  ],
+  "citations": [
+    {"text_ar": "المادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "54", "valid": true, "page": 1},
+    {"text_ar": "البند (1) والبند (2) من المادة (47)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "47", "valid": true, "page": 2},
+    {"text_ar": "المادة (43)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "43", "valid": true, "page": 2},
+    {"text_ar": "المادة (51)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "51", "valid": true, "page": 2},
+    {"text_ar": "المادة (53)", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "53", "valid": true, "page": 2},
+    {"text_ar": "المادة (145) من المرسوم بقانون ذاته", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "145", "valid": false, "why_invalid_en": "This law has 74 articles; there is no Article 145.", "page": 2},
+    {"text_ar": "المادة (55) من المرسوم بقانون ذاته", "law": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations", "article": "55", "valid": true, "page": 2}
+  ],
+  "marks_file": "answer-key/case-01.marks.json",
+  "reader_should_flag": [
+    "Article 145 of the Labour Law does not exist.",
+    "The case number on page 1 is handwritten only.",
+    "The defendant's reply is due on 10 Nov 2026, a week before the 17 Nov hearing."
+  ]
+}
