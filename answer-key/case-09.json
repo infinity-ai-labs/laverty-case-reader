@@ -1,0 +1,64 @@
+{
+  "case": "case-09",
+  "file": "test-files/case-09-consumer-car/case-09-consumer-car.pdf",
+  "fictional": true,
+  "title_en": "Consumer claim: new car with a repeated gearbox fault under warranty",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, consumer claim against the car dealer: replacement or refund, and compensation", "document_ar": "صحيفة دعوى"},
+    {"page": 2, "document_en": "Dealer's workshop job card (repair order JC-2026-04417) with the technician's handwritten findings and second repair", "document_ar": "بطاقة عمل — أمر إصلاح"}
+  ],
+  "court": {"name_en": "Sharjah Federal Court of First Instance, Minor Commercial Circuit", "name_ar": "محكمة الشارقة الاتحادية الابتدائية — الدائرة التجارية الجزئية", "pages": [1], "note": "No case number yet; the registry stamp on page 1 gives only the filing date."},
+  "vehicle": {"en": "Alcoria Sarab 2.0 Turbo, 2026 model (fictional make), chassis no. 00000000000000000, Sharjah plate 00000", "ar": "ألكوريا سراب 2.0 توربو موديل 2026", "price_aed": 136500, "warranty_en": "3 years or 100,000 km", "delivered": "2026-06-16", "pages": [1, 2]},
+  "parties": [
+    {"role": "claimant (buyer, consumer)", "name_ar": "مريم خالد الزعابي", "name_en": "Maryam Khalid Al Zaabi", "details_en": "Sharjah", "pages": [1, 2]},
+    {"role": "claimant's lawyer", "name_ar": "إبراهيم يعقوب الحوسني", "name_en": "Ibrahim Yaqoub Al Hosani", "details_en": "Ibrahim Al Hosani Advocates, Sharjah", "pages": [1]},
+    {"role": "defendant (dealer)", "name_ar": "شركة مرفأ النجوم للسيارات ذ.م.م", "name_en": "Marfa Al Nujoom Motors LLC", "details_en": "Authorised distributor of Alcoria cars; service centre in Sharjah Industrial Area 2", "pages": [1, 2]},
+    {"role": "dealer's workshop technician", "name_ar": "وائل فهمي عبدالقادر", "name_en": "Wael Fahmy Abdelqader", "details_en": "Technician named on the job card; wrote the findings and signed", "pages": [2]}
+  ],
+  "dates": [
+    {"date": "2026-06-16", "what_en": "Car delivered to the buyer; the warranty and the one-year period of Article 13 run from here", "page": 1},
+    {"date": "2026-07-28", "what_en": "Car received at the dealer's workshop at 09:40 (job card JC-2026-04417, odometer 3,184 km): first repair", "page": 2},
+    {"date": "2026-08-08", "what_en": "Car handed back to the buyer after the first repair", "page": 2},
+    {"date": "2026-08-24", "what_en": "Second repair for the same fault, control unit replaced (technician's handwritten note only)", "page": 2, "source": "handwriting"},
+    {"date": "2026-10-06", "what_en": "Gearbox failed for the third time", "page": 1},
+    {"date": "2026-10-08", "what_en": "Buyer's written demand for replacement or refund within seven days", "page": 1},
+    {"date": "2026-10-13", "what_en": "Dealer refused replacement or refund", "page": 1},
+    {"date": "2026-10-21", "what_en": "Statement of claim dated and registered (registry stamp)", "page": 1, "source": "printed + stamp"}
+  ],
+  "deadlines": [
+    {"date": "2026-10-15", "who": "defendant (dealer)", "what_en": "Replace the car or refund the price within seven days of the buyer's demand of 8 Oct 2026; the dealer refused on 13 Oct 2026", "page": 1, "computed": true}
+  ],
+  "claims": [
+    {"item_en": "Principal: replace the car with a new one of the same type and specification at no cost", "amount_aed": null, "page": 1},
+    {"item_en": "Alternatively: rescind the sale, take the car back and refund the price", "amount_aed": 136500, "page": 1},
+    {"item_en": "Hire of a replacement car the dealer did not provide (36 days at AED 220)", "amount_aed": 7920, "page": 1},
+    {"item_en": "Compensation for material and moral damage", "amount_aed": 25000, "page": 1},
+    {"item_en": "Total of car hire and compensation, claimed in either case", "amount_aed": 32920, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Price AED 136,500 with a warranty of 3 years or 100,000 km; delivered 16 Jun 2026, after 1 June 2026, so the 2025 Civil Transactions Law governs the sale", "page": 1},
+    {"fact_en": "First repair under warranty, job card JC-2026-04417 (28 Jul 2026, 3,184 km): judder on pulling away, late shift from second to third gear and a gearbox warning; diagnosis, control-unit software update, valve body and gearbox oil replaced; car returned 8 Aug 2026 at no charge", "page": 2},
+    {"fact_en": "The technician's handwritten findings: third-gear clutch slipping and gearbox oil overheating, 'manufacturing defect'", "page": 2, "source": "handwriting"},
+    {"fact_en": "The same fault returned and the car was repaired again on 24 Aug 2026, with the control unit replaced; this appears only in the technician's handwriting on the same job card", "page": 2, "source": "handwriting"},
+    {"fact_en": "The gearbox failed a third time on 6 Oct 2026; no job card for this visit is in the file", "page": 1},
+    {"fact_en": "The dealer refused replacement or refund on 13 Oct 2026, and never provided a replacement car", "page": 1}
+  ],
+  "citations": [
+    {"text_ar": "المادة (10) من القانون الاتحادي رقم (15) لسنة 2020 بشأن حماية المستهلك", "law": "Federal Law No. 15 of 2020 on Consumer Protection", "article": "10", "valid": true, "page": 1},
+    {"text_ar": "المادة (13) منه", "law": "Federal Law No. 15 of 2020 on Consumer Protection", "article": "13", "valid": true, "quote_ar": "يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها", "quote_matches_official_text": true, "page": 1},
+    {"text_ar": "المادة (16) من القانون ذاته", "law": "Federal Law No. 15 of 2020 on Consumer Protection", "article": "16", "valid": true, "page": 1},
+    {"text_ar": "المادة (24) منه", "law": "Federal Law No. 15 of 2020 on Consumer Protection", "article": "24", "valid": true, "page": 1},
+    {"text_ar": "المادة (45) من قانون حماية المستهلك", "law": "Federal Law No. 15 of 2020 on Consumer Protection", "article": "45", "valid": false, "why_invalid_en": "The Consumer Protection Law has 38 articles; there is no Article 45.", "page": 1},
+    {"text_ar": "البند (2) من المادة (502) من المرسوم بقانون اتحادي رقم (25) لسنة 2025 بإصدار قانون المعاملات المدنية", "law": "Federal Decree-Law No. 25 of 2025 issuing the Civil Transactions Law", "article": "502", "valid": true, "page": 1}
+  ],
+  "marks_file": "answer-key/case-09.marks.json",
+  "reader_should_flag": [
+    "Article 45 of the Consumer Protection Law does not exist (the law has 38 articles). It is cited for the dealer's burden of proving misuse.",
+    "The date of the second repair (24 Aug 2026) appears only in the technician's handwritten note on the job card; the statement of claim mentions the second repair without a date.",
+    "The technician's handwritten finding calls the gearbox fault a manufacturing defect; this admission is in handwriting only.",
+    "Article 13 needs the same fault three times within the first year after delivery. The file shows the first repair (28 Jul 2026, printed job card), the second (24 Aug 2026, handwriting only) and the third failure (6 Oct 2026, stated only in the claim, with no job card in the file).",
+    "The car was delivered on 16 Jun 2026, after 1 June 2026, so the sale falls under the 2025 Civil Transactions Law (Federal Decree-Law No. 25 of 2025), which the claim cites, not the 1985 law.",
+    "The 36 days of car hire (AED 7,920) are not broken down; the file documents only the first workshop stay (28 Jul to 8 Aug 2026)."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "case": "case-13",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c13-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.3289,
+        0.0202,
+        0.5069,
+        0.0937
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 27/10/2026"
+    },
+    {
+      "id": "c13-p1-hand-hearing",
+      "page": 1,
+      "type": "handwriting",
+      "box": [
+        0.078,
+        0.1153,
+        0.2532,
+        0.1398
+      ],
+      "label_en": "Registry clerk's handwritten hearing date",
+      "text_ar": "حددت جلسة 18/11/2026"
+    },
+    {
+      "id": "c13-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.5209,
+        0.8658,
+        0.7094,
+        0.8989
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c13-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.6662,
+        0.8328,
+        0.9312,
+        0.9217
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب سنا الحق للمحاماة — دبي"
+    },
+    {
+      "id": "c13-p2-hand-completion-date",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.6225,
+        0.4992,
+        0.7039,
+        0.5195
+      ],
+      "label_en": "Actual completion date, handwritten by the supervising engineer (not printed anywhere)",
+      "text_ar": "14/9/2026"
+    },
+    {
+      "id": "c13-p2-hand-snags",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.1584,
+        0.5674,
+        0.8917,
+        0.6137
+      ],
+      "label_en": "Handwritten snag list (three items, to be completed within 14 days)",
+      "text_ar": "1- تسرب مياه بسيط أسفل مغسلة حمام الضيوف 2- إعادة دهان أجزاء من السور الخارجي 3- تركيب مقابض خزائن المطبخ — تنجز خلال 14 يوماً من تاريخه"
+    },
+    {
+      "id": "c13-p2-signature-engineer",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.6048,
+        0.744,
+        0.7865,
+        0.782
+      ],
+      "label_en": "Supervising engineer's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c13-p2-stamp-consultant",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.5154,
+        0.769,
+        0.8505,
+        0.8709
+      ],
+      "label_en": "Consultant's stamp",
+      "text_ar": "مكتب المرسام للاستشارات الهندسية — دبي"
+    },
+    {
+      "id": "c13-p2-signature-contractor",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.1741,
+        0.7504,
+        0.3374,
+        0.788
+      ],
+      "label_en": "Contractor's representative's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c13-p3-hand-retention-correction",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.2261,
+        0.3406,
+        0.3641,
+        0.3659
+      ],
+      "label_en": "Handwritten correction of the retention to 152,650, initialled by the supervising engineer",
+      "text_ar": "152,650 — ك.ح"
+    },
+    {
+      "id": "c13-p3-signature-qs",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.6156,
+        0.643,
+        0.7959,
+        0.6804
+      ],
+      "label_en": "Quantity surveyor's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c13-p3-signature-engineer",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.188,
+        0.6317,
+        0.3835,
+        0.6793
+      ],
+      "label_en": "Supervising engineer's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c13-p3-stamp-consultant",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.2431,
+        0.6452,
+        0.5792,
+        0.7497
+      ],
+      "label_en": "Consultant's stamp",
+      "text_ar": "مكتب المرسام للاستشارات الهندسية — دبي"
+    }
+  ]
+}

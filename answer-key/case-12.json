@@ -1,0 +1,75 @@
+{
+  "case": "case-12",
+  "file": "test-files/case-12-trademark/case-12-trademark.pdf",
+  "fictional": true,
+  "title_en": "Trademark infringement claim: counterfeit perfume seized from a shop",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim: infringement of a registered trademark, with the table of seized goods", "document_ar": "صحيفة دعوى تعدٍّ على علامة تجارية مسجلة"},
+    {"page": 2, "document_en": "Attachment 1: Ministry of Economy trademark registration certificate summary; attachment 2: test-purchase invoice excerpt", "document_ar": "بيانات شهادة تسجيل علامة تجارية؛ مقتطف من فاتورة الشراء التجريبي"}
+  ],
+  "court": {"name_en": "Dubai Court of First Instance, Major Civil Circuit", "name_ar": "محكمة دبي الابتدائية — الدائرة المدنية الكلية", "pages": [1], "note": "No case number is given; the first hearing date is a handwritten note."},
+  "precautionary_order": {"number_ar": "الأمر على عريضة رقم (731) لسنة 2026", "number_en": "Order on petition no. 731 of 2026", "issued_by_en": "Judge of summary matters", "issued": "2026-10-06", "executed": "2026-10-08", "measures_en": "Detailed description of the infringement and precautionary attachment of the goods", "page": 1},
+  "trademark": {"name": "ZAHRANOVA — زهرانوفا", "number": "000417", "class": "3", "goods_en": "Perfumes, oud oil, cosmetics, body sprays and deodorants", "filed": "2026-01-12", "registered": "2026-05-18", "protection_expires": "2036-01-11", "priority": "none", "page": 2},
+  "parties": [
+    {"role": "claimant", "name_ar": "شركة زهرانوفا للعطور ومستحضرات التجميل ذ.م.م", "name_en": "Zahranova Perfumes & Cosmetics LLC", "details_en": "Registered owner of the trademark, Dubai", "pages": [1, 2]},
+    {"role": "claimant's lawyer", "name_ar": "نوال عيسى الحمادي", "name_en": "Nawal Issa Al Hammadi", "details_en": "Dir' Al Huquq Advocates & IP Consultants", "pages": [1]},
+    {"role": "defendant", "name_ar": "مؤسسة غيمة الريحان لتجارة العطور", "name_en": "Ghaymat Al Rayhan Perfumes Trading Est.", "details_en": "Sole establishment, Al Murar, Deira, Dubai", "pages": [1, 2]},
+    {"role": "defendant's owner", "name_ar": "فيصل منصور الجابري", "name_en": "Faisal Mansour Al Jabri", "pages": [1]}
+  ],
+  "dates": [
+    {"date": "2026-01-12", "what_en": "Trademark application filed (protection runs from this date)", "page": 2},
+    {"date": "2026-05-18", "what_en": "Trademark registered", "page": 2},
+    {"date": "2036-01-11", "what_en": "Trademark protection expires (10 years from filing)", "page": 2},
+    {"date": "2026-09-24", "what_en": "Test purchase at the defendant's shop (invoice no. S-2026-0815)", "page": 1},
+    {"date": "2026-09-29", "what_en": "Certificate summary extracted from the trademark register (printed and on the Ministry stamp)", "page": 2, "source": "printed + stamp"},
+    {"date": "2026-10-06", "what_en": "Summary judge's order on petition no. 731 of 2026: detailed description and precautionary attachment", "page": 1},
+    {"date": "2026-10-08", "what_en": "Order executed; goods seized", "page": 1},
+    {"date": "2026-10-21", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-10-22", "what_en": "Claim registered (registry stamp)", "page": 1, "source": "stamp"},
+    {"date": "2026-11-09", "what_en": "First hearing (handwritten note)", "page": 1, "source": "handwriting"}
+  ],
+  "deadlines": [
+    {"date": "2026-10-26", "who": "claimant", "what_en": "File the claim on the merits within 20 days of the precautionary order of 6 Oct 2026 (Trademarks Law Art. 47(7)), or the order may be cancelled at the defendant's request; met, the claim was registered on 22 Oct 2026", "page": 1, "computed": true},
+    {"date": "2026-11-09", "who": "both parties", "what_en": "First hearing (handwritten note)", "page": 1, "source": "handwriting"}
+  ],
+  "claims": [
+    {"item_en": "Confirm the precautionary attachment made under order on petition no. 731 of 2026", "amount_aed": null, "page": 1},
+    {"item_en": "Bar the defendant from using the trademark or any similar mark", "amount_aed": null, "page": 1},
+    {"item_en": "Confiscate the seized goods and destroy them at the defendant's expense", "amount_aed": null, "page": 1},
+    {"item_en": "Compensation for material and moral harm", "amount_aed": 350000, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "seized_items": [
+    {"item_en": "ZAHRANOVA Classic perfume, 100 ml", "item_ar": "عطر زهرانوفا كلاسيك 100 مل", "quantity": 240, "unit_value_aed": 385, "value_aed": 92400, "page": 1},
+    {"item_en": "ZAHRANOVA Rose perfume, 50 ml", "item_ar": "عطر زهرانوفا روز 50 مل", "quantity": 180, "unit_value_aed": 245, "value_aed": 44100, "page": 1},
+    {"item_en": "Gift sets (perfume and body spray)", "item_ar": "طقم هدايا (عطر وبخاخ للجسم)", "quantity": 60, "unit_value_aed": 520, "value_aed": 31200, "page": 1},
+    {"item_en": "ZAHRANOVA oud oil, 12 ml", "item_ar": "دهن عود زهرانوفا 12 مل", "quantity": 95, "unit_value_aed": 290, "value_aed": 27550, "page": 1},
+    {"item_en": "Empty boxes and packaging bearing the mark", "item_ar": "علب وأغلفة فارغة تحمل العلامة", "quantity": 1500, "unit_value_aed": 4, "value_aed": 6000, "page": 1},
+    {"item_en": "Total estimated value of the seized goods (at genuine-product prices)", "value_aed": 201250, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "The claimant owns trademark no. 000417 'ZAHRANOVA — زهرانوفا' in class 3 (perfumes, oud oil, cosmetics, body sprays, deodorants): filed 12 Jan 2026, registered 18 May 2026, protected until 11 Jan 2036", "page": 2},
+    {"fact_en": "Test purchase on 24 Sep 2026: two 100 ml bottles bearing the mark at AED 95 each, against AED 385 for the genuine product; invoice total AED 199.50 (AED 190 plus AED 9.50 VAT)", "page": 2},
+    {"fact_en": "The receipt number on the test-purchase invoice (3087) is handwritten, beside the shop's stamp and the cashier's signature", "page": 2, "source": "handwriting"},
+    {"fact_en": "The summary judge ordered a detailed description and precautionary attachment on 6 Oct 2026 (order on petition no. 731 of 2026); it was executed on 8 Oct 2026", "page": 1},
+    {"fact_en": "Five kinds of goods were seized, valued at AED 201,250 at genuine-product prices (5 lines: 92,400 + 44,100 + 31,200 + 27,550 + 6,000)", "page": 1},
+    {"fact_en": "The claim was registered on 22 Oct 2026, 16 days after the order, inside the 20-day limit of Art. 47(7)", "page": 1, "source": "stamp"}
+  ],
+  "citations": [
+    {"text_ar": "البند (1) من المادة (18) من المرسوم بقانون اتحادي رقم (36) لسنة 2021 بشأن العلامات التجارية", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "18", "valid": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (21)", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "21", "valid": true, "page": 1},
+    {"text_ar": "البند (2) من المادة (17)", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "17", "valid": true, "quote_ar": "لمالك العلامة التجارية المسجلة الحق في منع الغير الذي لم يحصل على موافقته من استعمالها أو استعمال أي إشارة مماثلة أو مشابهة لها", "quote_matches_official_text": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (47)", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "47", "valid": true, "note_en": "The same sentence also cites item 7 of this article (the 20-day limit to sue on the merits).", "page": 1},
+    {"text_ar": "المادة (47) مكرراً من المرسوم بقانون ذاته", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "47 bis", "valid": false, "why_invalid_en": "The Trademarks Law has 61 articles and no bis (مكرر) articles, so there is no Article 47 bis. Article 47 itself exists (precautionary measures) and says nothing about destroying goods.", "page": 1},
+    {"text_ar": "المادة (48)", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "48", "valid": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (50)", "law": "Federal Decree-Law No. 36 of 2021 on Trademarks", "article": "50", "valid": true, "page": 1}
+  ],
+  "marks_file": "answer-key/case-12.marks.json",
+  "reader_should_flag": [
+    "Article 47 bis (المادة (47) مكرراً) of the Trademarks Law does not exist: the law has 61 articles and no bis articles. The request to confiscate and destroy the seized goods relies on it, so it needs another legal basis.",
+    "Do not read 'Article 47 bis' as Article 47: Article 47 is cited correctly in the same sentence (precautionary measures, and the 20-day limit in item 7).",
+    "The claim on the merits had to be filed within 20 days of the 6 Oct 2026 order, so by 26 Oct 2026 (Art. 47(7)); it was registered on 22 Oct 2026, in time.",
+    "The hearing date (9 Nov 2026) appears only as a handwritten note on page 1.",
+    "The receipt number on the test-purchase invoice (3087) is handwritten only."
+  ]
+}

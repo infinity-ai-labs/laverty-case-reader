@@ -1,0 +1,62 @@
+{
+  "case": "case-06",
+  "file": "test-files/case-06-rent-increase/case-06-rent-increase.pdf",
+  "fictional": true,
+  "title_en": "Tenancy claim: rent increase at renewal and eviction threat (Dubai)",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim to the Rental Disputes Center, Dubai: objection to a rent increase at renewal and to the eviction demand", "document_ar": "صحيفة دعوى إيجارية"},
+    {"page": 2, "document_en": "Landlord's notice of a rent increase at renewal, delivered by hand, with the tenant's handwritten receipt note (attachment 2)", "document_ar": "إخطار بتعديل بدل الإيجار"}
+  ],
+  "court": {"name_en": "Rental Disputes Center, Dubai", "name_ar": "مركز فض المنازعات الإيجارية — إمارة دبي", "pages": [1], "note": "No case number yet; the Center's registration stamp gives the filing date."},
+  "parties": [
+    {"role": "claimant (tenant)", "name_ar": "شركة نسيم الغاف لتجارة المواد الغذائية ذ.م.م", "name_en": "Naseem Al Ghaf Foodstuff Trading LLC", "pages": [1, 2]},
+    {"role": "claimant's manager", "name_ar": "باسل عدنان الطحان", "name_en": "Basel Adnan Al Tahhan", "details_en": "Signs the claim for the tenant company", "pages": [1]},
+    {"role": "defendant (landlord)", "name_ar": "مبارك سالم بن عتيق القمزي", "name_en": "Mubarak Salem bin Ateeq Al Qamzi", "details_en": "UAE national, Dubai; owner of the warehouse", "pages": [1, 2]}
+  ],
+  "property": {"en": "Warehouse no. 9, Ras Al Khor Industrial Area 2, Dubai", "ar": "مستودع رقم (9)، منطقة رأس الخور الصناعية الثانية، دبي", "pages": [1, 2]},
+  "lease": {"start": "2026-01-01", "end": "2026-12-31", "annual_rent_aed": 210000, "ejari_number": "000000", "page": 1},
+  "dates": [
+    {"date": "2026-01-01", "what_en": "Lease starts", "page": 1},
+    {"date": "2026-09-24", "what_en": "Landlord's notice of the rent increase dated (delivered by hand)", "page": 2},
+    {"date": "2026-10-12", "what_en": "Tenant received the landlord's notice (handwritten receipt note by the tenant's receptionist; the date is printed nowhere)", "page": 2, "source": "handwriting"},
+    {"date": "2026-10-15", "what_en": "Tenant replied in writing, refusing the increase and offering renewal at the same rent", "page": 1},
+    {"date": "2026-10-20", "what_en": "Claim dated and registered at the Rental Disputes Center", "page": 1, "source": "printed + stamp"},
+    {"date": "2026-12-31", "what_en": "Lease ends", "page": 1}
+  ],
+  "deadlines": [
+    {"date": "2026-10-02", "who": "landlord", "what_en": "Last day to notify the tenant of any change to the lease terms, including the rent: at least 90 days before the lease ends on 31 Dec 2026 (Article 14). The tenant received the notice on 12 Oct 2026, 80 days before expiry, so the notice was late", "page": 1, "computed": true},
+    {"date": "2026-10-09", "who": "tenant", "what_en": "End of the 15 days from the notice's date (24 Sep 2026) that the landlord gave the tenant to accept the increase and sign the renewal; it ended before the tenant received the notice on 12 Oct 2026", "page": 2, "computed": true},
+    {"date": "2026-12-31", "who": "tenant", "what_en": "Vacate and hand over the warehouse when the lease ends, as the landlord demands if the increase is refused (contested by the claim)", "page": 2}
+  ],
+  "claims": [
+    {"item_en": "Declare the landlord's notice of 24 Sep 2026 without effect and renew the lease for one year at the same annual rent", "amount_aed": 210000, "page": 1},
+    {"item_en": "In the alternative, set the fair annual rent for the renewal year at no more than this amount", "amount_aed": 220500, "page": 1},
+    {"item_en": "Reject the landlord's demand that the tenant vacate on 31 Dec 2026", "amount_aed": null, "page": 1},
+    {"item_en": "Fees and costs", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Annual rent AED 210,000; the landlord demands AED 252,000 at renewal, an increase of 20%", "page": 1},
+    {"fact_en": "The notice is dated 24 Sep 2026, before the 90-day cut-off of 2 Oct 2026, but it was delivered by hand and the tenant received it only on 12 Oct 2026, 80 days before the lease ends; the receipt date is known only from the handwritten note", "page": 2, "source": "handwriting"},
+    {"fact_en": "The average rent for similar units in the Dubai rent index is AED 240,000; the current rent is 12.5% below it, so under Article 1 of Decree No. 43 of 2013 the increase may not exceed 5% (AED 220,500)", "page": 1},
+    {"fact_en": "The landlord threatens eviction at the end of the lease if the increase is refused; the claim answers that eviction at the end of a lease is allowed only on the Article 25(2) grounds, after 12 months' notice through the notary public or registered mail", "page": 1},
+    {"fact_en": "The receipt note is signed by the tenant's receptionist (Reem) and stamped with the tenant's company stamp, which carries no date", "page": 2, "source": "stamp + handwriting"}
+  ],
+  "citations": [
+    {"text_ar": "المادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "14", "valid": true, "page": 1},
+    {"text_ar": "المادة (6) من القانون ذاته", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "6", "valid": true, "page": 1},
+    {"text_ar": "المادة (13)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "13", "valid": true, "page": 1},
+    {"text_ar": "البند (2) من المادة (9)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "9", "valid": true, "page": 1},
+    {"text_ar": "المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي", "law": "Dubai Decree No. 43 of 2013 Determining Rent Increases for Real Property in the Emirate of Dubai", "article": "1", "valid": true, "not_in_index": true, "note_en": "A real Dubai decree that is not in the official law library. Its Article 1 sets the maximum increase at renewal by how far the rent is below the average rent of similar units (5% when it is 11% to 20% below); checked on the Dubai Legislation Portal.", "page": 1},
+    {"text_ar": "البند (2) من المادة (25)", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "25", "valid": true, "page": 1},
+    {"text_ar": "المادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي", "law": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai", "article": "14", "valid": true, "page": 2}
+  ],
+  "marks_file": "answer-key/case-06.marks.json",
+  "reader_should_flag": [
+    "Dubai Decree No. 43 of 2013 on rent increases (Article 1) is a real decree that is not in the official law library, so the citation cannot be checked automatically and must be checked by hand.",
+    "The date the tenant received the landlord's notice, 12 Oct 2026, appears only in the handwritten receipt note on page 2; the claim does not print it.",
+    "The 90-day notice under Article 14 was not given: the lease ends on 31 Dec 2026, so notice was due by 2 Oct 2026 (computed). The notice is dated 24 Sep 2026, but the tenant received it on 12 Oct 2026, 80 days before expiry.",
+    "The 15 days the landlord gave to accept ran from the notice's date and ended on 9 Oct 2026 (computed), before the tenant received the notice.",
+    "The landlord demands a 20% increase (AED 252,000); with the rent 12.5% below the index average, Decree No. 43 of 2013 allows at most 5% (AED 220,500).",
+    "The eviction threat rests on none of the Article 25(2) grounds, and no 12-month notice through the notary public or registered mail was given."
+  ]
+}

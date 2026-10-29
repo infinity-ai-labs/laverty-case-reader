@@ -1,0 +1,97 @@
+{
+  "case": "case-09",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c9-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0662,
+        0.0838,
+        0.2501,
+        0.1569
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 21/10/2026"
+    },
+    {
+      "id": "c9-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1675,
+        0.8888,
+        0.3388,
+        0.9276
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c9-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.5862,
+        0.8321,
+        0.8904,
+        0.9292
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب إبراهيم الحوسني للمحاماة — الشارقة"
+    },
+    {
+      "id": "c9-p2-hand-findings",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.1746,
+        0.5991,
+        0.8828,
+        0.6425
+      ],
+      "label_en": "Technician's handwritten findings: third-gear clutch slipping, overheating gearbox oil; manufacturing defect",
+      "text_ar": "بالفحص: انزلاق في قابض السرعة الثالثة وارتفاع حرارة زيت القير — عيب مصنعي — تم الإصلاح"
+    },
+    {
+      "id": "c9-p2-hand-second-repair",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.2639,
+        0.7153,
+        0.8832,
+        0.7489
+      ],
+      "label_en": "Technician's handwritten note of the second repair, with its date",
+      "text_ar": "عادت السيارة بالعطل ذاته — أعيد الإصلاح بتاريخ 24/8/2026 — استبدال وحدة التحكم"
+    },
+    {
+      "id": "c9-p2-signature-technician",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.6259,
+        0.8399,
+        0.8082,
+        0.8759
+      ],
+      "label_en": "Technician's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c9-p2-stamp-dealer",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.1408,
+        0.8229,
+        0.4402,
+        0.924
+      ],
+      "label_en": "Dealer's service-centre stamp",
+      "text_ar": "مرفأ النجوم للسيارات ذ.م.م — مركز الخدمة — الشارقة"
+    }
+  ]
+}

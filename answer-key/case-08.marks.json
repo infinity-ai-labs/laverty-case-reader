@@ -1,0 +1,149 @@
+{
+  "case": "case-08",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c8-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0595,
+        0.0866,
+        0.2506,
+        0.1626
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 20/10/2026"
+    },
+    {
+      "id": "c8-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1694,
+        0.8808,
+        0.3508,
+        0.9349
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.5857,
+        0.8294,
+        0.8917,
+        0.9283
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب مروان الظاهري للمحاماة — دبي"
+    },
+    {
+      "id": "c8-p2-signature-chair",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.6329,
+        0.7271,
+        0.7994,
+        0.7757
+      ],
+      "label_en": "Signature of the manager, who chaired the meeting",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p2-signature-claimant",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.204,
+        0.7302,
+        0.3586,
+        0.7766
+      ],
+      "label_en": "Claimant's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p2-signature-partner",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.6409,
+        0.8144,
+        0.8081,
+        0.8607
+      ],
+      "label_en": "Signature of the third partner",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p2-signature-secretary",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.2185,
+        0.8246,
+        0.3672,
+        0.8527
+      ],
+      "label_en": "Signature of the meeting secretary",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p2-hand-objection",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.1129,
+        0.8697,
+        0.9117,
+        0.922
+      ],
+      "label_en": "Claimant's handwritten objection to resolutions 2, 3 and 4, with his name",
+      "text_ar": "أوقع مع الاعتراض على القرارات (2) و(3) و(4): الميزانية غير مدققة، ولا يجوز للمدير التصويت على إبراء ذمته — فيصل الحمادي"
+    },
+    {
+      "id": "c8-p3-stamp-incoming",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.0782,
+        0.1554,
+        0.3328,
+        0.2448
+      ],
+      "label_en": "Company's incoming-mail stamp with the date the letter was received",
+      "text_ar": "شركة نخلة الصباح — الوارد — رقم القيد: 0412 — 17/09/2026"
+    },
+    {
+      "id": "c8-p3-signature-auditor",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1415,
+        0.6965,
+        0.3438,
+        0.7441
+      ],
+      "label_en": "Signature of the audit partner",
+      "text_ar": null
+    },
+    {
+      "id": "c8-p3-stamp-auditfirm",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.4133,
+        0.6917,
+        0.6915,
+        0.796
+      ],
+      "label_en": "Audit firm stamp",
+      "text_ar": "الركن المتين لتدقيق الحسابات — دبي"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "case": "case-13",
+  "file": "test-files/case-13-construction/case-13-construction.pdf",
+  "fictional": true,
+  "title_en": "Construction contract (muqawala) claim: final payment and retention for a villa",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim: construction contract (muqawala), final payment and retention", "document_ar": "صحيفة دعوى مستحقات عقد مقاولة"},
+    {"page": 2, "document_en": "Consultant's completion (taking-over) certificate, with the handwritten actual completion date and snag list", "document_ar": "شهادة إنجاز الأعمال (الاستلام الابتدائي)"},
+    {"page": 3, "document_en": "Final payment certificate no. 8", "document_ar": "شهادة الدفع النهائية رقم (8)"}
+  ],
+  "court": {"name_en": "Dubai Court of First Instance, civil circuits", "name_ar": "محكمة دبي الابتدائية — الدوائر المدنية", "pages": [1], "note": "No case number is given; the first hearing date is a handwritten note."},
+  "contract": {"date": "2026-01-12", "type_en": "Lump-sum construction (muqawala) contract for a villa (ground floor, service annex and boundary wall), Al Awir First, Dubai", "value_aed": 1480000, "variation_order_aed": 46500, "total_work_aed": 1526500, "site_handover": "2026-02-02", "period_en": "8 months from site handover", "retention_pct": 10, "payment_terms_en": "Final payment within 14 days of the final payment certificate (clause 9/3); retention released within 30 days of the completion certificate, against a maintenance bank guarantee (clause 9/4)", "maintenance_period_en": "12 months from the actual completion date", "governing_law_en": "Federal Law No. 5 of 1985 (Civil Transactions Law), because the contract was concluded before 1 June 2026", "pages": [1, 2, 3]},
+  "payment_certificate": {"number": "8", "date": "2026-09-24", "page": 3, "lines": [
+    {"item_en": "Original contract value (lump sum)", "amount_aed": 1480000},
+    {"item_en": "Variation order no. 1, approved 14 Apr 2026 (carport shade and extra paving)", "amount_aed": 46500},
+    {"item_en": "Total value of work done (100%)", "amount_aed": 1526500},
+    {"item_en": "Less retention (10%): printed 125,650, struck through and corrected by hand to 152,650, initialled 'ك.ح'", "amount_aed": 152650, "printed_amount_aed": 125650, "source": "printed + handwriting"},
+    {"item_en": "Net value after retention", "amount_aed": 1373850},
+    {"item_en": "Less payments made under certificates 1 to 7", "amount_aed": 1206000},
+    {"item_en": "Net due to the contractor under this certificate (final payment)", "amount_aed": 167850}
+  ]},
+  "parties": [
+    {"role": "claimant (contractor)", "name_ar": "شركة بنيان الربى للمقاولات العامة ذ.م.م", "name_en": "Bunyan Al Ruba General Contracting LLC", "details_en": "Contractor, Dubai", "pages": [1, 2, 3]},
+    {"role": "claimant's lawyer", "name_ar": "مازن وليد الشحي", "name_en": "Mazen Waleed Al Shehhi", "details_en": "Sana Al Haq Advocates & Legal Consultants", "pages": [1]},
+    {"role": "defendant (employer, villa owner)", "name_ar": "سلطان خليفة المهيري", "name_en": "Sultan Khalifa Al Muhairi", "details_en": "UAE national, Dubai", "pages": [1, 2, 3]},
+    {"role": "supervising consultant", "name_ar": "مكتب المرسام للاستشارات الهندسية", "name_en": "Al Mirsam Engineering Consultants", "details_en": "Issued the completion certificate and the final payment certificate", "pages": [1, 2, 3]},
+    {"role": "supervising engineer", "name_ar": "كريم فؤاد الحلبي", "name_en": "Karim Fouad Al Halabi", "details_en": "Signed both certificates; his initials 'ك.ح' are on the retention correction", "pages": [2, 3]},
+    {"role": "quantity surveyor", "name_ar": "نادية سمير عوض", "name_en": "Nadia Samir Awad", "pages": [3]},
+    {"role": "contractor's representative", "name_ar": "أنس طارق الخطيب", "name_en": "Anas Tariq Al Khatib", "details_en": "Engineer; signed the completion certificate for the contractor", "pages": [2]}
+  ],
+  "dates": [
+    {"date": "2026-01-12", "what_en": "Construction contract signed (before 1 June 2026, so the 1985 Civil Transactions Law governs it)", "page": 1},
+    {"date": "2026-02-02", "what_en": "Site handed over; the 8-month contract period starts", "page": 1},
+    {"date": "2026-04-14", "what_en": "Variation order no. 1 approved (AED 46,500)", "page": 3},
+    {"date": "2026-06-01", "what_en": "New Civil Transactions Law (Federal Decree-Law No. 25 of 2025) in force; the 1985 law repealed", "page": 1},
+    {"date": "2026-09-14", "what_en": "Actual completion date (handwritten only, on the completion certificate)", "page": 2, "source": "handwriting"},
+    {"date": "2026-09-17", "what_en": "Joint inspection by the consultant with the contractor's representative", "page": 2},
+    {"date": "2026-09-21", "what_en": "Completion certificate issued by the consultant", "page": 1},
+    {"date": "2026-09-22", "what_en": "Contractor submitted the maintenance bank guarantee", "page": 1},
+    {"date": "2026-09-24", "what_en": "Final payment certificate no. 8 issued", "page": 1},
+    {"date": "2026-10-05", "what_en": "Owner took over the villa after the snags were completed", "page": 1},
+    {"date": "2026-10-12", "what_en": "Formal notice to the owner to pay", "page": 1},
+    {"date": "2026-10-26", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-10-27", "what_en": "Claim registered (registry stamp)", "page": 1, "source": "stamp"},
+    {"date": "2026-11-18", "what_en": "First hearing (handwritten note)", "page": 1, "source": "handwriting"}
+  ],
+  "deadlines": [
+    {"date": "2026-10-05", "who": "contractor", "what_en": "Complete the three snag items within 14 days of the completion certificate of 21 Sep 2026 (handwritten note); the claim says they were done and the owner took over the villa that day", "page": 2, "computed": true, "source": "handwriting"},
+    {"date": "2026-10-08", "who": "owner (defendant)", "what_en": "Pay the final payment, AED 167,850, within 14 days of the final payment certificate of 24 Sep 2026 (contract clause 9); unpaid", "page": 1, "computed": true},
+    {"date": "2026-10-21", "who": "owner (defendant)", "what_en": "Release the retention, AED 152,650, within 30 days of the completion certificate of 21 Sep 2026 (contract clause 9); unpaid", "page": 1, "computed": true},
+    {"date": "2026-11-18", "who": "both parties", "what_en": "First hearing (handwritten note)", "page": 1, "source": "handwriting"}
+  ],
+  "claims": [
+    {"item_en": "Final payment (net amount of final payment certificate no. 8)", "amount_aed": 167850, "page": 1},
+    {"item_en": "Release of the retention (10%)", "amount_aed": 152650, "page": 1},
+    {"item_en": "Total", "amount_aed": 320500, "page": 1},
+    {"item_en": "Legal interest at 5% a year from the date of the claim until full payment", "amount_aed": null, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Lump-sum construction contract dated 12 Jan 2026 for a villa in Al Awir First, AED 1,480,000, 8 months from site handover on 2 Feb 2026, supervised by Al Mirsam Engineering Consultants", "page": 1},
+    {"fact_en": "The contract was signed before 1 June 2026, so the 1985 Civil Transactions Law still governs it; the claim relies on Article 4(1) of the new law, which does not apply to earlier acts", "page": 1},
+    {"fact_en": "Variation order no. 1 (carport shade and extra paving), AED 46,500, approved on 14 Apr 2026 with the owner's consent, brings the work to AED 1,526,500", "page": 3},
+    {"fact_en": "Final account: AED 1,526,500 of work, less 10% retention (AED 152,650) and AED 1,206,000 already paid under certificates 1 to 7, leaves AED 167,850 as the final payment", "page": 3},
+    {"fact_en": "The printed retention (125,650) on the payment certificate is struck through and corrected by hand to 152,650, with the initials 'ك.ح' (the supervising engineer); only the corrected figure makes the table add up", "page": 3, "source": "printed + handwriting"},
+    {"fact_en": "The completion certificate records a joint inspection on 17 Sep 2026: the works are complete and fit for use except minor snags; the actual completion date, 14 Sep 2026, is written by hand only and starts the 12-month maintenance period", "page": 2, "source": "handwriting"},
+    {"fact_en": "Handwritten snag list: a small water leak under the guest bathroom basin, repainting parts of the boundary wall, and fitting the kitchen cabinet handles, to be done within 14 days", "page": 2, "source": "handwriting"},
+    {"fact_en": "The handwritten completion date (14 Sep 2026) falls inside the 8-month contract period that began on 2 Feb 2026, so no delay is apparent", "page": 2, "source": "handwriting"},
+    {"fact_en": "The contractor gave the maintenance bank guarantee on 22 Sep 2026; the owner took over the villa on 5 Oct 2026 but has not paid despite a formal notice on 12 Oct 2026", "page": 1}
+  ],
+  "citations": [
+    {"text_ar": "البند (1) من المادة (4) منه", "law": "Federal Decree-Law No. 25 of 2025 issuing the Civil Transactions Law", "article": "4", "valid": true, "note_en": "'منه' refers to the new Civil Transactions Law issued by Federal Decree-Law No. 25 of 2025, named earlier in the same sentence. Article 4(1): the law applies from its entry into force and not to earlier facts and acts.", "page": 1},
+    {"text_ar": "المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985", "law": "Federal Law No. 5 of 1985 issuing the Civil Transactions Law", "article": "872", "valid": true, "note_en": "Article range 872 to 874: definition of muqawala, the contractor supplying materials and work, and what the contract must specify.", "page": 1},
+    {"text_ar": "المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985", "law": "Federal Law No. 5 of 1985 issuing the Civil Transactions Law", "article": "873", "valid": true, "page": 1},
+    {"text_ar": "المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985", "law": "Federal Law No. 5 of 1985 issuing the Civil Transactions Law", "article": "874", "valid": true, "page": 1},
+    {"text_ar": "المادة (885)", "law": "Federal Law No. 5 of 1985 issuing the Civil Transactions Law", "article": "885", "valid": true, "quote_ar": "يلتزم صاحب العمل بدفع البدل عند تسليم المعقود عليه إلا إذا نص الاتفاق أو جرى العرف على غير ذلك", "quote_matches_official_text": true, "page": 1},
+    {"text_ar": "البند (2) من المادة (887) من القانون ذاته", "law": "Federal Law No. 5 of 1985 issuing the Civil Transactions Law", "article": "887", "valid": true, "page": 1}
+  ],
+  "marks_file": "answer-key/case-13.marks.json",
+  "reader_should_flag": [
+    "Governing law: Federal Law No. 5 of 1985 (the old Civil Transactions Law) was repealed by Federal Decree-Law No. 25 of 2025 from 1 June 2026, but it still governs this contract, which was signed on 12 Jan 2026, before that date. The muqawala citations to the 1985 law (Arts. 872 to 874, 885 and 887(2)) are therefore the right ones (the new law's muqawala articles are 812 to 839).",
+    "The actual completion date (14 Sep 2026) is written by hand only, on the completion certificate (page 2), and is printed nowhere in the file. It starts the 12-month maintenance period, so it should be checked against the original certificate.",
+    "The retention on the final payment certificate (page 3) was corrected by hand: the printed 125,650 is struck through and replaced by 152,650, initialled 'ك.ح'. The corrected figure is 10% of the AED 1,526,500 work value, is the only one that makes the table add up (1,526,500 - 152,650 = 1,373,850), and is the figure the claim uses.",
+    "The snag list on the completion certificate is handwritten only (three items, to be completed within 14 days, i.e. by 5 Oct 2026).",
+    "Both sums were overdue when the claim was filed on 26 Oct 2026: the final payment from 8 Oct 2026 (14 days after the 24 Sep payment certificate) and the retention from 21 Oct 2026 (30 days after the 21 Sep completion certificate).",
+    "The hearing date (18 Nov 2026) appears only as a handwritten note on page 1."
+  ]
+}
