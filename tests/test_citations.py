@@ -53,7 +53,8 @@ def test_two_articles_in_one_citation_are_both_checked():
 
 
 def test_law_outside_the_index_is_never_passed_quietly():
-    assert check_citation(cite("5", 1985, "1", kind="federal_law"), INDEX)["status"] == "not_checked"
+    # The Crimes and Penalties Law is a real law the test files don't cite, so it isn't in the index.
+    assert check_citation(cite("31", 2021, "1"), INDEX)["status"] == "not_checked"
 
 
 def test_the_law_must_be_the_same_kind_and_emirate():
@@ -150,24 +151,10 @@ def test_duplicate_entries_are_merged():
     assert len(split_multi_article([c, dict(c)])) == 1
 
 
-def test_a_repealed_law_is_flagged_even_when_the_article_exists(tmp_path):
-    import json
+def test_a_repealed_law_is_flagged_even_when_the_article_exists():
     from case_reader.assemble import _auto_flags
-    from case_reader.citations import LAW_INDEX
-    data = json.loads(LAW_INDEX.read_text(encoding="utf-8"))
-    data["laws"].append({
-        "id": "old-civil", "kind": "federal_law", "emirate": "", "number": "5", "year": 1985,
-        "title_en": "Federal Law No. 5 of 1985", "title_ar": "القانون الاتحادي رقم (5) لسنة 1985",
-        "short_en": "the 1985 Civil Transactions Law", "short_ar": "قانون المعاملات المدنية لسنة 1985",
-        "article_count": 2, "articles": ["1", "2"], "texts": {},
-        "status": {"state": "repealed", "note_en": "Repealed from 1 June 2026.", "note_ar": "أُلغي اعتباراً من 1 يونيو 2026."},
-        "source": {"url_en": "https://example.org", "url_ar": "https://example.org"},
-    })
-    path = tmp_path / "index.json"
-    path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
-    index = LawIndex(path)
-    check = check_citation(cite("5", 1985, "2", kind="federal_law"), index)
+    c = cite("5", 1985, "885", kind="federal_law", text_ar="المادة (885)")
+    check = check_citation(c, INDEX)
     assert check["status"] == "valid" and check["law_status"]["state"] == "repealed"
-    flags = _auto_flags({"citations": [{**cite("5", 1985, "2", kind="federal_law"), "check": check}],
-                         "dates": [], "deadlines": [], "marks": []})
-    assert [f["severity"] for f in flags] == ["medium"] and "Repealed" in flags[0]["flag_en"]
+    flags = _auto_flags({"citations": [{**c, "check": check}], "dates": [], "deadlines": [], "marks": []})
+    assert [f["severity"] for f in flags] == ["medium"] and "repealed" in flags[0]["flag_en"]
