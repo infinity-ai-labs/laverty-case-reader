@@ -1,0 +1,40 @@
+name: Publish the demo page
+
+# Publishes demo/ and the test files with GitHub Pages. Pages works once the
+# repository is public and Pages is set to "GitHub Actions" in the settings.
+
+on:
+  push:
+    branches: [main]
+    paths: ["demo/**", "test-files/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Put the site together
+        run: |
+          mkdir -p _site
+          cp -r demo _site/demo
+          cp -r test-files _site/test-files
+          printf '%s\n' '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=demo/"><title>LAVERTY Case Reader</title><a href="demo/">LAVERTY Case Reader</a>' > _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
