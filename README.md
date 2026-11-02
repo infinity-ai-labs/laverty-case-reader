@@ -17,7 +17,7 @@ The **Case Reader** is a new LAVERTY feature built during this hackathon on Meta
 1. **Pages.** The PDF is rendered page by page.
 2. **Marks, with SAM 3.1.** On every page, SAM 3.1 is asked for "rubber stamp", "signature" and "handwritten text", and returns a box for each one it finds. Weak, oversized and duplicate boxes are dropped, and the rest are numbered M1, M2, ... in reading order.
 3. **Reading, with Muse Spark 1.3.** Muse Spark reads all the pages together, plus a close-up of every mark, and fills in a fixed JSON schema: court, parties, dates, deadlines, claims, key facts, citations, and what each stamp, signature and handwritten note says. Every item carries its page. An item known only from a stamp or a handwritten note says so and points to the mark, and a handwritten correction of printed text is flagged with both values.
-4. **Citation check.** Every cited article is checked against the official law text: is it the right law (federal, or the right emirate's), does the article exist, and does any quoted wording match word for word? The article is read from the citation as written on the page, and a citation naming two articles is checked twice. A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the three laws cited in the test files (`laws/`).
+4. **Citation check.** Every cited article is checked against the official law text: is it the right law (federal, or the right emirate's), does the article exist, and does any quoted wording match word for word? The article is read from the citation as written on the page, and a citation naming two articles is checked twice. A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the 11 laws cited in the test files (`laws/`).
 5. **Output.** `summary.json` for software and `summary.md` for people, starting with the points a lawyer should check first.
 
 The reader extracts and the check verifies: Muse Spark never decides whether an article exists.
@@ -30,7 +30,7 @@ export MODEL_API_KEY="<your Meta Model API key>"
 
 python -m case_reader check-key
 python -m case_reader read test-files/case-02-commercial/case-02-commercial.pdf --out runs/my-run/case-02
-python -m case_reader read-all --out runs/my-run      # all three test files
+python -m case_reader read-all --out runs/my-run      # all 13 test files
 python tools/score.py runs/my-run                     # score against the answer key
 ```
 
