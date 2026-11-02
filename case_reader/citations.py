@@ -236,9 +236,29 @@ def check_citation(citation: dict[str, Any], index: LawIndex) -> dict[str, Any]:
         result["official_text_ar"] = official["ar"]
         result["official_text_en"] = official["en"]
     quote = (citation.get("quoted_text_ar") or "").strip()
+    if not quote:
+        # The reader sometimes leaves the quote inside the citation text: find the words in quotation
+        # marks that follow this article's mention, so a changed word is never missed.
+        quote = quote_in_text(citation.get("text_ar", ""), key)
     if quote:
         result["quote"] = _check_quote(quote, official)
     return result
+
+
+_QUOTE_OPEN = "\"“«"
+_QUOTE_CLOSE = "\"”»"
+
+
+def quote_in_text(text_ar: str, article: str) -> str:
+    """The quoted words that directly follow 'المادة (N)' in a citation's text, or ''."""
+    number = re.match(r"\d+", article or "")
+    if not number or not text_ar:
+        return ""
+    text = to_ascii_digits(text_ar)
+    pattern = (r"(?:المادة|مادة|للمادة)\s*(?:رقم\s*)?\(?\s*" + number.group(0) + r"\s*\)?(?!\d)"
+               r"(?:(?!مادة|المادة)[^" + _QUOTE_OPEN + r"]){0,80}?[" + _QUOTE_OPEN + r"]([^" + _QUOTE_CLOSE + r"]{8,})[" + _QUOTE_CLOSE + r"]")
+    m = re.search(pattern, text)
+    return m.group(1).strip() if m else ""
 
 
 def _check_quote(quote: str, official: dict[str, str] | None) -> dict[str, Any]:

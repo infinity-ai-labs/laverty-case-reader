@@ -30,9 +30,10 @@ DEFAULT_CONCEPTS: dict[str, list[str]] = {
 
 # Several phrasings per type, to find the best ones on the test files.
 SWEEP_CONCEPTS: dict[str, list[str]] = {
-    "stamp": ["rubber stamp", "ink stamp", "official seal", "stamp"],
-    "signature": ["signature", "handwritten signature"],
-    "handwriting": ["handwritten text", "handwritten note", "handwriting"],
+    "stamp": ["stamp", "seal", "circular stamp", "blue stamp", "purple stamp"],
+    "signature": ["signature"],
+    "handwriting": ["writing", "blue writing", "blue ink", "scribble", "note", "annotation",
+                    "handwritten number", "pen"],
 }
 
 _HEADER = re.compile(r"^<(\d+)f(?:;[^>]*)?>")

@@ -158,3 +158,15 @@ def test_a_repealed_law_is_flagged_even_when_the_article_exists():
     assert check["status"] == "valid" and check["law_status"]["state"] == "repealed"
     flags = _auto_flags({"citations": [{**c, "check": check}], "dates": [], "deadlines": [], "marks": []})
     assert [f["severity"] for f in flags] == ["medium"] and "repealed" in flags[0]["flag_en"]
+
+
+def test_quote_left_in_citation_text_is_still_checked():
+    """Muse Spark sometimes leaves the quote inside text_ar; the check must still compare it."""
+    from case_reader.citations import quote_in_text
+    text = ('وتلزم المادة (246) منه فاعل الإضرار بالغير بضمان الضرر، وتنص المادة (255) على أنه: '
+            '"يُقدَّر التعويض في جميع الأحوال بقدر ما لحق المضرور من ضرر وما فاته من كسب، '
+            'بشرط أن يكون ذلك نتيجة محتملة للفعل الضار".')
+    assert quote_in_text(text, "255").startswith("يُقدَّر التعويض")
+    assert quote_in_text(text, "246") == ""  # the quote belongs to the next article, not this one
+    assert quote_in_text("المادة (12) من القانون", "12") == ""
+    assert quote_in_text('المادة (١٢) تنص على «لا يجوز للمؤجر زيادة الأجرة»', "12") == "لا يجوز للمؤجر زيادة الأجرة"
