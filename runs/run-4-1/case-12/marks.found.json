@@ -1,0 +1,146 @@
+[
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.665,
+   0.85462,
+   0.92937,
+   0.94211
+  ],
+  "confidence": 0.8865247964859009
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.32875,
+   0.02033,
+   0.50438,
+   0.09368
+  ],
+  "confidence": 0.8750000596046448
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "blue stamp",
+  "box": [
+   0.665,
+   0.85462,
+   0.92937,
+   0.94211
+  ],
+  "confidence": 0.9179486632347107
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "blue stamp",
+  "box": [
+   0.32875,
+   0.01989,
+   0.505,
+   0.09368
+  ],
+  "confidence": 0.8128654956817627
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "purple stamp",
+  "box": [
+   0.66563,
+   0.85462,
+   0.92937,
+   0.94211
+  ],
+  "confidence": 0.5311355590820312
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "purple stamp",
+  "box": [
+   0.32875,
+   0.02033,
+   0.50438,
+   0.09368
+  ],
+  "confidence": 0.8048780560493469
+ },
+ {
+  "page": 1,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.51938,
+   0.87185,
+   0.70875,
+   0.91251
+  ],
+  "confidence": 0.8400000333786011
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.2075,
+   0.7711,
+   0.49062,
+   0.86743
+  ],
+  "confidence": 0.8987342119216919
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.12375,
+   0.16659,
+   0.33437,
+   0.25674
+  ],
+  "confidence": 0.7968254089355469
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "blue stamp",
+  "box": [
+   0.2075,
+   0.7711,
+   0.49062,
+   0.86743
+  ],
+  "confidence": 0.9452055096626282
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "purple stamp",
+  "box": [
+   0.12437,
+   0.16659,
+   0.33437,
+   0.25674
+  ],
+  "confidence": 0.6289855241775513
+ },
+ {
+  "page": 2,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.545,
+   0.79629,
+   0.70125,
+   0.83385
+  ],
+  "confidence": 0.8012422323226929
+ }
+]

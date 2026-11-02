@@ -1,0 +1,86 @@
+[
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.065,
+   0.13124,
+   0.25188,
+   0.21608
+  ],
+  "confidence": 0.6878048777580261
+ },
+ {
+  "page": 1,
+  "type": "stamp",
+  "found_as": "purple stamp",
+  "box": [
+   0.065,
+   0.13124,
+   0.25125,
+   0.21608
+  ],
+  "confidence": 0.8709677457809448
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.36812,
+   0.6593,
+   0.67937,
+   0.77596
+  ],
+  "confidence": 0.8904109597206116
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "blue stamp",
+  "box": [
+   0.36812,
+   0.6593,
+   0.67937,
+   0.77596
+  ],
+  "confidence": 0.949367105960846
+ },
+ {
+  "page": 2,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.15438,
+   0.66416,
+   0.35813,
+   0.72426
+  ],
+  "confidence": 0.8750000596046448
+ },
+ {
+  "page": 3,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.61125,
+   0.39284,
+   0.78563,
+   0.43438
+  ],
+  "confidence": 0.5661016702651978
+ },
+ {
+  "page": 3,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.18313,
+   0.39019,
+   0.36375,
+   0.44985
+  ],
+  "confidence": 0.7575758099555969
+ }
+]

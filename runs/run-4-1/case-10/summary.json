@@ -1,0 +1,784 @@
+{
+ "case": "case-10",
+ "source_file": "case-10-arbitral-award.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T11:03:45Z",
+  "finished": "2026-11-02T11:04:47Z",
+  "seconds": 61.8,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Request for Ratification and Enforcement of Arbitration Award No. 47 of 2026 - Nassim Al Jabal v Al Qaws Al Aali",
+ "title_ar": "طلب المصادقة على حكم التحكيم رقم (47) لسنة 2026 والأمر بتنفيذه - شركة نسيم الجبل ضد شركة القوس العالي",
+ "case_type": "commercial",
+ "summary_en": "Nassim Al Jabal seeks ratification of the unanimous final award dated 10/09/2026 in arbitration 47/2026 at White Sail Centre ordering Al Qaws Al Aali to pay AED 846,300 for supplies plus AED 96,400 arbitration costs plus AED 40,000 counsel fees plus 5% yearly interest, with no nullity action filed in time. On 26/10/2026 in Request 318/2026 the Dubai Court of Appeal ratified the award with executory formula plus costs, and commercial enforcement 752/2026 was registered on 28/10/2026.",
+ "summary_ar": "تطلب شركة نسيم الجبل المصادقة على حكم التحكيم النهائي بالإجماع الصادر بتاريخ 10/09/2026 في القضية رقم 47 لسنة 2026 لدى مركز الشراع الأبيض والذي يلزم شركة القوس العالي بأداء 846,300 درهم قيمة توريدات و96,400 درهم مصروفات تحكيم و40,000 درهم أتعاب محاماة وفائدة 5% سنوياً، لانقضاء ميعاد البطلان دون طعن. أمرت محكمة الاستئناف في دبي بتاريخ 26/10/2026 في الطلب رقم 318 لسنة 2026 تحكيم بالمصادقة على الحكم وتذييله بالصيغة التنفيذية مع الرسوم والمصروفات، وقُيّد تنفيذ تجاري رقم 752/2026 بتاريخ 28/10/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Request for ratification and enforcement of arbitration award by Durrat Al Sahel",
+   "document_ar": "طلب المصادقة على حكم التحكيم والأمر بتنفيذه المقدم من مكتب درة الساحل"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Operative part of arbitration award from White Sail Commercial Arbitration Centre",
+   "document_ar": "منطوق حكم التحكيم الصادر عن مركز الشراع الأبيض للتحكيم التجاري"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Order ratifying and enforcing arbitration award from Dubai Courts - Court of Appeal",
+   "document_ar": "أمر بالمصادقة على حكم تحكيم وتنفيذه الصادر عن محاكم دبي - محكمة الاستئناف"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Courts - Court of Appeal",
+  "name_ar": "محاكم دبي - محكمة الاستئناف",
+  "case_number": "318 لسنة 2026 تحكيم",
+  "case_number_source": "printed",
+  "pages": [
+   3
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Applicant (Claimant in arbitration)",
+   "role_ar": "الطالبة (المحتكمة)",
+   "name_ar": "شركة نسيم الجبل للخرسانة الجاهزة ذ.م.م",
+   "name_en": "Nassim Al Jabal Ready-Mix Concrete LLC",
+   "details_en": "Trade licence No. 000000, Dubai - Al Quoz Industrial Fourth; award creditor; supply contract 12/01/2026",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Respondent (Respondent in arbitration)",
+   "role_ar": "المطلوب ضدها (المحكم ضدها)",
+   "name_ar": "شركة القوس العالي للمقاولات الإنشائية ذ.م.م",
+   "name_en": "Al Qaws Al Aali Construction Contracting LLC",
+   "details_en": "Trade licence No. 000000, Dubai; award debtor",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيلة الطالبة: المحامية",
+   "name_ar": "ريم ماجد الشحي",
+   "name_en": "Reem Majed Al Shehi",
+   "details_en": "Counsel for applicant; signatory of request dated 20/10/2026",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Judge delegated by Court President",
+   "role_ar": "القاضي المنتدب من رئيس المحكمة",
+   "name_ar": "سعيد عبيد الرميثي",
+   "name_en": "Saeed Obeid Al Rumaithi",
+   "details_en": "Delegated by Presiding Judge; issued ratification order 26/10/2026",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "President of arbitration tribunal",
+   "role_ar": "رئيس هيئة التحكيم",
+   "name_ar": "د. عادل منصور الحوسني",
+   "name_en": "Dr. Adel Mansour Al Hosni",
+   "details_en": "President of arbitral tribunal in case 47/2026",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Member of tribunal",
+   "role_ar": "عضو الهيئة",
+   "name_ar": "كريم وليد السعدي",
+   "name_en": "Karim Walid Al Saadi",
+   "details_en": "Member of arbitral tribunal, engineer",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Member of tribunal",
+   "role_ar": "عضو الهيئة",
+   "name_ar": "ناصر عيسى البلوشي",
+   "name_en": "Nasser Eissa Al Balushi",
+   "details_en": "Member of arbitral tribunal, lawyer",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-12",
+   "what_en": "Date of supply contract between parties",
+   "what_ar": "تاريخ عقد التوريد بين الطرفين",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-06",
+   "what_en": "Date claimant filed arbitration request",
+   "what_ar": "تاريخ تقديم الطالبة طلب التحكيم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-10",
+   "what_en": "Date of unanimous arbitration award in case 47 of 2026",
+   "what_ar": "تاريخ صدور حكم التحكيم بالإجماع في القضية رقم 47 لسنة 2026",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Date award was announced to respondent",
+   "what_ar": "تاريخ إعلان الحكم إلى المطلوب ضدها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "what_en": "Expiry of 30-day period for filing nullity action without filing by respondent",
+   "what_ar": "تاريخ انقضاء ميعاد الثلاثين يوماً المقرر لرفع دعوى البطلان دون أن ترفعها المطلوب ضدها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Date ratification request filed with Presiding Judge and registered",
+   "what_ar": "تاريخ تقديم طلب المصادقة إلى رئيس محكمة الاستئناف وقيد الطلب",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "what_en": "Date of order ratifying and enforcing arbitration award",
+   "what_ar": "تاريخ الأمر بالمصادقة على حكم التحكيم وتنفيذه",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": [
+    "M8"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "what_en": "Date of registration of commercial enforcement file",
+   "what_ar": "تاريخ قيد ملف التنفيذ التجاري",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-15",
+   "time": "",
+   "who_en": "Respondent Al Qaws Al Aali Contracting",
+   "what_en": "Deadline for respondent to file nullity action",
+   "what_ar": "ميعاد رفع دعوى البطلان من قبل المطلوب ضدها",
+   "page": 1,
+   "computed": true,
+   "basis_en": "30-day period in Article 54(2) of Federal Law No. 6 of 2018 runs from announcement on 2026-09-15; file states it expired on 2026-10-15 without a nullity action being filed",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Unpaid value of ready-mix concrete and precast elements supplied",
+   "item_ar": "قيمة التوريدات غير المسددة من الخرسانة الجاهزة والعناصر مسبقة الصب",
+   "has_amount": true,
+   "amount_aed": 846300.0,
+   "page": 2
+  },
+  {
+   "item_en": "Arbitration costs including centre fees and tribunal and expert fees paid by claimant",
+   "item_ar": "مصروفات التحكيم بما فيها رسوم المركز وأتعاب هيئة التحكيم والخبير وما سددته المحتكمة منها",
+   "has_amount": true,
+   "amount_aed": 96400.0,
+   "page": 2
+  },
+  {
+   "item_en": "Attorney fees",
+   "item_ar": "مقابل أتعاب المحاماة",
+   "has_amount": true,
+   "amount_aed": 40000.0,
+   "page": 2
+  },
+  {
+   "item_en": "Late interest at 5% per year on the supply value from arbitration request date until full payment",
+   "item_ar": "فائدة تأخيرية بواقع (5%) سنوياً على مبلغ قيمة التوريدات من تاريخ طلب التحكيم حتى تمام السداد",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  },
+  {
+   "item_en": "Total awarded in arbitration (supply value plus arbitration costs plus attorney fees)",
+   "item_ar": "إجمالي المبالغ المقضي بها في حكم التحكيم (قيمة التوريدات ومصروفات التحكيم وأتعاب المحاماة)",
+   "has_amount": true,
+   "amount_aed": 982700.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Under supply contract dated 12/01/2026 claimant supplies ready-mix and precast elements to respondent's project in Dubai; clause 18 provides for arbitration at White Sail Commercial Arbitration Centre",
+   "fact_ar": "بموجب عقد توريد مؤرخ 12/01/2026 تورد الطالبة الخرسانة الجاهزة والعناصر مسبقة الصب لمشروع تنفذه المطلوب ضدها في دبي، وينص البند (18) منه على حسم أي نزاع بالتحكيم لدى مركز الشراع الأبيض للتحكيم التجاري",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Respondent failed to pay balance of supplies so claimant filed arbitration on 06/04/2026",
+   "fact_ar": "امتنعت المطلوب ضدها عن سداد باقي قيمة التوريدات فتقدمت الطالبة بطلب التحكيم بتاريخ 06/04/2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Tribunal issued unanimous final award on 10/09/2026 in case 47/2026 ordering respondent to pay 846,300 supply value plus 96,400 arbitration costs plus 40,000 counsel fees totalling 982,700 plus 5% annual interest on first amount from arbitration request until payment, rejecting counterclaim for delay penalties",
+   "fact_ar": "أصدرت هيئة التحكيم حكمها النهائي بالإجماع بتاريخ 10/09/2026 في القضية رقم 47 لسنة 2026 بإلزام المطلوب ضدها بأداء 846,300 درهم قيمة التوريدات و96,400 درهم مصروفات التحكيم و40,000 درهم أتعاب محاماة بإجمالي 982,700 درهم وفائدة 5% سنوياً على المبلغ الأول من تاريخ طلب التحكيم حتى السداد، ورفض الطلب المقابل بغرامات التأخير",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Award was announced to respondent on 15/09/2026 and 30-day nullity period expired on 15/10/2026 with no action filed",
+   "fact_ar": "أُعلن الحكم إلى المطلوب ضدها بتاريخ 15/09/2026 وانقضى ميعاد الثلاثين يوماً لرفع دعوى البطلان في 15/10/2026 دون أن ترفعها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Applicant attached award original, arbitration agreement copy and deposit minutes required by Article 55(1); no nullity ground proved, dispute arbitrable, no public order violation",
+   "fact_ar": "أرفقت الطالبة أصل الحكم وصورة اتفاق التحكيم وصورة محضر إيداع الحكم في المحكمة وهي المستندات التي يتطلبها البند (1) من المادة (55)، ولم يثبت أي سبب من أسباب البطلان وكان موضوع النزاع مما يجوز التحكيم فيه وليس في الحكم ما يخالف النظام العام والآداب العامة",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Court ordered on 26/10/2026 ratification of award with executory formula for full enforcement and respondent to bear fees and costs; grievance allowed within 30 days from day after announcement under Article 57",
+   "fact_ar": "أمرت المحكمة بتاريخ 26/10/2026 بالمصادقة على حكم التحكيم المشار إليه وتذييله بالصيغة التنفيذية لتنفيذه بكامل ما قضى به وإلزام المطلوب ضدها بالرسوم والمصروفات، ويجوز التظلم من الأمر خلال ثلاثين يوماً من اليوم التالي للإعلان وفقاً للمادة (57)",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": [
+    "M8"
+   ]
+  },
+  {
+   "fact_en": "Commercial enforcement file No. 752/2026 was registered on 28/10/2026 per handwritten note",
+   "fact_ar": "قُيّد ملف التنفيذ رقم 752/2026 تنفيذ تجاري بتاريخ 28/10/2026 بموجب ملاحظة بخط اليد",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "البند (2) من المادة (54) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "54",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "54",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "54",
+    "status": "valid",
+    "label_en": "Article 54 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (54) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "1. يعتبر الحكم الصادر من المحكمة في دعوى البطلان نهائياً ولا يقبل الطعن إلا بالنقض.\n2. لا تسمع دعوى بطلان حكم التحكيم بعد مرور (30) ثلاثين يوماً التالية لتاريخ إعلان حكم التحكيم إلى الطرف طالب البطلان.\n3. يترتب على الحكم ببطلان حكم التحكيم زوال ذلك الحكم كله أو جزء منه، بحسب ما إذا كان البطلان كلياً أو جزئياً، وإذا كان قد صدر حكم بتفسير الجزء الذي حكم ببطلانه فإنه يزول تبعاً له.\n4. ما لم يتفق الأطراف على خلاف ذلك، يبقى اتفاق التحكيم سارياً وفقاً لأحكام هذا القانون بعد إبطال حكم التحكيم، وذلك ما لم يستند الإبطال إلى عدم وجود الاتفاق ذاته أو سقوط مدته أو بطلانه أو عدم إمكانية تنفيذه.\n5. لا يحول دون قبول دعوى البطلان تنازل مدعي البطلان عن حقه في رفعها قبل صدور حكم التحكيم.\n6. للمحكمة التي يطلب منها إبطال حكم التحكيم أن توقف إجراءات الإبطال لمدة لا تزيد عن (60) ستين يوماً، إذا وجدت ذلك ملائماً بناء على طلب من أحد الأطراف، من أجل منح هيئة التحكيم فرصة لاتخاذ أي إجراء أو تعديل في شكل الحكم من شأنه إزالة أسباب الإبطال دون أن يؤثر على مضمونه.",
+    "official_text_en": "1. The judgment rendered by the court on the action for annulment shall be final and shall not be subject to appeals except by way of Cassation.\n2. The action for annulment of an arbitral award shall not be heard after thirty (30) days following the notification of the arbitral award by the party requesting annulment.\n3. The judgment nullifying the arbitral award entails the cancellation of the award in whole or in part, depending on whether such nullification pertains to all or part of the award. If an interpretation has been issued on the part that is rendered nullified, such interpretation shall likewise be nullified;\n4. Unless otherwise agreed by the parties, the Arbitration Agreement shall remain valid in accordance with the provisions of this Law after annulment of the arbitral award, unless such annulment is based on the absence, extinction, nullity or non-enforceability of the Agreement itself.\n5. Waiver of the right to institute the annulment action prior to the passing of the award shall not prevent the admission of the action.\n6. The court from which the annulment of the arbitral award is sought may suspend the annulment proceedings for a period not exceeding (60) sixty days if it finds it appropriate at the request of one of the parties in order to give the Arbitral Tribunal an opportunity to take any action or rectify the form of the award that may eliminate the causes of annulment without affecting its content."
+   }
+  },
+  {
+   "text_ar": "البند (1) من المادة (55) من قانون التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "55",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "55",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "55",
+    "status": "valid",
+    "label_en": "Article 55 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (55) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "1. يتعين على من يرغب في تنفيذ حكم التحكيم أن يتقدم بطلب المصادقة على حكم التحكيم والأمر بتنفيذه إلى رئيس المحكمة، على أن يرفق به ما يأتي:\nأ. أصل الحكم أو صورة معتمدة منه.\nب. صورة من اتفاق التحكيم.\nج. ترجمة مصدق عليها من جهة معتمدة إلى اللغة العربية لحكم التحكيم إن لم يكن صادراً بها.\nد. صورة من محضر إيداع الحكم في المحكمة.\n2. على رئيس المحكمة أو من يندبه من قضاتها أن يأمر بالمصادقة على حكم التحكيم وتنفيذه خلال مدة (60) ستين يوماً من تاريخ تقديم طلب المصادقة وتنفيذه ما لم يجد أن هناك سبباً أو أكثر من أسباب بطلان حكم التحكيم بناء على إثبات أي من الحالات الواردة في البند (1) من المادة (53) من هذا القانون.",
+    "official_text_en": "1. The party desiring to enforce the arbitral award shall submit a request for the confirmation of the award and order to enforce thereof to the court, provided that such request is accompanied by the following documents:\na. The original award or a certified true copy thereof;\nb. A copy of the Arbitration Agreement; and\nc. A certified Arabic translation of the arbitral award from an accredited body in case the award was not made in Arabic.\nd. A copy of the transcript of filing the judgment with the Court.\n2. The court's president or his delegate from judges shall confirm and enforce the arbitral award, within a period of (60) sixty days from the day of submission of confirmation decision and enforcement thereof, unless it finds that one or several reasons for annulment of the arbitral award is based on any of the cases contained in Clause (1) of Article (53) of this Law."
+   }
+  },
+  {
+   "text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "52",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "52",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "52",
+    "status": "valid",
+    "label_en": "Article 52 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (52) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "يعتبر حكم التحكيم الصادر وفقاً لأحكام هذا القانون ملزماً للأطراف، ويحوز حجية الأمر المقضي، ويكون له ذات القوة التنفيذية كما لو كان حكماً قضائياً، إلا أنه يشترط لتنفيذه الحصول على قرار للمصادقة عليه من المحكمة.",
+    "official_text_en": "Arbitral Awards rendered in accordance with the provisions of the present Law shall be binding to all the parties and shall have the authority of the res judicata. Further, it shall have the same self-executing force as if it were a judgment. However, to enforce such awards, a decision to confirm it shall be obtained from the court."
+   }
+  },
+  {
+   "text_ar": "المادة (212) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. (42) of 2022 Promulgating the Civil Procedure Law",
+   "article": "212",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "212",
+   "check": {
+    "law_id": "uae-fdl-42-2022-civil-procedure",
+    "law_title_en": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Code)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (42) لسنة 2022 (قانون الإجراءات المدنية)",
+    "article_count": 338,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1602",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1602",
+    "article": "212",
+    "status": "valid",
+    "label_en": "Article 212 of the Civil Procedure Law exists in the official text.",
+    "label_ar": "المادة (212) من قانون الإجراءات المدنية موجودة في النص الرسمي.",
+    "official_text_ar": "1. لا يجوز التنفيذ الجبري إلا بسند تنفيذي اقتضاءً لحق محقق الوجود ومعين المقدار وحال الأداء.\n2. السندات التنفيذية هي:-\nأ. الأحكام والأوامر وتشمل الأحكام الجزائية فيما تضمنته من رد وتعويضات وغرامات وغيرها من الحقوق المدنية.\nب. المحررات الموثقة طبقًا للقانون المنظم للتوثيق والتصديق.\nج. محاضر الصلح التي تصدق عليها المحاكم.\nد. الأوراق الأخرى التي يعطيها القانون هذه الصفة.\n3. لا يجوز التنفيذ -في غير الأحوال المستثناة بنص في القانون- إلا بموجب صورة من السند التنفيذي عليها صيغة التنفيذ الآتية: \"على السلطات والجهات المختصة أن تبادر إلى تنفيذ هذا السند وإجراء مقتضاه وعليها أن تعين على تنفيذه ولو جبرًا متى طلب إليها ذلك\".\n4. في حال عدم تقديم طالب التنفيذ طلب اتخاذ إجراء بالملف لمدة تجاوز سنة بعد آخر إجراء لقاضي التنفيذ أن يأمر بإغلاق الملف مؤقتًا.\n5. لا تنفذ السندات التنفيذية إذا تركت مدة (15) خمسة عشر عامًا على تاريخ آخر معاملة تنفيذية أو إذا تركت لذات المدة منذ صدورها دون تنفيذ.",
+    "official_text_en": "1. Compulsory execution may not be performed save by an Execution Writ giving effect to a right having established existence and of ascertained amount and forthwith due.\n2. Execution Writs are as follows:\na. Judgments and orders, including penal provisions, including restitution, compensation, fines, and other civil rights.\nb. Documents notarized in accordance with the law regulating notarization and certification;\nc. Memoranda of Composition certified by Courts; d. Other papers on which the law confers such status.\n3. No execution may be effected save in the cases excepted by a provision of the law otherwise than under a copy of the Execution Writ bearing the following endorsement for execution: 'The competent authorities and bodies shall proceed to execute this writ and to carry out the requirements thereof, and they shall give assistance in the execution thereof even by force if so requested'.\n4. In the event that the execution applicant does not submit a request to take action on the file for a period exceeding one year after the last procedure, the Execution Judge may order the temporary closure of the file.\n5. Execution Writs may not be enforced if they have been left for a period of (15) fifteen years since the date of the last execution operation or if they have been left without execution for such period since the date of issue thereof."
+   }
+  },
+  {
+   "text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "52",
+   "clause": "",
+   "quoted_text_ar": "يعتبر حكم التحكيم الصادر وفقاً لأحكام هذا القانون ملزماً للأطراف، ويكون له ذات القوة التنفيذية كما لو كان حكماً قضائياً، إلا أنه يشترط لتنفيذه الحصول على قرار بالمصادقة عليه من المحكمة",
+   "page": 3,
+   "article_checked": "52",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "52",
+    "status": "valid",
+    "label_en": "Article 52 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (52) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "يعتبر حكم التحكيم الصادر وفقاً لأحكام هذا القانون ملزماً للأطراف، ويحوز حجية الأمر المقضي، ويكون له ذات القوة التنفيذية كما لو كان حكماً قضائياً، إلا أنه يشترط لتنفيذه الحصول على قرار للمصادقة عليه من المحكمة.",
+    "official_text_en": "Arbitral Awards rendered in accordance with the provisions of the present Law shall be binding to all the parties and shall have the authority of the res judicata. Further, it shall have the same self-executing force as if it were a judgment. However, to enforce such awards, a decision to confirm it shall be obtained from the court.",
+    "quote": {
+     "status": "differs",
+     "slight": false,
+     "similarity": 0.892,
+     "differences": [
+      {
+       "in_file": "",
+       "official": "ويحوز حجيه الامر المقضي",
+       "kind": "wording"
+      },
+      {
+       "in_file": "بالمصادقه",
+       "official": "للمصادقه",
+       "kind": "reading"
+      },
+      {
+       "in_file": "المحكمه",
+       "official": "",
+       "kind": "wording"
+      }
+     ],
+     "label_en": "The quoted wording differs from the official text: «—» instead of «ويحوز حجيه الامر المقضي»; «بالمصادقه» instead of «للمصادقه»; «المحكمه» instead of «—».",
+     "label_ar": "النص المقتبس يختلف عن النص الرسمي: «—» بدلاً من «ويحوز حجيه الامر المقضي»؛ «بالمصادقه» بدلاً من «للمصادقه»؛ «المحكمه» بدلاً من «—»."
+    }
+   }
+  },
+  {
+   "text_ar": "البند (1) من المادة (55) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "55",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "55",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "55",
+    "status": "valid",
+    "label_en": "Article 55 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (55) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "1. يتعين على من يرغب في تنفيذ حكم التحكيم أن يتقدم بطلب المصادقة على حكم التحكيم والأمر بتنفيذه إلى رئيس المحكمة، على أن يرفق به ما يأتي:\nأ. أصل الحكم أو صورة معتمدة منه.\nب. صورة من اتفاق التحكيم.\nج. ترجمة مصدق عليها من جهة معتمدة إلى اللغة العربية لحكم التحكيم إن لم يكن صادراً بها.\nد. صورة من محضر إيداع الحكم في المحكمة.\n2. على رئيس المحكمة أو من يندبه من قضاتها أن يأمر بالمصادقة على حكم التحكيم وتنفيذه خلال مدة (60) ستين يوماً من تاريخ تقديم طلب المصادقة وتنفيذه ما لم يجد أن هناك سبباً أو أكثر من أسباب بطلان حكم التحكيم بناء على إثبات أي من الحالات الواردة في البند (1) من المادة (53) من هذا القانون.",
+    "official_text_en": "1. The party desiring to enforce the arbitral award shall submit a request for the confirmation of the award and order to enforce thereof to the court, provided that such request is accompanied by the following documents:\na. The original award or a certified true copy thereof;\nb. A copy of the Arbitration Agreement; and\nc. A certified Arabic translation of the arbitral award from an accredited body in case the award was not made in Arabic.\nd. A copy of the transcript of filing the judgment with the Court.\n2. The court's president or his delegate from judges shall confirm and enforce the arbitral award, within a period of (60) sixty days from the day of submission of confirmation decision and enforcement thereof, unless it finds that one or several reasons for annulment of the arbitral award is based on any of the cases contained in Clause (1) of Article (53) of this Law."
+   }
+  },
+  {
+   "text_ar": "المادة (53) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "53",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "53",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "53",
+    "status": "valid",
+    "label_en": "Article 53 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (53) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "1. لا يقبل الاعتراض على حكم التحكيم إلا بموجب رفع دعوى بطلان إلى المحكمة أو أثناء نظر طلب المصادقة على الحكم وعلى طالب البطلان أن يثبت أياً من الأسباب الآتية:\nأ. عدم وجود اتفاق تحكيم أو أن الاتفاق كان باطلاً أو سقطت مدته وفق القانون الذي أخضعه له الأطراف أو وفقاً لهذا القانون وذلك في حالة عدم وجود إشارة إلى قانون معين.\nب. أن أحد الأطراف كان وقت إبرام اتفاق التحكيم فاقد الأهلية أو ناقصها وفقاً للقانون الذي يحكم أهليته.\nج. عدم امتلاك الشخص أهلية التصرف في الحق المتنازع بشأنه وفقاً للقانون الذي يحكم أهليته والمنصوص عليه في المادة (4) من هذا القانون.\nد. إذا تعذر على أحد أطراف التحكيم تقديم دفاعه بسبب عدم إعلانه إعلاناً صحيحا بتعيين محكم أو بإجراءات التحكيم أو نتيجة إخلال هيئة التحكيم بأسس التقاضي أو لأي سبب آخر خارج عن إرادته.\nه. إذا استبعد حكم التحكيم تطبيق القانون الذي اتفق الأطراف على تطبيقه على موضوع النزاع.\nو. إذا تم تشكيل هيئة التحكيم أو تعيين أحد المحكمين على وجه مخالف لأحكام هذا القانون أو لاتفاق الأطراف.\nز. إذا كانت إجراءات التحكيم باطلة بطلاناً أثر في الحكم أو صدر حكم التحكيم بعد انتهاء المدة المقررة له.\nح. إذا كان حكم التحكيم قد فصل في مسائل لم يشملها اتفاق التحكيم أو جاوز حدود هذا الاتفاق، ومع ذلك إذا كان من الممكن فصل أجزاء الحكم الخاصة بالمسائل الخاضعة للتحكيم عن أجزائه الخاصة بالمسائل غير الخاضعة له، فلا يقع البطلان إلا على الأجزاء الأخيرة وحدها.\n2. تحكم المحكمة ببطلان حكم التحكيم من تلقاء نفسها إذا وجدت أياً مما يأتي:\nأ. أن موضوع النزاع يعد من المسائل التي لا يجوز التحكيم فيها.\nب. مخالفة حكم التحكيم للنظام العام والآداب العامة بالدولة.",
+    "official_text_en": "1. Arbitral awards shall not be challenged except by instituting an action for annulment or during the consideration of the confirmation decision. The party requesting the annulment of the arbitral award shall prove the existence of any of the following reasons:\na. Absence of an Arbitration Agreement, or the Agreement is void, or terminated due to expiry of its term in accordance with the law to which the Agreement is subject by the parties or in accordance with this Law if there is no reference to a specific law;\nb. One of the parties, at the time of enforcement thereof, lacks capacity or of diminished capacity in accordance with the law which governs its capacity;\nc. The person lacked the legal capacity to take any action regarding the right, the subject matter of dispute, in accordance with the law governing his capacity, which is stipulated in Article (4) of this Law.\nd. If one of the parties to the Arbitration is unable to present its case as a result of not being given proper notice of the appointment of an Arbitrator or of the arbitral proceedings, the Arbitral Tribunal's violation of the litigation principles or for any other reason beyond its control;\ne. If the arbitral award fails to apply the law agreed upon by the parties to govern the subject matter of the dispute;\nf. If the composition of the Arbitral Tribunal or the appointment of one of the Arbitrators is in conflict with the provisions of this Law or the agreement of the parties;\ng. If the arbitral proceedings are invalid to the effect that impairs the award; or if the award is rendered after the due time limit; or\nh. If the arbitral award deals with matters not falling within the scope of the Arbitration Agreement or exceeding the limits of this agreement. Nevertheless, when matters falling within the scope of the Arbitration can be separated from the parts of the award which contains matters not included within the scope of the Arbitration, the nullity affects exclusively the latter parts only.\n2. The court shall invalidate the arbitral award on its own if it finds out the following:\na. The subject matter of the dispute is a matter in which Arbitration may not be held; or\nb. The arbitral award contradicts the public order and morality in the State."
+   }
+  },
+  {
+   "text_ar": "المادة (57) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. (6) of 2018 on Arbitration",
+   "article": "57",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "57",
+   "check": {
+    "law_id": "uae-fl-6-2018-arbitration-law",
+    "law_title_en": "Federal Law No. 6 of 2018 (Arbitration Law)",
+    "law_title_ar": "قانون اتحادي رقم (6) لسنة 2018 (قانون التحكيم)",
+    "article_count": 62,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1069",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1069",
+    "article": "57",
+    "status": "valid",
+    "label_en": "Article 57 of the Arbitration Law exists in the official text.",
+    "label_ar": "المادة (57) من قانون التحكيم موجودة في النص الرسمي.",
+    "official_text_ar": "يجوز التظلم من قرار المحكمة الصادر بالأمر بتنفيذ حكم التحكيم أو برفض تنفيذه وذلك أمام محكمة الاستئناف المختصة خلال (30) ثلاثين يوماً من اليوم التالي للإعلان.",
+    "official_text_en": "A grievance may filed before the competent court of appeal against the Court decision ordering the enforcement or rejecting the enforcement of the arbitral award within (30) thirty days following the date of being notified thereof."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.72062,
+    0.83517,
+    0.90812,
+    0.91958
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.7730495929718018,
+   "text_ar": "قلم القيد نموذج تدريبي 20/10/2026",
+   "meaning_en": "Filing clerk stamp recording registration on 20/10/2026 - training model",
+   "meaning_ar": "ختم قلم القيد يفيد قيد الطلب بتاريخ 20/10/2026 - نموذج تدريبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.38312,
+    0.84578,
+    0.68,
+    0.9483
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.941605806350708,
+   "text_ar": "مكتب درة الساحل للمحاماة Durrat Al Sahel Advocates دبي - الإمارات",
+   "meaning_en": "Stamp of claimant law office Durrat Al Sahel Advocates in Dubai",
+   "meaning_ar": "ختم مكتب درة الساحل للمحاماة والاستشارات القانونية في دبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.1525,
+    0.87008,
+    0.34437,
+    0.91781
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8827838897705078,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant counsel",
+   "meaning_ar": "توقيع وكيلة الطالبة المحامية ريم ماجد الشحي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.7125,
+    0.76536,
+    0.87062,
+    0.80954
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8439024686813354,
+   "text_ar": "",
+   "meaning_en": "Signature of arbitration tribunal president",
+   "meaning_ar": "توقيع رئيس هيئة التحكيم د. عادل منصور الحوسني",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "box": [
+    0.41,
+    0.77905,
+    0.62313,
+    0.87539
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.6878048777580261,
+   "text_ar": "مركز الشراع الأبيض للتحكيم نموذج تدريبي دبي",
+   "meaning_en": "Stamp of White Sail Arbitration Centre in Dubai - training model",
+   "meaning_ar": "ختم مركز الشراع الأبيض للتحكيم في دبي - نموذج تدريبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "box": [
+    0.43188,
+    0.76977,
+    0.59688,
+    0.80424
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8083832263946533,
+   "text_ar": "",
+   "meaning_en": "Signature of tribunal member engineer",
+   "meaning_ar": "توقيع عضو هيئة التحكيم المهندس كريم وليد السعدي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M7",
+   "page": 2,
+   "box": [
+    0.13625,
+    0.76138,
+    0.28813,
+    0.8122
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8518518805503845,
+   "text_ar": "",
+   "meaning_en": "Signature of tribunal member lawyer",
+   "meaning_ar": "توقيع عضو هيئة التحكيم المحامي ناصر عيسى البلوشي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M8",
+   "page": 3,
+   "box": [
+    0.37438,
+    0.65223,
+    0.57437,
+    0.73928
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.8400000333786011,
+   "text_ar": "محكمة الاستئناف نموذج تدريبي 26/10/2026",
+   "meaning_en": "Court of Appeal stamp showing order date 26/10/2026 - training model",
+   "meaning_ar": "ختم محكمة الاستئناف يفيد صدور الأمر بتاريخ 26/10/2026 - نموذج تدريبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M9",
+   "page": 3,
+   "box": [
+    0.18812,
+    0.65577,
+    0.36312,
+    0.69996
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7419355511665344,
+   "text_ar": "",
+   "meaning_en": "Signature of delegated judge",
+   "meaning_ar": "توقيع القاضي سعيد عبيد الرميثي المنتدب من رئيس المحكمة",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 3,
+   "box": [
+    0.4,
+    0.82,
+    0.86,
+    0.88
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "قيد ملف التنفيذ رقم 752 / 2026 تنفيذ تجاري بتاريخ 28/10/2026",
+   "meaning_en": "Handwritten note recording registration of commercial enforcement file 752/2026 on 28/10/2026",
+   "meaning_ar": "ملاحظة بخط اليد تفيد قيد ملف التنفيذ رقم 752/2026 تنفيذ تجاري بتاريخ 28/10/2026",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Quote of article 52 on page 3: The quoted wording differs from the official text: «—» instead of «ويحوز حجيه الامر المقضي»; «بالمصادقه» instead of «للمصادقه»; «المحكمه» instead of «—».",
+   "flag_ar": "النص المقتبس يختلف عن النص الرسمي: «—» بدلاً من «ويحوز حجيه الامر المقضي»؛ «بالمصادقه» بدلاً من «للمصادقه»؛ «المحكمه» بدلاً من «—».",
+   "page": 3,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-28 (Date of registration of commercial enforcement file) appears only in a handwritten note on page 3.",
+   "flag_ar": "التاريخ 2026-10-28 (تاريخ قيد ملف التنفيذ التجاري) وارد فقط في ملاحظة بخط اليد في الصفحة 3.",
+   "page": 3,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Footer on each page states this is a fictional test document, not a real case",
+   "flag_ar": "تذييل كل صفحة يذكر أن الوثيقة خيالية لأغراض الاختبار فقط وليست قضية حقيقية",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Trade licence numbers and PO box shown as zeros, appear to be fictional or redacted placeholders",
+   "flag_ar": "أرقام الرخص التجارية وصندوق البريد واردة كأصفار (000000 و00000) وتبدو بيانات افتراضية أو منقحة",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  }
+ ]
+}

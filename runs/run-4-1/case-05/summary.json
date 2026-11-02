@@ -1,0 +1,735 @@
+{
+ "case": "case-05",
+ "source_file": "case-05-cheques.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T10:57:05Z",
+  "finished": "2026-11-02T10:58:09Z",
+  "seconds": 64.2,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Wamdat Al Noor v Aamidet Al Shurooq — bounced cheques claim (AED 297,750)",
+ "title_ar": "شركة ومضة النور ضد شركة أعمدة الشروق — مطالبة بقيمة شيكات مرتجعة (297,750 درهم)",
+ "case_type": "commercial",
+ "summary_en": "Wamdat Al Noor alleges Aamidet Al Shurooq issued it three cheques under a supply agreement dated 10/02/2026 drawn on Al Kuthban National Bank totalling AED 297,750 which were dishonoured (two for insufficient funds, one for signature mismatch) per the bank certificate dated 03/09/2026. On 09/09/2026 in Request No. 412/2026 the Urgent Matters Judge ordered precautionary attachment of the debtor's bank balances up to that amount and ordered the creditor to file a substantive claim within 8 days. The creditor filed this commercial action dated 14/09/2026 (filed 15/09/2026) before Sharjah Federal Court of First Instance seeking validation of the attachment, payment with 5% interest, and fees and attorney's fees.",
+ "summary_ar": "تدعي شركة ومضة النور أن شركة أعمدة الشروق حررت لها بموجب اتفاقية توريد مؤرخة 10/02/2026 ثلاثة شيكات على مصرف الكثبان الوطني بمجموع 297,750 درهم ارتدت دون صرف (شيكان لعدم كفاية الرصيد وواحد لعدم مطابقة التوقيع) وفق إفادة المصرف المؤرخة 03/09/2026. وصدر بتاريخ 09/09/2026 في الطلب رقم 412/2026 أمر بتوقيع الحجز التحفظي على أرصدة المدينة في حدود المبلغ مع تكليف الدائنة برفع دعوى ثبوت الحق خلال 8 أيام. وأقامت الدائنة بتاريخ 14/09/2026 (قيد 15/09/2026) هذه الدعوى التجارية أمام محكمة الشارقة الاتحادية الابتدائية طالبة تثبيت الحجز وإلزام المدينة بالمبلغ والفائدة 5% والرسوم وأتعاب المحاماة.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Commercial statement of claim",
+   "document_ar": "صحيفة دعوى تجارية"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Cheque return certificate",
+   "document_ar": "إفادة بارتجاع شيكات"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Decision on precautionary attachment request",
+   "document_ar": "قرار في طلب حجز تحفظي"
+  }
+ ],
+ "court": {
+  "name_en": "Sharjah Federal Court of First Instance",
+  "name_ar": "محكمة الشارقة الاتحادية الابتدائية",
+  "case_number": "412/2026",
+  "case_number_source": "printed",
+  "pages": [
+   1,
+   3
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "شركة ومضة النور لتوريد المعدات الكهربائية ذ.م.م.",
+   "name_en": "Wamdat Al Noor for Electrical Equipment Supply LLC",
+   "details_en": "Commercial licence No. 000000, Sharjah; payee/holder of three cheques; applicant in attachment Request No. 412/2026",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "شركة أعمدة الشروق للمقاولات ذ.م.م.",
+   "name_en": "Aamidet Al Shurooq Contracting LLC",
+   "details_en": "Sharjah, Al Sajaa Industrial Area; drawer of cheques, account No. 000-000000-0000 at Al Sajaa branch; represented by its manager Ammar Salim Al-Qubani",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant_representative",
+   "role_en": "Defendant's representative / Manager",
+   "role_ar": "ممثل المدعى عليها / مديرها",
+   "name_ar": "عمار سليم القباني",
+   "name_en": "Ammar Salim Al-Qubani",
+   "details_en": "Manager and representative of defendant company as stated in claim sheet",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's agent - Lawyer",
+   "role_ar": "وكيل المدعية – المحامي",
+   "name_ar": "ماجد عيسى البلوشي",
+   "name_en": "Majed Issa Al Balushi",
+   "details_en": "Counsel for claimant in claim sheet and attachment request",
+   "pages": [
+    1,
+    3
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Urgent Matters Judge",
+   "role_ar": "قاضي الأمور المستعجلة",
+   "name_ar": "سعيد مبارك الطنيجي",
+   "name_en": "Saeed Mubarak Al Tunaiji",
+   "details_en": "Urgent Matters Judge - Orders on Petitions, Sharjah Federal Court of First Instance, issued attachment order dated 09/09/2026",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Drawee bank - Certificate issuer",
+   "role_ar": "المصرف المسحوب عليه – مقدم الإفادة",
+   "name_ar": "مصرف الكثبان الوطني (ش.م.ع) – فرع الصجعة – الشارقة",
+   "name_en": "Al Kuthban National Bank PJSC – Al Sajaa Branch – Sharjah",
+   "details_en": "Drawee bank, Al Sajaa branch Sharjah, issuer of return certificate dated 03/09/2026, Ref KNB/CLR/2026/1187",
+   "pages": [
+    1,
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-02-10",
+   "what_en": "Supply agreement date",
+   "what_ar": "تاريخ اتفاقية التوريد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-15",
+   "what_en": "Date and presentation date of cheque No. 000731",
+   "what_ar": "تاريخ الشيك رقم 000731 وتاريخ تقديمه",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-16",
+   "what_en": "Return date of cheque No. 000731",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000731",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-15",
+   "what_en": "Date and presentation date of cheque No. 000732",
+   "what_ar": "تاريخ الشيك رقم 000732 وتاريخ تقديمه",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-16",
+   "what_en": "Return date of cheque No. 000732",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000732",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-15",
+   "what_en": "Date of cheque No. 000733",
+   "what_ar": "تاريخ الشيك رقم 000733",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-17",
+   "what_en": "Presentation date of cheque No. 000733",
+   "what_ar": "تاريخ تقديم الشيك رقم 000733",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-18",
+   "what_en": "Return date of cheque No. 000733",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000733",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Date of Al Kuthban National Bank cheque-return certificate",
+   "what_ar": "تاريخ إفادة مصرف الكثبان الوطني بارتجاع الشيكات",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-07",
+   "what_en": "Filing date of precautionary attachment Request No. 412/2026",
+   "what_ar": "تاريخ تقديم طلب الحجز التحفظي رقم 412/2026",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-09",
+   "what_en": "Date of precautionary attachment order",
+   "what_ar": "تاريخ قرار توقيع الحجز التحفظي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-14",
+   "what_en": "Date of commercial statement of claim (law firm date)",
+   "what_ar": "تاريخ صحيفة الدعوى التجارية (تاريخ مكتب المحاماة)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Case filing clerk stamp date",
+   "what_ar": "تاريخ ختم قلم قيد الدعاوى",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "what_en": "Deadline to file substantive claim (8 days from attachment order)",
+   "what_ar": "آخر ميعاد لرفع دعوى ثبوت الحق (8 أيام من صدور قرار الحجز)",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-09-17",
+   "time": "",
+   "who_en": "Applicant (claimant)",
+   "what_en": "File substantive claim to confirm the right, otherwise attachment deemed void",
+   "what_ar": "رفع دعوى ثبوت الحق وإلا اعتبر الحجز كأن لم يكن",
+   "page": 3,
+   "computed": true,
+   "basis_en": "8 days from attachment order date 2026-09-09 per handwritten order on page 3",
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Value of three returned cheques (000731, 000732, 000733)",
+   "item_ar": "قيمة الشيكات الثلاثة المرتجعة (000731 و000732 و000733)",
+   "has_amount": true,
+   "amount_aed": 297750.0,
+   "page": 1
+  },
+  {
+   "item_en": "Legal interest at 5% per annum from each cheque's due date",
+   "item_ar": "الفائدة القانونية بواقع 5% سنوياً من تاريخ استحقاق كل شيك",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Court fees, expenses and attorney's fees",
+   "item_ar": "الرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Validation and confirmation of precautionary attachment in Request No. 412/2026",
+   "item_ar": "الحكم بصحة الحجز التحفظي الموقع في الطلب رقم 412/2026 وتثبيته",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Under a supply agreement dated 10/02/2026 the defendant issued three cheques to the claimant drawn on Al Kuthban National Bank totalling AED 297,750",
+   "fact_ar": "بموجب اتفاقية توريد مؤرخة 10/02/2026 حررت المدعى عليها ثلاثة شيكات للمدعية على مصرف الكثبان الوطني بمبلغ إجمالي 297,750 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque 000731 dated 15/06/2026 for AED 96,400 returned for insufficient funds, cheque 000732 dated 15/07/2026 for AED 112,750 returned for insufficient funds, cheque 000733 dated 15/08/2026 for AED 88,600 returned for signature mismatch",
+   "fact_ar": "الشيك 000731 بتاريخ 15/06/2026 بمبلغ 96,400 درهم أعيد لعدم كفاية الرصيد، والشيك 000732 بتاريخ 15/07/2026 بمبلغ 112,750 درهم أعيد لعدم كفاية الرصيد، والشيك 000733 بتاريخ 15/08/2026 بمبلغ 88,600 درهم أعيد لعدم مطابقة التوقيع",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "The bank certified the dated return statement on each cheque, cheques were presented via electronic clearing, and the Central Bank was notified of the account holder data for the two cheques returned for insufficient funds",
+   "fact_ar": "أثبت المصرف بيان الارتجاع مؤرخاً على كل شيك، وقدمت الشيكات عبر غرفة المقاصة الإلكترونية، وأخطر المصرف المركزي ببيانات صاحب الحساب عن الشيكين المرجعين لعدم كفاية الرصيد",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "On 09/09/2026 the Urgent Matters Judge in Request No. 412/2026 ordered precautionary attachment of the respondent's balances with banks operating in the State up to AED 297,750",
+   "fact_ar": "بتاريخ 09/09/2026 قرر قاضي الأمور المستعجلة في الطلب رقم 412/2026 توقيع الحجز التحفظي على أرصدة المطلوب ضدها لدى المصارف العاملة في الدولة في حدود مبلغ 297,750 درهم",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "المادة (648) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "648",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "648",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "648",
+    "status": "valid",
+    "label_en": "Article 648 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (648) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. يكون الشيك مستحق الوفاء في اليوم المبين فيه كتاريخ لإصداره، ولا يجوز تقديم الشيك للوفاء قبل ذلك التاريخ.\n2. إذا كان مقابل الوفاء أقل من مبلغ الشيك، فعلى المسحوب عليه الوفاء الجزئي بالقدر الموجود لديه ما لم يرفض الحامل ذلك، وعلى المسحوب عليه في حال الوفاء الجزئي أن يؤشر عند كل وفاء جزئي على ظهر الشيك بما يفيد ذلك وأن يسلم الحامل أصل الشيك وشهادة بهذا الوفاء، ويثبت للحامل حق الرجوع بالباقي بأصل الشيك المؤشر عليه وفقاً للمادة (667) من هذا القانون، أو بعمل احتجاج بعد انقضاء المدد المنصوص عليها في المادتين (663) من هذا القانون.\n3. على المسحوب عليه إخطار المصرف المركزي عن بيانات صاحب الحساب، وفقاً للأنظمة والقواعد التي يصدرها المصرف المركزي في هذا الشأن، في أي من الحالات الآتية:\nأ. إذا كان الشيك ليس له مقابل وفاء كاف قائم وقابل للسحب في تاريخ استحقاقه.\nب. إذا استرد الساحب بعد إصداره الشيك كل مقابل الوفاء به بحيث لا يمكن صرفه.\nج. إذا قام المسحوب عليه بالوفاء الجزئي للشيك وفقاً للبند (2) من هذه المادة.",
+    "official_text_en": "1. The Cheque shall be due for payment on the day indicated as the date of its issuance, and the Cheque may not be presented for payment before such date.\n2. If the funds for payment is less than the value of the Cheque, the Drawee shall pay it partially up to the sum available to them, unless the Bearer refuses the same. In the event of partial payment, the Drawee shall make an annotation, every time a partial payment is made, on the back of the Cheque indicating the same, and shall hand over to the Bearer the original Cheque and a certificate of such payment. The Bearer's right to claim the remainder is established by the original cheque marked in accordance with Article (667) of this Law, or by filing a protest after the expiration of the deadlines stipulated in Article (663) of this Law.\n3. The Drawee shall notify the Central Bank of the account holder's data, in accordance with the rules and regulations issued by the Central Bank in this regard, in any of the following cases:\na. If the Cheque does not have an adequate amount of funds for payment that is current and subject to withdrawal on its maturity date.\nb. If the Drawer, after issuing the Cheque, recovers all funds for payment so that the Cheque cannot be cashed.\nc. If the Drawee partially pays the Cheque in accordance with Clause (2) of this Article."
+   }
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "663",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "663",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "663",
+    "status": "valid",
+    "label_en": "Article 663 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (663) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. لحامل الشيك الرجوع على الساحب والمظهرين وغيرهم من الملتزمين به إذا قدمه في الميعاد القانوني ولم تدفع قيمته وأثبت الامتناع عن الدفع باحتجاج، ويجوز عوضاً عن الاحتجاج إثبات الامتناع عن الدفع ببيان صادر من المسحوب عليه مع ذكر يوم تقديم الشيك، ويجب أن يكون البيان مؤرخاً ومكتوباً على الشيك ذاته.\n2. لا يجوز الامتناع عن وضع البيان المذكور في البند (1) من هذه المادة على الشيك إذا طلبه الحامل ولو كان الشيك يتضمن شرط الرجوع بلا مصاريف، وإنما يجوز للملتزم بوضعه طلب مهلة لا تجاوز (3) ثلاثة أيام عمل تالية لتقديم الشيك ولو قدم في اليوم الأخير من ميعاد التقديم.",
+    "official_text_en": "1. The Bearer of the Cheque may have recourse against the Drawer, the Endorsers and others obligated by it if the Bearer presented it within the legal time limit and its value was not paid and the proves the refusal to pay by making a protest. Alternatively, refusal to pay may be proven by a statement issued by the Drawee mentioning the day the Cheque was presented, and the statement must be dated and written on the same Cheque.\n2. It is not permissible to refuse to place the statement mentioned in Clause (1) of this Article on the Cheque if the same is requested by the Bearer, even if the Cheque includes a condition of recourse without expenses. The person who is required to place it may request a grace period not exceeding (3) three working days following the presentation of the Cheque, even if it was presented on the last day of the prescribed time limit."
+   }
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "663",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "664",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "664",
+    "status": "valid",
+    "label_en": "Article 664 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (664) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يجب إثبات الامتناع عن الدفع بالكيفية المنصوص عليها في البند (1) من المادة (663) من هذا القانون قبل انقضاء ميعاد التقديم، فإذا وقع التقديم في آخر يوم من هذا الميعاد جاز إثبات الامتناع عن الدفع في يوم العمل التالي له.",
+    "official_text_en": "Refusal to pay must be established in the manner stipulated in Clause (1) of Article (663) of this Law before the deadline for submission expires. If the submission takes place on the last day of such deadline, refusal to pay may be proven on the next working day."
+   }
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "663",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "665",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "665",
+    "status": "valid",
+    "label_en": "Article 665 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (665) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يحتفظ الحامل بحقه في الرجوع على الساحب ولو لم يقدم الشيك إلى المسحوب عليه أو لم يقم بعمل الاحتجاج أو ما يقوم مقامه في الميعاد القانوني، إلا إذا كان الساحب قدم مقابل الوفاء وبقي هذا المقابل موجوداً عند المسحوب عليه حتى انقضاء ميعاد تقديم الشيك، ثم زال المقابل بفعل غير منسوب إلى الساحب.",
+    "official_text_en": "The Bearer of the Cheque reserves the right to have recourse against the Drawer even if they did not present the Cheque to the Drawee or did not make a protest or did not take an action to the same effect within the legal time limit, unless the Drawer provided funds for payment and such funds for payment remained with the Drawee until the expiry of the time limit for presenting the Cheque, then such funds for payment disappeared due to an act not attributed to the Drawer."
+   }
+  },
+  {
+   "text_ar": "المادة (247) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Civil Procedure Law",
+   "article": "247",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "247",
+   "check": {
+    "law_id": "uae-fdl-42-2022-civil-procedure",
+    "law_title_en": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Code)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (42) لسنة 2022 (قانون الإجراءات المدنية)",
+    "article_count": 338,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1602",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1602",
+    "article": "247",
+    "status": "valid",
+    "label_en": "Article 247 of the Civil Procedure Law exists in the official text.",
+    "label_ar": "المادة (247) من قانون الإجراءات المدنية موجودة في النص الرسمي.",
+    "official_text_ar": "مع عدم الإخلال بما ينص عليه أي تشريع آخر، يجوز للدائن أن يطلب من المحكمة التي تنظر الدعوى أو من قاضي الأمور المستعجلة بصفة وقتية حسب الأحوال توقيع الحجز التحفظي على عقارات ومنقولات خصمه في أيٍّ من الأحوال الآتية:-\n1. كل حالة يخشى فيها فقدانه لضمان حقه، كالحالات الآتية:-\nأ. إذا لم يكن للمدين إقامة مستقرة في الدولة.\nب. إذا خشي الدائن فرار مدينه أو تهريب أمواله أو إخفاءها وكان ذلك بوجود دلائل جدية.\nج. إذا كانت تأمينات الدين مهددة بالضياع.\n2. لمؤجر العقار في مواجهة المستأجر الأصلي والمستأجر من الباطن على المنقولات والثمرات والمحصولات الموجودة بالعين المؤجرة وذلك ضمانًا لحق الامتياز المقرر له قانونًا ويجوز له ذلك أيضًا إذا كانت المنقولات والثمرات والمحصولات قد نقلت على غير علم منه ما لم يكن قد مضى على نقلها (30) ثلاثون يومًا أو بقيت في العين المؤجرة أموال كافية لضمان حق الامتياز المقرر له.\n3. إذا كان الدائن حاملاً لسند رسمي أو سند عادي بدين مستحق الأداء وغير معلق على شرط، أو إذا كان بيده حكم غير واجب النفاذ متى كان الدين الثابت به معين المقدار.\n4. للعامل عند تعذر التسوية بشأن مستحقاته التي حددها القانون المنظم للعلاقة بينهما، وذلك ضمانًا للوفاء بمستحقاته بعد تقديرها مؤقتًا من قبل الجهة الإدارية المختصة.\n5. في جميع الأحوال يجوز للمحكمة قبل الاستجابة لطلب الحجز أن تطلب أية بيانات أو بينات أو إقرارات مشفوعة باليمين أو تجري تحقيقًا مختصرًا أو تأمر بإجراء التحريات اللازمة بمعاونة الجهات الإدارية المختصة متى رأت ضرورة لذلك.",
+    "official_text_en": "Without prejudice to the provisions of any other law, the Creditor may apply to the Court hearing the action or to the Judge for expedited matters, as the case may be, for the imposition of a Prejudgment Attachment over the real property and movable property of their opponent in the following circumstances:\n1. Any circumstance in which it is feared that they may lose the security for their right, such as the following circumstances:\na. If the Debtor has no permanent residence in the State;\nb. If the Creditor, based on serious evidence, fears that their Obligor may abscond, or remove or conceal their assets;\nc. If the securities for the debt are threatened with loss.\n2. A lessor of real property may, in relation to a sub-tenant, attach the movable property, yield and produce present on the real property leased, by way of security for the priority right vested in them by law, and they may likewise do so if the movable property, yield and produce have been removed without their knowledge, unless thirty days have elapsed since the removal thereof or there remain on the real property leased sufficient assets to secure the priority right vested in them.\n3. If the Creditor holds an official or ordinary document showing the debt due to them, not being subject to a condition or if they have a judgment that is not enforceable provided that the debt in question has a specific amount.\n4. For the worker when it is not possible to settle their entitlements as determined by the law regulating the relationship between them, in order to guarantee the fulfillment of their entitlements after being temporarily assessed by the competent administrative authority.\n5. In any event, the Court may, before granting the application for attachment, request any details or evidence or statements under oath, conduct a brief investigation, or order the necessary investigations to be made with the assistance of the competent administrative authorities if it so deems necessary."
+   }
+  },
+  {
+   "text_ar": "المادة (250) من القانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Civil Procedure Law",
+   "article": "250",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "250",
+   "check": {
+    "law_id": "uae-fdl-42-2022-civil-procedure",
+    "law_title_en": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Code)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (42) لسنة 2022 (قانون الإجراءات المدنية)",
+    "article_count": 338,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1602",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1602",
+    "article": "250",
+    "status": "valid",
+    "label_en": "Article 250 of the Civil Procedure Law exists in the official text.",
+    "label_ar": "المادة (250) من قانون الإجراءات المدنية موجودة في النص الرسمي.",
+    "official_text_ar": "1. يتبع في الحجز التحفظي على المنقولات القواعد والإجراءات المنصوص عليها في المواد من (264) إلى (282) من هذا القانون عدا ما يتعلق منها بتحديد يوم البيع إلا إذا كانت هذه المنقولات عرضة للتلف فيراعى نص البند (2) من المادة (273) من هذا القانون، ويتبع في الحجز التحفظي على العقارات القواعد والإجراءات المنصوص عليها في المواد من (285) إلى (305) من هذا القانون عدا ما يتعلق منها بتقديم السند التنفيذي وإجراءات البيع بالمزاد.\n2. يجب على الحاجز خلال (8) ثمانية أيام من تاريخ صدور قرار الحجز أن يرفع أمام المحكمة المختصة الدعوى بثبوت الحق، وذلك في الأحوال التي يكون فيها الحجز بأمر من قاضي الأمور المستعجلة وإلا اعتبر الحجز كأن لم يكن. ويعتبر الحجز كذلك كأن لم يكن إذا لم يبدأ في تنفيذ الحكم النهائي الصادر لصالحه خلال (30) ثلاثين يومًا من تاريخ صيرورته نهائيًّا.\n3. لمن صدر الأمر برفض طلبه وللمحجوز عليه ولذوي الشأن أن يتظلم من أمر الحجز أمام قاضي الأمور المستعجلة أو أمام المحكمة المختصة -بحسب الأحوال- سواءً كان التظلم في موضوع الحجز أو مواعيده، وفي جميع الأحوال ينقضي الحجز إذا صدر حكم نهائي برفض دعوى ثبوت الحق.\n4. إذا صدر حكم برفض التظلم وكان واجب التنفيذ أو صار كذلك تتبع الإجراءات المقررة للبيع في المواد من (264) إلى (282) ومن (285) إلى (305) من هذا القانون، بحسب الأحوال أو يجري التنفيذ بتسليم المنقول في الحالة المشار إليها في المادة (248) من هذا القانون.\n5. تبقى إجراءات الحجز التي اتخذت بموجب حكم أو قرار واجب النفاذ سارية ما لم يكن الحكم أو القرار الصادر بإلغائها أصبح نهائيًّا.",
+    "official_text_en": "1. The rules and procedures laid down in Articles [264] to [282] of this Code shall apply in the Prejudgment attachment of movable property, with the exception of those related to the fixing of the date for sale, unless such property is perishable, and regard shall be had to Clause (2) of Article [273] of this Code. In the case of a Prejudgment Attachment over real property, the rules and procedures provided for in Articles [285] to [305] of this Code shall apply with the exception of those related to the submission of the Execution Writ and the procedures for sale by auction.\n2. The Judgment Creditor shall, within (8) eight days at the most from the date of issuance of the attachment decision, bring a claim before the competent Court for the confirmation of their right, in cases in which the attachment was by order of the Judge for expedited matters, failing which the attachment shall be void ab initio. The attachment shall also be deemed null and void if the execution of the final judgment issued in their favour does not start within (30) thirty days from the date of its becoming final.\n3. The person whose request is rejected, and the Judgment Debtor and the concerned parties may appeal against the attachment order before the Judge of summary matters or before the competent Court - as the case may be - whether the grievance is related to the subject of the attachment or its timing. In all cases, the attachment expires if a final judgment is issued rejecting the claim of establishing the right.\n4. If a ruling is issued rejecting the grievance and it is due to be executed or has become so, the procedures prescribed for sale in Articles [264] to [282] and [285] to [305] of this Code shall be followed, as the case may be, or execution shall be carried out by handing over the movable in the case referred to in Article [248] of this Code.\n5. The attachment procedures taken under an enforceable judgment or decision shall remain valid unless the judgment or decision issued to cancel them has become final."
+   }
+  },
+  {
+   "text_ar": "المادة (350) من قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Civil Procedure Law",
+   "article": "350",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "350",
+   "check": {
+    "law_id": "uae-fdl-42-2022-civil-procedure",
+    "law_title_en": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Code)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (42) لسنة 2022 (قانون الإجراءات المدنية)",
+    "article_count": 338,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1602",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1602",
+    "article": "350",
+    "status": "invalid",
+    "label_en": "Article 350 does not exist in the Civil Procedure Law: the official text has 338 articles.",
+    "label_ar": "المادة (350) غير موجودة في قانون الإجراءات المدنية، إذ يتكون النص الرسمي من 338 مادة."
+   }
+  },
+  {
+   "text_ar": "المادة (249) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Civil Procedure Law",
+   "article": "249",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "249",
+   "check": {
+    "law_id": "uae-fdl-42-2022-civil-procedure",
+    "law_title_en": "Federal Decree-Law No. 42 of 2022 (Civil Procedure Code)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (42) لسنة 2022 (قانون الإجراءات المدنية)",
+    "article_count": 338,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1602",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1602",
+    "article": "249",
+    "status": "valid",
+    "label_en": "Article 249 of the Civil Procedure Law exists in the official text.",
+    "label_ar": "المادة (249) من قانون الإجراءات المدنية موجودة في النص الرسمي.",
+    "official_text_ar": "1. إذا لم يكن بيد الدائن سند تنفيذي أو كان دينه معين المقدار، جاز لقاضي الأمور المستعجلة أن يأمر بالحجز ويقدر دين الحاجز تقديرًا مؤقتًا وذلك بناءً على عريضة مسببة يقدمها طالب الحجز، وللقاضي قبل إصدار الأمر أن يجري تحقيقًا مختصرًا إذا لم تكن المستندات المؤيدة للطلب كافية.\n2. يجب في حالة الحجز على عقار أن يقدم مع العريضة صورة رسمية من سند ملكية ذلك العقار المطلوب الحجز عليه.\n3. إذا كانت الدعوى مرفوعة بالحق من قبل أمام المحكمة المختصة جاز طلب الأمر بالحجز المشار إليه في البند (1) من هذه المادة من المحكمة التي تنظر الدعوى.",
+    "official_text_en": "1. If the Creditor does not have an Execution Writ or if their debt is not of a determined amount, the Judge for expedited matters may order an attachment, and provisionally determine the debt owing to the Judgment Creditor, on the basis of a petition accompanied by reasons submitted by the applicant for attachment, and the Judge may, before issuing the order, conduct a brief investigation if the documents accompanying the application are not sufficient.\n2. In case of attaching a real property the petition shall be submitted with an official copy of the deed of ownership of the property to be attached.\n3. If the claim in respect of the right has previously been brought before the competent Court, an attachment order referred to in Clause (1) of this Article may be applied for before the Court considering the action."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.07062,
+    0.10517,
+    0.28313,
+    0.18515
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.6289855241775513,
+   "text_ar": "قلم قيد الدعاوى نموذج تدريبي 15/09/2026",
+   "meaning_en": "Case filing clerk stamp dated 15/09/2026 (training template)",
+   "meaning_ar": "ختم قلم قيد الدعاوى بتاريخ 15/09/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.16875,
+    0.86832,
+    0.3675,
+    0.92532
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8518518805503845,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's lawyer Majed Issa Al Balushi",
+   "meaning_ar": "توقيع وكيل المدعية المحامي ماجد عيسى البلوشي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 2,
+   "box": [
+    0.37875,
+    0.67609,
+    0.66187,
+    0.78303
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9336099624633789,
+   "text_ar": "مصرف الكثبان الوطني نموذج تدريبي فرع الصجعة – الشارقة",
+   "meaning_en": "Al Kuthban National Bank stamp, Al Sajaa branch Sharjah (training template)",
+   "meaning_ar": "ختم مصرف الكثبان الوطني فرع الصجعة – الشارقة (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.1525,
+    0.70393,
+    0.32562,
+    0.73531
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7419355511665344,
+   "text_ar": "",
+   "meaning_en": "Signature of bank authorized signatory, Clearing and Operations Department",
+   "meaning_ar": "توقيع المفوض بالتوقيع في قسم المقاصة والعمليات بالمصرف",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "box": [
+    0.42063,
+    0.70835,
+    0.72062,
+    0.80424
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.6246334314346313,
+   "text_ar": "محكمة الشارقة الاتحادية الابتدائية نموذج تدريبي 09/09/2026",
+   "meaning_en": "Sharjah Federal Court of First Instance stamp dated 09/09/2026 (training template)",
+   "meaning_ar": "ختم محكمة الشارقة الاتحادية الابتدائية بتاريخ 09/09/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 3,
+   "box": [
+    0.13,
+    0.72,
+    0.31,
+    0.79
+   ],
+   "type": "signature",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "",
+   "meaning_en": "Signature of Urgent Matters Judge Saeed Mubarak Al Tunaiji",
+   "meaning_ar": "توقيع قاضي الأمور المستعجلة سعيد مبارك الطنيجي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 3,
+   "box": [
+    0.11,
+    0.47,
+    0.89,
+    0.55
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "قررنا: توقيع الحجز التحفظي على أرصدة المطلوب ضدها لدى المصارف العاملة في الدولة في حدود مبلغ 297,750 درهماً، وعلى الطالبة رفع دعوى ثبوت الحق خلال (8) ثمانية أيام من تاريخ صدور هذا القرار وإلا اعتبر الحجز كأن لم يكن.",
+   "meaning_en": "Handwritten operative order granting precautionary attachment and ordering substantive claim within 8 days",
+   "meaning_ar": "منطوق القرار المكتوب بخط اليد بتوقيع الحجز التحفظي والتكليف برفع دعوى ثبوت الحق خلال 8 أيام",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Citation on page 1: Article 350 does not exist in the Civil Procedure Law: the official text has 338 articles.",
+   "flag_ar": "المادة (350) غير موجودة في قانون الإجراءات المدنية، إذ يتكون النص الرسمي من 338 مادة.",
+   "page": 1,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-15 (Case filing clerk stamp date) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-09-15 (تاريخ ختم قلم قيد الدعاوى) وارد فقط في ختم في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-17 (Deadline to file substantive claim (8 days from attachment order)) appears only in a handwritten note on page 3.",
+   "flag_ar": "التاريخ 2026-09-17 (آخر ميعاد لرفع دعوى ثبوت الحق (8 أيام من صدور قرار الحجز)) وارد فقط في ملاحظة بخط اليد في الصفحة 3.",
+   "page": 3,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-17 (File substantive claim to confirm the right, otherwise attachment deemed void) appears only in a handwritten note on page 3.",
+   "flag_ar": "التاريخ 2026-09-17 (رفع دعوى ثبوت الحق وإلا اعتبر الحجز كأن لم يكن) وارد فقط في ملاحظة بخط اليد في الصفحة 3.",
+   "page": 3,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Main commercial action number not shown; only precautionary Request No. 412/2026 and filing stamp dated 15/09/2026 appear",
+   "flag_ar": "رقم الدعوى التجارية الأصلية غير ظاهر؛ الظاهر فقط رقم الطلب التحفظي 412/2026 وختم القيد بتاريخ 15/09/2026",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "All pages bear a footer stating this is a fictional test document, not a real case",
+   "flag_ar": "جميع الصفحات تحمل تذييلاً بأنها وثيقة خيالية لأغراض الاختبار وليست قضية حقيقية",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Operative order on page 3 is handwritten; transcription may involve reading uncertainty",
+   "flag_ar": "منطوق القرار في الصفحة 3 مكتوب بخط اليد وقد يحتمل قراءته بعض الاختلاف",
+   "page": 3,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

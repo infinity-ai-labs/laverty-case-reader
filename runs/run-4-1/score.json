@@ -1,0 +1,1142 @@
+[
+ {
+  "case": "case-01",
+  "mock": false,
+  "parties": {
+   "correct": 6,
+   "total": 6,
+   "found": 6,
+   "misses": []
+  },
+  "dates": {
+   "correct": 9,
+   "total": 9,
+   "found": 10,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "claims": {
+   "correct": 6,
+   "total": 6,
+   "found": 6,
+   "misses": []
+  },
+  "citations": {
+   "correct": 7,
+   "total": 7,
+   "found": 7,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 8,
+   "found": 8,
+   "misses": [
+    "page 1 handwriting: Registry clerk's handwritten case number",
+    "page 3 stamp: Hearings desk stamp (training sample)",
+    "page 3 handwriting: Lawyer's handwritten follow-up note"
+   ],
+   "right_place_any_type": 5,
+   "mean_iou": 0.976
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-02",
+  "mock": false,
+  "parties": {
+   "correct": 2,
+   "total": 5,
+   "found": 3,
+   "misses": [
+    "Tariq Maher Al Suwaidi (claimant_representative): not found",
+    "Al Saqr Al Thahabi Contracting Establishment (defendant): not found",
+    "Rashid Hamad Al Falasi (defendant_representative): not found"
+   ]
+  },
+  "dates": {
+   "correct": 13,
+   "total": 13,
+   "found": 17,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 7,
+   "total": 11,
+   "found": 11,
+   "misses": [
+    "page 1 handwriting: Handwritten note: notice served on the debtor",
+    "page 2 signature: Signature of the claimant's lawyer",
+    "page 2 handwriting: Registry clerk's handwritten hearing date",
+    "page 3 handwriting: Handwritten correction of the balance to 386,500, with initials"
+   ],
+   "right_place_any_type": 7,
+   "mean_iou": 0.966
+  },
+  "handwriting_dates": {
+   "correct": 2,
+   "total": 2
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-03",
+  "mock": false,
+  "parties": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "dates": {
+   "correct": 9,
+   "total": 9,
+   "found": 11,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 6,
+   "total": 8,
+   "found": 8,
+   "misses": [
+    "page 1 handwriting: Centre clerk's handwritten hearing date",
+    "page 2 handwriting: Tenant staff's handwritten receipt note"
+   ],
+   "right_place_any_type": 6,
+   "mean_iou": 0.902
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-04",
+  "mock": false,
+  "parties": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": []
+  },
+  "dates": {
+   "correct": 9,
+   "total": 9,
+   "found": 9,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 2,
+   "found": 1,
+   "misses": [
+    "deadline 2026-09-14 (page 1, Pay the worker's wages and all dues within 14 days of the end of the contract on 31 Aug 2026 (Labour Law Article 53); passed without payment): not found"
+   ]
+  },
+  "claims": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": []
+  },
+  "citations": {
+   "correct": 7,
+   "total": 7,
+   "found": 7,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": [],
+   "right_place_any_type": 5,
+   "mean_iou": 0.922
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 1,
+    "hits": 1,
+    "of": 1
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-05",
+  "mock": false,
+  "parties": {
+   "correct": 5,
+   "total": 6,
+   "found": 6,
+   "misses": [
+    "Al Kuthban National Bank PJSC (other): not found"
+   ]
+  },
+  "dates": {
+   "correct": 13,
+   "total": 13,
+   "found": 14,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 6,
+   "total": 7,
+   "found": 7,
+   "misses": [
+    "page 3 signature: Summary judge's signature"
+   ],
+   "right_place_any_type": 6,
+   "mean_iou": 0.936
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-06",
+  "mock": false,
+  "parties": {
+   "correct": 3,
+   "total": 3,
+   "found": 3,
+   "misses": []
+  },
+  "dates": {
+   "correct": 6,
+   "total": 6,
+   "found": 7,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 3,
+   "found": 2,
+   "misses": [
+    "deadline 2026-10-02 (page 1, Last day to notify the tenant of any change to the lease terms, including the rent: at least 90 days before the lease ends on 31 Dec 2026 (Article 14). The tenant received the notice on 12 Oct 2026, 80 days before expiry, so the notice was late): not found"
+   ]
+  },
+  "claims": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "citations": {
+   "correct": 7,
+   "total": 7,
+   "found": 10,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 6,
+   "total": 7,
+   "found": 7,
+   "misses": [
+    "page 2 handwriting: Tenant staff's handwritten receipt note, with the date the notice was received"
+   ],
+   "right_place_any_type": 6,
+   "mean_iou": 0.983
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-07",
+  "mock": false,
+  "parties": {
+   "correct": 5,
+   "total": 6,
+   "found": 6,
+   "misses": [
+    "Dr Nader Salim Al Khoury (other): found, but role given as expert"
+   ]
+  },
+  "dates": {
+   "correct": 13,
+   "total": 14,
+   "found": 16,
+   "misses": [
+    "date 2026-06-29 (page 1, Claimant discharged from hospital): found on page [3]"
+   ]
+  },
+  "deadlines": {
+   "correct": 0,
+   "total": 0,
+   "found": 0,
+   "misses": []
+  },
+  "claims": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": []
+  },
+  "citations": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 1,
+   "misquotes_total": 1
+  },
+  "marks": {
+   "correct": 7,
+   "total": 8,
+   "found": 8,
+   "misses": [
+    "page 3 handwriting: Doctor's handwritten permanent disability percentage"
+   ],
+   "right_place_any_type": 7,
+   "mean_iou": 0.974
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-08",
+  "mock": false,
+  "parties": {
+   "correct": 7,
+   "total": 8,
+   "found": 7,
+   "misses": [
+    "Al Rukn Al Mateen Auditing (other): not found"
+   ]
+  },
+  "dates": {
+   "correct": 10,
+   "total": 10,
+   "found": 11,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 2,
+   "found": 2,
+   "misses": [
+    "deadline 2026-03-31 (page 3, Prepare the 2025 balance sheet, profit and loss account and annual report within three months of the end of the financial year (Article 87); missed, as the draft reached the auditor only on 11 May 2026): not found"
+   ]
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 9,
+   "total": 9,
+   "found": 9,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 10,
+   "total": 11,
+   "found": 11,
+   "misses": [
+    "page 2 signature: Claimant's signature"
+   ],
+   "right_place_any_type": 10,
+   "mean_iou": 0.922
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 5,
+    "hits": 5,
+    "of": 6
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-09",
+  "mock": false,
+  "parties": {
+   "correct": 3,
+   "total": 4,
+   "found": 4,
+   "misses": [
+    "Wael Fahmy Abdelqader (other): found, but role given as expert"
+   ]
+  },
+  "dates": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "claims": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": []
+  },
+  "citations": {
+   "correct": 6,
+   "total": 6,
+   "found": 6,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 6,
+   "total": 7,
+   "found": 7,
+   "misses": [
+    "page 2 handwriting: Technician's handwritten note of the second repair, with its date"
+   ],
+   "right_place_any_type": 6,
+   "mean_iou": 0.922
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 2
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-10",
+  "mock": false,
+  "parties": {
+   "correct": 7,
+   "total": 7,
+   "found": 7,
+   "misses": []
+  },
+  "dates": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "claims": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": []
+  },
+  "citations": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": [
+    "quote of article 52 (page 3): quote check said differs"
+   ],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 0,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 9,
+   "total": 10,
+   "found": 10,
+   "misses": [
+    "page 3 handwriting: Execution clerk's handwritten note: execution file number and date"
+   ],
+   "right_place_any_type": 9,
+   "mean_iou": 0.955
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 5,
+    "hits": 5,
+    "of": 5
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-11",
+  "mock": false,
+  "parties": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": []
+  },
+  "dates": {
+   "correct": 8,
+   "total": 8,
+   "found": 10,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 6,
+   "found": 6,
+   "misses": [
+    "page 2 handwriting: Handwritten correction of the debt amount to 293,450, with initials"
+   ],
+   "right_place_any_type": 5,
+   "mean_iou": 0.978
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 2
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-12",
+  "mock": false,
+  "parties": {
+   "correct": 2,
+   "total": 4,
+   "found": 3,
+   "misses": [
+    "Ghaymat Al Rayhan Perfumes Trading Est. (defendant): not found",
+    "Faisal Mansour Al Jabri (defendant_representative): not found"
+   ]
+  },
+  "dates": {
+   "correct": 10,
+   "total": 10,
+   "found": 12,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 2,
+   "found": 1,
+   "misses": [
+    "deadline 2026-10-26 (page 1, File the claim on the merits within 20 days of the precautionary order of 6 Oct 2026 (Trademarks Law Art. 47(7)), or the order may be cancelled at the defendant's request; met, the claim was registered on 22 Oct 2026): not found"
+   ]
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 7,
+   "total": 7,
+   "found": 7,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 7,
+   "total": 8,
+   "found": 7,
+   "misses": [
+    "page 2 handwriting: Shop cashier's handwritten receipt number"
+   ],
+   "right_place_any_type": 7,
+   "mean_iou": 0.936
+  },
+  "handwriting_dates": {
+   "correct": 1,
+   "total": 1
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 2
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-13",
+  "mock": false,
+  "parties": {
+   "correct": 3,
+   "total": 7,
+   "found": 6,
+   "misses": [
+    "Al Mirsam Engineering Consultants (other): not found",
+    "Karim Fouad Al Halabi (other): found, but role given as expert",
+    "Nadia Samir Awad (other): found, but role given as expert",
+    "Anas Tariq Al Khatib (other): found, but role given as claimant_representative"
+   ]
+  },
+  "dates": {
+   "correct": 11,
+   "total": 14,
+   "found": 15,
+   "misses": [
+    "date 2026-06-01 (page 1, New Civil Transactions Law (Federal Decree-Law No. 25 of 2025) in force; the 1985 law repealed): not found",
+    "date 2026-09-21 (page 1, Completion certificate issued by the consultant): found on page [2]",
+    "date 2026-09-24 (page 1, Final payment certificate no. 8 issued): found on page [3]"
+   ]
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 4,
+   "found": 4,
+   "misses": [
+    "deadline 2026-10-08 (page 1, Pay the final payment, AED 167,850, within 14 days of the final payment certificate of 24 Sep 2026 (contract clause 9); unpaid): found on page [3]",
+    "deadline 2026-10-21 (page 1, Release the retention, AED 152,650, within 30 days of the completion certificate of 21 Sep 2026 (contract clause 9); unpaid): found on page [3]"
+   ]
+  },
+  "claims": {
+   "correct": 3,
+   "total": 3,
+   "found": 3,
+   "misses": []
+  },
+  "citations": {
+   "correct": 5,
+   "total": 6,
+   "found": 7,
+   "misses": [
+    "البند (1) من المادة (4) منه (page 1): not found"
+   ],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 9,
+   "total": 13,
+   "found": 13,
+   "misses": [
+    "page 1 handwriting: Registry clerk's handwritten hearing date",
+    "page 2 handwriting: Actual completion date, handwritten by the supervising engineer (not printed anywhere)",
+    "page 2 handwriting: Handwritten snag list (three items, to be completed within 14 days)",
+    "page 3 handwriting: Handwritten correction of the retention to 152,650, initialled by the supervising engineer"
+   ],
+   "right_place_any_type": 9,
+   "mean_iou": 0.977
+  },
+  "handwriting_dates": {
+   "correct": 2,
+   "total": 2
+  },
+  "phrases": [
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 5,
+    "hits": 5,
+    "of": 5
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 4,
+    "hits": 4,
+    "of": 4
+   }
+  ]
+ }
+]

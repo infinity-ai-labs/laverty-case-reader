@@ -1,0 +1,749 @@
+{
+ "case": "case-02",
+ "source_file": "case-02-commercial.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T10:52:46Z",
+  "finished": "2026-11-02T10:54:48Z",
+  "seconds": 121.6,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Blue Horizon Building Materials Supply LLC v Golden Falcon Contracting Establishment and its owner Rashid Hamad Al Falasi",
+ "title_ar": "شركة الأفق الأزرق لتوريد مواد البناء ذ.م.م. ضد مؤسسة الصقر الذهبي للمقاولات ومالكها راشد حمد الفلاسي",
+ "case_type": "commercial",
+ "summary_en": "Blue Horizon claims AED 386,500 balance from three building-material invoices totalling AED 506,500 less a AED 120,000 bank payment, after a AED 150,000 cheque bounced for insufficient funds, plus 6% late interest and costs. Notarial notice dated 01/09/2026 was served 03/09/2026, claim dated 05/10/2026 (filed 06/10/2026), hearing set 24/11/2026.",
+ "summary_ar": "تطالب شركة الأفق الأزرق مؤسسة الصقر الذهبي ومالكها بمبلغ (386,500) درهم متبقي من ثلاث فواتير توريد مواد بناء بإجمالي (506,500) درهم بعد خصم تحويل بنكي (120,000) درهم، بعد ارتداد شيك (150,000) درهم لعدم كفاية الرصيد، مع فائدة تأخيرية 6% والرسوم والمصروفات. أنذرت عن طريق الكاتب العدل بتاريخ 01/09/2026 وتسلمت بتاريخ 03/09/2026 ثم أقامت الدعوى بتاريخ 05/10/2026 (قيدت 06/10/2026) وحددت جلسة 24/11/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Formal notarial notice of payment from Blue Horizon for AED 386,500",
+   "document_ar": "إنذار رسمي بالوفاء من شركة الأفق الأزرق إلى مؤسسة الصقر الذهبي بمبلغ (386,500) درهم"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Commercial statement of claim filed to Dubai Court of First Instance - Commercial Circuits",
+   "document_ar": "صحيفة دعوى تجارية مقدمة إلى محكمة دبي الابتدائية — الدوائر التجارية"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Client account statement up to 30/09/2026",
+   "document_ar": "كشف حساب العميل حتى تاريخ 30/09/2026"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance - Commercial Circuits",
+  "name_ar": "محكمة دبي الابتدائية — الدوائر التجارية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   2
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "شركة الأفق الأزرق لتوريد مواد البناء ذ.م.م.",
+   "name_en": "Blue Horizon Building Materials Supply LLC",
+   "details_en": "Dubai claimant supplier; represented by lawyer Omar Farouk Al Zarouni; General Manager Tariq Maher Al Suwaidi",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "مؤسسة الصقر الذهبي للمقاولات (مؤسسة فردية) ومالكها راشد حمد الفلاسي",
+   "name_en": "Golden Falcon Contracting Establishment (sole proprietorship) and its owner Rashid Hamad Al Falasi",
+   "details_en": "Sole proprietorship and its owner, addressee of supply, notice and claim; Al Khawaneej project",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's agent - Lawyer",
+   "role_ar": "وكيل المدعية – المحامي",
+   "name_ar": "عمر فاروق الزرعوني",
+   "name_en": "Omar Farouk Al Zarouni",
+   "details_en": "Al Zarouni Advocates, counsel for the Claimant, signatory of the claim",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-10",
+   "what_en": "Date of supply agreement between the parties",
+   "what_ar": "تاريخ اتفاقية التوريد المبرمة بين الطرفين",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-03-15",
+   "what_en": "Date of invoice INV-2026-114 for AED 142,000",
+   "what_ar": "تاريخ الفاتورة INV-2026-114 بمبلغ 142,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-14",
+   "what_en": "Due date of invoice INV-2026-114",
+   "what_ar": "تاريخ استحقاق الفاتورة INV-2026-114",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-20",
+   "what_en": "Date of invoice INV-2026-131 for AED 128,500",
+   "what_ar": "تاريخ الفاتورة INV-2026-131 بمبلغ 128,500 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-10",
+   "what_en": "Date of bank transfer payment of AED 120,000",
+   "what_ar": "تاريخ التحويل البنكي المسدد بمبلغ (120,000) درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-20",
+   "what_en": "Due date of invoice INV-2026-131",
+   "what_ar": "تاريخ استحقاق الفاتورة INV-2026-131",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-28",
+   "what_en": "Date of invoice INV-2026-147 for AED 236,000",
+   "what_ar": "تاريخ الفاتورة INV-2026-147 بمبلغ 236,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-27",
+   "what_en": "Due date of invoice INV-2026-147",
+   "what_ar": "تاريخ استحقاق الفاتورة INV-2026-147",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-30",
+   "what_en": "Date written on cheque No. 004512 for AED 150,000",
+   "what_ar": "تاريخ الشيك رقم 004512 المؤرخ بمبلغ (150,000) درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-02",
+   "what_en": "Date cheque was returned unpaid for insufficient funds",
+   "what_ar": "تاريخ ارتداد الشيك دون صرف لعدم كفاية الرصيد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-01",
+   "what_en": "Date of formal notice of payment",
+   "what_ar": "تاريخ الإنذار الرسمي بالوفاء",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-01",
+   "what_en": "Notary stamp date on the notice",
+   "what_ar": "تاريخ ختم الكاتب العدل على الإنذار",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Date notice was served on the addressee per handwritten note",
+   "what_ar": "تاريخ تسليم الإنذار للمنذر إليه حسب الملاحظة اليدوية",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of client account statement up to this date",
+   "what_ar": "تاريخ كشف حساب العميل حتى هذا التاريخ",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Date of commercial statement of claim",
+   "what_ar": "تاريخ صحيفة الدعوى التجارية",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-06",
+   "what_en": "Filing stamp date on the claim",
+   "what_ar": "تاريخ ختم قيد الدعوى",
+   "page": 2,
+   "source": "stamp",
+   "mark_ids": [
+    "M4"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "what_en": "Hearing date set before the Second Plenary Commercial Circuit per handwritten note",
+   "what_ar": "تاريخ الجلسة المحددة أمام الدائرة التجارية الكلية الثانية حسب الملاحظة اليدوية",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-09-18",
+   "time": "",
+   "who_en": "Defendant",
+   "what_en": "Pay the outstanding amount failing which legal proceedings will be taken",
+   "what_ar": "سداد المبلغ المستحق وإلا سنضطر إلى اتخاذ الإجراءات القضائية",
+   "page": 1,
+   "computed": true,
+   "basis_en": "15 days from receipt date 2026-09-03 as stated in the notarial warning on page 1",
+   "source": "computed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "who_en": "Parties (Claimant and Defendant)",
+   "what_en": "Attend the hearing before the Second Plenary Commercial Circuit",
+   "what_ar": "حضور الجلسة أمام الدائرة التجارية الكلية الثانية",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Date written in the handwritten scheduling note",
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Order the Defendant to pay the Claimant AED 386,500",
+   "item_ar": "إلزام المدعى عليها بأن تؤدي للمدعية مبلغ (386,500) درهم",
+   "has_amount": true,
+   "amount_aed": 386500.0,
+   "page": 2
+  },
+  {
+   "item_en": "Late interest at 6% per year from each invoice due date until full payment",
+   "item_ar": "الفائدة التأخيرية بواقع (6%) سنوياً من تاريخ استحقاق كل فاتورة وحتى السداد التام",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  },
+  {
+   "item_en": "Order the Defendant to pay court fees, expenses and attorney fees",
+   "item_ar": "إلزام المدعى عليها بالرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant supplied building materials (rebar and cement) to Defendant's Al Khawaneej project under a 10/01/2026 supply agreement, received without reservation under three invoices totalling AED 506,500.",
+   "fact_ar": "وردت المدعية مواد بناء (حديد تسليح وأسمنت) إلى المدعى عليها بموجب اتفاقية التوريد المؤرخة 10/01/2026 إلى مشروعها في الخوانيج واستلمتها دون تحفظ بموجب ثلاث فواتير بإجمالي (506,500) درهم.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant paid AED 120,000 by bank transfer on 10/05/2026.",
+   "fact_ar": "سددت المدعى عليها مبلغ (120,000) درهم بتحويل بنكي بتاريخ 10/05/2026.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque No. 004512 for AED 150,000 dated 30/06/2026 was returned unpaid on 02/07/2026 for insufficient funds and does not count as payment.",
+   "fact_ar": "الشيك رقم 004512 بمبلغ (150,000) درهم المؤرخ 30/06/2026 ارتد دون صرف بتاريخ 02/07/2026 لعدم كفاية الرصيد ولا يحتسب سداداً.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Remaining balance due is AED 386,500 after deducting the bank payment from the total.",
+   "fact_ar": "المبلغ المستحق المتبقي (386,500) درهم بعد خصم المدفوع البنكي من الإجمالي.",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X4"
+   ]
+  },
+  {
+   "fact_en": "Notice was sent via notary on 01/09/2026 and served on 03/09/2026 demanding payment within 15 days of receipt, which was not paid.",
+   "fact_ar": "وجه الإنذار عن طريق الكاتب العدل بتاريخ 01/09/2026 وتم تسليمه للمنذر إليه بتاريخ 03/09/2026 وطلب السداد خلال (15) يوماً من الاستلام ولم يتم السداد حتى تاريخه.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Parties agreed in clause 9 of the agreement to 6% annual late interest; Claimant does not claim compound interest.",
+   "fact_ar": "اتفق الطرفان في البند (9) من الاتفاقية على فائدة تأخيرية بنسبة (6%) سنوياً ولا تطالب المدعية بفائدة مركبة.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "المادة (81) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "81",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "81",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "81",
+    "status": "valid",
+    "label_en": "Article 81 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (81) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يكون الإعذار أو الإخطار في المسائل التجارية بوساطة الكاتب العدل أو بخطاب مسجل بعلم الوصول أو بأي وسيلة إلكترونية أو ما يقوم مقامها من وسائل التقنية الحديثة التي يصدر بتحديدها قرار من وزير العدل، أو بأية وسيلة يتفق عليها الطرفان.",
+    "official_text_en": "Summons and notices on commercial matters shall be served through the Notary Public, by registered letter with acknowledgement of receipt or any electronic means or similar means of modern means of technology, as identified by a resolution of the Minister of Justice, or by any other method as agreed between the parties."
+   }
+  },
+  {
+   "text_ar": "المادة (73) من قانون المعاملات التجارية الصادر بالمرسوم بقانون اتحادي رقم (50) لسنة 2022",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "73",
+   "clause": "",
+   "quoted_text_ar": "إذا تضمن العقد اتفاقاً على سعر الفائدة، وتأخر المدين في الوفاء، احتسبت الفائدة التأخيرية على أساس السعر المتفق عليه حتى تمام السداد",
+   "page": 2,
+   "article_checked": "73",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "73",
+    "status": "valid",
+    "label_en": "Article 73 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (73) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "إذا تضمن العقد اتفاقاً على سعر الفائدة، وتأخر المدين في الوفاء، احتسبت الفائدة التأخيرية على أساس السعر المتفق عليه حتى تمام السداد.",
+    "official_text_en": "Where the contract stipulates a rate of interest and the debtor delays the repayment, the delay interest shall be calculated on the basis of the agreed rate until full repayment.",
+    "quote": {
+     "status": "matches",
+     "similarity": 1.0,
+     "differences": [],
+     "label_en": "The quoted wording matches the official text word for word.",
+     "label_ar": "النص المقتبس مطابق للنص الرسمي حرفياً."
+    }
+   }
+  },
+  {
+   "text_ar": "المادة (88) من القانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "88",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "88",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "88",
+    "status": "valid",
+    "label_en": "Article 88 of the Commercial Transactions Law exists in the official text.",
+    "label_ar": "المادة (88) من قانون المعاملات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "لا يجوز للدائن المطالبة بفائدة مركبة -وهي الفائدة على متجمد الفوائد- أو المطالبة بتلك الفوائد باعتبارها تعويضاً تكميلياً.",
+    "official_text_en": "A creditor may not claim a compound interest, i.e. the interest on the frozen interests, or claim such interests as a complementary compensation."
+   }
+  },
+  {
+   "text_ar": "المادة (712) من القانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "712",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "712",
+   "check": {
+    "law_id": "uae-fdl-50-2022-commercial-transactions",
+    "law_title_en": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+    "article_count": 684,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1610",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1610",
+    "article": "712",
+    "status": "invalid",
+    "label_en": "Article 712 does not exist in the Commercial Transactions Law: the official text has 684 articles.",
+    "label_ar": "المادة (712) غير موجودة في قانون المعاملات التجارية، إذ يتكون النص الرسمي من 684 مادة."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.07,
+    0.13875,
+    0.25688,
+    0.22492
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.859649121761322,
+   "text_ar": "الكاتب العدل نموذج تدريبي 01/09/2026",
+   "meaning_en": "Purple oval notary training-template stamp dated 01/09/2026 authenticating the notice.",
+   "meaning_ar": "ختم بيضاوي للكاتب العدل (نموذج تدريبي) بتاريخ 01/09/2026 يوثق الإنذار.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.36625,
+    0.66726,
+    0.69,
+    0.7848
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9336099624633789,
+   "text_ar": "الأفق الأزرق لتوريد مواد البناء Blue Horizon Building Materials دبي – ذ.م.م.",
+   "meaning_en": "Rectangular blue company seal of Blue Horizon Building Materials, Dubai LLC.",
+   "meaning_ar": "ختم الشركة المدعية المستطيل الأزرق.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.15375,
+    0.67963,
+    0.33625,
+    0.72691
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7575758099555969,
+   "text_ar": "",
+   "meaning_en": "Blue-ink signature of General Manager Tariq Maher Al Suwaidi on the notice.",
+   "meaning_ar": "توقيع المدير العام طارق ماهر السويدي على الإنذار.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.05063,
+    0.11312,
+    0.23312,
+    0.19576
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.8987342119216919,
+   "text_ar": "قيد الدعوى نموذج تدريبي 06/10/2026",
+   "meaning_en": "Purple oval filing training-template stamp dated 06/10/2026 recording registration of the claim.",
+   "meaning_ar": "ختم بيضاوي بقيد الدعوى (نموذج تدريبي) بتاريخ 06/10/2026.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "box": [
+    0.61687,
+    0.50862,
+    0.78125,
+    0.55811
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7730495929718018,
+   "text_ar": "",
+   "meaning_en": "Blue-ink signature of the Accountant on the account statement.",
+   "meaning_ar": "توقيع المحاسب على كشف الحساب.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M6",
+   "page": 3,
+   "box": [
+    0.36438,
+    0.53027,
+    0.66563,
+    0.64914
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.8827838897705078,
+   "text_ar": "الأفق الأزرق لتوريد مواد البناء قسم الحسابات دبي",
+   "meaning_en": "Rectangular blue seal of the Claimant's Accounts Department in Dubai.",
+   "meaning_ar": "ختم قسم الحسابات للشركة المدعية في دبي.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M7",
+   "page": 3,
+   "box": [
+    0.18812,
+    0.50331,
+    0.37562,
+    0.56032
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7815700173377991,
+   "text_ar": "",
+   "meaning_en": "Blue-ink signature of the Finance Manager on the account statement.",
+   "meaning_ar": "توقيع المدير المالي على كشف الحساب.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 1,
+   "box": [
+    0.45,
+    0.8,
+    0.82,
+    0.87
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "سلم المنذر اليه بتاريخ 3/9/2026",
+   "meaning_en": "Handwritten note recording service of the notice on the addressee on 03/09/2026.",
+   "meaning_ar": "ملاحظة يدوية تفيد بتسليم الإنذار للمنذر إليه بتاريخ 3/9/2026.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "box": [
+    0.09,
+    0.89,
+    0.6,
+    0.94
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "حددت جلسة 24/11/2026 أمام الدائرة التجارية الكلية الثانية",
+   "meaning_en": "Handwritten note scheduling a hearing on 24/11/2026 before the Second Plenary Commercial Circuit.",
+   "meaning_ar": "ملاحظة يدوية بتحديد جلسة 24/11/2026 أمام الدائرة التجارية الكلية الثانية.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X3",
+   "page": 2,
+   "box": [
+    0.13,
+    0.78,
+    0.31,
+    0.84
+   ],
+   "type": "signature",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "",
+   "meaning_en": "Blue-ink signature of Claimant's lawyer Omar Farouk Al Zarouni on the statement of claim.",
+   "meaning_ar": "توقيع وكيل المدعية المحامي عمر فاروق الزرعوني على صحيفة الدعوى.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X4",
+   "page": 3,
+   "box": [
+    0.12,
+    0.405,
+    0.27,
+    0.48
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "٣٨٦,٥٠٠ — م.ع",
+   "meaning_en": "Red-ink handwritten correction striking through printed 380,500 and writing 386,500 for the balance due.",
+   "meaning_ar": "تصحيح يدوي بالحبر الأحمر للرصيد المستحق من (380,500) المطبوعة المشطوب عليها إلى (386,500).",
+   "changes_printed_text": true,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Citation on page 2: Article 712 does not exist in the Commercial Transactions Law: the official text has 684 articles.",
+   "flag_ar": "المادة (712) غير موجودة في قانون المعاملات التجارية، إذ يتكون النص الرسمي من 684 مادة.",
+   "page": 2,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-01 (Notary stamp date on the notice) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-09-01 (تاريخ ختم الكاتب العدل على الإنذار) وارد فقط في ختم في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-03 (Date notice was served on the addressee per handwritten note) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-09-03 (تاريخ تسليم الإنذار للمنذر إليه حسب الملاحظة اليدوية) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-06 (Filing stamp date on the claim) appears only in a stamp on page 2.",
+   "flag_ar": "التاريخ 2026-10-06 (تاريخ ختم قيد الدعوى) وارد فقط في ختم في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-11-24 (Hearing date set before the Second Plenary Commercial Circuit per handwritten note) appears only in a handwritten note on page 2.",
+   "flag_ar": "التاريخ 2026-11-24 (تاريخ الجلسة المحددة أمام الدائرة التجارية الكلية الثانية حسب الملاحظة اليدوية) وارد فقط في ملاحظة بخط اليد في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-11-24 (Attend the hearing before the Second Plenary Commercial Circuit) appears only in a handwritten note on page 2.",
+   "flag_ar": "التاريخ 2026-11-24 (حضور الجلسة أمام الدائرة التجارية الكلية الثانية) وارد فقط في ملاحظة بخط اليد في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Handwritten change to the printed text on page 3 (X4): Red-ink handwritten correction striking through printed 380,500 and writing 386,500 for the balance due.",
+   "flag_ar": "تعديل بخط اليد على النص المطبوع في الصفحة 3 (X4): تصحيح يدوي بالحبر الأحمر للرصيد المستحق من (380,500) المطبوعة المشطوب عليها إلى (386,500).",
+   "page": 3,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "Handwritten red-ink correction changes printed text: printed balance 380,500 struck through and corrected to 386,500. Corrected value 386,500 adopted as it matches the arithmetic (506,500 - 120,000).",
+   "flag_ar": "تصحيح يدوي بالحبر الأحمر يغير النص المطبوع: شطب على الرصيد المطبوع (380,500) وكتابة (386,500) بدلاً منه. اعتمد الرقم المصحح (386,500) لأنه يتوافق مع الحساب (506,500 - 120,000).",
+   "page": 3,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "No case number is shown on the pages. Court case_number left empty.",
+   "flag_ar": "لا يظهر رقم للدعوى في الصفحات. ترك حقل رقم القضية فارغاً.",
+   "page": 2,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Stamps read 'training template' and footer states the document is a fictional test document, not a real case.",
+   "flag_ar": "الأختام تحمل عبارة (نموذج تدريبي) والتذييل يذكر أن الوثيقة خيالية لأغراض الاختبار فقط.",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Filing stamp wording on page 2 is partly unclear in the close-up.",
+   "flag_ar": "نص ختم قيد الدعوى غير واضح تماماً في الصورة المقربة.",
+   "page": 2,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "case_title_en": "Mariam Khaled Al Zaabi v Marfa Al Nujoom Motors LLC – vehicle replacement or refund and compensation",
+ "case_title_ar": "مريم خالد الزعابي ضد شركة مرفأ النجوم للسيارات ذ.م.م – استبدال سيارة أو رد ثمنها وتعويض",
+ "case_type": "commercial",
+ "summary_en": "Mariam Al Zaabi says she bought a new car with warranty from Marfa Al Nujoom Motors, a manufacturing gearbox defect repeated three times despite two repairs, and the dealer refused replacement or refund. She seeks primary replacement, alternatively termination and refund of AED 136,500, and in either case rental costs AED 7,920 plus AED 25,000 damages totalling AED 32,920 with fees, relying on consumer protection and civil transactions laws, with a job card confirming a factory defect.",
+ "summary_ar": "تدعي مريم الزعابي أنها اشترت سيارة جديدة بضمان من شركة مرفأ النجوم، وظهر عيب مصنعي بناقل الحركة تكرر ثلاث مرات رغم إصلاحين، ورفضت الشركة الاستبدال أو الرد. تطالب أصلياً بالاستبدال، واحتياطياً بفسخ العقد ورد الثمن (136,500 درهم)، وفي الحالتين بأجرة سيارة بديلة (7,920 درهم) وتعويض (25,000 درهم) بإجمالي (32,920 درهم) مع الرسوم والأتعاب، مستندة لقانون حماية المستهلك وقانون المعاملات المدنية، ومرفقة بطاقة العمل التي تثبت العيب المصنعي.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Statement of Claim",
+   "document_ar": "صحيفة دعوى"
+  },
+  {
+   "page": 2,
+   "document_en": "Job Card / Repair Order",
+   "document_ar": "بطاقة عمل – أمر إصلاح"
+  }
+ ],
+ "court": {
+  "name_en": "Sharjah Federal Court of First Instance – Minor Commercial Circuit",
+  "name_ar": "محكمة الشارقة الاتحادية الابتدائية — الدائرة التجارية الجزئية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "مريم خالد الزعابي",
+   "name_en": "Mariam Khaled Al Zaabi",
+   "details_en": "ID No. 784-1991-0-0000000-0, Sharjah; phone 0500000000 as per job card",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "شركة مرفأ النجوم للسيارات ذ.م.م",
+   "name_en": "Marfa Al Nujoom Motors LLC",
+   "details_en": "Authorized Alcoria cars distributor, licence No. 000000; also Marfa Al Nujoom Motors Service Centre, Sharjah Second Industrial Area, phone 060000000",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيل المدعية — المحامي",
+   "name_ar": "إبراهيم يعقوب الحوسني",
+   "name_en": "Ibrahim Yaqoob Al Hosani",
+   "details_en": "Ibrahim Al Hosani Advocates, Sharjah – UAE, ref IH/CNS/2026/27",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Responsible Technician",
+   "role_ar": "الفني المسؤول",
+   "name_ar": "وائل فهمي عبدالقادر",
+   "name_en": "Wael Fahmy Abdelqader",
+   "details_en": "Responsible technician for job card JC-2026-04417",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-06-16",
+   "what_en": "Date of purchase and delivery of car from defendant",
+   "what_ar": "تاريخ شراء السيارة وتسلمها من المدعى عليها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-28",
+   "what_en": "Date vehicle received at workshop under job card (with time 09:40)",
+   "what_ar": "تاريخ استلام المركبة في الورشة بموجب بطاقة العمل (مع وقت 09:40)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-08",
+   "what_en": "Date vehicle delivered back to customer after repair",
+   "what_ar": "تاريخ تسليم المركبة للعميل بعد الإصلاح",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-24",
+   "what_en": "Date of second repeat repair – control unit replaced (handwritten 24/8/2026)",
+   "what_ar": "تاريخ إعادة الإصلاح الثاني – استبدال وحدة التحكم (مكتوب بخط اليد 24/8/2026)",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "what_en": "Date of third failure of vehicle",
+   "what_ar": "تاريخ تعطل السيارة للمرة الثالثة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Date of claimant's request for replacement or refund",
+   "what_ar": "تاريخ طلب المدعية الاستبدال أو الرد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-13",
+   "what_en": "Date defendant refused replacement or refund request",
+   "what_ar": "تاريخ رفض المدعى عليها طلب الاستبدال أو الرد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-21",
+   "what_en": "Date on claim header and filing clerk stamp on statement of claim",
+   "what_ar": "التاريخ وختم قلم القيد على صحيفة الدعوى ومرجع مكتب المحاماة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-15",
+   "time": "",
+   "who_en": "defendant",
+   "what_en": "Expiry of 7-day period set by claimant for replacement or refund",
+   "what_ar": "انتهاء مهلة السبعة أيام المحددة من المدعية للاستبدال أو الرد",
+   "page": 1,
+   "computed": true,
+   "basis_en": "7 days from claimant's demand dated 2026-10-08 requesting replacement or refund within seven days",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Primary: order defendant to replace the car with a new one of same type and specs at no cost",
+   "item_ar": "أصلياً: إلزام المدعى عليها باستبدال السيارة بأخرى جديدة من ذات النوع والمواصفات دون أي تكلفة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Alternatively: terminate sale and order defendant to take back car and refund price of AED 136,500",
+   "item_ar": "احتياطياً: فسخ عقد البيع وإلزام المدعى عليها باسترداد السيارة ورد ثمنها البالغ (136,500) درهم",
+   "has_amount": true,
+   "amount_aed": 136500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Replacement rental car cost not provided (36 days x AED 220)",
+   "item_ar": "أجرة سيارة بديلة لم توفرها المدعى عليها (36 يوماً × 220 درهم)",
+   "has_amount": true,
+   "amount_aed": 7920.0,
+   "page": 1
+  },
+  {
+   "item_en": "Compensation for material and moral damages",
+   "item_ar": "تعويض عن الأضرار المادية والأدبية",
+   "has_amount": true,
+   "amount_aed": 25000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Total claimed in either case (rental + compensation) totalling AED 32,920",
+   "item_ar": "إجمالي المطالب به في الحالتين (أجرة بديلة + تعويض) بإجمالي (32,920) درهم",
+   "has_amount": true,
+   "amount_aed": 32920.0,
+   "page": 1
+  },
+  {
+   "item_en": "Court fees, expenses and lawyer fees",
+   "item_ar": "الرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant bought from defendant on 16/06/2026 an Alcoria Sarab 2.0 Turbo model 2026 for AED 136,500 with 3-year or 100,000 km warranty and received it same day.",
+   "fact_ar": "اشترت المدعية من المدعى عليها بتاريخ 16/06/2026 سيارة ألكوريا سراب 2.0 توربو موديل 2026 بثمن (136,500) درهم مع ضمان (3) سنوات أو (100,000) كم وتسلمتها في اليوم ذاته.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Gearbox fault appeared (judder and delayed shifting) and car was taken to defendant's workshop under job card No. JC-2026-04417.",
+   "fact_ar": "ظهر عطل بناقل الحركة (ارتجاج وتأخر في التبديل) وأدخلت السيارة ورشة المدعى عليها ببطاقة العمل رقم JC-2026-04417.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Job card receipt 28/07/2026 09:40 for Alcoria Sarab 2.0 Turbo 2026, mileage 3,184 km, warranty valid, technician Wael Fahmy Abdelqader, complaint of judder on launch, delayed 2nd to 3rd shift and gearbox fault warning.",
+   "fact_ar": "بطاقة العمل بتاريخ استلام 28/07/2026 الساعة 09:40 لمركبة ألكوريا سراب 2.0 توربو 2026 وقراءة عداد 3,184 كم والضمان سارٍ، والفني المسؤول وائل فهمي عبدالقادر، وشكوى العميل ارتجاج عند الانطلاق وتأخر التبديل من الثانية إلى الثالثة وظهور تنبيه عطل في ناقل الحركة.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Work done under warranty: gearbox diagnosis (D-100), control unit software update (S-210), valve body replacement and oil change (T-355), nothing due from customer, delivery date 08/08/2026.",
+   "fact_ar": "الأعمال المنفذة المشمولة بالضمان: فحص ناقل الحركة (D-100) وتحديث برمجة وحدة التحكم (S-210) واستبدال مجموعة الصمامات وتغيير الزيت (T-355)، ولا شيء مستحق على العميل، وتاريخ التسليم 08/08/2026.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Technician noted by hand that inspection showed third-gear clutch slip and high gearbox oil temperature, that it is a manufacturing defect, and repair was done.",
+   "fact_ar": "أثبت الفني بخط اليد أن الفحص أظهر انزلاقاً في قابض السرعة الثالثة وارتفاع حرارة زيت القير وأنه عيب مصنعي وتم الإصلاح.",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Same fault recurred and was repaired again under same card, then car returned with same fault and was re-repaired on 24/8/2026 with control unit replacement.",
+   "fact_ar": "تكرر العطل ذاته فأعيد إصلاحه ثانية على البطاقة ذاتها، ثم عادت السيارة بالعطل ذاته وأعيد الإصلاح بتاريخ 24/8/2026 مع استبدال وحدة التحكم.",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "fact_en": "Car failed a third time on 06/10/2026, claimant requested on 08/10/2026 replacement or refund within seven days and defendant refused on 13/10/2026.",
+   "fact_ar": "تعطلت السيارة للمرة الثالثة بتاريخ 06/10/2026، وطلبت المدعية بتاريخ 08/10/2026 الاستبدال أو الرد خلال سبعة أيام فرفضت المدعى عليها في 13/10/2026.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "ألزمت المادة (10) من القانون الاتحادي رقم (15) لسنة 2020 بشأن حماية المستهلك المزود بتنفيذ جميع الضمانات واستبدال السلعة أو رد قيمتها النقدية، ونصت المادة (13) منه على أنه: \"يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها\" بأن يستبدل بها أخرى جديدة أو يستردها ويرد قيمتها.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "10",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "ألزمت المادة (10) من القانون الاتحادي رقم (15) لسنة 2020 بشأن حماية المستهلك المزود بتنفيذ جميع الضمانات واستبدال السلعة أو رد قيمتها النقدية، ونصت المادة (13) منه على أنه: \"يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها\" بأن يستبدل بها أخرى جديدة أو يستردها ويرد قيمتها.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها",
+   "page": 1
+  },
+  {
+   "text_ar": "وتلزم المادة (16) من القانون ذاته الموزع بتوفير سلعة مماثلة دون مقابل إذا جاوز تنفيذ الضمان سبعة أيام، وللمستهلك طلب التعويض وفقاً للمادة (24) منه، ويقع على المزود عبء إثبات سوء الاستخدام وفقاً للمادة (45) من قانون حماية المستهلك.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "16",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وتلزم المادة (16) من القانون ذاته الموزع بتوفير سلعة مماثلة دون مقابل إذا جاوز تنفيذ الضمان سبعة أيام، وللمستهلك طلب التعويض وفقاً للمادة (24) منه، ويقع على المزود عبء إثبات سوء الاستخدام وفقاً للمادة (45) من قانون حماية المستهلك.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "24",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وتلزم المادة (16) من القانون ذاته الموزع بتوفير سلعة مماثلة دون مقابل إذا جاوز تنفيذ الضمان سبعة أيام، وللمستهلك طلب التعويض وفقاً للمادة (24) منه، ويقع على المزود عبء إثبات سوء الاستخدام وفقاً للمادة (45) من قانون حماية المستهلك.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "45",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وإذ لم تُصلح المدعى عليها العيب خلال مدة الضمان، فالمدعية طلب فسخ العقد والتعويض وفقاً للبند (2) من المادة (502) من المرسوم بقانون اتحادي رقم (25) لسنة 2025 بإصدار قانون المعاملات المدنية.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Federal Decree-Law on Promulgation of the Civil Transactions Law",
+   "article": "502",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "قلم القيد\nنموذج قيد دعوى\n21/10/2026",
+   "meaning_en": "Oval filing clerk registration stamp dated 21/10/2026 on statement of claim.",
+   "meaning_ar": "ختم بيضاوي لقلم القيد بتاريخ 21/10/2026 على صحيفة الدعوى.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب إبراهيم الحوسني للمحاماة\nIbrahim Al Hosani Advocates\nالشارقة — الإمارات",
+   "meaning_en": "Stamp of Ibrahim Al Hosani Advocates office in Sharjah.",
+   "meaning_ar": "ختم مكتب إبراهيم الحوسني للمحاماة في الشارقة.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's lawyer Ibrahim Yaqoob Al Hosani.",
+   "meaning_ar": "توقيع وكيل المدعية المحامي إبراهيم يعقوب الحوسني.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Technician signature on job card.",
+   "meaning_ar": "توقيع الفني على بطاقة العمل.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "مرفأ النجوم للسيارات ذ.م.م\nمركز الخدمة — الشارقة\nMarfa Al Nujoom Motors",
+   "meaning_en": "Stamp of Marfa Al Nujoom Motors service centre in Sharjah.",
+   "meaning_ar": "ختم مركز خدمة مرفأ النجوم للسيارات في الشارقة.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "بالفحص: انزلاق في قابض السرعة الثالثة وارتفاع حرارة زيت القير — عيب مصنعي — تم الإصلاح",
+   "meaning_en": "Handwritten technical note recording manufacturing defect and completed repair.",
+   "meaning_ar": "ملاحظة فنية بخط اليد تثبت وجود عيب مصنعي وإتمام الإصلاح.",
+   "changes_printed_text": false,
+   "x_from_pct": 13.0,
+   "x_to_pct": 87.0,
+   "y_from_pct": 60.0,
+   "y_to_pct": 66.0
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "عادت السيارة بالعطل ذاته — أعيد الإصلاح بتاريخ 24/8/2026 — استبدال وحدة التحكم",
+   "meaning_en": "Handwritten note of car return with same fault and re-repair with control unit replacement on 24/8/2026.",
+   "meaning_ar": "ملاحظة بخط اليد بعودة السيارة بنفس العطل وإعادة الإصلاح باستبدال وحدة التحكم بتاريخ 24/8/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 20.0,
+   "x_to_pct": 83.0,
+   "y_from_pct": 72.0,
+   "y_to_pct": 77.0
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "No case number shown on pages; case number cannot be confirmed.",
+   "flag_ar": "لا يظهر رقم الدعوى في الصفحات؛ لا يمكن تأكيد رقم القضية.",
+   "page": 1,
+   "severity": "high"
+  },
+  {
+   "flag_en": "ID, chassis, plate, licence and phone numbers shown as zeros (redacted test data) and cannot be relied on.",
+   "flag_ar": "أرقام الهوية والهيكل واللوحة والرخصة والهواتف مذكورة بأصفار (بيانات اختبارية محجوبة) ولا يمكن الاعتماد عليها.",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Footer states document is fictional for testing only and not a real case.",
+   "flag_ar": "الوثيقة مذكور في ذيلها أنها وثيقة خيالية لأغراض الاختبار فقط ولا تمثل قضية حقيقية.",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}
