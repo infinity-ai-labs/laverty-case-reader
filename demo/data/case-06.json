@@ -1,0 +1,730 @@
+{
+ "case": "case-06",
+ "source_file": "case-06-rent-increase.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T11:16:41Z",
+  "finished": "2026-11-02T11:17:41Z",
+  "seconds": 60.0,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Naseem Al Ghaf Foodstuff Trading LLC v Mubarak Salem Bin Ateeq Al Qamzi - Objection to rent increase on renewal and to eviction demand",
+ "title_ar": "شركة نسيم الغاف لتجارة المواد الغذائية ذ.م.م ضد مبارك سالم بن عتيق القمزي – الاعتراض على زيادة الأجرة عند التجديد وعلى المطالبة بالإخلاء",
+ "case_type": "tenancy",
+ "summary_en": "Tenant company of a Ras Al Khor warehouse (2026 contract at AED 210,000) says landlord's 24/09/2026 notice sought to raise rent to AED 252,000 and threatened eviction on 31/12/2026, that receipt was late, and it replied on 15/10/2026 rejecting the increase. It seeks renewal at same rent, alternatively fair rent capped at AED 220,500, and rejection of eviction, relying on Articles 14, 6, 13, 9 and 25(2) of Law 26/2007 and Article 1 of Decree 43/2013.",
+ "summary_ar": "تدعي الشركة المستأجرة لمستودع في رأس الخور (عقد 2026 بأجرة 210,000 درهم) أن المؤجر طلب بتاريخ 24/09/2026 زيادة الأجرة إلى 252,000 درهم مع التهديد بالإخلاء في 31/12/2026، وأنها استلمت الإخطار متأخراً وردت في 15/10/2026 بالرفض. وتطلب تجديد العقد بالأجرة ذاتها، واحتياطياً تحديد الأجرة العادلة بما لا يجاوز 220,500 درهم، ورفض الإخلاء، مستندة إلى المواد 14 و6 و13 و9 والبند 2 من المادة 25 من القانون 26/2007 والمادة 1 من المرسوم 43/2013.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Rental Claim Statement",
+   "document_ar": "صحيفة دعوى إيجارية",
+   "src": "../test-files/case-06-rent-increase/page-1.jpg"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Notice of Rent Modification",
+   "document_ar": "إخطار بتعديل بدل الإيجار",
+   "src": "../test-files/case-06-rent-increase/page-2.jpg"
+  }
+ ],
+ "court": {
+  "name_en": "Rental Disputes Settlement Centre - Emirate of Dubai",
+  "name_ar": "مركز فض المنازعات الإيجارية – إمارة دبي",
+  "case_number": "",
+  "case_number_source": "printed",
+  "pages": [
+   1,
+   2
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "شركة نسيم الغاف لتجارة المواد الغذائية ذ.م.م",
+   "name_en": "Naseem Al Ghaf Foodstuff Trading LLC",
+   "details_en": "Tenant (lessee), LLC, represented by its manager Basil Adnan Al-Tahan. Claimant in rental claim; addressee of rent notice.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_representative",
+   "role_en": "Manager of Claimant",
+   "role_ar": "مدير المدعية / ممثلها",
+   "name_ar": "باسل عدنان الطحان",
+   "name_en": "Basil Adnan Al-Tahan",
+   "details_en": "Manager of claimant company, signatory of claim statement on behalf of claimant.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليه",
+   "name_ar": "مبارك سالم بن عتيق القمزي",
+   "name_en": "Mubarak Salem Bin Ateeq Al Qamzi",
+   "details_en": "Lessor, UAE national, Dubai. Property owner, sender of 24/09/2026 notice; defendant in rental claim. P.O. Box 00000, Dubai.",
+   "pages": [
+    1,
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2025-12-31",
+   "what_en": "Last date for 12-month eviction notice before expiry",
+   "what_ar": "آخر موعد للإخطار بالإخلاء قبل اثني عشر شهراً من انتهاء العقد",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-01-01",
+   "what_en": "Start of current lease contract",
+   "what_ar": "بداية عقد الإيجار الحالي",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-24",
+   "what_en": "Date of landlord's rent-modification notice",
+   "what_ar": "تاريخ إخطار المؤجر بتعديل بدل الإيجار",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-02",
+   "what_en": "Last date for amendment notice 90 days before expiry",
+   "what_ar": "آخر موعد للإخطار بالتعديل قبل تسعين يوماً من انتهاء العقد",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-09",
+   "what_en": "Expiry of 15-day period from notice date",
+   "what_ar": "انقضاء مهلة الخمسة عشر يوماً من تاريخ الإخطار",
+   "page": 2,
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "what_en": "Date of claimant's reply rejecting increase and offering renewal at same rent",
+   "what_ar": "تاريخ رد المدعية برفض الزيادة وعرض التجديد بالأجرة ذاتها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-16",
+   "what_en": "Date of handwritten annotation acknowledging receipt of original",
+   "what_ar": "تاريخ التأشيرة بخط اليد باستلام الأصل",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Date of claim statement and filing stamp",
+   "what_ar": "تاريخ صحيفة الدعوى وتاريخ ختم التسجيل",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "what_en": "End of current lease contract and demanded vacate date",
+   "what_ar": "نهاية عقد الإيجار الحالي والتاريخ المطالب فيه بالإخلاء",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2025-12-31",
+   "time": "",
+   "who_en": "Landlord (defendant)",
+   "what_en": "Notify eviction via Notary Public or registered mail at least 12 months before expiry (not met for eviction demand - notice dated 24/09/2026)",
+   "what_ar": "الإخطار بالإخلاء عن طريق الكاتب العدل أو البريد المسجل قبل اثني عشر شهراً على الأقل (غير مستوفى لمطلب الإخلاء – الإخطار بتاريخ 24/09/2026)",
+   "page": 1,
+   "computed": true,
+   "basis_en": "At least 12 months before contract end 31/12/2026 under Article 25(2) as cited on page 1",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-02",
+   "time": "",
+   "who_en": "Landlord (defendant)",
+   "what_en": "Notify other party of contract amendment at least 90 days before expiry (met - notice dated 24/09/2026)",
+   "what_ar": "إخطار الطرف الآخر بتعديل شروط العقد قبل تسعين يوماً من انتهائه (مستوفى – الإخطار بتاريخ 24/09/2026)",
+   "page": 1,
+   "computed": true,
+   "basis_en": "90 days before contract end 31/12/2026 under Article 14 as cited on page 1",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-09",
+   "time": "",
+   "who_en": "Tenant (claimant)",
+   "what_en": "Confirm agreement in writing and sign renewal, otherwise contract deemed ended on 31/12/2026 (deadline missed - reply dated 15/10/2026 after deadline)",
+   "what_ar": "تأكيد الموافقة كتابة وتوقيع عقد التجديد وإلا اعتبر العقد منتهياً في 31/12/2026 (انقضت المهلة – الرد بتاريخ 15/10/2026 بعد المهلة)",
+   "page": 2,
+   "computed": true,
+   "basis_en": "15 days from notice date 24/09/2026 as stated in notice on page 2",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-12-31",
+   "time": "",
+   "who_en": "Tenant (claimant)",
+   "what_en": "Vacate and hand over vacant premises if renewal not agreed (demanded in notice, contested - rejection sought)",
+   "what_ar": "إخلاء العين المؤجرة وتسليمها خالية من الشواغل إذا لم تتم الموافقة على التجديد (متنازع عليها – مطلوب رفضها)",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Date stated in notice dated 24/09/2026 on page 2, contested in claim on page 1",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Disregard notice dated 24/09/2026 and renew contract for one year at same rent of AED 210,000.",
+   "item_ar": "عدم الاعتداد بالإخطار المؤرخ 24/09/2026، وتجديد العقد لمدة سنة بالأجرة ذاتها وقدرها (210,000) درهم.",
+   "has_amount": true,
+   "amount_aed": 210000.0,
+   "page": 1
+  },
+  {
+   "item_en": "In the alternative: fix fair rent for renewal year at no more than AED 220,500.",
+   "item_ar": "واحتياطياً: تحديد الأجرة العادلة لسنة التجديد بما لا يجاوز (220,500) درهم.",
+   "has_amount": true,
+   "amount_aed": 220500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Reject defendant's demand for eviction on 31/12/2026 and order him to pay fees and expenses.",
+   "item_ar": "رفض مطالبة المدعى عليه بالإخلاء في 31/12/2026، وإلزامه بالرسوم والمصروفات.",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Leased premises: warehouse No. (9), Ras Al Khor Industrial Second, Dubai, under Ejari contract No. 000000, from 01/01/2026 to 31/12/2026, at annual rent AED 210,000.",
+   "fact_ar": "العين المؤجرة: مستودع رقم (9)، منطقة رأس الخور الصناعية الثانية، دبي، بعقد مسجل في (إيجاري) برقم 000000، من 01/01/2026 إلى 31/12/2026، بأجرة سنوية (210,000) درهم.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Landlord sent notice dated 24/09/2026 to increase annual rent on renewal to AED 252,000 (20%), giving 15 days from its date to agree, otherwise contract deemed ended on 31/12/2026 and eviction required.",
+   "fact_ar": "وجه المؤجر إخطاراً مؤرخاً 24/09/2026 بزيادة الأجرة السنوية عند التجديد إلى (252,000) درهم بنسبة 20%، وأمهل المستأجرة خمسة عشر يوماً من تاريخه للموافقة وإلا اعتبر العقد منتهياً في 31/12/2026 ووجب الإخلاء.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant states notice was hand-delivered and only received on the handwritten receipt date, after the period had passed, and replied on 15/10/2026 rejecting the increase and offering renewal at same rent.",
+   "fact_ar": "ذكرت المدعية أن الإخطار سُلِّم باليد ولم تتسلمه إلا في تاريخ تأشيرة الاستلام المدونة بخط اليد، بعد فوات المهلة، فردت بتاريخ 15/10/2026 برفض الزيادة وعرضت التجديد بالأجرة ذاتها.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Claimant argues comparable average rent per rental index is AED 240,000, so maximum lawful new rent does not exceed AED 220,500.",
+   "fact_ar": "تحاجج المدعية بأن متوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، وأن الزيادة القصوى لا تجيز تجاوز الأجرة الجديدة (220,500) درهم.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Handwritten note at bottom of notice records receipt of original on 16/10/2026 with company stamp and signature.",
+   "fact_ar": "التأشيرة بخط اليد أسفل الإخطار تفيد باستلام الأصل بتاريخ 16/10/2026 مع ختم الشركة وتوقيع.",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1",
+    "M5",
+    "M6"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "أوجبت المادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي على من يرغب في تعديل شروط العقد إخطار الطرف الآخر قبل مدة لا تقل عن تسعين يوماً من انتهائه، فلا يُنتج الإخطار المتأخر أثره، ويتجدد العقد بذات شروطه عملاً بالمادة (6) من القانون ذاته.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "14",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "14",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "14",
+    "status": "valid",
+    "label_en": "Article 14 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (14) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "في حال رغبة أي من طرفي عقد الإيجار تعديل أيٍ من شروطه وفقاً للمادة (13) من هــذا القانون فعليه إخطار الطرف الآخر بذلك قبل مدة لا تقل عن تسعين يوماً من انتهاء العقد، وذلك ما لم يتفق الطرفان على خلاف ذلك.",
+    "official_text_en": "Unless otherwise agreed by the parties to a Lease Contract, where either party wishes to amend any of its terms pursuant to Article (13) of this Law, that party must notify the other party of this intent no less than ninety (90) days before the date on which the Lease Contract expires."
+   }
+  },
+  {
+   "text_ar": "أوجبت المادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي على من يرغب في تعديل شروط العقد إخطار الطرف الآخر قبل مدة لا تقل عن تسعين يوماً من انتهائه، فلا يُنتج الإخطار المتأخر أثره، ويتجدد العقد بذات شروطه عملاً بالمادة (6) من القانون ذاته.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "14",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "6",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "6",
+    "status": "valid",
+    "label_en": "Article 6 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (6) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "إذا انتهت مدة عقد الإيجار واستمر المستأجر شاغلاً للعقار دون اعتراض من المؤجِّر، يجدد العقد لمدة أخرى مماثلة أو لمدة سنة أيهما أقل وبذات شروط العقد الأخرى.",
+    "official_text_en": "Where the term of a Lease Contract expires, but the Tenant continues to occupy the Real Property without any objection by the Landlord, the Lease Contract will be renewed for the same term or for a term of one year, whichever is shorter, and under the same terms as the previous Lease Contract."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "13",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "13",
+    "status": "valid",
+    "label_en": "Article 13 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (13) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "لغايات تجديد عقد الإيجار، يجوز للمؤجر والمستأجر، قبل انتهاء مدة عقد الإيجار، تعديل أي من شروط العقد أو إعادة النظر في بدل الإيجار سواء بالزيادة أو النقصان، فإذا لم يصلا إلى اتفاق بشأن ذلك فللّجنة تحديد الأجر العادل آخذة في الاعتبار المعايير المنصوص عليها في المادة (9) من هذا القانون.",
+    "official_text_en": "For the purposes of renewing a Lease Contract, the Landlord and Tenant may, prior to the expiry of the Lease Contract, amend any of its terms or reconsider increasing or reducing the Rent. If the Landlord and Tenant fail to reach an agreement in this regard, the Tribunal may determine the fair Rent, taking into account the criteria stipulated in Article (9) of this Law."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "9",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "9",
+    "status": "valid",
+    "label_en": "Article 9 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (9) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "1. على المؤجر والمستأجر تعيين بدل الإيجار في عقد الإيجار، وإذا أغفل الطرفان تعيينه أو تعذر إثبات ما اتفقا عليه فإن بدل الإيجار يكون هو بدل أجر المثل.\n2. تعين اللجنة أجر المثل آخذة في الاعتبار معايير تحديد نسبة زيادة بدلات الإيجارات التي تضعها المؤسسة والوضع الاقتصادي العام في الإمارة وحالة العقار وإيجار المثل السائد في السوق العقارية المماثلة له في نفس المنطقة وما تنص عليه أية تشريعات سارية في الإمارة في شأن إيجار العقارات وأية عوامل أخرى تراها اللجنة.",
+    "official_text_en": "1. Landlords and Tenants must specify Rent in Lease Contracts. Where the parties fail to specify the Rent and it is impossible to prove the Rent agreed upon by them, the Rent will be the rental value of similar Real Property.\n2. The Tribunal will determine the rental value of similar Real Property taking into account the criteria for determining the percentage of Rent increase prescribed by RERA; the prevailing economic situation in the Emirate; the condition of the Real Property; the prevailing rental value of similar Real Property in other similar Real Property markets within the same area; the provisions of any legislation in force in the Emirate regulating Real Property Rent, and any other factors which the Tribunal deems appropriate."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "1",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "1",
+    "status": "valid",
+    "label_en": "Article 1 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (1) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "43",
+   "law_year": 2013,
+   "law_title_en": "Determining the Increase in Rental Amount for Properties in the Emirate of Dubai",
+   "article": "1",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "13",
+   "check": {
+    "status": "not_checked",
+    "reason": "not_in_index",
+    "article": "13",
+    "label_en": "Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+    "label_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "43",
+   "law_year": 2013,
+   "law_title_en": "Determining the Increase in Rental Amount for Properties in the Emirate of Dubai",
+   "article": "1",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "9",
+   "check": {
+    "status": "not_checked",
+    "reason": "not_in_index",
+    "article": "9",
+    "label_en": "Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+    "label_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً."
+   }
+  },
+  {
+   "text_ar": "وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "43",
+   "law_year": 2013,
+   "law_title_en": "Determining the Increase in Rental Amount for Properties in the Emirate of Dubai",
+   "article": "1",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "1",
+   "check": {
+    "status": "not_checked",
+    "reason": "not_in_index",
+    "article": "1",
+    "label_en": "Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+    "label_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً."
+   }
+  },
+  {
+   "text_ar": "لا يجوز طلب الإخلاء عند انتهاء العقد إلا في الحالات الواردة حصراً في البند (2) من المادة (25)، وبإخطار قبل اثني عشر شهراً على الأقل عن طريق الكاتب العدل أو البريد المسجل، وليس رفض الزيادة منها.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "25",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "25",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "25",
+    "status": "valid",
+    "label_en": "Article 25 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (25) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "1. يكون للمؤجِّر طلب إخلاء المستأجر من العقار قبل انتهاء مدة الإجارة حصراً في أي من الحالات التالية:\nأ- إذا لم يقم المستأجر بسداد بدل الإيجار أو أي جزء منه خلال ثلاثين يوماً من تاريخ إخطار المؤجر له بالسداد، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nب- إذا قام المستأجر بتأجير العقار من الباطن أو أي جزء منه دون الحصول على موافقة المؤجِّر الخطية على ذلك، وفي هذه الحالة يسري الإخلاء على المستأجر والمستأجر من الباطن مع حفظ حق هذا الأخير بالرجوع على المستأجر بالتعويض.\nج- إذا استعمل المستأجر العقار أو سمح لآخرين باستعماله لغاية غير مشروعة أو مخالفة للنظام العام أو الآداب العامة.\nد- إذا كان العقار المؤجر محلاً تجارياً، وتركه المستأجر دون إشغال ودون سبب مشروع لمدة ثلاثين يوماً متصلة أو تسعين يوماً متقطعة في السنة الواحدة، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nهـ- إذا أحدث المستأجر تغييراً في العقار بحيث يؤثر على سلامته بشكل يتعذر معه إعادته إلى حالته الأصلية، أو ألحق بالعقار ضرراً نتيجة فعله المتعمد أو إهماله الجسيم في اتخاذ الحيطة والحذر أو سماحه للغير بإلحاق ذلك الضرر.\nو- إذا استعمل المستأجر العقار في غير الغرض المؤجّر لأجله أو استعمله على نحو يخالف أنظمة التخطيط والبناء واستعمالات الأراضي المعمول بها في الإمارة.\nز- إذا كان العقار آيلاً للسقوط، على أن يُثبت المؤجِّر ذلك بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nح- إذا لم يراع المستأجر أي التزام فرضه عليه هذا القانون أو أي شرط من شروط عقد الإيجار، وذلك خلال ثلاثين يوماً من تاريخ إخطار المؤجِّر له بتنفيذ ذلك الالتزام أو الشرط.\nط- إذا اقتضت متطلبات التنمية والتطور العمراني في الإمارة هدم العقار وإعادة بنائه وذلك وفقاً لما تقرره الجهات الحكومية المختصة.\nولغايات البند (1) من هذه المادة، يتم إخطار المؤجر للمستأجر عن طريق الكاتب العدل أو البريد المسجل.\n2. يكون للمؤجِّر طلب إخلاء المستأجر من العقار عند انتهاء عقد الإيجار حصراً في أي من الحالات التالية:\nأ- إذا رغب مالك العقار في هدمه لإعادة بنائه أو رغب بإضافة أية مبان جديدة تحول دون انتفاع المستأجر بالعقار المؤجر وذلك شريطة الحصول على التراخيص اللازمة من الجهات المختصة.\nب- إذا اقتضت حالة العقار ترميمه أو إجراء صيانة شاملة له وتعذر إجراء أعمال الترميم والصيانة بوجود المستأجر في العقار، على أن يتم التثبت من حالة العقار بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nج- إذا رغب مالك العقار في استعادته لاستعماله الشخصي أو لاستعمال أي من أقاربه حتى الدرجة الأولى، شريطة إثبات عدم ملكيته للبديل المناسب لذلك الغرض.\nد- إذا رغب مالك العقار في بيع العقار المؤجر.\nولغايات البند (2) من هذه المادة، يجب أن يقوم المؤجِّر بإخطار المستأجر بأسباب إخلاء العقار قبل اثني عشر شهراً على الأقل من التاريخ المحدد للإخلاء، على أن يتم الإخطار عن طريق الكاتب العدل أو البريد المسجل.",
+    "official_text_en": "1. A Landlord may request eviction of the Tenant from the Real Property before expiry of the Lease Contract only in the following cases:\na. unless otherwise agreed by the parties, where the Tenant fails to pay the Rent or any part thereof within thirty (30) days from the date of service of a Notice on the Tenant by the Landlord requesting the payment;\nb. where the Tenant sublets the Real Property or any part thereof without obtaining the Landlord's written approval, in which case the eviction will apply to the Tenant and to the Subtenant, who will reserve the right to claim compensation from the Tenant;\nc. where the Tenant uses the Real Property or allows others to use it for any illegal purpose or for a purpose which conflicts with public order or morals;\nd. unless otherwise agreed by the parties, where the leased Real Property is used as business premises and the Tenant leaves it unoccupied without a valid reason for a period of thirty (30) consecutive days or ninety (90) non-consecutive days in a year;\ne. where the Tenant makes any change to the Real Property that endangers its safety in a manner that makes it impossible to restore the Real Property to its original state; or causes damage to the Real Property as a result of his deliberate act, or his gross negligence by failing to exercise due caution and care or allowing others to cause that damage;\nf. where the Tenant uses the Real Property for a purpose other than that for which it is leased, or otherwise uses the Real Property in a manner that violates the planning, construction, and land use regulations in force in the Emirate;\ng. where the Real Property is likely to collapse, provided that the Landlord proves this by a technical report issued by or certified by the Dubai Municipality;\nh. where the Tenant fails to comply with any of his obligations under this Law or any of the Lease Contract terms within thirty (30) days from the date on which a Notice requesting him to comply with that obligation or term is served upon him by the Landlord; or\ni. where the competent Government entities decide that the demolition and reconstruction of the Real Property are mandated in accordance with urban development requirements in the Emirate.\nFor the purposes of paragraph (1) of this Article, the Landlord will serve a Notice on the Tenant through a Notary Public or by registered mail.\n2. Upon expiry of the Lease Contract, the Landlord may seek eviction of the Tenant from the Real Property only if:\na. the Real Property owner wishes to demolish and reconstruct it or to add any new structures that would prevent the Tenant from using the Real Property, provided that the owner obtains the required permits from the competent entities; or\nb. the Real Property is in a condition that requires restoration or comprehensive maintenance that cannot be carried out while the Tenant occupies the Real Property, provided that this condition of the Real Property is verified by a technical report issued or certified by the Dubai Municipality;\nc. the Real Property owner wishes to retake possession of the Real Property for his own use or for use by any of his first-degree relatives, provided that the owner proves that he does not own any alternative Real Property that is suitable for this purpose; or\nd. the leased Real Property owner wishes to sell it.\nFor the purposes of paragraph (2) of this Article, the Landlord must notify the Tenant of the eviction reasons at least twelve (12) months before the date of eviction, and the notice must be served through a Notary Public or by registered mail."
+   }
+  },
+  {
+   "text_ar": "وذلك عملاً بالمادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي.",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "14",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "14",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "14",
+    "status": "valid",
+    "label_en": "Article 14 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (14) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "في حال رغبة أي من طرفي عقد الإيجار تعديل أيٍ من شروطه وفقاً للمادة (13) من هــذا القانون فعليه إخطار الطرف الآخر بذلك قبل مدة لا تقل عن تسعين يوماً من انتهاء العقد، وذلك ما لم يتفق الطرفان على خلاف ذلك.",
+    "official_text_en": "Unless otherwise agreed by the parties to a Lease Contract, where either party wishes to amend any of its terms pursuant to Article (13) of this Law, that party must notify the other party of this intent no less than ninety (90) days before the date on which the Lease Contract expires."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.29625,
+    0.03624,
+    0.51125,
+    0.11578
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.9064327478408813,
+   "text_ar": "فض المنازعات الإيجارية قسم التسجيل – مخرج لدبي 20/10/2026",
+   "meaning_en": "Filing stamp of Rental Disputes Settlement Centre, Registration Section, dated 20/10/2026.",
+   "meaning_ar": "ختم قيد صحيفة الدعوى في مركز فض المنازعات الإيجارية، قسم التسجيل، بتاريخ 20/10/2026.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.41563,
+    0.82059,
+    0.73188,
+    0.9262
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9452055096626282,
+   "text_ar": "نسيم الغاف لتجارة المواد الغذائية Naseem Al Ghaf Foodstuff Trading دبي – ذ.م.م",
+   "meaning_en": "Stamp of claimant company on claim statement confirming filing.",
+   "meaning_ar": "ختم الشركة المدعية على صحيفة الدعوى لتأكيد التقديم.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.14813,
+    0.87539,
+    0.34563,
+    0.92488
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7655677795410156,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's manager Basil Adnan Al-Tahan on claim statement.",
+   "meaning_ar": "توقيع مدير المدعية باسل عدنان الطحان على صحيفة الدعوى.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.12125,
+    0.4958,
+    0.32188,
+    0.55502
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.9139785170555115,
+   "text_ar": "",
+   "meaning_en": "Signature of lessor Mubarak Salem Bin Ateeq Al Qamzi on the notice.",
+   "meaning_ar": "توقيع المؤجر مبارك سالم بن عتيق القمزي على الإخطار.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "box": [
+    0.5175,
+    0.76049,
+    0.65812,
+    0.80115
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.9101123809814453,
+   "text_ar": "",
+   "meaning_en": "Signature accompanying the 16/10/2026 receipt annotation.",
+   "meaning_ar": "توقيع مرافق لتأشيرة استلام الأصل بتاريخ 16/10/2026.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "box": [
+    0.10687,
+    0.75298,
+    0.41437,
+    0.85108
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.949367105960846,
+   "text_ar": "نسيم الغاف لتجارة المواد الغذائية ذ.م.م – دبي",
+   "meaning_en": "Stamp of tenant company on receipt annotation.",
+   "meaning_ar": "ختم الشركة المستأجرة على تأشيرة الاستلام.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "box": [
+    0.3,
+    0.69,
+    0.88,
+    0.75
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "استلمت الأصل بتاريخ 16/10/2026 – الاستقبال / رنعم",
+   "meaning_en": "Handwritten note recording receipt of original notice on 16/10/2026 at reception.",
+   "meaning_ar": "كتابة بخط اليد تفيد باستلام أصل الإخطار بتاريخ 16/10/2026 لدى الاستقبال.",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Citation on page 1 (وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.): Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+   "flag_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Citation on page 1 (وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.): Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+   "flag_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Citation on page 1 (وإذا لم يتفق الطرفان على الأجرة، تحدد اللجنة الأجر العادل وفقاً للمادة (13) آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9). وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي الزيادة القصوى بنسبة (5%) إذا قلَّ بدل الإيجار عن متوسط أجر المثل بنسبة بين 11% و20%، ومتوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم، فتقل الأجرة عنه بنسبة (12.5%)، ولا تجاوز الأجرة الجديدة (220,500) درهم.): Not checked: this law is not in the Case Reader's law index. Check it by hand.",
+   "flag_ar": "لم يتم التحقق: هذا القانون غير موجود في فهرس القوانين لدى قارئ القضايا. يرجى التحقق يدوياً.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-16 (Date of handwritten annotation acknowledging receipt of original) appears only in a handwritten note on page 2.",
+   "flag_ar": "التاريخ 2026-10-16 (تاريخ التأشيرة بخط اليد باستلام الأصل) وارد فقط في ملاحظة بخط اليد في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "No case number appears on the pages; reference NG/ADM/2026/31 is an internal reference, not a court case number.",
+   "flag_ar": "لا يظهر رقم دعوى على الصفحات؛ المرجع NG/ADM/2026/31 مرجع داخلي وليس رقم قضية.",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Chronology is inconsistent: handwritten receipt is dated 16/10/2026 while claim states reply was sent on 15/10/2026 after receipt.",
+   "flag_ar": "التسلسل الزمني غير متسق: تأشيرة الاستلام بخط اليد مؤرخة 16/10/2026 بينما ذكرت صحيفة الدعوى أن الرد كان بتاريخ 15/10/2026 بعد الاستلام.",
+   "page": 1,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Name/signature after reception wording in handwritten receipt is illegible.",
+   "flag_ar": "اسم أو توقيع المستلم بعد عبارة الاستقبال بخط اليد غير واضح القراءة.",
+   "page": 2,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Footer on both pages states document is fictional for testing and not a real case.",
+   "flag_ar": "تذييل الصفحتين ينص على أن الوثيقة خيالية لأغراض الاختبار ولا تمثل قضية حقيقية.",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

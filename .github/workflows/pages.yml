@@ -20,6 +20,8 @@ concurrency:
 
 jobs:
   deploy:
+    # GitHub Pages works once the repository is public; until then, skip instead of failing.
+    if: ${{ !github.event.repository.private }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

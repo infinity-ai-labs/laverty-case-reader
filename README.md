@@ -10,7 +10,26 @@ The **Case Reader** is a new LAVERTY feature built during this hackathon on Meta
 - the stamps, signatures and handwritten notes, marked for the lawyer so they are never misread as printed text;
 - every law the file cites, checked against the official UAE law text.
 
-> Status: the reader is built and tested offline. The first runs with Meta's models come next; their scores will appear here.
+## Results on Meta's models
+
+Run 5 (2 Nov 2026): all 13 test files, 33 pages, read with `muse-spark-1.3` (reasoning effort high) and `sam-3.1`, scored by `tools/score.py` against the hand-checked answer key. The full run, with every miss listed, is on the [`results` branch](https://github.com/infinity-ai-labs/laverty-case-reader/tree/results/runs/run-5-1).
+
+| What was checked | Result |
+|---|---|
+| Citations of articles that don't exist, caught | **6 of 6** |
+| Quote with one changed word, caught | **1 of 1** |
+| Citation verdicts right (valid, invalid or not checked) | **79 of 80** |
+| Claim amounts | 34 of 35 |
+| Dates | 125 of 131 |
+| Parties, with the right role | 63 of 67 |
+| Deadlines | 20 of 24 |
+| Stamps, signatures and handwritten notes in the right place (box overlap ≥ 0.5) | 91 of 109 |
+| Dates that exist only in handwriting, marked as handwriting | 8 of 10 |
+
+What the runs taught us:
+- **SAM 3.1 phrasings.** "stamp", "blue stamp" and "purple stamp" found 12 of 13 stamps on the first four files, and "signature" found 10 of 11, with no false boxes. "rubber stamp", "official seal" and every phrasing tried for handwriting ("handwritten text", "handwriting", "writing", "note", ...) returned nothing.
+- **Handwriting is placed by Muse Spark.** Muse Spark reads the handwritten notes SAM 3.1 does not find and gives their position on the page. Its positions are rougher than SAM's boxes, which is most of the gap in the last rows.
+- **Quotes are checked wherever they sit.** Muse Spark sometimes leaves a quoted article inside the citation text; the check now finds it there. Two false alarms remain where Muse Spark misread a long quote (cases 09 and 10): the summary says the wording differs and asks the lawyer to check the page, so nothing passes quietly.
 
 ## How it works
 

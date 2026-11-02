@@ -1,0 +1,636 @@
+{
+ "case": "case-03",
+ "source_file": "case-03-tenancy.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T11:13:58Z",
+  "finished": "2026-11-02T11:14:52Z",
+  "seconds": 54.4,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Eviction and Arrears Claim - Aisha Al Ketbi v Masar Al Waha General Trading LLC",
+ "title_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة - عائشة الكتبي ضد شركة مسار الواحة للتجارة العامة",
+ "case_type": "tenancy",
+ "summary_en": "Lessor seeks eviction of a Dubai shop for two bounced quarterly rent cheques due 01/04/2026 and 01/07/2026 totalling AED 47,500, after a notarised demand on 02/09/2026 and expiry of the 30-day cure period on 02/10/2026 unpaid, claiming eviction, arrears plus accruing rent, and costs. Filed 07/10/2026; hearing noted 16/11/2026 at 10:00 AM.",
+ "summary_ar": "مؤجرة تطالب بإخلاء محل في القصيص الصناعية الثانية بدبي لارتداد شيكي الأجرة المستحقين في 01/04/2026 و01/07/2026 بمجموع 47,500 درهم، بعد إنذار موثق لدى الكاتب العدل بتاريخ 02/09/2026 وانقضاء مهلة الثلاثين يوماً في 02/10/2026 دون سداد، وتطلب الإخلاء والمتأخرات وما يستجد والرسوم. قيد الطلب في 07/10/2026 وحددت جلسة 16/11/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Eviction and Late Rent Claim Request",
+   "document_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة",
+   "src": "../test-files/case-03-tenancy/page-1.jpg"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Payment Demand Notice - Attachment No. 1 to Eviction Request",
+   "document_ar": "إنذار بالسداد - مرفق رقم (1) بطلب الإخلاء",
+   "src": "../test-files/case-03-tenancy/page-2.jpg"
+  }
+ ],
+ "court": {
+  "name_en": "Rental Disputes Center - Dubai",
+  "name_ar": "مركز فض المنازعات الإيجارية – دبي",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Lessor (Claimant)",
+   "role_ar": "المؤجرة",
+   "name_ar": "عائشة محمد بن حارب الكتبي",
+   "name_en": "Aisha Mohamed bin Hareb Al Ketbi",
+   "details_en": "Emirati lessor, Dubai, claimant seeking eviction and arrears",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Lessee (Defendant)",
+   "role_ar": "المستأجرة",
+   "name_ar": "شركة مسار الواحة للتجارة العامة ذ.م.م",
+   "name_en": "Masar Al Waha General Trading LLC",
+   "details_en": "Lessee, trade licence No. 000000, address Shop 12 Building 7 Al Qusais Industrial 2 Dubai",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Registration Section",
+   "role_ar": "قسم التسجيل",
+   "name_ar": "قسم التسجيل",
+   "name_en": "Registration Section",
+   "details_en": "Stamped registration on claim on 07/10/2026",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "notary",
+   "role_en": "Notary Public",
+   "role_ar": "الكاتب العدل",
+   "name_ar": "الكاتب العدل",
+   "name_en": "Notary Public",
+   "details_en": "Attested payment demand notice on 02/09/2026",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "defendant_representative",
+   "role_en": "Cashier",
+   "role_ar": "أمين الصندوق",
+   "name_ar": "أمين صندوق شركة مسار الواحة",
+   "name_en": "Cashier of Masar Al Waha (name not stated)",
+   "details_en": "Received original notice on 02/09/2026 on behalf of defendant company, signature and company stamp affixed",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-01",
+   "what_en": "Lease start date",
+   "what_ar": "بداية عقد الإيجار",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-01",
+   "what_en": "Second cheque No. 100002 for AED 23,750 due",
+   "what_ar": "استحقاق الشيك الثاني رقم (100002) بقيمة 23,750 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-01",
+   "what_en": "Third cheque No. 100003 for AED 23,750 due",
+   "what_ar": "استحقاق الشيك الثالث رقم (100003) بقيمة 23,750 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-01",
+   "what_en": "Date of payment demand notice",
+   "what_ar": "تاريخ تحرير الإنذار بالسداد",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-02",
+   "what_en": "Notary notification and receipt of original notice",
+   "what_ar": "الإخطار بالسداد عن طريق الكاتب العدل واستلام الأصل",
+   "page": 2,
+   "source": "stamp",
+   "mark_ids": [
+    "M3"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "what_en": "Expiry of 30-day payment period without payment",
+   "what_ar": "انقضاء مهلة الثلاثين يوماً دون سداد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-07",
+   "what_en": "Date of eviction request and registration stamp",
+   "what_ar": "تاريخ طلب الإخلاء وختم قسم التسجيل",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "what_en": "Handwritten hearing appointment at 10:00 AM",
+   "what_ar": "جلسة محددة بخط اليد الساعة 10:00 صباحاً",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "what_en": "Lease end date",
+   "what_ar": "نهاية عقد الإيجار",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-04-01",
+   "time": "",
+   "who_en": "Defendant",
+   "what_en": "Defendant to pay second cheque - not met (bounced)",
+   "what_ar": "سداد الشيك الثاني على المستأجرة - لم يتم (ارتد دون صرف)",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Quarterly lease schedule: second cheque due 01/04/2026; stated as dishonoured",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-01",
+   "time": "",
+   "who_en": "Defendant",
+   "what_en": "Defendant to pay third cheque - not met (bounced)",
+   "what_ar": "سداد الشيك الثالث على المستأجرة - لم يتم (ارتد دون صرف)",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Quarterly lease schedule: third cheque due 01/07/2026; stated as dishonoured",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-02",
+   "time": "",
+   "who_en": "Defendant",
+   "what_en": "Defendant to pay AED 47,500 within 30 days of notice - not met, no payment by 02/10/2026",
+   "what_ar": "سداد المبلغ المتأخر 47,500 درهم خلال ثلاثين يوماً من الاستلام - لم يتم",
+   "page": 1,
+   "computed": true,
+   "basis_en": "30 days from receipt on 2026-09-02 under Article 25(1)(a) of Law No. 26 of 2007; expiry expressly stated as 02/10/2026",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-16",
+   "time": "10:00",
+   "who_en": "Claimant and Defendant",
+   "what_en": "Parties to attend hearing",
+   "what_ar": "حضور الجلسة",
+   "page": 1,
+   "computed": false,
+   "basis_en": "As written in handwritten session note on page 1",
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Evict defendant from leased shop and hand over vacant",
+   "item_ar": "إخلاء المستأجرة من العين المؤجرة وتسليمها خالية من الشواغل",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Pay overdue rent of AED 47,500 plus further rent accruing until actual eviction",
+   "item_ar": "سداد الأجرة المتأخرة وقدرها (47,500) درهم، وما يستجد من أجرة حتى تاريخ الإخلاء الفعلي",
+   "has_amount": true,
+   "amount_aed": 47500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Order defendant to pay fees and costs",
+   "item_ar": "إلزام المستأجرة بالرسوم والمصروفات",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Leased shop No. 12, Building No. 7, Al Qusais Industrial Area 2, Dubai, leased 01/01/2026 to 31/12/2026 for AED 95,000 yearly payable in four cheques of AED 23,750 each",
+   "fact_ar": "العين المؤجرة محل رقم (12)، مبنى رقم (7)، منطقة القصيص الصناعية الثانية، دبي، بعقد من 01/01/2026 إلى 31/12/2026 بأجرة سنوية 95,000 درهم تدفع بأربعة شيكات قيمة كل منها 23,750 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Second cheque due 01/04/2026 and third cheque due 01/07/2026, Nos. 100002 and 100003, bounced unpaid, total arrears AED 47,500",
+   "fact_ar": "ارتد الشيكان الثاني بتاريخ 01/04/2026 والثالث بتاريخ 01/07/2026 رقما (100002) و(100003) دون صرف، فبلغت المتأخرات 47,500 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Lessor notified lessee via Notary Public on 02/09/2026 demanding payment within 30 days of receipt failing which eviction would be sought",
+   "fact_ar": "أخطرت المؤجرة المستأجرة بالسداد عن طريق الكاتب العدل بتاريخ 02/09/2026 وطالبته بالسداد خلال ثلاثين يوماً من الاستلام وإلا طلبت الإخلاء",
+   "page": 2,
+   "source": "stamp",
+   "mark_ids": [
+    "M3"
+   ]
+  },
+  {
+   "fact_en": "30-day period expired on 02/10/2026 without payment",
+   "fact_ar": "انقضت مهلة الثلاثين يوماً بتاريخ 02/10/2026 دون سداد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant company's cashier received the original notice on 02/09/2026",
+   "fact_ar": "استلم أمين صندوق الشركة المستأجرة أصل الإنذار بتاريخ 02/09/2026",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "M4",
+    "M5"
+   ]
+  },
+  {
+   "fact_en": "Lessor filed eviction request on 07/10/2026; handwritten note sets hearing on 16/11/2026 at 10:00 AM",
+   "fact_ar": "قدمت المؤجرة طلب الإخلاء بتاريخ 07/10/2026 وحددت جلسة بخط اليد بتاريخ 16/11/2026 الساعة 10:00 صباحاً",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1",
+    "X1"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "المادة (19) بشأن التزام المستأجر بسداد الأجرة في مواعيدها",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "19",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "19",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "19",
+    "status": "valid",
+    "label_en": "Article 19 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (19) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "يجب على المستأجر أن يسدد بدل الإيجار في مواعيد استحقاقه، وأن يحافظ على العقار محافظة الشخص العادي على ممتلكاته، ولا يجوز له إحداث أي تغيير أو إجراء ترميمات أو أعمال صيانة في العقار إلاّ بإذن من المؤجِّر وبعد استصدار التراخيص اللازمة لذلك من الجهات الرسمية المختصة، دون أن يخل ذلك بالتزام المستأجر بإجراء الترميمات التي تم الاتفاق عليها أو جرى العرف على تكليف المستأجر بها.",
+    "official_text_en": "The Tenant must pay the Rent on due dates and maintain the Real Property in such a manner as an ordinary person would maintain his own property. Without prejudice to the Tenant's obligation to carry out the restorations that have been agreed upon or which are customary for Tenants to undertake, the Tenant may not make any changes or carry out any restoration or maintenance works to the Real Property unless so permitted by the Landlord and after obtaining required licences from the competent official entities."
+   }
+  },
+  {
+   "text_ar": "والبند (1/أ) من المادة (25) بشأن الإخلاء لعدم السداد خلال ثلاثين يوماً من تاريخ الإخطار",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "25",
+   "clause": "1/أ",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "25",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "25",
+    "status": "valid",
+    "label_en": "Article 25 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (25) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "1. يكون للمؤجِّر طلب إخلاء المستأجر من العقار قبل انتهاء مدة الإجارة حصراً في أي من الحالات التالية:\nأ- إذا لم يقم المستأجر بسداد بدل الإيجار أو أي جزء منه خلال ثلاثين يوماً من تاريخ إخطار المؤجر له بالسداد، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nب- إذا قام المستأجر بتأجير العقار من الباطن أو أي جزء منه دون الحصول على موافقة المؤجِّر الخطية على ذلك، وفي هذه الحالة يسري الإخلاء على المستأجر والمستأجر من الباطن مع حفظ حق هذا الأخير بالرجوع على المستأجر بالتعويض.\nج- إذا استعمل المستأجر العقار أو سمح لآخرين باستعماله لغاية غير مشروعة أو مخالفة للنظام العام أو الآداب العامة.\nد- إذا كان العقار المؤجر محلاً تجارياً، وتركه المستأجر دون إشغال ودون سبب مشروع لمدة ثلاثين يوماً متصلة أو تسعين يوماً متقطعة في السنة الواحدة، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nهـ- إذا أحدث المستأجر تغييراً في العقار بحيث يؤثر على سلامته بشكل يتعذر معه إعادته إلى حالته الأصلية، أو ألحق بالعقار ضرراً نتيجة فعله المتعمد أو إهماله الجسيم في اتخاذ الحيطة والحذر أو سماحه للغير بإلحاق ذلك الضرر.\nو- إذا استعمل المستأجر العقار في غير الغرض المؤجّر لأجله أو استعمله على نحو يخالف أنظمة التخطيط والبناء واستعمالات الأراضي المعمول بها في الإمارة.\nز- إذا كان العقار آيلاً للسقوط، على أن يُثبت المؤجِّر ذلك بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nح- إذا لم يراع المستأجر أي التزام فرضه عليه هذا القانون أو أي شرط من شروط عقد الإيجار، وذلك خلال ثلاثين يوماً من تاريخ إخطار المؤجِّر له بتنفيذ ذلك الالتزام أو الشرط.\nط- إذا اقتضت متطلبات التنمية والتطور العمراني في الإمارة هدم العقار وإعادة بنائه وذلك وفقاً لما تقرره الجهات الحكومية المختصة.\nولغايات البند (1) من هذه المادة، يتم إخطار المؤجر للمستأجر عن طريق الكاتب العدل أو البريد المسجل.\n2. يكون للمؤجِّر طلب إخلاء المستأجر من العقار عند انتهاء عقد الإيجار حصراً في أي من الحالات التالية:\nأ- إذا رغب مالك العقار في هدمه لإعادة بنائه أو رغب بإضافة أية مبان جديدة تحول دون انتفاع المستأجر بالعقار المؤجر وذلك شريطة الحصول على التراخيص اللازمة من الجهات المختصة.\nب- إذا اقتضت حالة العقار ترميمه أو إجراء صيانة شاملة له وتعذر إجراء أعمال الترميم والصيانة بوجود المستأجر في العقار، على أن يتم التثبت من حالة العقار بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nج- إذا رغب مالك العقار في استعادته لاستعماله الشخصي أو لاستعمال أي من أقاربه حتى الدرجة الأولى، شريطة إثبات عدم ملكيته للبديل المناسب لذلك الغرض.\nد- إذا رغب مالك العقار في بيع العقار المؤجر.\nولغايات البند (2) من هذه المادة، يجب أن يقوم المؤجِّر بإخطار المستأجر بأسباب إخلاء العقار قبل اثني عشر شهراً على الأقل من التاريخ المحدد للإخلاء، على أن يتم الإخطار عن طريق الكاتب العدل أو البريد المسجل.",
+    "official_text_en": "1. A Landlord may request eviction of the Tenant from the Real Property before expiry of the Lease Contract only in the following cases:\na. unless otherwise agreed by the parties, where the Tenant fails to pay the Rent or any part thereof within thirty (30) days from the date of service of a Notice on the Tenant by the Landlord requesting the payment;\nb. where the Tenant sublets the Real Property or any part thereof without obtaining the Landlord's written approval, in which case the eviction will apply to the Tenant and to the Subtenant, who will reserve the right to claim compensation from the Tenant;\nc. where the Tenant uses the Real Property or allows others to use it for any illegal purpose or for a purpose which conflicts with public order or morals;\nd. unless otherwise agreed by the parties, where the leased Real Property is used as business premises and the Tenant leaves it unoccupied without a valid reason for a period of thirty (30) consecutive days or ninety (90) non-consecutive days in a year;\ne. where the Tenant makes any change to the Real Property that endangers its safety in a manner that makes it impossible to restore the Real Property to its original state; or causes damage to the Real Property as a result of his deliberate act, or his gross negligence by failing to exercise due caution and care or allowing others to cause that damage;\nf. where the Tenant uses the Real Property for a purpose other than that for which it is leased, or otherwise uses the Real Property in a manner that violates the planning, construction, and land use regulations in force in the Emirate;\ng. where the Real Property is likely to collapse, provided that the Landlord proves this by a technical report issued by or certified by the Dubai Municipality;\nh. where the Tenant fails to comply with any of his obligations under this Law or any of the Lease Contract terms within thirty (30) days from the date on which a Notice requesting him to comply with that obligation or term is served upon him by the Landlord; or\ni. where the competent Government entities decide that the demolition and reconstruction of the Real Property are mandated in accordance with urban development requirements in the Emirate.\nFor the purposes of paragraph (1) of this Article, the Landlord will serve a Notice on the Tenant through a Notary Public or by registered mail.\n2. Upon expiry of the Lease Contract, the Landlord may seek eviction of the Tenant from the Real Property only if:\na. the Real Property owner wishes to demolish and reconstruct it or to add any new structures that would prevent the Tenant from using the Real Property, provided that the owner obtains the required permits from the competent entities; or\nb. the Real Property is in a condition that requires restoration or comprehensive maintenance that cannot be carried out while the Tenant occupies the Real Property, provided that this condition of the Real Property is verified by a technical report issued or certified by the Dubai Municipality;\nc. the Real Property owner wishes to retake possession of the Real Property for his own use or for use by any of his first-degree relatives, provided that the owner proves that he does not own any alternative Real Property that is suitable for this purpose; or\nd. the leased Real Property owner wishes to sell it.\nFor the purposes of paragraph (2) of this Article, the Landlord must notify the Tenant of the eviction reasons at least twelve (12) months before the date of eviction, and the notice must be served through a Notary Public or by registered mail."
+   }
+  },
+  {
+   "text_ar": "والمادة (31) التي تنص على أن رفع دعوى الإخلاء لا يعفي المستأجر من سداد الأجرة، وذلك من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "31",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "31",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "31",
+    "status": "valid",
+    "label_en": "Article 31 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (31) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "لا يعفي رفع دعوى الإخلاء المستأجر من أداء بدل الإيجار طيلة المدة التي يستغرقها نظر الدعوى وصدور الحكم فيها وتنفيذه.",
+    "official_text_en": "Filing a claim to evict the Tenant does not exempt the Tenant from paying the Rent for the whole period during which the claim is considered, and until an award is rendered and executed."
+   }
+  },
+  {
+   "text_ar": "وذلك عملاً بالبند (1/أ) من المادة (25) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "25",
+   "clause": "1/أ",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "25",
+   "check": {
+    "law_id": "dubai-law-26-2007-landlords-tenants",
+    "law_title_en": "Dubai Law No. 26 of 2007 Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+    "law_title_ar": "قانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+    "article_count": 37,
+    "source_url_en": "https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf",
+    "source_url_ar": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2007/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%B1%D9%82%D9%85%20(26)%20%D9%84%D8%B3%D9%86%D8%A9%202007.html",
+    "article": "25",
+    "status": "valid",
+    "label_en": "Article 25 of the Dubai Landlords and Tenants Law exists in the official text.",
+    "label_ar": "المادة (25) من قانون تنظيم العلاقة بين المؤجرين والمستأجرين في إمارة دبي موجودة في النص الرسمي.",
+    "official_text_ar": "1. يكون للمؤجِّر طلب إخلاء المستأجر من العقار قبل انتهاء مدة الإجارة حصراً في أي من الحالات التالية:\nأ- إذا لم يقم المستأجر بسداد بدل الإيجار أو أي جزء منه خلال ثلاثين يوماً من تاريخ إخطار المؤجر له بالسداد، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nب- إذا قام المستأجر بتأجير العقار من الباطن أو أي جزء منه دون الحصول على موافقة المؤجِّر الخطية على ذلك، وفي هذه الحالة يسري الإخلاء على المستأجر والمستأجر من الباطن مع حفظ حق هذا الأخير بالرجوع على المستأجر بالتعويض.\nج- إذا استعمل المستأجر العقار أو سمح لآخرين باستعماله لغاية غير مشروعة أو مخالفة للنظام العام أو الآداب العامة.\nد- إذا كان العقار المؤجر محلاً تجارياً، وتركه المستأجر دون إشغال ودون سبب مشروع لمدة ثلاثين يوماً متصلة أو تسعين يوماً متقطعة في السنة الواحدة، وذلك ما لم يتفق الطرفان على خلاف ذلك.\nهـ- إذا أحدث المستأجر تغييراً في العقار بحيث يؤثر على سلامته بشكل يتعذر معه إعادته إلى حالته الأصلية، أو ألحق بالعقار ضرراً نتيجة فعله المتعمد أو إهماله الجسيم في اتخاذ الحيطة والحذر أو سماحه للغير بإلحاق ذلك الضرر.\nو- إذا استعمل المستأجر العقار في غير الغرض المؤجّر لأجله أو استعمله على نحو يخالف أنظمة التخطيط والبناء واستعمالات الأراضي المعمول بها في الإمارة.\nز- إذا كان العقار آيلاً للسقوط، على أن يُثبت المؤجِّر ذلك بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nح- إذا لم يراع المستأجر أي التزام فرضه عليه هذا القانون أو أي شرط من شروط عقد الإيجار، وذلك خلال ثلاثين يوماً من تاريخ إخطار المؤجِّر له بتنفيذ ذلك الالتزام أو الشرط.\nط- إذا اقتضت متطلبات التنمية والتطور العمراني في الإمارة هدم العقار وإعادة بنائه وذلك وفقاً لما تقرره الجهات الحكومية المختصة.\nولغايات البند (1) من هذه المادة، يتم إخطار المؤجر للمستأجر عن طريق الكاتب العدل أو البريد المسجل.\n2. يكون للمؤجِّر طلب إخلاء المستأجر من العقار عند انتهاء عقد الإيجار حصراً في أي من الحالات التالية:\nأ- إذا رغب مالك العقار في هدمه لإعادة بنائه أو رغب بإضافة أية مبان جديدة تحول دون انتفاع المستأجر بالعقار المؤجر وذلك شريطة الحصول على التراخيص اللازمة من الجهات المختصة.\nب- إذا اقتضت حالة العقار ترميمه أو إجراء صيانة شاملة له وتعذر إجراء أعمال الترميم والصيانة بوجود المستأجر في العقار، على أن يتم التثبت من حالة العقار بتقرير فني صادر من بلدية دبي أو معتمد من قبلها.\nج- إذا رغب مالك العقار في استعادته لاستعماله الشخصي أو لاستعمال أي من أقاربه حتى الدرجة الأولى، شريطة إثبات عدم ملكيته للبديل المناسب لذلك الغرض.\nد- إذا رغب مالك العقار في بيع العقار المؤجر.\nولغايات البند (2) من هذه المادة، يجب أن يقوم المؤجِّر بإخطار المستأجر بأسباب إخلاء العقار قبل اثني عشر شهراً على الأقل من التاريخ المحدد للإخلاء، على أن يتم الإخطار عن طريق الكاتب العدل أو البريد المسجل.",
+    "official_text_en": "1. A Landlord may request eviction of the Tenant from the Real Property before expiry of the Lease Contract only in the following cases:\na. unless otherwise agreed by the parties, where the Tenant fails to pay the Rent or any part thereof within thirty (30) days from the date of service of a Notice on the Tenant by the Landlord requesting the payment;\nb. where the Tenant sublets the Real Property or any part thereof without obtaining the Landlord's written approval, in which case the eviction will apply to the Tenant and to the Subtenant, who will reserve the right to claim compensation from the Tenant;\nc. where the Tenant uses the Real Property or allows others to use it for any illegal purpose or for a purpose which conflicts with public order or morals;\nd. unless otherwise agreed by the parties, where the leased Real Property is used as business premises and the Tenant leaves it unoccupied without a valid reason for a period of thirty (30) consecutive days or ninety (90) non-consecutive days in a year;\ne. where the Tenant makes any change to the Real Property that endangers its safety in a manner that makes it impossible to restore the Real Property to its original state; or causes damage to the Real Property as a result of his deliberate act, or his gross negligence by failing to exercise due caution and care or allowing others to cause that damage;\nf. where the Tenant uses the Real Property for a purpose other than that for which it is leased, or otherwise uses the Real Property in a manner that violates the planning, construction, and land use regulations in force in the Emirate;\ng. where the Real Property is likely to collapse, provided that the Landlord proves this by a technical report issued by or certified by the Dubai Municipality;\nh. where the Tenant fails to comply with any of his obligations under this Law or any of the Lease Contract terms within thirty (30) days from the date on which a Notice requesting him to comply with that obligation or term is served upon him by the Landlord; or\ni. where the competent Government entities decide that the demolition and reconstruction of the Real Property are mandated in accordance with urban development requirements in the Emirate.\nFor the purposes of paragraph (1) of this Article, the Landlord will serve a Notice on the Tenant through a Notary Public or by registered mail.\n2. Upon expiry of the Lease Contract, the Landlord may seek eviction of the Tenant from the Real Property only if:\na. the Real Property owner wishes to demolish and reconstruct it or to add any new structures that would prevent the Tenant from using the Real Property, provided that the owner obtains the required permits from the competent entities; or\nb. the Real Property is in a condition that requires restoration or comprehensive maintenance that cannot be carried out while the Tenant occupies the Real Property, provided that this condition of the Real Property is verified by a technical report issued or certified by the Dubai Municipality;\nc. the Real Property owner wishes to retake possession of the Real Property for his own use or for use by any of his first-degree relatives, provided that the owner proves that he does not own any alternative Real Property that is suitable for this purpose; or\nd. the leased Real Property owner wishes to sell it.\nFor the purposes of paragraph (2) of this Article, the Landlord must notify the Tenant of the eviction reasons at least twelve (12) months before the date of eviction, and the notice must be served through a Notary Public or by registered mail."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.29563,
+    0.02784,
+    0.48375,
+    0.11003
+   ],
+   "type": "stamp",
+   "found_as": "purple stamp",
+   "confidence": 0.8865247964859009,
+   "text_ar": "قسم التسجيل نموذج تدريبي 07/10/2026",
+   "meaning_en": "Registration Section stamp recording filing on 07/10/2026 (training model)",
+   "meaning_ar": "ختم قسم التسجيل يفيد تقديم الطلب بتاريخ 07/10/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.155,
+    0.70172,
+    0.33875,
+    0.73619
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7419355511665344,
+   "text_ar": "",
+   "meaning_en": "Signature of lessor Aisha Mohamed bin Hareb Al Ketbi on the claim",
+   "meaning_ar": "توقيع المؤجرة عائشة محمد بن حارب الكتبي على طلب الإخلاء",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 2,
+   "box": [
+    0.36438,
+    0.44587,
+    0.55188,
+    0.53071
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.8128654956817627,
+   "text_ar": "الكاتب العدل نموذج تدريبي 02/09/2026",
+   "meaning_en": "Notary Public stamp evidencing notification on 02/09/2026 (training model)",
+   "meaning_ar": "ختم الكاتب العدل يفيد الإخطار بتاريخ 02/09/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.47187,
+    0.79806,
+    0.6325,
+    0.83738
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8241757750511169,
+   "text_ar": "",
+   "meaning_en": "Signature of recipient (cashier) acknowledging receipt",
+   "meaning_ar": "توقيع مستلم الأصل (أمين الصندوق) على الإنذار",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "box": [
+    0.0975,
+    0.76226,
+    0.39187,
+    0.85904
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9139785170555115,
+   "text_ar": "مسار الواحة للتجارة العامة ذ.م.م — دبي",
+   "meaning_en": "Stamp of defendant company: Masar Al Waha General Trading LLC - Dubai",
+   "meaning_ar": "ختم الشركة المستأجرة: مسار الواحة للتجارة العامة ذ.م.م - دبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 1,
+   "box": [
+    0.34,
+    0.79,
+    0.71,
+    0.84
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "جلسة 16/11/2026 — الساعة 10:00 صباحاً",
+   "meaning_en": "Handwritten note setting hearing on 16/11/2026 at 10:00 AM",
+   "meaning_ar": "ملاحظة بخط اليد تحدد موعد الجلسة 16/11/2026 الساعة 10:00 صباحاً",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "box": [
+    0.32,
+    0.75,
+    0.73,
+    0.79
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "استلمت الأصل — 2/9/2026 — أمين الصندوق",
+   "meaning_en": "Handwritten acknowledgement of receipt of original on 2/9/2026 by cashier",
+   "meaning_ar": "إقرار بخط اليد باستلام الأصل بتاريخ 2/9/2026 من أمين الصندوق",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X3",
+   "page": 2,
+   "box": [
+    0.09,
+    0.37,
+    0.27,
+    0.44
+   ],
+   "type": "signature",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "المؤجرة",
+   "meaning_en": "Signature of lessor on the payment demand notice",
+   "meaning_ar": "توقيع المؤجرة على الإنذار بالسداد",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "2026-09-02 (Notary notification and receipt of original notice) appears only in a stamp on page 2.",
+   "flag_ar": "التاريخ 2026-09-02 (الإخطار بالسداد عن طريق الكاتب العدل واستلام الأصل) وارد فقط في ختم في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-11-16 (Handwritten hearing appointment at 10:00 AM) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-11-16 (جلسة محددة بخط اليد الساعة 10:00 صباحاً) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-11-16 (Parties to attend hearing) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-11-16 (حضور الجلسة) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Document footer states it is a fictional test document, not a real case",
+   "flag_ar": "الوثيقة خيالية لأغراض الاختبار وليست قضية حقيقية حسب التذييل في الصفحتين",
+   "page": 1,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "No case number stated in file",
+   "flag_ar": "لم يرد رقم قضية في الملف",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Trade licence number shown as 000000, appears to be placeholder",
+   "flag_ar": "رقم الرخصة التجارية ورد بصيغة 000000 ويبدو رقماً افتراضياً",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Handwritten hearing date read as 16/11/2026 but handwriting is not fully clear",
+   "flag_ar": "تاريخ الجلسة بخط اليد قد يقرأ 16/11/2026 والقراءة غير مؤكدة تماماً",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}
