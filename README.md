@@ -114,4 +114,4 @@ python3 tools/make_test_files/build.py
 
 ## Licence
 
-Code: no licence chosen yet [FOUNDER TO CONFIRM]; until one is added, all rights are reserved by Infinity AI Technology Labs, Inc. Fonts: SIL Open Font License, see `tools/fonts/*/OFL.txt`. Law texts: official UAE and Dubai legislation, see `laws/README.md`.
+Code, test files and answer keys: Copyright © 2026 Infinity AI Technology Labs, Inc. All rights reserved (see `LICENSE`). The repository is public so the hackathon judges can read and run it; no licence to reuse it is granted. Fonts: SIL Open Font License, see `tools/fonts/*/OFL.txt`. Law texts: official UAE and Dubai legislation, see `laws/README.md`.
