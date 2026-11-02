@@ -17,7 +17,7 @@ The **Case Reader** is a new LAVERTY feature built during this hackathon on Meta
 1. **Pages.** The PDF is rendered page by page.
 2. **Marks, with SAM 3.1.** On every page, SAM 3.1 is asked for "rubber stamp", "signature" and "handwritten text", and returns a box for each one it finds. Weak, oversized and duplicate boxes are dropped, and the rest are numbered M1, M2, ... in reading order.
 3. **Reading, with Muse Spark 1.3.** Muse Spark reads all the pages together, plus a close-up of every mark, and fills in a fixed JSON schema: court, parties, dates, deadlines, claims, key facts, citations, and what each stamp, signature and handwritten note says. Every item carries its page. An item known only from a stamp or a handwritten note says so and points to the mark, and a handwritten correction of printed text is flagged with both values.
-4. **Citation check.** Every cited article is checked against the official law text: is it the right law (federal, or the right emirate's), does the article exist, and does any quoted wording match word for word? The article is read from the citation as written on the page, and a citation naming two articles is checked twice. A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the three laws cited in the test files (`laws/`).
+4. **Citation check.** Every cited article is checked against the official law text: is it the right law (federal, or the right emirate's), does the article exist, and does any quoted wording match word for word? The article is read from the citation as written on the page, and a citation naming two articles is checked twice. A citation that cannot be checked is labelled "not checked"; it is never passed quietly. In the LAVERTY app this step is LAVERTY's citation check against its UAE law library. This repository includes a small open version covering the 11 laws cited in the test files (`laws/`).
 5. **Output.** `summary.json` for software and `summary.md` for people, starting with the points a lawyer should check first.
 
 The reader extracts and the check verifies: Muse Spark never decides whether an article exists.
@@ -30,7 +30,7 @@ export MODEL_API_KEY="<your Meta Model API key>"
 
 python -m case_reader check-key
 python -m case_reader read test-files/case-02-commercial/case-02-commercial.pdf --out runs/my-run/case-02
-python -m case_reader read-all --out runs/my-run      # all three test files
+python -m case_reader read-all --out runs/my-run      # all 13 test files
 python tools/score.py runs/my-run                     # score against the answer key
 ```
 
@@ -48,10 +48,11 @@ Everything here was made during the hackathon.
 |---|---|
 | `case_reader/` | The Case Reader: SAM 3.1 marks, Muse Spark reading, citation check, summary |
 | `laws/` | The law index used by the open citation check |
-| `test-files/` | Three made-up scanned Arabic case files (labour, commercial, tenancy), 8 pages in all, with stamps, signatures and handwritten notes |
+| `test-files/` | 13 made-up scanned Arabic case files, 33 pages in all, each one PDF with stamps, signatures and handwritten notes |
 | `answer-key/` | The hand-checked answers used to score the reader, and the position of every stamp, signature and handwritten note, measured tight around the ink |
 | `tools/score.py` | Scores a run against the answer key |
-| `tools/make_test_files/` | The generator that made the test files |
+| `tools/overlay.py` | Draws a run's marks on the pages beside the answer key |
+| `tools/make_test_files/` | The generator that made the test files (`cases.py` for cases 01–03, `extra/` for 04–13) |
 | `tools/fonts/` | Open-licence Arabic fonts used by the generator (SIL Open Font License) |
 | `tests/` | Offline tests |
 
@@ -59,10 +60,30 @@ Everything here was made during the hackathon.
 
 Every person, company, case number, ID number, address and event in `test-files/` is invented, and every page says so in its footer. The stamps say "نموذج تدريبي" (training sample).
 
-The laws cited are real UAE laws. Every valid citation was checked against the official text. Two citations are wrong on purpose so the citation check has something to catch:
+| Case | What it is | Pages |
+|---|---|---|
+| 01 | Labour claim: unpaid wages, gratuity, unlawful dismissal (Dubai) | 3 |
+| 02 | Commercial claim: unpaid supply invoices and a returned cheque | 3 |
+| 03 | Tenancy claim: eviction for unpaid rent (Dubai) | 2 |
+| 04 | Labour claim before the Abu Dhabi labour court, with the Ministry's referral memo | 2 |
+| 05 | Three returned cheques, with the judge's handwritten attachment decision | 3 |
+| 06 | Dubai tenancy: a rent increase at renewal, with the landlord's notice | 2 |
+| 07 | Traffic accident compensation under the 2025 Civil Transactions Law | 3 |
+| 08 | Partners' dispute in an LLC: removing the manager | 3 |
+| 09 | Consumer claim: a new car with a repeated gearbox defect | 2 |
+| 10 | Application to ratify and enforce an arbitral award | 3 |
+| 11 | Payment order, with a signed acknowledgment of debt | 2 |
+| 12 | Trademark counterfeiting | 2 |
+| 13 | Construction contract under the 1985 Civil Transactions Law | 3 |
 
-- Article 145 of Federal Decree-Law No. 33 of 2021 (Labour Relations), a law with 74 articles;
-- Article 712 of Federal Decree-Law No. 50 of 2022 (Commercial Transactions), a law with 684 articles.
+The laws cited are real UAE laws, and every valid citation was checked against the official text. The files plant problems on purpose, so the reader and the citation check have something to catch:
+
+- **Articles that don't exist:** Labour Relations Law Art. 145 (case 01; the law has 74 articles), Commercial Transactions Law Art. 712 (case 02; 684), Civil Procedure Law Art. 350 (case 05; 338), Commercial Companies Law Art. 380, cited clause first (case 08; 366), Consumer Protection Law Art. 45 (case 09; 38) and Trademarks Law Art. 47 bis (case 12; there is none).
+- **A quote with one word changed:** case 07 quotes Civil Transactions Law (2025) Art. 255 with "محتملة" (probable) where the official text says "طبيعية" (natural).
+- **A law outside the index:** Dubai Decree No. 43 of 2013 (case 06) must come back "not checked", never "valid".
+- **A repealed law that still governs:** case 13's contract predates 1 June 2026, so the 1985 Civil Transactions Law applies even though it has been repealed.
+- **Handwriting that changes or adds facts:** amounts corrected by hand (cases 02, 11, 13), and dates, case numbers or file numbers that appear only in handwriting (most cases).
+- **Citation forms:** article ranges (cases 05 and 13), clause-first citations (cases 01, 04, 08), "المادة رقم" (case 04), two laws in one sentence (case 10), and deadlines that must be worked out from the text.
 
 ## Rebuild the test files
 

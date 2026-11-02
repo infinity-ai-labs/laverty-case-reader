@@ -99,6 +99,7 @@ def score_citations(found: list[dict], key: list[dict]) -> dict[str, Any]:
 
     used: set[int] = set()
     correct, caught, invalid_total, misses = 0, 0, 0, []
+    quotes_right, quotes_total, misquotes_caught, misquotes_total = 0, 0, 0, 0
     for k in key:
         law = parse_law(k["law"])
         want = ((law["number"], law["year"]), k["article"])
@@ -106,21 +107,39 @@ def score_citations(found: list[dict], key: list[dict]) -> dict[str, Any]:
                       if i not in used and (law_of(c), _checked_article(c)) == want]
         same_page = [i for i in candidates if found[i].get("page") == k["page"]]
         pick = (same_page or candidates or [None])[0]
-        if not k["valid"]:
+        expected = "not_checked" if k.get("not_in_index") else ("valid" if k["valid"] else "invalid")
+        if expected == "invalid":
             invalid_total += 1
+        has_quote = "quote_ar" in k or "quote_matches_official_text" in k
+        if has_quote:
+            quotes_total += 1
+            misquotes_total += k.get("quote_matches_official_text") is False
         if pick is None:
             misses.append(f"{k['text_ar']} (page {k['page']}): not found")
             continue
         used.add(pick)
-        status = found[pick]["check"]["status"]
-        verdict_ok = (status == "valid") if k["valid"] else (status == "invalid")
-        if verdict_ok:
+        check = found[pick]["check"]
+        if check["status"] == expected:
             correct += 1
-            caught += 0 if k["valid"] else 1
+            caught += expected == "invalid"
         else:
-            misses.append(f"{k['text_ar']} (page {k['page']}): check said {status}")
+            misses.append(f"{k['text_ar']} (page {k['page']}): check said {check['status']}, expected {expected}")
+        if has_quote:
+            quote = (check.get("quote") or {}).get("status")
+            if k.get("quote_matches_official_text") is False:
+                if quote in ("differs", "does_not_match"):
+                    quotes_right += 1
+                    misquotes_caught += 1
+                else:
+                    misses.append(f"misquote of article {k['article']} (page {k['page']}): quote check said {quote}")
+            elif quote == "matches":
+                quotes_right += 1
+            else:
+                misses.append(f"quote of article {k['article']} (page {k['page']}): quote check said {quote}")
     return {"correct": correct, "total": len(key), "found": len(found), "misses": misses,
-            "invalid_caught": caught, "invalid_total": invalid_total}
+            "invalid_caught": caught, "invalid_total": invalid_total,
+            "quotes_right": quotes_right, "quotes_total": quotes_total,
+            "misquotes_caught": misquotes_caught, "misquotes_total": misquotes_total}
 
 
 def match_marks(found: list[dict], key: list[dict], *, same_type: bool = True) -> list[tuple[int, int, float]]:
@@ -190,7 +209,9 @@ def unread_case(case_id: str, key: dict[str, Any], marks_key: dict[str, Any], mo
         "deadlines": zero(len(key["deadlines"])),
         "claims": zero(sum(1 for c in key["claims"] if c["amount_aed"] is not None)),
         "citations": zero(len(key["citations"]), invalid_caught=0,
-                          invalid_total=sum(1 for c in key["citations"] if not c["valid"])),
+                          invalid_total=sum(1 for c in key["citations"] if not c["valid"] and not c.get("not_in_index")),
+                          quotes_right=0, quotes_total=sum(1 for c in key["citations"] if "quote_ar" in c or "quote_matches_official_text" in c),
+                          misquotes_caught=0, misquotes_total=sum(1 for c in key["citations"] if c.get("quote_matches_official_text") is False)),
         "marks": zero(len(marks_key["marks"]), right_place_any_type=0, mean_iou=0.0),
         "handwriting_dates": {"correct": 0, "total": sum(1 for d in key["dates"] if d.get("source") == "handwriting")},
         "phrases": [],
@@ -244,6 +265,12 @@ def to_markdown(cases: list[dict[str, Any]], run_name: str) -> str:
     invalid = sum(c["citations"]["invalid_total"] for c in cases)
     lines.append(f"| Invalid citations caught | " + " | ".join(
         _ratio(c["citations"]["invalid_caught"], c["citations"]["invalid_total"]) for c in cases) + f" | {_ratio(caught, invalid)} |")
+    mq_c = sum(c["citations"].get("misquotes_caught", 0) for c in cases)
+    mq_t = sum(c["citations"].get("misquotes_total", 0) for c in cases)
+    if mq_t:
+        lines.append(f"| Changed quotes caught | " + " | ".join(
+            _ratio(c["citations"].get("misquotes_caught", 0), c["citations"].get("misquotes_total", 0)) for c in cases)
+            + f" | {_ratio(mq_c, mq_t)} |")
     hw_c = sum(c["handwriting_dates"]["correct"] for c in cases)
     hw_t = sum(c["handwriting_dates"]["total"] for c in cases)
     lines.append(f"| Handwritten-only dates marked as handwriting | " + " | ".join(

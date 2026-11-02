@@ -10,7 +10,9 @@ found by rendering the page again with that one mark hidden and comparing the tw
 
 Usage: python3 tools/make_test_files/build.py               # pages, PDFs and mark positions
        python3 tools/make_test_files/build.py --marks-only  # mark positions only
+       python3 tools/make_test_files/build.py --cases case-04,case-05   # only these cases
 """
+import importlib.util
 import json
 import math
 import random
@@ -24,7 +26,26 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from cases import CASES, FOOTER  # noqa: E402
+from cases import CASES as BASE_CASES, FOOTER  # noqa: E402
+
+EXTRA = Path(__file__).resolve().parent / "extra"
+
+
+def load_cases():
+    """The three cases in cases.py, then one case per file in extra/ (case_04.py, case_05.py, ...)."""
+    cases = list(BASE_CASES)
+    for path in sorted(EXTRA.glob("case_*.py")):
+        spec = importlib.util.spec_from_file_location(f"extra_{path.stem}", path)
+        module = importlib.util.module_from_spec(spec)
+        try:
+            spec.loader.exec_module(module)
+            cases.append(module.CASE)
+        except Exception as exc:  # one unfinished case file must not stop the others
+            print(f"warning: skipped {path.name}: {type(exc).__name__}: {exc}", file=sys.stderr)
+    return cases
+
+
+CASES = load_cases()
 
 FONTS = ROOT / "tools" / "fonts"
 OUT = ROOT / "test-files"
@@ -187,6 +208,9 @@ def transform_box(box, M):
 
 def main():
     marks_only = "--marks-only" in sys.argv[1:]
+    only = set()
+    if "--cases" in sys.argv[1:]:
+        only = {c.strip() for c in sys.argv[sys.argv.index("--cases") + 1].split(",") if c.strip()}
     OUT.mkdir(exist_ok=True)
     KEY.mkdir(exist_ok=True)
     tmp = ROOT / "tmp"
@@ -196,7 +220,10 @@ def main():
         ctx = browser.new_context(viewport={"width": W, "height": H}, device_scale_factor=SCALE)
         page_obj = ctx.new_page()
         for ci, case in enumerate(CASES):
-            rnd = random.Random(1000 + ci)
+            if only and case["id"] not in only:
+                continue
+            # The seed comes from the case number, so a case renders the same whatever other cases exist.
+            rnd = random.Random(999 + int(case["id"].split("-")[1]))
             folder = OUT / f'{case["id"]}-{case["slug"]}'
             folder.mkdir(exist_ok=True)
             images, marks_out = [], []

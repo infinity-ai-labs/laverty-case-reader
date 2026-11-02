@@ -1,0 +1,80 @@
+{
+  "case": "case-08",
+  "file": "test-files/case-08-llc-partners/case-08-llc-partners.pdf",
+  "fictional": true,
+  "title_en": "Commercial claim: partner seeks removal of an LLC manager and an accounting expert",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, commercial case: removal of the LLC manager, annulment of his discharge, accounting expert", "document_ar": "صحيفة دعوى تجارية"},
+    {"page": 2, "document_en": "Minutes of the ordinary general assembly of 30 Sep 2026, with the claimant's handwritten objection", "document_ar": "محضر اجتماع الجمعية العمومية العادية"},
+    {"page": 3, "document_en": "External auditor's letter refusing to sign the 2025 financial statements, with the company's incoming-mail stamp", "document_ar": "كتاب مدقق الحسابات بالامتناع عن التوقيع على البيانات المالية"}
+  ],
+  "court": {"name_en": "Dubai Court of First Instance, Major Commercial Circuit", "name_ar": "محكمة دبي الابتدائية — الدائرة التجارية الكلية", "pages": [1], "note": "No case number yet; the registry stamp on page 1 gives only the filing date."},
+  "company": {"name_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م", "name_en": "Nakhlat Al Sabah Foodstuff Trading LLC", "capital_aed": 300000, "shares": 300, "shareholding": [
+    {"partner_en": "Karim Anwar Al Sharif (manager)", "shares": 135, "percent": 45},
+    {"partner_en": "Faisal Nasser Al Hammadi (claimant)", "shares": 120, "percent": 40},
+    {"partner_en": "Salma Rashid Al Naqbi", "shares": 45, "percent": 15}
+  ], "pages": [1, 2]},
+  "parties": [
+    {"role": "claimant (partner, 40%)", "name_ar": "فيصل ناصر الحمادي", "name_en": "Faisal Nasser Al Hammadi", "details_en": "Partner holding 120 of the 300 shares (40%)", "pages": [1, 2]},
+    {"role": "claimant's lawyer", "name_ar": "مروان عبدالرحمن الظاهري", "name_en": "Marwan Abdulrahman Al Dhaheri", "details_en": "Marwan Al Dhaheri Advocates, Dubai", "pages": [1]},
+    {"role": "first defendant (manager, partner 45%)", "name_ar": "كريم أنور الشريف", "name_en": "Karim Anwar Al Sharif", "details_en": "Sole manager under the memorandum of association; holds 135 shares (45%); chaired the general assembly", "pages": [1, 2, 3]},
+    {"role": "second defendant (the company)", "name_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م", "name_en": "Nakhlat Al Sabah Foodstuff Trading LLC", "details_en": "Dubai LLC, capital AED 300,000 in 300 shares, Ras Al Khor Industrial Area 2", "pages": [1, 2, 3]},
+    {"role": "partner (15%), not a party", "name_ar": "سلمى راشد النقبي", "name_en": "Salma Rashid Al Naqbi", "details_en": "Holds 45 shares (15%); voted with the manager", "pages": [1, 2]},
+    {"role": "meeting secretary (company accountant)", "name_ar": "نادر حسين العلي", "name_en": "Nader Hussein Al Ali", "pages": [2]},
+    {"role": "external auditor (audit partner)", "name_ar": "سامي فؤاد عطية", "name_en": "Sami Fouad Attia", "pages": [3]},
+    {"role": "external auditor (audit firm)", "name_ar": "الركن المتين لتدقيق الحسابات", "name_en": "Al Rukn Al Mateen Auditing", "details_en": "Dubai", "pages": [3]}
+  ],
+  "dates": [
+    {"date": "2026-05-11", "what_en": "Draft 2025 financial statements handed to the auditor, after the three-month limit of Article 87", "page": 3},
+    {"date": "2026-06-02", "what_en": "Auditor's first written request for supporting documents", "page": 3},
+    {"date": "2026-07-14", "what_en": "Auditor's second written request for supporting documents", "page": 3},
+    {"date": "2026-08-20", "what_en": "Auditor's third written request for supporting documents", "page": 3},
+    {"date": "2026-09-07", "what_en": "Notice of the general assembly sent to the partners by registered letters", "page": 2},
+    {"date": "2026-09-15", "what_en": "Auditor's letter refusing to sign the 2025 financial statements", "page": 3},
+    {"date": "2026-09-17", "what_en": "Company received the auditor's letter (incoming-mail stamp, no. 0412)", "page": 3, "source": "stamp"},
+    {"date": "2026-09-30", "what_en": "Ordinary general assembly held, 11:00 to 12:30; accounts approved, manager discharged and auditor replaced, each by 60%", "page": 2},
+    {"date": "2026-10-05", "what_en": "Claimant's written request to inspect the company's books within seven days", "page": 1},
+    {"date": "2026-10-20", "what_en": "Statement of claim dated and registered (registry stamp)", "page": 1, "source": "printed + stamp"}
+  ],
+  "deadlines": [
+    {"date": "2026-03-31", "who": "first defendant (manager)", "what_en": "Prepare the 2025 balance sheet, profit and loss account and annual report within three months of the end of the financial year (Article 87); missed, as the draft reached the auditor only on 11 May 2026", "page": 3, "computed": true},
+    {"date": "2026-10-12", "who": "first defendant (manager)", "what_en": "Let the claimant inspect the company's books within seven days of his request of 5 Oct 2026; passed without an answer", "page": 1, "computed": true}
+  ],
+  "claims": [
+    {"item_en": "Remove the first defendant from the management of the company", "amount_aed": null, "page": 1},
+    {"item_en": "Annul the general assembly resolution of 30 Sep 2026 discharging the manager", "amount_aed": null, "page": 1},
+    {"item_en": "Appoint an accounting expert to examine the company's accounts for 2025 and 2026", "amount_aed": null, "page": 1},
+    {"item_en": "Manager to pay the company, provisionally, with the right to amend after the expert's report", "amount_aed": 1284600, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Capital AED 300,000 in 300 shares: the manager 135 (45%), the claimant 120 (40%), Salma Rashid Al Naqbi 45 (15%)", "page": 2},
+    {"fact_en": "The auditor refused to sign the 2025 accounts because AED 1,284,600 is unsupported: cash withdrawals of AED 418,500 without vouchers, AED 596,000 paid to Al Daffa Al Sharqiya Transport without a contract or original invoices, and an unexplained stock shortfall of AED 270,100", "page": 3},
+    {"fact_en": "The company received the auditor's letter on 17 Sep 2026, 13 days before the general assembly; at the meeting the auditor was absent and the manager said the audit report was 'being issued'", "page": 3, "source": "stamp"},
+    {"fact_en": "Resolutions 2 to 4 (approving the accounts, discharging the manager, replacing the auditor) passed by 60%, the votes of the manager (45%) and Salma Rashid Al Naqbi (15%), against the claimant's 40%; the manager voted on his own discharge", "page": 2},
+    {"fact_en": "The claimant signed the minutes with a handwritten objection to resolutions 2, 3 and 4: the accounts are unaudited, and the manager may not vote on his own discharge", "page": 2, "source": "handwriting"},
+    {"fact_en": "Resolution 4 replaces the auditor and leaves the choice of the new auditor and the fee to the manager", "page": 2},
+    {"fact_en": "The manager did not answer the claimant's request of 5 Oct 2026 to inspect the books", "page": 1}
+  ],
+  "citations": [
+    {"text_ar": "البند (1) من المادة (84) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "84", "valid": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (85) منه", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "85", "valid": true, "page": 1},
+    {"text_ar": "المادة (99)", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "99", "valid": true, "quote_ar": "لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بإبراء ذمته من المسؤولية عن الإدارة", "quote_matches_official_text": true, "page": 1},
+    {"text_ar": "المادة (100)", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "100", "valid": true, "page": 1},
+    {"text_ar": "البند (2) من المادة (380) من المرسوم بقانون ذاته", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "380", "valid": false, "why_invalid_en": "The Commercial Companies Law ends at Article 365 (366 articles counting Article 15 bis); there is no Article 380.", "page": 1},
+    {"text_ar": "البند (1) من المادة (109) من المرسوم بقانون اتحادي رقم (35) لسنة 2022 بإصدار قانون الإثبات في المعاملات المدنية والتجارية", "law": "Federal Decree-Law No. 35 of 2022 issuing the Law of Evidence in Civil and Commercial Transactions", "article": "109", "valid": true, "page": 1},
+    {"text_ar": "المادة (87) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "87", "valid": true, "page": 3},
+    {"text_ar": "البند (4) من المادة (248) من المرسوم بقانون ذاته", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "248", "valid": true, "page": 3},
+    {"text_ar": "المادة (102) منه", "law": "Federal Decree-Law No. 32 of 2021 on Commercial Companies", "article": "102", "valid": true, "page": 3}
+  ],
+  "marks_file": "answer-key/case-08.marks.json",
+  "reader_should_flag": [
+    "Article 380 of the Commercial Companies Law does not exist (the law ends at Article 365). It is cited clause first, as clause (2) of Article (380), as the basis for a partner's right to an expert at the company's expense.",
+    "The date the company received the auditor's letter (17 Sep 2026) appears only in the incoming-mail stamp on page 3. The claim relies on it ('about two weeks before the general assembly') without giving the date.",
+    "The claimant's objection on the minutes is handwritten only; the printed minutes record his votes against but not his reasons.",
+    "The manager voted his own 45% on his discharge (resolution 3), which Article 99 forbids; without his shares only 15% approved against 40%.",
+    "The accounts approved on 30 Sep 2026 were unaudited: the auditor had refused to sign them on 15 Sep 2026, yet the minutes record the manager saying the report was 'being issued'.",
+    "The draft 2025 accounts reached the auditor only on 11 May 2026, after the three-month limit in Article 87 (31 Mar 2026).",
+    "Resolution 4 replaces the auditor who refused to sign and leaves the choice of the new auditor and the fee to the manager, although under Article 102 the general assembly appoints the auditor."
+  ]
+}

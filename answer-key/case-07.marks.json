@@ -1,0 +1,110 @@
+{
+  "case": "case-07",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c7-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.313,
+        0.0285,
+        0.5092,
+        0.1118
+      ],
+      "label_en": "Court registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 26/10/2026"
+    },
+    {
+      "id": "c7-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1468,
+        0.8909,
+        0.3498,
+        0.9307
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c7-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.4446,
+        0.8405,
+        0.7543,
+        0.9402
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب ضفاف العدالة للمحاماة — دبي"
+    },
+    {
+      "id": "c7-p2-signature-officer",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.1522,
+        0.7494,
+        0.3386,
+        0.7851
+      ],
+      "label_en": "Investigating officer's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c7-p2-stamp-police",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.4166,
+        0.7441,
+        0.6182,
+        0.8305
+      ],
+      "label_en": "Traffic accidents section stamp (training sample)",
+      "text_ar": "قسم الحوادث المرورية — نموذج تدريبي — 18/06/2026"
+    },
+    {
+      "id": "c7-p3-hand-disability",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.4056,
+        0.566,
+        0.5774,
+        0.6003
+      ],
+      "label_en": "Doctor's handwritten permanent disability percentage",
+      "text_ar": "15% (خمسة عشر بالمئة)"
+    },
+    {
+      "id": "c7-p3-signature-doctor",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1626,
+        0.6551,
+        0.3467,
+        0.7112
+      ],
+      "label_en": "Treating doctor's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c7-p3-stamp-hospital",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.4289,
+        0.6485,
+        0.741,
+        0.7573
+      ],
+      "label_en": "Hospital stamp",
+      "text_ar": "مستشفى رواسي التخصصي — قسم جراحة العظام — دبي"
+    }
+  ]
+}

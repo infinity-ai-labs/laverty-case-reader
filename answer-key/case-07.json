@@ -1,0 +1,68 @@
+{
+  "case": "case-07",
+  "file": "test-files/case-07-traffic-compensation/case-07-traffic-compensation.pdf",
+  "fictional": true,
+  "title_en": "Civil claim: compensation for injuries in a traffic accident (Dubai)",
+  "pages": [
+    {"page": 1, "document_en": "Statement of claim, civil compensation case (facts, legal grounds and the compensation table)", "document_ar": "صحيفة دعوى مدنية (تعويض)"},
+    {"page": 2, "document_en": "Traffic accident report summary (attachment 1; training sample)", "document_ar": "ملخص تقرير حادث مروري"},
+    {"page": 3, "document_en": "Final medical report, excerpt (attachment 2)", "document_ar": "تقرير طبي نهائي (مقتطف)"}
+  ],
+  "court": {"name_en": "Dubai Court of First Instance, civil circuits", "name_ar": "محكمة دبي الابتدائية — الدوائر المدنية", "pages": [1], "note": "No case number yet; the registry stamp gives the filing date.", "criminal_case": {"court_en": "Dubai traffic misdemeanours court", "case_number_ar": "3471 لسنة 2026 جنح سير", "judgment_date": "2026-07-28", "final": true, "page": 1}},
+  "parties": [
+    {"role": "claimant", "name_ar": "مازن إبراهيم العطار", "name_en": "Mazen Ibrahim Al Attar", "details_en": "Injured driver of the second vehicle; the patient in the medical report", "pages": [1, 2, 3]},
+    {"role": "claimant's lawyer", "name_ar": "ريم عبدالعزيز الجروان", "name_en": "Reem Abdulaziz Al Jarwan", "details_en": "Difaf Al Adala Advocates & Legal Consultants", "pages": [1]},
+    {"role": "first defendant (driver)", "name_ar": "هشام توفيق البدري", "name_en": "Hisham Tawfiq Al Badri", "details_en": "Driver of the first vehicle, convicted by the traffic court", "pages": [1, 2]},
+    {"role": "second defendant (insurer)", "name_ar": "شركة سنام الرمال للتأمين ش.م.ع", "name_en": "Sanam Al Rimal Insurance PJSC", "details_en": "Insurer of the first defendant's vehicle, policy no. 000000", "pages": [1, 2]},
+    {"role": "investigating police officer", "name_ar": "حمد سيف الغفلي", "name_en": "First Lieutenant Hamad Saif Al Ghufli", "pages": [2]},
+    {"role": "treating doctor", "name_ar": "نادر سليم الخوري", "name_en": "Dr Nader Salim Al Khoury", "details_en": "Consultant orthopaedic surgeon, Rawasi Specialty Hospital", "pages": [3]}
+  ],
+  "dates": [
+    {"date": "2026-06-01", "what_en": "New Civil Transactions Law (Federal Decree-Law No. 25 of 2025) in force; the accident falls after it", "page": 1},
+    {"date": "2026-06-16", "what_en": "Accident at about 21:40 at the Umm Suqeim Street / Al Wasl Road junction, Dubai: the first defendant ran a red light", "page": 1},
+    {"date": "2026-06-17", "what_en": "Surgery: open reduction and internal fixation", "page": 3},
+    {"date": "2026-06-18", "what_en": "Accident report summary issued and the file referred to the traffic prosecution", "page": 2, "source": "printed + stamp"},
+    {"date": "2026-06-29", "what_en": "Claimant discharged from hospital", "page": 1},
+    {"date": "2026-07-06", "what_en": "Physiotherapy starts (36 sessions)", "page": 3},
+    {"date": "2026-07-28", "what_en": "Traffic misdemeanours court convicts the first defendant (case 3471/2026) and fines him AED 10,000", "page": 1},
+    {"date": "2026-09-03", "what_en": "Court certificate that the criminal judgment is final (not appealed)", "page": 1},
+    {"date": "2026-09-30", "what_en": "Physiotherapy ends", "page": 3},
+    {"date": "2026-10-08", "what_en": "Final medical report dated", "page": 3},
+    {"date": "2026-10-15", "what_en": "End of the sick leave and of the lost-earnings period claimed (from 16 Jun 2026)", "page": 1},
+    {"date": "2026-10-16", "what_en": "Claimant fit to return to work", "page": 3},
+    {"date": "2026-10-22", "what_en": "Statement of claim dated", "page": 1},
+    {"date": "2026-10-26", "what_en": "Claim registered (registry stamp only)", "page": 1, "source": "stamp"}
+  ],
+  "deadlines": [],
+  "claims": [
+    {"item_en": "Medical treatment, surgery and physiotherapy costs", "amount_aed": 58640, "page": 1},
+    {"item_en": "Lost earnings, 16 Jun to 15 Oct 2026 (4 months at AED 19,500)", "amount_aed": 78000, "page": 1},
+    {"item_en": "Compensation for the permanent partial disability (15%)", "amount_aed": 150000, "page": 1},
+    {"item_en": "Compensation for moral harm", "amount_aed": 60000, "page": 1},
+    {"item_en": "Total, claimed from both defendants jointly", "amount_aed": 346640, "page": 1},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "The accident happened on 16 Jun 2026, after 1 Jun 2026, so the new Civil Transactions Law (Federal Decree-Law No. 25 of 2025) governs the claim, not the 1985 law", "page": 1},
+    {"fact_en": "The criminal judgment of 28 Jul 2026 (case 3471/2026, traffic misdemeanours) convicted the first defendant and fined him AED 10,000; it became final without appeal (court certificate of 3 Sep 2026), and the claim relies on it under Evidence Law Article 88", "page": 1},
+    {"fact_en": "The police report puts 100% of the responsibility on the first defendant, who ran a red light, as shown by the junction camera and an eyewitness", "page": 2},
+    {"fact_en": "Injuries: comminuted fracture of the right tibia and fibula and a fracture of the right ankle; surgery on 17 Jun 2026; in hospital until 29 Jun 2026; 36 physiotherapy sessions", "page": 3},
+    {"fact_en": "Permanent partial disability of the right lower limb: 15%, written by hand by the treating doctor on the final medical report; the claim states the same figure", "page": 3, "source": "handwriting"},
+    {"fact_en": "Sick leave from 16 Jun to 15 Oct 2026; fit to return to work from 16 Oct 2026, avoiding long periods of standing", "page": 3}
+  ],
+  "citations": [
+    {"text_ar": "المادة (246) منه", "law": "Federal Decree-Law No. 25 of 2025 on the Civil Transactions Law", "article": "246", "valid": true, "page": 1},
+    {"text_ar": "المادة (255)", "law": "Federal Decree-Law No. 25 of 2025 on the Civil Transactions Law", "article": "255", "valid": true, "quote_ar": "يُقدّر التعويض في جميع الأحوال بقدر ما لحق المضرور من ضرر وما فاته من كسب، بشرط أن يكون ذلك نتيجة محتملة للفعل الضار", "quote_matches_official_text": false, "quote_difference_en": "One word changed: the claim prints 'محتملة' (probable) where the official text says 'طبيعية' (natural).", "page": 1},
+    {"text_ar": "المادة (965) من القانون ذاته", "law": "Federal Decree-Law No. 25 of 2025 on the Civil Transactions Law", "article": "965", "valid": true, "page": 1},
+    {"text_ar": "المادة (88) من قانون الإثبات في المعاملات المدنية والتجارية الصادر بالمرسوم بقانون اتحادي رقم (35) لسنة 2022", "law": "Federal Decree-Law No. 35 of 2022 issuing the Law of Evidence in Civil and Commercial Transactions", "article": "88", "valid": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (254) من قانون المعاملات المدنية", "law": "Federal Decree-Law No. 25 of 2025 on the Civil Transactions Law", "article": "254", "valid": true, "page": 1}
+  ],
+  "marks_file": "answer-key/case-07.marks.json",
+  "reader_should_flag": [
+    "The quotation of Article 255 of the Civil Transactions Law (Federal Decree-Law No. 25 of 2025) does not match the official text: it says 'نتيجة محتملة' (a probable consequence), but the official word is 'طبيعية' ('نتيجة طبيعية للفعل الضار', a natural consequence of the harmful act). The changed word widens the damage the claim says can be recovered.",
+    "The accident (16 Jun 2026) is after 1 Jun 2026, so the 2025 Civil Transactions Law applies; the 1985 law's article numbers (282, 292, 293) must not be used.",
+    "The permanent disability percentage (15%) on the medical report is handwritten by the doctor.",
+    "The filing date (26 Oct 2026) appears only in the registry stamp; the claim itself is dated 22 Oct 2026.",
+    "The AED 10,000 in the facts is the criminal fine, not a compensation item."
+  ]
+}

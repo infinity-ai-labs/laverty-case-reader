@@ -1,0 +1,52 @@
+{
+  "case": "case-11",
+  "file": "test-files/case-11-payment-order/case-11-payment-order.pdf",
+  "fictional": true,
+  "title_en": "Payment order: unpaid supply invoices acknowledged in writing by the debtor",
+  "pages": [
+    {"page": 1, "document_en": "Application for a payment order", "document_ar": "عريضة استصدار أمر أداء"},
+    {"page": 2, "document_en": "Debtor's written acknowledgment of debt, with a handwritten correction of the amount", "document_ar": "إقرار بالمديونية"}
+  ],
+  "court": {"name_en": "Sharjah Federal Court of First Instance (judge for payment orders)", "name_ar": "محكمة الشارقة الاتحادية الابتدائية", "pages": [1], "note": "No court number yet; the application was received by the case management office on 12 Oct 2026."},
+  "parties": [
+    {"role": "claimant (creditor)", "name_ar": "شركة البريق الفضي لتجارة معدات المطابخ ذ.م.م", "name_en": "Al Bareeq Al Fiddi Kitchen Equipment Trading LLC", "details_en": "Supplier of commercial kitchen equipment, Sharjah", "pages": [1, 2]},
+    {"role": "claimant's lawyer", "name_ar": "مازن طلال العويس", "name_en": "Mazen Talal Al Owais", "details_en": "Nakhlat Al Wadi Advocates & Legal Consultants", "pages": [1]},
+    {"role": "defendant (debtor)", "name_ar": "شركة ليالي المرسى لإدارة المطاعم ذ.م.م", "name_en": "Layali Al Marsa Restaurant Management LLC", "details_en": "Al Majaz, Sharjah", "pages": [1, 2]},
+    {"role": "defendant's general manager", "name_ar": "وائل جمال الخطيب", "name_en": "Wael Jamal Al Khatib", "details_en": "Signed the acknowledgment of debt; the initials و.خ beside the correction match his name", "pages": [1, 2]}
+  ],
+  "dates": [
+    {"date": "2026-03-09", "what_en": "Invoice SG-2026-041 (AED 126,000)", "page": 1},
+    {"date": "2026-04-21", "what_en": "Invoice SG-2026-077 (AED 104,250)", "page": 1},
+    {"date": "2026-06-02", "what_en": "Invoice SG-2026-112 (AED 88,200)", "page": 1},
+    {"date": "2026-06-18", "what_en": "Credit note CN-2026-019 for returned goods (AED 25,000)", "page": 1},
+    {"date": "2026-08-06", "what_en": "Acknowledgment of debt signed by the debtor's general manager", "page": 2},
+    {"date": "2026-08-31", "what_en": "Payment due under the acknowledgment (one payment)", "page": 2},
+    {"date": "2026-10-01", "what_en": "Notice to pay served on the debtor through the notary public (7 days to pay)", "page": 1},
+    {"date": "2026-10-12", "what_en": "Application dated and received (case management office stamp)", "page": 1, "source": "printed + stamp"}
+  ],
+  "deadlines": [
+    {"date": "2026-08-31", "who": "defendant (debtor)", "what_en": "Pay the acknowledged debt in one payment; passed without payment", "page": 2},
+    {"date": "2026-10-08", "who": "defendant (debtor)", "what_en": "Pay within the 7 days given in the notice to pay served on 1 Oct 2026; passed without payment, which opened the way to the payment-order application", "page": 1, "computed": true, "basis_en": "7 days from service on 2026-10-01, the day of service not counted (Civil Procedure Law Art. 12); 8 Oct 2026 is a Thursday, so no holiday extension"}
+  ],
+  "claims": [
+    {"item_en": "Principal: the acknowledged debt as corrected by hand (invoices AED 318,450 less credit note AED 25,000)", "amount_aed": 293450, "page": 1},
+    {"item_en": "Interest at 5% a year from the date of the application until payment", "amount_aed": null, "page": 1},
+    {"item_en": "Court fees and costs", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "Three invoices total AED 318,450 (126,000 + 104,250 + 88,200); after the AED 25,000 credit note for returned goods the net debt is AED 293,450", "page": 1},
+    {"fact_en": "The debtor acknowledged the debt in writing on 6 Aug 2026 (signed by its general manager, with the company stamp) and promised one payment by 31 Aug 2026", "page": 2},
+    {"fact_en": "On the acknowledgment the printed amount 318,450 is struck through and corrected by hand to 293,450, initialled و.خ; the corrected figure matches the net debt on page 1 and the amount claimed", "page": 2, "source": "handwriting"},
+    {"fact_en": "The notice to pay, served through the notary public on 1 Oct 2026, gave 7 days, more than the 5-day minimum in Article 144(1); the application was filed on 12 Oct 2026, after that period", "page": 1},
+    {"fact_en": "The application relies on Article 143 (debt in writing, due, a fixed sum of money) and Article 144 (prior notice to pay; order within 3 working days of filing) of the Civil Procedure Law", "page": 1}
+  ],
+  "citations": [
+    {"text_ar": "المادة (143) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "143", "valid": true, "quote_ar": "إذا كان حق الدائن ثابتًا بالكتابة -إلكترونيًّا أو ورقيًّا- وحال الأداء وكان كل ما يطالب به دينًا من النقود معين المقدار", "quote_matches_official_text": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (144) من القانون ذاته", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "144", "valid": true, "page": 1, "note_en": "Clause 1: prior notice to pay within at least 5 days. The same sentence refers to clause 4 of the same article (the order issues within 3 working days of filing)."}
+  ],
+  "marks_file": "answer-key/case-11.marks.json",
+  "reader_should_flag": [
+    "On the acknowledgment of debt (page 2) the printed amount AED 318,450 is struck through and corrected by hand to AED 293,450, initialled و.خ (the general manager, Wael Jamal Al Khatib). The application claims the corrected AED 293,450, so the claim rests on a handwritten correction.",
+    "The notice to pay was served on 1 Oct 2026 with 7 days to pay; the period ended on 8 Oct 2026, a date computed from the notice and printed nowhere. The application of 12 Oct 2026 came after it ended, as Article 144(1) requires."
+  ]
+}

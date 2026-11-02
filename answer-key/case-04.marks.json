@@ -1,0 +1,71 @@
+{
+  "case": "case-04",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c4-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0594,
+        0.1241,
+        0.3057,
+        0.1989
+      ],
+      "label_en": "Court registry date stamp (training sample)",
+      "text_ar": "محكمة أبوظبي العمالية — قلم القيد — نموذج تدريبي — 08/10/2026"
+    },
+    {
+      "id": "c4-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1519,
+        0.8707,
+        0.3434,
+        0.9268
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c4-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.3925,
+        0.8449,
+        0.7017,
+        0.946
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب منارة الحق للمحاماة — أبوظبي — الإمارات"
+    },
+    {
+      "id": "c4-p2-stamp-ministry",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.0898,
+        0.8054,
+        0.3791,
+        0.9029
+      ],
+      "label_en": "Ministry of Human Resources and Emiratisation stamp (training sample)",
+      "text_ar": "وزارة الموارد البشرية والتوطين — نموذج تدريبي — 28/09/2026"
+    },
+    {
+      "id": "c4-p2-hand-lawyer-note",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.5652,
+        0.856,
+        0.9344,
+        0.9149
+      ],
+      "label_en": "Claimant's lawyer's handwritten note: employer's oral offer and first hearing date",
+      "text_ar": "عرض الشركة شفهياً بعد الإحالة: 85,000 درهم — رفضه الموكل. الجلسة الأولى: 10/11/2026 — ن.م"
+    }
+  ]
+}

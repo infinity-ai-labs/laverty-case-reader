@@ -1,0 +1,84 @@
+{
+  "case": "case-11",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c11-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1688,
+        0.9038,
+        0.3529,
+        0.9404
+      ],
+      "label_en": "Signature of the applicant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c11-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.4109,
+        0.8427,
+        0.7018,
+        0.9406
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب نخلة الوادي للمحاماة — الشارقة"
+    },
+    {
+      "id": "c11-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.7334,
+        0.8532,
+        0.9196,
+        0.9361
+      ],
+      "label_en": "Case management office date stamp (training sample)",
+      "text_ar": "مكتب إدارة الدعوى — نموذج تدريبي — 12/10/2026"
+    },
+    {
+      "id": "c11-p2-hand-correction",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.4084,
+        0.4003,
+        0.5495,
+        0.4247
+      ],
+      "label_en": "Handwritten correction of the debt amount to 293,450, with initials",
+      "text_ar": "293,450 — و.خ"
+    },
+    {
+      "id": "c11-p2-signature-gm",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.6393,
+        0.6294,
+        0.8392,
+        0.6824
+      ],
+      "label_en": "Debtor's general manager's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c11-p2-stamp-company",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.1367,
+        0.6085,
+        0.4495,
+        0.7205
+      ],
+      "label_en": "Debtor company stamp",
+      "text_ar": "ليالي المرسى لإدارة المطاعم — الشارقة — ذ.م.م"
+    }
+  ]
+}

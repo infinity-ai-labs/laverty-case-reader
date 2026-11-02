@@ -1,0 +1,69 @@
+{
+  "case": "case-10",
+  "file": "test-files/case-10-arbitral-award/case-10-arbitral-award.pdf",
+  "fictional": true,
+  "title_en": "Arbitration: application to ratify and enforce a domestic arbitral award (construction supply)",
+  "note_en": "Control case: every citation is valid. It plants only the handwriting-only execution file number and date (page 3) and one sentence that cites two different laws (page 1).",
+  "pages": [
+    {"page": 1, "document_en": "Application to ratify an arbitral award and order its enforcement", "document_ar": "طلب المصادقة على حكم التحكيم والأمر بتنفيذه"},
+    {"page": 2, "document_en": "Operative part of the arbitral award (arbitration case 47/2026), signed by the three arbitrators", "document_ar": "منطوق حكم التحكيم"},
+    {"page": 3, "document_en": "Court of Appeal order ratifying the award and ordering its enforcement, 26 Oct 2026", "document_ar": "أمر بالمصادقة على حكم تحكيم وتنفيذه"}
+  ],
+  "court": {"name_en": "Dubai Court of Appeal (application to the Chief Justice; order by a delegated judge)", "name_ar": "محكمة الاستئناف — محاكم دبي", "case_number": "318/2026 (arbitration)", "case_number_ar": "318 لسنة 2026 تحكيم", "pages": [1, 3], "note": "The application on page 1 carries no court number; the number is printed on the order (page 3)."},
+  "arbitration": {"centre_en": "White Sail Commercial Arbitration Centre", "centre_ar": "مركز الشراع الأبيض للتحكيم التجاري", "case_number": "47/2026", "case_number_ar": "47 لسنة 2026", "seat": "Dubai", "language": "Arabic", "tribunal_en": "Three arbitrators; award unanimous", "pages": [1, 2, 3]},
+  "execution": {"file_number": "752/2026 (commercial execution)", "file_number_ar": "752 / 2026 تنفيذ تجاري", "opened": "2026-10-28", "page": 3, "source": "handwriting"},
+  "parties": [
+    {"role": "claimant (applicant; claimant in the arbitration)", "name_ar": "شركة نسيم الجبل للخرسانة الجاهزة ذ.م.م", "name_en": "Naseem Al Jabal Ready-Mix Concrete LLC", "details_en": "Award creditor; supplier of ready-mix concrete and precast elements; Al Quoz Industrial Area 4, Dubai", "pages": [1, 2, 3]},
+    {"role": "claimant's lawyer", "name_ar": "ريم ماجد الشحي", "name_en": "Reem Majid Al Shehhi", "details_en": "Durrat Al Sahel Advocates & Legal Consultants", "pages": [1]},
+    {"role": "defendant (respondent to the application; respondent in the arbitration)", "name_ar": "شركة القوس العالي للمقاولات الإنشائية ذ.م.م", "name_en": "Al Qaws Al Aali Structural Contracting LLC", "details_en": "Award debtor; contractor on a project in Dubai", "pages": [1, 2, 3]},
+    {"role": "presiding arbitrator", "name_ar": "عادل منصور الحوسني", "name_en": "Dr. Adel Mansour Al Hosani", "pages": [2]},
+    {"role": "arbitrator", "name_ar": "كريم وليد السعدي", "name_en": "Eng. Karim Walid Al Saadi", "details_en": "Engineer", "pages": [2]},
+    {"role": "arbitrator", "name_ar": "ناصر عيسى البلوشي", "name_en": "Nasser Issa Al Balushi", "details_en": "Lawyer", "pages": [2]},
+    {"role": "judge (delegated by the Chief Justice of the Court of Appeal)", "name_ar": "سعيد عبيد الرميثي", "name_en": "Saeed Obaid Al Rumaithi", "pages": [3]}
+  ],
+  "dates": [
+    {"date": "2026-01-12", "what_en": "Supply contract dated (clause 18: arbitration agreement)", "page": 1},
+    {"date": "2026-04-06", "what_en": "Request for arbitration filed (interest runs from this date)", "page": 1},
+    {"date": "2026-09-10", "what_en": "Arbitral award issued and signed in Dubai, unanimously", "page": 2},
+    {"date": "2026-09-15", "what_en": "Award served on the respondent (signed original copy delivered)", "page": 1},
+    {"date": "2026-10-15", "what_en": "30-day period for an annulment action ended; no action was brought", "page": 1},
+    {"date": "2026-10-20", "what_en": "Application dated and registered (registry stamp)", "page": 1, "source": "printed + stamp"},
+    {"date": "2026-10-26", "what_en": "Order ratifying the award and ordering its enforcement (Monday; court stamp)", "page": 3, "source": "printed + stamp"},
+    {"date": "2026-10-28", "what_en": "Execution file no. 752/2026 (commercial execution) opened (handwritten note only)", "page": 3, "source": "handwriting"}
+  ],
+  "deadlines": [
+    {"date": "2026-10-15", "who": "defendant", "what_en": "Last day to bring an action to annul the award (30 days from service on 15 Sep 2026, Arbitration Law Art. 54(2)); passed without an action", "page": 1}
+  ],
+  "claims": [
+    {"item_en": "Enforce the award: unpaid price of the supplies", "amount_aed": 846300, "page": 1},
+    {"item_en": "Enforce the award: arbitration costs the claimant paid, to be reimbursed", "amount_aed": 96400, "page": 1},
+    {"item_en": "Enforce the award: lawyer's fees", "amount_aed": 40000, "page": 1},
+    {"item_en": "Total awarded, excluding interest", "amount_aed": 982700, "page": 1},
+    {"item_en": "Interest at 5% a year on AED 846,300 from 6 Apr 2026 until payment", "amount_aed": null, "page": 1},
+    {"item_en": "Ratify the award and order its enforcement (executory formula); fees and costs", "amount_aed": null, "page": 1}
+  ],
+  "key_facts": [
+    {"fact_en": "The supply contract of 12 Jan 2026 (ready-mix concrete and precast elements) refers disputes to arbitration at the White Sail Commercial Arbitration Centre (clause 18)", "page": 1},
+    {"fact_en": "The award was made unanimously by three arbitrators, seated in Dubai, in Arabic: AED 846,300 for unpaid supplies, 5% a year interest on it from 6 Apr 2026, AED 96,400 arbitration costs and AED 40,000 lawyer's fees; the respondent's counterclaim for late-delivery penalties was rejected", "page": 2},
+    {"fact_en": "The award was served on the respondent on 15 Sep 2026 and no annulment action was brought within 30 days (ended 15 Oct 2026)", "page": 1},
+    {"fact_en": "The application attaches the original award, a copy of the arbitration agreement and a copy of the record of the award's deposit with the court, as Article 55(1) requires", "page": 1},
+    {"fact_en": "On 26 Oct 2026 the court ratified the award and ordered it enforced with the executory formula, finding no ground of annulment under Article 53 and no conflict with public order", "page": 3},
+    {"fact_en": "A grievance against the order lies to the competent Court of Appeal within 30 days from the day after service of the order (Art. 57); the file does not say when the order was served", "page": 3},
+    {"fact_en": "Execution file no. 752/2026 (commercial execution) was opened on 28 Oct 2026; this is known only from a handwritten note", "page": 3, "source": "handwriting"}
+  ],
+  "citations": [
+    {"text_ar": "البند (2) من المادة (54) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "54", "valid": true, "page": 1},
+    {"text_ar": "البند (1) من المادة (55) من قانون التحكيم", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "55", "valid": true, "page": 1},
+    {"text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "52", "valid": true, "page": 1, "note_en": "Same sentence as the Civil Procedure Law Article 212 citation; this article belongs to the Arbitration Law."},
+    {"text_ar": "المادة (212) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية", "law": "Federal Decree-Law No. 42 of 2022 on the Civil Procedure Law", "article": "212", "valid": true, "page": 1, "note_en": "Same sentence as the Arbitration Law Article 52 citation; this article belongs to the Civil Procedure Law."},
+    {"text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "52", "valid": true, "quote_ar": "يعتبر حكم التحكيم الصادر وفقاً لأحكام هذا القانون ملزماً للأطراف، ويحوز حجية الأمر المقضي، ويكون له ذات القوة التنفيذية كما لو كان حكماً قضائياً، إلا أنه يشترط لتنفيذه الحصول على قرار للمصادقة عليه من المحكمة", "quote_matches_official_text": true, "page": 3},
+    {"text_ar": "البند (1) من المادة (55) من القانون ذاته", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "55", "valid": true, "page": 3},
+    {"text_ar": "المادة (53) من القانون ذاته", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "53", "valid": true, "page": 3},
+    {"text_ar": "المادة (57) من القانون ذاته", "law": "Federal Law No. 6 of 2018 on Arbitration", "article": "57", "valid": true, "page": 3}
+  ],
+  "marks_file": "answer-key/case-10.marks.json",
+  "reader_should_flag": [
+    "The execution file number (752/2026, commercial execution) and its opening date (28 Oct 2026) on page 3 are handwritten only; neither appears in print.",
+    "One sentence on page 1 cites two laws: Article 52 is of the Arbitration Law (Federal Law No. 6 of 2018) and Article 212 is of the Civil Procedure Law (Federal Decree-Law No. 42 of 2022). Both citations are valid; Article 212 must not be read as an Arbitration Law article (that law's articles run only to 61)."
+  ]
+}

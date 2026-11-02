@@ -60,6 +60,10 @@ def _auto_flags(summary: dict[str, Any]) -> list[dict[str, Any]]:
         elif check["status"] == "not_checked":
             add(f"Citation on page {c['page']} ({c['text_ar']}): {check['label_en']}", check["label_ar"],
                 c["page"], "medium")
+        repealed = check.get("law_status")
+        if repealed:
+            add(f"Citation on page {c['page']} ({c['text_ar']}): {repealed['note_en']}", repealed["note_ar"],
+                c["page"], "medium")
         quote = check.get("quote")
         if quote and quote["status"] != "matches":
             severity = "medium" if quote["status"] == "not_checked" else "high"

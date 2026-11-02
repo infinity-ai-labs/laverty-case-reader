@@ -61,6 +61,7 @@ button { font: inherit; color: inherit; }
   padding: 7px 14px; cursor: pointer; color: var(--muted);
 }
 .cases button[aria-pressed="true"] { color: var(--text); border-color: var(--blue); background: rgba(37, 99, 235, .18); }
+.cases select { background: var(--panel); color: var(--text); border: 1px solid var(--blue); border-radius: 999px; padding: 7px 14px; font: inherit; max-width: 100%; }
 .lang { margin-inline-start: auto; display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
 .lang button { background: none; border: 0; padding: 7px 14px; cursor: pointer; color: var(--muted); }
 .lang button[aria-pressed="true"] { background: var(--panel); color: var(--text); }
@@ -323,11 +324,14 @@ function render() {
   const s = state.data[state.current];
   $("#t-product").textContent = t("product");
   document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === state.lang)));
-  $("#cases").innerHTML = state.cases.map((c) => {
-    const d = state.data[c.case];
-    const label = state.lang === "ar" ? c.short_ar : c.short_en;
-    return `<button type="button" data-case="${c.case}" aria-pressed="${c.case === state.current}">${esc(label)}</button>`;
-  }).join("");
+  const label = (c) => (state.lang === "ar" ? c.short_ar : c.short_en);
+  $("#cases").innerHTML = state.cases.length > 5
+    ? `<select id="case-select" aria-label="Case file">${state.cases.map((c, i) =>
+        `<option value="${c.case}" ${c.case === state.current ? "selected" : ""}>${i + 1}. ${esc(label(c))}</option>`).join("")}</select>`
+    : state.cases.map((c) =>
+        `<button type="button" data-case="${c.case}" aria-pressed="${c.case === state.current}">${esc(label(c))}</button>`).join("");
+  const select = $("#case-select");
+  if (select) select.addEventListener("change", () => setCase(select.value));
   const notice = $("#notice");
   notice.hidden = !s.mock;
   notice.textContent = s.mock ? t("mock") : "";

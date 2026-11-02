@@ -1,0 +1,110 @@
+{
+  "case": "case-12",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
+  "marks": [
+    {
+      "id": "c12-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.3277,
+        0.0201,
+        0.5049,
+        0.094
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 22/10/2026"
+    },
+    {
+      "id": "c12-p1-hand-hearing",
+      "page": 1,
+      "type": "handwriting",
+      "box": [
+        0.0774,
+        0.1144,
+        0.2451,
+        0.1406
+      ],
+      "label_en": "Registry clerk's handwritten hearing date",
+      "text_ar": "حددت جلسة 9/11/2026"
+    },
+    {
+      "id": "c12-p1-signature-lawyer",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.5191,
+        0.8723,
+        0.7088,
+        0.9128
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c12-p1-stamp-lawfirm",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.6657,
+        0.854,
+        0.9306,
+        0.9423
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب درع الحقوق للمحاماة — دبي"
+    },
+    {
+      "id": "c12-p2-stamp-ministry",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.1234,
+        0.1667,
+        0.3351,
+        0.2565
+      ],
+      "label_en": "Ministry of Economy stamp on the certificate summary (training sample)",
+      "text_ar": "وزارة الاقتصاد — نموذج تدريبي — 29/09/2026"
+    },
+    {
+      "id": "c12-p2-hand-receipt",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.6827,
+        0.7324,
+        0.7218,
+        0.7455
+      ],
+      "label_en": "Shop cashier's handwritten receipt number",
+      "text_ar": "3087"
+    },
+    {
+      "id": "c12-p2-signature-seller",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.5453,
+        0.7961,
+        0.7017,
+        0.8346
+      ],
+      "label_en": "Shop cashier's signature on the invoice",
+      "text_ar": null
+    },
+    {
+      "id": "c12-p2-stamp-shop",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.2063,
+        0.7702,
+        0.4923,
+        0.8684
+      ],
+      "label_en": "Shop stamp on the test-purchase invoice",
+      "text_ar": "غيمة الريحان لتجارة العطور — ديرة — دبي"
+    }
+  ]
+}

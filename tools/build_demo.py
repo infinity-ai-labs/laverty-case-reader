@@ -23,6 +23,16 @@ SHORT = {
     "labour": ("Labour claim", "دعوى عمالية"),
     "commercial": ("Commercial claim", "دعوى تجارية"),
     "tenancy": ("Tenancy claim", "دعوى إيجارية"),
+    "labour-abudhabi": ("Labour claim, Abu Dhabi", "دعوى عمالية، أبوظبي"),
+    "cheques": ("Returned cheques", "شيكات مرتجعة"),
+    "rent-increase": ("Rent increase", "زيادة الإيجار"),
+    "traffic-compensation": ("Traffic accident", "تعويض حادث مروري"),
+    "llc-partners": ("Partners' dispute", "نزاع بين الشركاء"),
+    "consumer-car": ("Faulty car", "حماية المستهلك"),
+    "arbitral-award": ("Arbitral award", "تنفيذ حكم تحكيم"),
+    "payment-order": ("Payment order", "أمر أداء"),
+    "trademark": ("Trademark", "علامة تجارية"),
+    "construction": ("Construction contract", "عقد مقاولة"),
 }
 
 
@@ -49,7 +59,7 @@ def build(run: Path) -> tuple[list[dict], dict[str, dict]]:
         s = json.loads(summary_file.read_text(encoding="utf-8"))
         case_id = s["case"]
         folder = _test_dir(case_id)
-        kind = folder.name.split("-", 2)[-1]
+        kind = folder.name.split("-", 2)[-1]  # case-04-labour-abudhabi -> labour-abudhabi
         short_en, short_ar = SHORT.get(kind, (case_id, case_id))
         for p in s["pages"]:
             p["src"] = f"../test-files/{folder.name}/page-{p['page']}.jpg"
