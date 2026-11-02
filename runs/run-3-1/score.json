@@ -1,0 +1,394 @@
+[
+ {
+  "case": "case-01",
+  "mock": false,
+  "parties": {
+   "correct": 6,
+   "total": 6,
+   "found": 6,
+   "misses": []
+  },
+  "dates": {
+   "correct": 9,
+   "total": 9,
+   "found": 10,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 3,
+   "misses": []
+  },
+  "claims": {
+   "correct": 5,
+   "total": 6,
+   "found": 5,
+   "misses": [
+    "AED 196,460 (Total): not found"
+   ]
+  },
+  "citations": {
+   "correct": 7,
+   "total": 7,
+   "found": 8,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 8,
+   "found": 5,
+   "misses": [
+    "page 1 handwriting: Registry clerk's handwritten case number",
+    "page 3 stamp: Hearings desk stamp (training sample)",
+    "page 3 handwriting: Lawyer's handwritten follow-up note"
+   ],
+   "right_place_any_type": 5,
+   "mean_iou": 0.976
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "handwriting",
+    "phrase": "blue ink",
+    "boxes": 1,
+    "hits": 0,
+    "of": 2
+   },
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "circular stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-05",
+  "mock": false,
+  "parties": {
+   "correct": 5,
+   "total": 6,
+   "found": 5,
+   "misses": [
+    "Ammar Salim Al Qabbani (defendant_representative): not found"
+   ]
+  },
+  "dates": {
+   "correct": 13,
+   "total": 13,
+   "found": 15,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": [],
+   "invalid_caught": 1,
+   "invalid_total": 1,
+   "quotes_right": 0,
+   "quotes_total": 0,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 7,
+   "found": 5,
+   "misses": [
+    "page 3 handwriting: Judge's handwritten decision: attachment ordered; main claim to be filed within 8 days",
+    "page 3 signature: Summary judge's signature"
+   ],
+   "right_place_any_type": 5,
+   "mean_iou": 0.979
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "handwriting",
+    "phrase": "blue ink",
+    "boxes": 1,
+    "hits": 0,
+    "of": 1
+   },
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   }
+  ]
+ },
+ {
+  "case": "case-07",
+  "mock": false,
+  "parties": {
+   "correct": 5,
+   "total": 6,
+   "found": 6,
+   "misses": [
+    "Dr Nader Salim Al Khoury (other): found, but role given as expert"
+   ]
+  },
+  "dates": {
+   "correct": 12,
+   "total": 14,
+   "found": 16,
+   "misses": [
+    "date 2026-06-16 (page 1, Accident at about 21:40 at the Umm Suqeim Street / Al Wasl Road junction, Dubai: the first defendant ran a red light): found on page [2, 3]",
+    "date 2026-06-29 (page 1, Claimant discharged from hospital): found on page [3]"
+   ]
+  },
+  "deadlines": {
+   "correct": 0,
+   "total": 0,
+   "found": 0,
+   "misses": []
+  },
+  "claims": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": []
+  },
+  "citations": {
+   "correct": 5,
+   "total": 5,
+   "found": 5,
+   "misses": [
+    "misquote of article 255 (page 1): quote check said None"
+   ],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 0,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 1
+  },
+  "marks": {
+   "correct": 7,
+   "total": 8,
+   "found": 7,
+   "misses": [
+    "page 3 handwriting: Doctor's handwritten permanent disability percentage"
+   ],
+   "right_place_any_type": 7,
+   "mean_iou": 0.974
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "handwriting",
+    "phrase": "blue ink",
+    "boxes": 4,
+    "hits": 0,
+    "of": 1
+   },
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "circular stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 4
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 4
+   }
+  ]
+ },
+ {
+  "case": "case-11",
+  "mock": false,
+  "parties": {
+   "correct": 4,
+   "total": 4,
+   "found": 4,
+   "misses": []
+  },
+  "dates": {
+   "correct": 8,
+   "total": 8,
+   "found": 8,
+   "misses": []
+  },
+  "deadlines": {
+   "correct": 2,
+   "total": 2,
+   "found": 2,
+   "misses": []
+  },
+  "claims": {
+   "correct": 1,
+   "total": 1,
+   "found": 1,
+   "misses": []
+  },
+  "citations": {
+   "correct": 2,
+   "total": 2,
+   "found": 3,
+   "misses": [],
+   "invalid_caught": 0,
+   "invalid_total": 0,
+   "quotes_right": 1,
+   "quotes_total": 1,
+   "misquotes_caught": 0,
+   "misquotes_total": 0
+  },
+  "marks": {
+   "correct": 5,
+   "total": 6,
+   "found": 5,
+   "misses": [
+    "page 2 handwriting: Handwritten correction of the debt amount to 293,450, with initials"
+   ],
+   "right_place_any_type": 5,
+   "mean_iou": 0.978
+  },
+  "handwriting_dates": {
+   "correct": 0,
+   "total": 0
+  },
+  "phrases": [
+   {
+    "type": "handwriting",
+    "phrase": "blue ink",
+    "boxes": 4,
+    "hits": 0,
+    "of": 1
+   },
+   {
+    "type": "signature",
+    "phrase": "signature",
+    "boxes": 2,
+    "hits": 2,
+    "of": 2
+   },
+   {
+    "type": "stamp",
+    "phrase": "blue stamp",
+    "boxes": 2,
+    "hits": 2,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "purple stamp",
+    "boxes": 1,
+    "hits": 1,
+    "of": 3
+   },
+   {
+    "type": "stamp",
+    "phrase": "stamp",
+    "boxes": 3,
+    "hits": 3,
+    "of": 3
+   }
+  ]
+ }
+]
