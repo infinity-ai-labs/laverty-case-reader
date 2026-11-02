@@ -59,7 +59,7 @@ class MockClient:
         if page.number == 1 and mark_type == "handwriting" and wanted:
             wanted = wanted[1:]  # deliberate miss
         boxes = [m["box"] for m in wanted]
-        if page.number == 1 and mark_type == "handwriting":
+        if page.number == 1 and mark_type == "stamp" and concept == "stamp":
             boxes.append([0.55, 0.30, 0.85, 0.33])  # deliberate false find over printed text
         for i, box in enumerate(boxes):
             j = [v + rng.uniform(-0.006, 0.006) for v in box]
@@ -108,6 +108,7 @@ class MockClient:
                               "law_number": law["number"], "law_year": law["year"], "law_title_en": c["law"],
                               "article": c["article"], "clause": "", "quoted_text_ar": quote, "page": c["page"]})
         marks = []
+        matched: set[int] = set()
         for mark_id, page, mark_type, x0, x1, y0, y1 in seen_marks:
             box = [int(x0) / 100, int(y0) / 100, int(x1) / 100, int(y1) / 100]
             best = max((m for m in self.marks if m["page"] == int(page)),
@@ -119,6 +120,17 @@ class MockClient:
                 marks.append({"mark_id": mark_id, "page": int(page), "type": best["type"],
                               "text_ar": best.get("text_ar") or "", "meaning_en": best["label_en"], "meaning_ar": "",
                               "changes_printed_text": "corrected" in best["label_en"].lower()})
+                matched.add(id(best))
+        # Marks the image model missed: the reader reports them with ids X1, X2, ... and their position,
+        # except the first handwritten note on page 1 (a deliberate miss).
+        missed = [m for m in self.marks if id(m) not in matched]
+        first_hw = next((m for m in missed if m["page"] == 1 and m["type"] == "handwriting"), None)
+        for n, m in enumerate((m for m in missed if m is not first_hw), 1):
+            x0, y0, x1, y1 = (round(v * 100, 1) for v in m["box"])
+            marks.append({"mark_id": f"X{n}", "page": m["page"], "type": m["type"], "text_ar": m.get("text_ar") or "",
+                          "meaning_en": m["label_en"], "meaning_ar": "",
+                          "changes_printed_text": "corrected" in m["label_en"].lower(),
+                          "x_from_pct": x0, "x_to_pct": x1, "y_from_pct": y0, "y_to_pct": y1})
         court = k["court"]
         return {
             "case_title_en": k["title_en"], "case_title_ar": "", "case_type": "other",

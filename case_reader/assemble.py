@@ -12,6 +12,17 @@ from .pages import Page
 SOURCE_WORDS = {"stamp": ("a stamp", "ختم"), "handwriting": ("a handwritten note", "ملاحظة بخط اليد")}
 
 
+def _reader_box(review: dict[str, Any]) -> list[float] | None:
+    """The position Muse Spark gave for a mark SAM 3.1 did not find, as page fractions, or None."""
+    try:
+        x1, x2, y1, y2 = (float(review.get(k) or 0) for k in ("x_from_pct", "x_to_pct", "y_from_pct", "y_to_pct"))
+    except (TypeError, ValueError):
+        return None
+    if not (0 <= x1 < x2 <= 100 and 0 <= y1 < y2 <= 100) or (x2 - x1) * (y2 - y1) < 1:
+        return None
+    return [round(x1 / 100, 4), round(y1 / 100, 4), round(x2 / 100, 4), round(y2 / 100, 4)]
+
+
 def _merge_marks(found: list[dict[str, Any]], reviews: list[dict[str, Any]]) -> tuple[list[dict], list[dict]]:
     review_by_id = {r["mark_id"]: r for r in reviews if r.get("mark_id")}
     marks, rejected = [], []
@@ -39,7 +50,7 @@ def _merge_marks(found: list[dict[str, Any]], reviews: list[dict[str, Any]]) -> 
         if review["type"] in ("not_a_mark", ""):
             continue
         marks.append({
-            "mark_id": review["mark_id"], "page": review["page"], "box": None, "type": review["type"],
+            "mark_id": review["mark_id"], "page": review["page"], "box": _reader_box(review), "type": review["type"],
             "found_as": "reader", "confidence": None, "text_ar": review["text_ar"],
             "meaning_en": review["meaning_en"], "meaning_ar": review["meaning_ar"],
             "changes_printed_text": review["changes_printed_text"], "reviewed": True,

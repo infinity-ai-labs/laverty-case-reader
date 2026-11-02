@@ -170,3 +170,14 @@ def test_quote_left_in_citation_text_is_still_checked():
     assert quote_in_text(text, "246") == ""  # the quote belongs to the next article, not this one
     assert quote_in_text("المادة (12) من القانون", "12") == ""
     assert quote_in_text('المادة (١٢) تنص على «لا يجوز للمؤجر زيادة الأجرة»', "12") == "لا يجوز للمؤجر زيادة الأجرة"
+
+
+def test_duplicate_citation_keeps_the_quote_for_its_own_article():
+    """Run 3: Muse Spark listed one sentence twice (Art. 246 without the quote, Art. 255 with it)."""
+    from case_reader.citations import split_multi_article
+    text = "وتلزم المادة (246) منه فاعل الإضرار بالغير بضمان الضرر، وتنص المادة (255) على أنه: يُقدَّر التعويض"
+    base = {"text_ar": text, "law_kind": "federal_decree_law", "law_number": "25", "law_year": 2025, "page": 1}
+    out = split_multi_article([{**base, "article": "246", "quoted_text_ar": ""},
+                               {**base, "article": "255", "quoted_text_ar": "يُقدَّر التعويض"}])
+    by_article = {c["article_checked"]: c["quoted_text_ar"] for c in out}
+    assert by_article == {"246": "", "255": "يُقدَّر التعويض"}

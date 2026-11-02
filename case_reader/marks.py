@@ -23,9 +23,12 @@ MARK_TYPES = ("stamp", "signature", "handwriting")
 
 # One phrase per mark type for normal runs.
 DEFAULT_CONCEPTS: dict[str, list[str]] = {
-    "stamp": ["rubber stamp"],
+    # Chosen from real SAM 3.1 runs on the test files (runs 2 and 3): these found 12 of 13 stamps and
+    # 10 of 11 signatures with no false boxes. No phrasing found handwriting ("handwritten text",
+    # "handwriting", "writing", "note", ... returned nothing), so Muse Spark places handwritten notes.
+    "stamp": ["stamp", "blue stamp", "purple stamp"],
     "signature": ["signature"],
-    "handwriting": ["handwritten text"],
+    "handwriting": [],
 }
 
 # Several phrasings per type, to find the best ones on the test files.
