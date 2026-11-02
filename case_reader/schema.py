@@ -86,6 +86,7 @@ CASE_SCHEMA: dict[str, Any] = _obj({
     "marks": _arr(_obj({
         "mark_id": _s(), "page": _i(), "type": _enum(MARK_TYPES), "text_ar": _s(),
         "meaning_en": _s(), "meaning_ar": _s(), "changes_printed_text": _b(),
+        "x_from_pct": _n(), "x_to_pct": _n(), "y_from_pct": _n(), "y_to_pct": _n(),
     })),
     "flags": _arr(_obj({"flag_en": _s(), "flag_ar": _s(), "page": _i(), "severity": _enum(SEVERITIES)})),
 })

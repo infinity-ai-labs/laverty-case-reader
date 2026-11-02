@@ -172,16 +172,22 @@ def resolve_articles(citation: dict[str, Any]) -> list[str]:
 def split_multi_article(citations: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """One entry per article to check (field 'article_checked'), without duplicates."""
     result: list[dict[str, Any]] = []
-    seen: set[tuple] = set()
+    seen: dict[tuple, int] = {}
     for c in citations:
         articles = resolve_articles(c) or [""]
+        own = article_key(str(c.get("article", "")))
         for article in articles:
-            entry = {**c, "article_checked": article}
+            # A quote belongs to the entry's own article, not to every article its sentence names.
+            quote = (c.get("quoted_text_ar") or "") if (len(articles) == 1 or article == own) else ""
+            entry = {**c, "article_checked": article, "quoted_text_ar": quote}
             key = (c.get("text_ar"), str(c.get("law_number")), str(c.get("law_year")), c.get("law_kind"),
                    _emirate(c.get("emirate", "")), article, c.get("page"))
             if key in seen:
+                kept = result[seen[key]]
+                if quote and not kept.get("quoted_text_ar"):
+                    kept["quoted_text_ar"] = quote  # the duplicate carries the quote: keep it
                 continue
-            seen.add(key)
+            seen[key] = len(result)
             result.append(entry)
     return result
 
@@ -236,9 +242,29 @@ def check_citation(citation: dict[str, Any], index: LawIndex) -> dict[str, Any]:
         result["official_text_ar"] = official["ar"]
         result["official_text_en"] = official["en"]
     quote = (citation.get("quoted_text_ar") or "").strip()
+    if not quote:
+        # The reader sometimes leaves the quote inside the citation text: find the words in quotation
+        # marks that follow this article's mention, so a changed word is never missed.
+        quote = quote_in_text(citation.get("text_ar", ""), key)
     if quote:
         result["quote"] = _check_quote(quote, official)
     return result
+
+
+_QUOTE_OPEN = "\"“«"
+_QUOTE_CLOSE = "\"”»"
+
+
+def quote_in_text(text_ar: str, article: str) -> str:
+    """The quoted words that directly follow 'المادة (N)' in a citation's text, or ''."""
+    number = re.match(r"\d+", article or "")
+    if not number or not text_ar:
+        return ""
+    text = to_ascii_digits(text_ar)
+    pattern = (r"(?:المادة|مادة|للمادة)\s*(?:رقم\s*)?\(?\s*" + number.group(0) + r"\s*\)?(?!\d)"
+               r"(?:(?!مادة|المادة)[^" + _QUOTE_OPEN + r"]){0,80}?[" + _QUOTE_OPEN + r"]([^" + _QUOTE_CLOSE + r"]{8,})[" + _QUOTE_CLOSE + r"]")
+    m = re.search(pattern, text)
+    return m.group(1).strip() if m else ""
 
 
 def _check_quote(quote: str, official: dict[str, str] | None) -> dict[str, Any]:

@@ -1,0 +1,69 @@
+{
+ "cases": [
+  {
+   "case": "case-01",
+   "short_en": "Labour claim",
+   "short_ar": "دعوى عمالية"
+  },
+  {
+   "case": "case-02",
+   "short_en": "Commercial claim",
+   "short_ar": "دعوى تجارية"
+  },
+  {
+   "case": "case-03",
+   "short_en": "Tenancy claim",
+   "short_ar": "دعوى إيجارية"
+  },
+  {
+   "case": "case-04",
+   "short_en": "Labour claim, Abu Dhabi",
+   "short_ar": "دعوى عمالية، أبوظبي"
+  },
+  {
+   "case": "case-05",
+   "short_en": "Returned cheques",
+   "short_ar": "شيكات مرتجعة"
+  },
+  {
+   "case": "case-06",
+   "short_en": "Rent increase",
+   "short_ar": "زيادة الإيجار"
+  },
+  {
+   "case": "case-07",
+   "short_en": "Traffic accident",
+   "short_ar": "تعويض حادث مروري"
+  },
+  {
+   "case": "case-08",
+   "short_en": "Partners' dispute",
+   "short_ar": "نزاع بين الشركاء"
+  },
+  {
+   "case": "case-09",
+   "short_en": "Faulty car",
+   "short_ar": "حماية المستهلك"
+  },
+  {
+   "case": "case-10",
+   "short_en": "Arbitral award",
+   "short_ar": "تنفيذ حكم تحكيم"
+  },
+  {
+   "case": "case-11",
+   "short_en": "Payment order",
+   "short_ar": "أمر أداء"
+  },
+  {
+   "case": "case-12",
+   "short_en": "Trademark",
+   "short_ar": "علامة تجارية"
+  },
+  {
+   "case": "case-13",
+   "short_en": "Construction contract",
+   "short_ar": "عقد مقاولة"
+  }
+ ]
+}

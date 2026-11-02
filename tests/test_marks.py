@@ -99,3 +99,11 @@ def test_a_failed_sam_call_is_recorded_not_fatal(tmp_path):
     Image.new("RGB", (200, 280), "white").save(path)
     found = find_marks_on_page(_FailingSam(), Page(1, path, 200, 280), {"stamp": ["rubber stamp"]})
     assert found and "problem" in found[0] and "failed" in found[0]["problem"]
+
+
+def test_reader_box_from_muse_spark_percentages():
+    from case_reader.assemble import _reader_box
+    assert _reader_box({"x_from_pct": 10, "x_to_pct": 40, "y_from_pct": 5, "y_to_pct": 12}) == [0.1, 0.05, 0.4, 0.12]
+    assert _reader_box({"x_from_pct": 0, "x_to_pct": 0, "y_from_pct": 0, "y_to_pct": 0}) is None
+    assert _reader_box({"x_from_pct": 50, "x_to_pct": 40, "y_from_pct": 5, "y_to_pct": 12}) is None
+    assert _reader_box({}) is None
