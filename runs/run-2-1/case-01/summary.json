@@ -1,0 +1,718 @@
+{
+ "case": "case-01",
+ "source_file": "case-01-labour.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T10:34:38Z",
+  "finished": "2026-11-02T10:36:07Z",
+  "seconds": 89.0,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "rubber stamp",
+    "ink stamp",
+    "official seal",
+    "stamp"
+   ],
+   "signature": [
+    "signature",
+    "handwritten signature"
+   ],
+   "handwriting": [
+    "handwritten text",
+    "handwritten note",
+    "handwriting"
+   ]
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Samer Khalil Al-Haddad v Najmat Al Khaleej General Contracting LLC - Labour Case 1234 of 2026",
+ "title_ar": "سامر خليل الحداد ضد شركة نجمة الخليج للمقاولات العامة ذ.م.م ـ دعوى عمالية 1234 لسنة 2026",
+ "case_type": "labour",
+ "summary_en": "Partial labour case 1234/2026 by a senior accountant employed since 2019 on an unlimited contract, claiming delayed wages from June 2026 to termination on 15/08/2026 after his MOHRE complaint, plus notice, gratuity, leave and unlawful-termination compensation totalling AED 196,460. On 27/10/2026 defendant's counsel appeared and sought time; court adjourned to 17/11/2026 ordering defence memo, contract and payrolls by 10/11/2026.",
+ "summary_ar": "دعوى عمالية جزئية رقم 1234 لسنة 2026 يطالب فيها محاسب أول بعقد غير محدد المدة منذ 2019 بأجور متأخرة من يونيو 2026 حتى إنهائه في 15/08/2026 بعد شكواه العمالية، وببدل إنذار ومكافأة نهاية خدمة وبدل إجازة وتعويض عن إنهاء غير مشروع بإجمالي 196,460 درهم. في جلسة 27/10/2026 حضرت وكيلة الشركة وطلبت أجلاً، فأجلت المحكمة لجلسة 17/11/2026 مع إلزام الشركة بتقديم الرد والمستندات بحد أقصى 10/11/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Labour claim statement to Court of First Instance - facts (1-4)",
+   "document_ar": "صحيفة دعوى عمالية مقدمة إلى المحكمة العمالية الابتدائية - الوقائع (1-4)"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Claim continuation - legal grounds and prayers with amount table",
+   "document_ar": "تكملة صحيفة الدعوى - الأسانيد القانونية والطلبات مع جدول المبالغ"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Minutes of Third Labour Circuit hearing 27/10/2026 and adjournment order",
+   "document_ar": "محضر جلسة الدائرة العمالية الثالثة بتاريخ 27/10/2026 وقرار التأجيل"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance - Labour Court - Third Labour Circuit",
+  "name_ar": "المحكمة العمالية الابتدائية - الدائرة العمالية الثالثة - إمارة دبي",
+  "case_number": "1234 لسنة 2026 عمالي جزئي",
+  "case_number_source": "printed",
+  "pages": [
+   1,
+   3
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعي",
+   "name_ar": "سامر خليل الحداد",
+   "name_en": "Samer Khalil Al-Haddad",
+   "details_en": "Jordanian, ID 784-1987-0000000-0, senior accountant employed by defendant",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "شركة نجمة الخليج للمقاولات العامة ذ.م.م",
+   "name_en": "Najmat Al Khaleej General Contracting LLC",
+   "details_en": "LLC, commercial licence No. 000000, address Dubai Al Quoz Industrial Third",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel / Lawyer",
+   "role_ar": "وكيل المدعي / المحامي",
+   "name_ar": "يوسف عبدالله المرزوقي",
+   "name_en": "Yousef Abdulla Al-Marzouqi",
+   "details_en": "Najm Al Sidra Advocates & Legal Consultants, ref NS/LAB/2026/118",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant_lawyer",
+   "role_en": "Defendant counsel / Lawyer",
+   "role_ar": "وكيلة المدعى عليها / المحامية",
+   "name_ar": "هند سعيد الكعبي",
+   "name_en": "Hind Saeed Al-Kaabi",
+   "details_en": "Appeared 27/10/2026, filed POA, requested adjournment to review and reply",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Judge / Presiding Judge",
+   "role_ar": "القاضي / رئيس الدائرة",
+   "name_ar": "خالد سالم النعيمي",
+   "name_en": "Khaled Salem Al-Nuaimi",
+   "details_en": "Presided public hearing 27/10/2026",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "clerk",
+   "role_en": "Court clerk",
+   "role_ar": "أمين السر",
+   "name_ar": "مريم أحمد الشامسي",
+   "name_en": "Mariam Ahmed Al-Shamsi",
+   "details_en": "Attended hearing 27/10/2026",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2019-03-01",
+   "what_en": "Claimant joined defendant under unlimited-term contract",
+   "what_ar": "تاريخ التحاق المدعي بالعمل لدى المدعى عليها بعقد غير محدد المدة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-01",
+   "what_en": "Start of partial delayed-wage period claimed",
+   "what_ar": "بداية الفترة الجزئية من الأجور المتأخرة المطالب بها (01/08/2026 حتى 15/08/2026)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-04",
+   "what_en": "Claimant filed MOHRE complaint No. MO-2026-58213",
+   "what_ar": "تقدم المدعي بشكوى إلى وزارة الموارد البشرية والتوطين قيدت برقم MO-2026-58213",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-15",
+   "what_en": "Defendant terminated claimant without notice or payment",
+   "what_ar": "إنهاء المدعى عليها خدمة المدعي دون إنذار ودون سداد مستحقاته",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-22",
+   "what_en": "MOHRE referred dispute to court as claim exceeds AED 50,000",
+   "what_ar": "إحالة النزاع من الوزارة إلى المحكمة لتجاوز المطالبة 50,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Law firm letter/claim statement date",
+   "what_ar": "تاريخ مذكرة مكتب المحاماة (صحيفة الدعوى)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-06",
+   "what_en": "Filing clerk stamp date on claim",
+   "what_ar": "ختم قلم القيد على صحيفة الدعوى",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "what_en": "Public hearing held with both counsels present",
+   "what_ar": "تاريخ الجلسة المنعقدة علناً بحضور وكيلي الطرفين",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-27",
+   "what_en": "Hearings clerk stamp date",
+   "what_ar": "ختم قلم الجلسات",
+   "page": 3,
+   "source": "stamp",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "what_en": "Deadline for defendant to file reply memo with documents",
+   "what_ar": "موعد أقصاه لتقديم المدعى عليها مذكرة الرد مع المستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-17",
+   "what_en": "Adjourned hearing for defendant's reply",
+   "what_ar": "الجلسة المؤجلة لرد المدعى عليها",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-11-10",
+   "time": "",
+   "who_en": "Defendant (through counsel)",
+   "what_en": "Defendant to file reply memo with documents and submit original employment contract and claimant payrolls Jan-Aug 2026",
+   "what_ar": "تقديم المدعى عليها مذكرة ردها مع المستندات، وتقديم أصل عقد العمل وكشوف رواتب المدعي من يناير إلى أغسطس 2026",
+   "page": 3,
+   "computed": false,
+   "basis_en": "Court order in minutes of 27/10/2026: reply with documents no later than 10/11/2026, plus original contract and payrolls Jan-Aug 2026",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-17",
+   "time": "",
+   "who_en": "Both parties",
+   "what_en": "Next hearing for defendant's reply",
+   "what_ar": "الجلسة القادمة المؤجلة لرد المدعى عليها",
+   "page": 3,
+   "computed": false,
+   "basis_en": "Court order in minutes of 27/10/2026 adjourning case to 17/11/2026 for defendant's reply",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Delayed wages for June and July 2026 and period 01/08/2026 to 15/08/2026",
+   "item_ar": "الأجور المتأخرة عن شهري يونيو ويوليو 2026 والفترة من 01/08/2026 حتى 15/08/2026",
+   "has_amount": true,
+   "amount_aed": 45000.0,
+   "page": 2
+  },
+  {
+   "item_en": "Notice pay in lieu (30 days)",
+   "item_ar": "بدل الإنذار (30 يوماً)",
+   "has_amount": true,
+   "amount_aed": 18000.0,
+   "page": 2
+  },
+  {
+   "item_en": "End-of-service gratuity",
+   "item_ar": "مكافأة نهاية الخدمة",
+   "has_amount": true,
+   "amount_aed": 71460.0,
+   "page": 2
+  },
+  {
+   "item_en": "Unused annual leave pay (20 days)",
+   "item_ar": "بدل الإجازة السنوية غير المستخدمة (20 يوماً)",
+   "has_amount": true,
+   "amount_aed": 8000.0,
+   "page": 2
+  },
+  {
+   "item_en": "Compensation for unlawful termination",
+   "item_ar": "التعويض عن الإنهاء غير المشروع",
+   "has_amount": true,
+   "amount_aed": 54000.0,
+   "page": 2
+  },
+  {
+   "item_en": "Order defendant to deliver experience certificate to claimant",
+   "item_ar": "إلزام المدعى عليها بتسليم المدعي شهادة الخبرة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  },
+  {
+   "item_en": "Order defendant to pay court fees, expenses and lawyer fees",
+   "item_ar": "إلزام المدعى عليها بالرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant employed by defendant since 01/03/2019 on unlimited contract as senior accountant, total AED 18,000 including basic AED 12,000",
+   "fact_ar": "التحق المدعي بالعمل لدى المدعى عليها بتاريخ 01/03/2019 بعقد غير محدد المدة بوظيفة محاسب أول براتب إجمالي 18,000 درهم منها أساسي 12,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant stopped paying wages from June 2026; claimant filed labour complaint 04/08/2026 No. MO-2026-58213",
+   "fact_ar": "توقفت المدعى عليها عن سداد الأجور اعتباراً من يونيو 2026 فتقدم المدعي بشكوى عمالية بتاريخ 04/08/2026 برقم MO-2026-58213",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant terminated claimant 15/08/2026 without prior notice or payment, 11 days after complaint",
+   "fact_ar": "أنهت المدعى عليها خدمة المدعي بتاريخ 15/08/2026 دون إنذار مسبق ودون سداد مستحقاته بعد 11 يوماً من الشكوى",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Ministry referred dispute to court 22/09/2026 as claim exceeds AED 50,000",
+   "fact_ar": "أحالت الوزارة النزاع للمحكمة بتاريخ 22/09/2026 لتجاوز المطالبة 50,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Total claim AED 196,460: arrears 45,000, notice 18,000, gratuity 71,460, leave 8,000, unlawful-termination compensation 54,000",
+   "fact_ar": "إجمالي المطالبات 196,460 درهم تشمل أجوراً متأخرة 45,000 وبدل إنذار 18,000 ومكافأة نهاية خدمة 71,460 وبدل إجازة 8,000 وتعويض إنهاء غير مشروع 54,000",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "At 27/10/2026 hearing claimant counsel and defendant counsel appeared; defendant counsel filed POA and sought adjournment to review and reply",
+   "fact_ar": "في جلسة 27/10/2026 حضر وكيل المدعي وقدمت وكيلة المدعى عليها سند وكالتها وطلبت أجلاً للاطلاع والرد",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "تعذرت التسوية الودية لدى الوزارة، فأحالت النزاع إلى المحكمة بتاريخ 22/09/2026 لتجاوز قيمة المطالبة مبلغ (50,000) درهم، وذلك وفقاً للمادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "54",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "54",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "54",
+    "status": "valid",
+    "label_en": "Article 54 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (54) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. إذا تنازع صاحب العمل أو العامل أو أي مستحق عنهما في أي حق من الحقوق المترتبة لأي منهما بمقتضى أحكام هذا المرسوم بقانون، عليه أن يُقدم طلباً بذلك إلى الوزارة والتي تقوم ببحث الطلب واتخاذ ما تراه لازماً لتسوية النزاع بينهما ودياً.\n2. تتولى الوزارة الفصل في المنازعة بقرار متى كانت قيمة المطالبة موضوع النزاع لا تجاوز مبلغ (50,000) خمسين ألف درهم، أو متى كانت المنازعة بشأن عدم التزام أي من طرفيها بقرار التسوية الودية السابق صدوره في موضوعها من قِبل الوزارة وبغض النظر عن قيمة المطالبة.\n3. يكون قرار الوزارة الصادر بالفصل في المنازعة وفقاً لصلاحياتها المنصوص عليها في البند رقم (2) من هذه المادة في قوة السند التنفيذي، ويُمهر بالصيغة التنفيذية وفقاً للإجراءات المعتادة، ولأي طرف من طرفي النزاع إقامة دعوى أمام المحكمة الابتدائية المختصة للنظر في موضوع النزاع وذلك خلال (15) خمسة عشر يوم عمل من تاريخ إخطاره بالقرار أو إعلانه به، وتُحدد المحكمة جلسة للنظر في الدعوى خلال (3) ثلاثة أيام عمل من تاريخ قيد الدعوى ويعلن بها طرفا النزاع، وتفصل فيه خلال (30) ثلاثين يوم عمل من تاريخ قيد الدعوى لديها، ويكون الحكم الصادر من المحكمة الابتدائية المختصة في موضوع النزاع وفقاً لأحكام هذا البند حكماً انتهائياً، ويترتب على إقامة الدعوى وقف تنفيذ قرار الوزارة المشار إليه في هذا البند.\n4. على الوزارة، في حال تعذر التسوية الودّية خلال المدة التي تُحددها اللائحة التنفيذية لهذا المرسوم بقانون، وفي غير الأحوال المنصوص عليها في البند رقم (2) من هذه المادة، إحالة النزاع إلى المحكمة المختصة وتكون الإحالة مصحوبة بمذكرة تتضمن ملخصاً للنزاع وحُجَج الطرفين وتوصية الوزارة.\n5. يجوز للوزارة خلال سريان النزاع إلزام صاحب العمل باستمرار دفع أجر العامل لمدة (2) شهرين بحد أقصى، إذا تسبب النزاع بإيقاف صرف أجر العامل، ووفق اللائحة التنفيذية لهذا المرسوم بقانون.\n6. يجوز بقرار من الوزير، فرض إجراءات أو تدابير إدارية أخرى على المنشأة، لتجنب أن يؤدي النزاع الفردي القائم إلى حدوث نزاع عمالي جماعي يضر بالمصلحة العامة.\n7. على المحكمة الابتدائية المختصة خلال (3) ثلاثة أيام عمل من تاريخ استلام الطلب، أن تقوم بتحديد جلسة لنظر الدعوى ويُعلن بها طرفا النزاع، وتفصل فيها على وجه السرعة.\n8. لا تُقبل الدعوى المقامة من أي طرف في منازعة من المنازعات المشار إليها في هذه المادة أمام المحكمة الابتدائية المختصة دون مراعاة أو إتباع أي من الإجراءات والمواعيد المنصوص عليها في هذه المادة.\n9. لا تسمع الدعوى عن أي حق من الحقوق المترتبة بمقتضى أحكام هذا المرسوم بقانون بعد مرور سنتين من تاريخ انتهاء علاقة العمل.",
+    "official_text_en": "1. If the Employer, Worker or any beneficiary thereof disputes concerning any of the rights entitled to any of them pursuant to the provisions of this Law by Decree, he shall apply to the Ministry that shall examine the application and take whatever is considered necessary for amicable settlement of dispute.\n2. The Ministry shall resolve the dispute by a resolution whenever the value of the claim subject to the dispute does not exceed the amount of (50,000) fifty thousand AED, or whenever the dispute concerns the failure of either party to comply with the amicable settlement resolution previously issued on the subject by the Ministry, regardless of the value of the claim.\n3. The Ministry resolution to settle the dispute in accordance with its powers stipulated in Clause No. (2) of this Article shall have the force of executive instrument, and it shall be stamped with the executive enforcement in accordance with the normal procedures. Any party to the dispute may file a case before the Competent Court of First Instance to consider the subject of the dispute within (15) fifteen working days from the date of notice or announcement of the resolution. The Court shall set a session to consider the case within (3) three working days from the date of filing the case. The two parties to the dispute shall be informed thereof. It shall decide on it within (30) thirty working days from the date of filing the case. The judgment issued by the Competent Court of First Instance on the subject of the dispute in accordance with the provisions of this clause shall be a final judgment. Filing the case shall result in the suspension of the implementation of the Ministry resolution referred to in this clause.\n4. If amicable settlement is not possible within the period specified by the Executive Regulation of this Law by Decree, in cases other than those stipulated in Clause No. (2) of this Article, the Ministry shall refer the dispute to the Competent Court, and the referral shall be accompanied by a memorandum containing a summary of the dispute, the arguments of both parties and the Ministry recommendation.\n5. During the course of the dispute, the Ministry may oblige the Employer to continue paying the worker wages for a maximum period of (2) months. If the dispute results in the worker salary being suspended, in accordance with the Executive Regulations of this Law by Decree.\n6. The Minister may issue a resolution to impose other administrative procedures or measures on the Establishment, to avoid that the current individual dispute may lead to a collective labour dispute that would harm the public interest.\n7. The Competent Court of First Instance shall, within three (3) business days as of the date of receipt of the application, set a date for a session to consider the case, and a summon to this effect shall be served upon both parties of the dispute and it shall resolve the case promptly.\n8. A case filed by any party in any of the disputes referred to in this article before the Competent Court of First Instance shall not be accepted without observing or following any of the procedures and deadlines stipulated in this article.\n9. The case for any rights entitled under the provisions of this Law by Decree shall not be heard after the lapse of two years as of the date of work relation termination."
+   }
+  },
+  {
+   "text_ar": "إن إنهاء خدمة المدعي جاء بسبب تقدمه بشكوى جدية إلى الوزارة، مما يجعله إنهاءً غير مشروع وفقاً للبند (1) من المادة (47) من المرسوم بقانون المشار إليه، ويستحق عنه تعويضاً لا يجاوز أجر ثلاثة أشهر وفقاً للبند (2) من المادة ذاتها.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "47",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "47",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "47",
+    "status": "valid",
+    "label_en": "Article 47 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (47) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. يعد إنهاء خدمة العامل من قبل صاحب العمل غير مشروع إذا كان إنهاء خدمة العامل بسبب تقدمه بشكوى جدية إلى الوزارة أو إقامة دعوى على صاحب العمل ثبت صحتها.\n2. يلتزم صاحب العمل بدفع تعويض عادل للعامل تقدره المحكمة المختصة، إذا ثبت أن الفصل غير مشروع طبقًا للبند (1) من هذه المادة، ويحدد مقدار التعويض بمراعاة نوع العمل ومقدار الضرر الذي لحق بالعامل ومدة خدمته، ويشترط في جميع الأحوال ألا يزيد مبلغ التعويض على أجر العامل لمدة (3) ثلاثة أشهر تحسب وفق آخر أجر كان يتقاضاه.\n3. لا تخل أحكام البند (2) من هذه المادة بحق العامل في بدل الإنذار ومكافأة نهاية الخدمة المستحقة له وفق أحكام هذا المرسوم بقانون.",
+    "official_text_en": "1. The termination of the Worker's service by the Employer shall be unlawful if the termination of the Worker's service is due to his filing a serious complaint to the Ministry or filing a case against the Employer that has been proven to be true.\n2. The Employer is obligated to pay a fair compensation to the Worker estimated by the competent court, if it is proven that the dismissal is unlawful in accordance with Clause (1) of this Article. The amount of compensation shall be determined taking into account the kind of work, the amount of damage incurred by the Worker and the duration of his service. In all cases, the amount of compensation must not exceed the wage of the Worker for a period of three (3) months, calculated according to the last wage received thereby.\n3. The provisions of Clause (2) of this Article shall not prejudice the right of the Worker to the warning allowance and the end-of-service gratuity entitled thereto in accordance with the provisions of this Decree by law."
+   }
+  },
+  {
+   "text_ar": "لم تلتزم المدعى عليها بعدة الإنذار المنصوص عليها في المادة (43)، والتي لا تقل عن ثلاثين يوماً، فيستحق المدعي بدل الإنذار عنها.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "43",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "43",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "43",
+    "status": "valid",
+    "label_en": "Article 43 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (43) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. يجوز لأي من طرفي عقد العمل إنهاء العقد لأي سبب مشروع، شريطة إنذار الطرف الآخر كتابةً، والالتزام بالعمل خلال مدة الإنذار المتفق عليها في العقد، على ألا تقل المدة عن (30) ثلاثين يومًا، ولا تزيد على (90) تسعين يومًا.\n2. يستمر عقد العمل طوال مدة الإنذار المشار إليها في هذه المادة، وينتهي بانتهاء المدة، ويستحق العامل أجره كاملاً عن تلك المدة وفق آخر أجر كان يتقاضاه، ويجب عليه أن يقوم بالعمل خلالها إذا طلب صاحب العمل منه ذلك، ويجوز الاتفاق على الإعفاء من شرط الإنذار أو تخفيض مدته مع الحفاظ على كامل حقوق العامل عن فترة الإنذار المتفق عليها في عقد العمل، ويشترط أن تكون مدة الإنذار واحدة للطرفين ما لم تكن لصالح العامل.\n3. يجب على الطرف الذي لم يلتزم بفترة الإنذار أن يؤدي إلى الطرف الآخر تعويضًا يسمى بدل إنذار، ولو لم يترتب على عدم الإنذار ضرر للطرف الآخر، ويكون التعويض مساويًّا لأجر العامل عن مدة الإنذار كلها أو الجزء المتبقي منها.\n4. يحسب بدل الإنذار وفق آخر أجر كان يتقاضاه العامل لمن يتقاضون أجورهم بالشهر أو الأسبوع أو اليوم أو الساعة، ووفق متوسط الأجر اليومي المشار إليه في هذا المرسوم بقانون لمن يتقاضون أجورهم بالقطعة.\n5. إذا كان إنهاء عقد العمل من جانب صاحب العمل، فيحق للعامل أن يتغيب خلال مهلة الإنذار يوم عمل بدون أجر في الأسبوع، وذلك للبحث عن عمل آخر، ويجوز للعامل تحديد يوم الغياب بشرط أن يخطر صاحب العمل بذلك قبل (3) ثلاثة أيام على الأقل من يوم الغياب.",
+    "official_text_en": "1. Either party to the employment contract may terminate the contract for any legitimate reason, provided that the other party is notified in writing, and commits to work within the warning period agreed upon in the contract, provided that the period is not less than thirty (30) days, and not more than ninety (90) days.\n2. The employment contract shall remain effective for the duration of the warning period referred to in this Article, and end upon the expiry of the period, and the Worker shall be entitled to his full wage for that period according to the last wage received thereby, and he must work during that period if the Employer asks him to do so. An agreement may be made to exempt from the warning condition or reduce its duration while preserving all the rights of the Worker for the warning period agreed upon in the employment contract. The warning period must be the same for both parties unless it is in the interest of the Worker.\n3. The party who does not abide by the warning period must pay the other party a compensation called a warning allowance, even if the failure to warn does not result in harm to the other party. Such compensation shall be equal to the Worker's wage for the entire warning period or the remaining part of it.\n4. The warning allowance shall be calculated according to the last wage received by the Worker for those who receive their wages by month, week, day or hour, and according to the average daily wage referred to in this Decree by law for those who receive their wages by piece-meal.\n5. If the employment contract is terminated by the Employer, the Worker has the right to be absent during the warning period for one unpaid working day per week, in order to search for another job. The Worker may specify the day of absence provided that he informs the employer thereof at least (3) three days prior to the day of absence."
+   }
+  },
+  {
+   "text_ar": "يستحق المدعي مكافأة نهاية الخدمة وفقاً للمادة (51)، بواقع أجر (21) يوماً عن كل سنة من السنوات الخمس الأولى، وأجر (30) يوماً عن كل سنة مما زاد على ذلك، تحسب على أساس الأجر الأساسي.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "51",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "51",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "51",
+    "status": "valid",
+    "label_en": "Article 51 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (51) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. يستحق العامل المواطن مكافأة نهاية الخدمة عند انتهاء خدمته وذلك وفقًا للتشريعات المنظمة للمعاشات والتأمينات الاجتماعية السارية في الدولة.\n2. يستحق العامل الأجنبي الذي يعمل وفق نمط العمل بالدوام الكامل، والذي أكمل سنة أو أكثر في الخدمة المستمرة مكافأة نهاية الخدمة عند انتهاء خدمته، تحسب وفق الأجر الأساسي، وذلك على النحو الآتي:\nأ. أجر (21) واحد وعشرين يوم عن عمل عن كل سنة من سنوات الخدمة الخمس الأولى.\nب. أجر (30) ثلاثين يوم عن كل سنة مما زاد على ذلك..\n3. يستحق العامل الأجنبي مكافأة عن أجزاء السنة بنسبة ما قضاه منها في العمل بشرط أن يكون قد أكمل سنة من الخدمة المستمرة.\n4. لا تدخل أيام الانقطاع عن العمل بدون أجر في حساب مدة الخدمة.\n5. مع عدم الإخلال بما تقرره التشريعات بشأن منح معاشات أو مكافآت تقاعد للعاملين في بعض المنشآت، تُحسب مكافأة نهاية الخدمة وفق آخر أجر أساسي كان يستحقه العامل الأجنبي بالنسبة إلى من يتقاضون أجورهم بالشهر أو بالأسبوع أو باليوم ووفق متوسط الأجر اليومي المنصوص عليه في أحكام هذا المرسوم بقانون لمن يتقاضون أجورهم بالقطعة.\n6. يشترط فيما تقدم ألا تزيد مكافأة نهاية الخدمة للعامل الأجنبي في مجموعها عن أجر سنتين.\n7. لصاحب العمل أن يقتطع من مكافأة نهاية الخدمة، أي مبالغ تكون مستحقة قانونًا أو بحكم قضائي، وفق الشروط والإجراءات التي تحددها اللائحة التنفيذية لهذا المرسوم بقانون.\n8. لمجلس الوزراء، بناءً على اقتراح الوزير وبعد التنسيق مع الجهات المعنية، إقرار أنظمة أخرى بديلة لنظام مكافأة نهاية الخدمة، ويحدد القرار الصادر منه، شروط وضوابط وآلية الاشتراك في هذه الأنظمة.",
+    "official_text_en": "1. The national Worker is entitled to an end-of-service gratuity upon the end of his service, in accordance with the legislation regulating pensions and social security in force in the State.\n2. The foreign full-time Worker, who has completed one or more years of continuous service, is entitled to an end-of-service gratuity upon the end of his service, calculated according to the basic wage, as follows:\na. The wage of twenty-one (21) days for each year of the first five years of service.\nb. The wage of thirty (30) days for each year in excess of that.\n3. The foreign Worker is entitled to a bonus for parts of the year in proportion to the amount spent in work, provided that he has completed one year of continuous service.\n4. The days of absence from work without pay shall not be included in the calculation of the duration of service.\n5. Without prejudice to what is decided by legislation regarding the granting of pensions or retirement benefits to Workers in some Establishments, the end-of-service gratuity shall be calculated according to the last basic wage received by the foreign Worker, for those who receive their wages by month, week, or day, and according to the average daily wage stipulated in the provisions of this Decree by law for those who receive their wages by piece-meal.\n6. The foregoing is provided that the total end-of-service gratuity for the foreign Worker does not exceed two years' wage.\n7. The Employer may deduct from the end-of-service gratuity any amounts that are due by law or by a judgment, in accordance with the conditions and procedures specified by the Executive Regulation of this Decree by law.\n8. The Cabinet may, upon the proposal of the Minister and after coordination with the Concerned Authorities, approve other alternative systems for the end-of-service gratuity system, and the decision issued thereby shall specify the conditions, controls and mechanism of contribution to these systems."
+   }
+  },
+  {
+   "text_ar": "ألزمت المادة (53) صاحب العمل بسداد أجور العامل وجميع مستحقاته خلال (14) يوماً من تاريخ انتهاء العقد، وهو ما لم تلتزم به المدعى عليها.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "53",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "53",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "53",
+    "status": "valid",
+    "label_en": "Article 53 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (53) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "على صاحب العمل أن يؤدي للعامل خلال (14) أربعة عشر يومًا من تاريخ انتهاء العقد، أجوره وجميع مستحقاته الأخرى التي ينص عليها هذا المرسوم بقانون والقرارات الصادرة تنفيذًا له أو العقد أو نظام المنشأة.",
+    "official_text_en": "The Employer shall pay the Worker, within fourteen (14) days as of the date of the end of the contract, his wages and all other entitlements stipulated in this Decree by law and the resolutions issued in implementation thereof, the contract or the Establishment's Articles of Association."
+   }
+  },
+  {
+   "text_ar": "كما يطالب المدعي بتعويض عن التأخير في سداد الأجور استناداً إلى المادة (145) من المرسوم بقانون ذاته.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "145",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "145",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "145",
+    "status": "invalid",
+    "label_en": "Article 145 does not exist in the Labour Relations Law: the official text has 74 articles.",
+    "label_ar": "المادة (145) غير موجودة في قانون تنظيم علاقات العمل، إذ يتكون النص الرسمي من 74 مادة."
+   }
+  },
+  {
+   "text_ar": "تُعفى الدعوى من الرسوم القضائية عملاً بالمادة (55) من المرسوم بقانون ذاته.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Regulating Labour Relations",
+   "article": "55",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "55",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "55",
+    "status": "valid",
+    "label_en": "Article 55 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (55) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. تُعفى الدعاوى العمالية من الرسوم القضائية في جميع مراحل التقاضي والتنفيذ، والطلبات التي يرفعها العمال أو ورثتهم والتي لا تزيد قيمتها على (100.000) مائة ألف درهم.\n2. لمجلس الوزراء -بناءً على اقتراح وزير العدل- تعديل القيمة المشار إليها في البند (1) من هذه المادة، بالزيادة أو النقصان متى اقتضت الحاجة ذلك.",
+    "official_text_en": "1. Labour lawsuits shall be exempted from judicial fees at all stages of litigation and execution, as well as the requests submitted by Workers or their heirs of which value does not exceed one hundred thousand (100,000) AED.\n2. The Cabinet may - upon the proposal of the Minister of Justice - amend the value referred to in Clause (1) of this Article, by increase or decrease, whenever necessary."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.065,
+    0.13124,
+    0.25188,
+    0.21608
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.6878048777580261,
+   "text_ar": "قلم القيد نموذج تدريبي 06/10/2026",
+   "meaning_en": "Oval filing-clerk stamp dated 06/10/2026 (training template)",
+   "meaning_ar": "ختم بيضاوي لقلم القيد بتاريخ 06/10/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 2,
+   "box": [
+    0.36812,
+    0.6593,
+    0.67937,
+    0.77596
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.8904109597206116,
+   "text_ar": "مكتب نجم السدرة للمحاماة Najm Al Sidra Advocates دبي - الإمارات",
+   "meaning_en": "Rectangular law-office stamp for Najm Al Sidra Advocates Dubai",
+   "meaning_ar": "ختم مستطيل لمكتب نجم السدرة للمحاماة في دبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 2,
+   "box": [
+    0.15438,
+    0.66416,
+    0.35813,
+    0.72426
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8750000596046448,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant counsel Yousef Abdulla Al-Marzouqi",
+   "meaning_ar": "توقيع وكيل المدعي المحامي يوسف عبدالله المرزوقي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 3,
+   "box": [
+    0.61125,
+    0.39284,
+    0.78563,
+    0.43438
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.5661016702651978,
+   "text_ar": "",
+   "meaning_en": "Court clerk signature on hearing minutes",
+   "meaning_ar": "توقيع أمين السر على محضر الجلسة",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "box": [
+    0.18313,
+    0.39019,
+    0.36375,
+    0.44985
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7575758099555969,
+   "text_ar": "",
+   "meaning_en": "Presiding judge signature on hearing minutes",
+   "meaning_ar": "توقيع رئيس الدائرة على محضر الجلسة",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 1,
+   "box": null,
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "قُيدت برقم 1234 عمالي جزئي 2026",
+   "meaning_en": "Handwritten note recording registration as 1234 partial labour 2026",
+   "meaning_ar": "ملاحظة بخط اليد تفيد بقيد الدعوى برقم 1234 عمالي جزئي 2026",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 3,
+   "box": null,
+   "type": "stamp",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "قلم الجلسات نموذج تدريبي 27/10/2026",
+   "meaning_en": "Oval hearings-clerk stamp dated 27/10/2026 (training template)",
+   "meaning_ar": "ختم بيضاوي لقلم الجلسات بتاريخ 27/10/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X3",
+   "page": 3,
+   "box": null,
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "متابعة: مذكرة رد الشركة بتاريخ 10/11 — الجلسة القادمة 17/11",
+   "meaning_en": "Handwritten follow-up note about company reply memo due 10/11 and next hearing 17/11",
+   "meaning_ar": "ملاحظة متابعة بخط اليد حول مذكرة رد الشركة بتاريخ 10/11 والجلسة القادمة 17/11",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Citation on page 2: Article 145 does not exist in the Labour Relations Law: the official text has 74 articles.",
+   "flag_ar": "المادة (145) غير موجودة في قانون تنظيم علاقات العمل، إذ يتكون النص الرسمي من 74 مادة.",
+   "page": 2,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-06 (Filing clerk stamp date on claim) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-10-06 (ختم قلم القيد على صحيفة الدعوى) وارد فقط في ختم في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-27 (Hearings clerk stamp date) appears only in a stamp on page 3.",
+   "flag_ar": "التاريخ 2026-10-27 (ختم قلم الجلسات) وارد فقط في ختم في الصفحة 3.",
+   "page": 3,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Each page footer states this is a fictional test document, not a real case",
+   "flag_ar": "تذييل كل صفحة ينص على أن الوثيقة خيالية لأغراض الاختبار فقط وليست قضية حقيقية",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "ID, trade licence and P.O. Box numbers show placeholder zeros, appear redacted/fictional",
+   "flag_ar": "أرقام الهوية والرخصة التجارية وصندوق البريد تظهر بأصفار بديلة (000000) ويبدو أنها بيانات تجريبية محجوبة",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  }
+ ]
+}

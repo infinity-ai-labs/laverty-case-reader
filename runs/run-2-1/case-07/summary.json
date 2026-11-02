@@ -1,0 +1,670 @@
+{
+ "case": "case-07",
+ "source_file": "case-07-traffic-compensation.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T10:37:24Z",
+  "finished": "2026-11-02T10:38:42Z",
+  "seconds": 77.8,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "rubber stamp",
+    "ink stamp",
+    "official seal",
+    "stamp"
+   ],
+   "signature": [
+    "signature",
+    "handwritten signature"
+   ],
+   "handwriting": [
+    "handwritten text",
+    "handwritten note",
+    "handwriting"
+   ]
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Mazen Ibrahim Al-Attar v Hisham Tawfiq Al-Badri and Sanam Al-Rimal Insurance - Traffic Accident Compensation",
+ "title_ar": "مازن إبراهيم العطار ضد هشام توفيق البدري وشركة سنام الرمال للتأمين ش.م.ع - تعويض عن حادث مروري",
+ "case_type": "civil",
+ "summary_en": "Civil compensation claim for a 16/06/2026 Dubai traffic accident. Claimant Mazen Al-Attar says first defendant ran a red light and hit his car, causing fractures and 15% permanent disability. First defendant was finally convicted in traffic court. Claimant seeks AED 346,640 jointly from driver and insurer (medical, lost wages, disability, moral damages) under the new Civil Transactions Law and Evidence Law.",
+ "summary_ar": "دعوى مدنية للتعويض عن حادث مروري في 16/06/2026 في دبي، يدعي فيها مازن العطار أن المدعى عليه الأول تجاوز الإشارة الحمراء فصدم مركبته، مما سبب له كسوراً وعجزاً دائماً 15%. أدين الأول جنائياً بحكم بات، ويطالب المدعي المدعى عليهما بالتضامن بمبلغ 346,640 درهماً (علاج وكسب فائت وعجز وضرر أدبي) استناداً لقانون المعاملات المدنية الجديد وقانون الإثبات، ضد السائق وشركة التأمين.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Civil statement of claim (compensation)",
+   "document_ar": "صحيفة دعوى مدنية (تعويض)"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Traffic accident report summary (training model)",
+   "document_ar": "ملخص تقرير حادث مروري (نموذج تدريبي)"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Final medical report (excerpt)",
+   "document_ar": "تقرير طبي نهائي (مقتطف)"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance - Civil Circuits",
+  "name_ar": "محكمة دبي الابتدائية — الدوائر المدنية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعي",
+   "name_ar": "مازن إبراهيم العطار",
+   "name_en": "Mazen Ibrahim Al-Attar",
+   "details_en": "Claimant; second vehicle driver; injured with right leg fractures.",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "First Defendant",
+   "role_ar": "المدعى عليه الأول",
+   "name_ar": "هشام توفيق البدري",
+   "name_en": "Hisham Tawfiq Al-Badri",
+   "details_en": "Driver of first vehicle that caused accident; found 100% liable; convicted in traffic case.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Second Defendant",
+   "role_ar": "المدعى عليها الثانية",
+   "name_ar": "شركة سنام الرمال للتأمين ش.م.ع",
+   "name_en": "Sanam Al-Rimal Insurance PSC",
+   "details_en": "Insurer of first defendant's vehicle under policy No. 000000.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's Lawyer",
+   "role_ar": "وكيلة المدعي — المحامية",
+   "name_ar": "ريم عبدالعزيز الجروان",
+   "name_en": "Reem Abdulaziz Al-Jarwan",
+   "details_en": "Claimant's lawyer from Difaf Al Adala Advocates; signed statement of claim.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Claimant's Law Office",
+   "role_ar": "مكتب وكيل المدعي",
+   "name_ar": "مكتب ضفاف العدالة للمحاماة والاستشارات القانونية - دبي",
+   "name_en": "Difaf Al Adala Advocates - Dubai",
+   "details_en": "Law office filing claim on behalf of claimant in Dubai.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Investigation Officer - First Lieutenant",
+   "role_ar": "ضابط التحقيق — ملازم أول",
+   "name_ar": "حمد سيف الفغلي",
+   "name_en": "Hamad Saif Al-Fughli",
+   "details_en": "Investigation officer who prepared traffic report and referred file to prosecution.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Treating Doctor - Orthopedic Consultant",
+   "role_ar": "الطبيب المعالج — استشاري جراحة العظام",
+   "name_ar": "د. نادر سليم النخوري",
+   "name_en": "Dr. Nader Salim Al-Nakhouri",
+   "details_en": "Treating orthopedic consultant at Rawasi Specialty Hospital.",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-06-01",
+   "what_en": "Effective date of new Civil Transactions Law applied to accident",
+   "what_ar": "تاريخ سريان قانون المعاملات المدنية الجديد المطبق على الحادث",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-16",
+   "what_en": "Date of accident around 21:40",
+   "what_ar": "تاريخ وقوع الحادث نحو الساعة 21:40",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-16",
+   "what_en": "Hospital admission date via emergency",
+   "what_ar": "تاريخ دخول المريض المستشفى عن طريق الطوارئ",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-17",
+   "what_en": "Date of open reduction and internal fixation surgery",
+   "what_ar": "تاريخ إجراء عملية الرد المفتوح والتثبيت الداخلي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-18",
+   "what_en": "Issuance of traffic report summary and referral to traffic prosecution",
+   "what_ar": "تاريخ إصدار ملخص تقرير الحادث وإحالة الملف إلى نيابة السير والمرور",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-29",
+   "what_en": "Hospital discharge date",
+   "what_ar": "تاريخ خروج المريض من المستشفى",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-06",
+   "what_en": "Start of physiotherapy sessions",
+   "what_ar": "بداية جلسات العلاج الطبيعي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-28",
+   "what_en": "Conviction date of first defendant by Traffic Misdemeanor Court case 3471/2026",
+   "what_ar": "تاريخ إدانة المدعى عليه الأول من محكمة جنح السير في القضية رقم 3471 لسنة 2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Certificate date that criminal judgment became final",
+   "what_ar": "تاريخ شهادة المحكمة بصيرورة الحكم الجزائي باتاً بعدم الطعن",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "End of physiotherapy sessions",
+   "what_ar": "نهاية جلسات العلاج الطبيعي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Date of final medical report",
+   "what_ar": "تاريخ التقرير الطبي النهائي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "what_en": "End of sick leave and lost earnings period",
+   "what_ar": "نهاية الإجازة المرضية وفترة الكسب الفائت",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-16",
+   "what_en": "Date fit to return to work",
+   "what_ar": "تاريخ اللياقة للعودة إلى العمل",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-22",
+   "what_en": "Date of statement of claim",
+   "what_ar": "تاريخ صحيفة الدعوى",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-26",
+   "what_en": "Filing clerk stamp date",
+   "what_ar": "تاريخ ختم قلم القيد",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  }
+ ],
+ "deadlines": [],
+ "claims": [
+  {
+   "item_en": "Treatment, surgery and physiotherapy expenses",
+   "item_ar": "نفقات العلاج والعملية الجراحية والعلاج الطبيعي",
+   "has_amount": true,
+   "amount_aed": 58640.0,
+   "page": 1
+  },
+  {
+   "item_en": "Lost earnings: salary from 16/06/2026 to 15/10/2026 (4 months x 19,500)",
+   "item_ar": "الكسب الفائت: الأجر من 16/06/2026 حتى 15/10/2026 (4 أشهر × 19,500)",
+   "has_amount": true,
+   "amount_aed": 78000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Compensation for 15% permanent partial disability",
+   "item_ar": "التعويض عن العجز الدائم الجزئي (15%)",
+   "has_amount": true,
+   "amount_aed": 150000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Moral damages compensation",
+   "item_ar": "التعويض عن الضرر الأدبي (البند (1) من المادة (254) من قانون المعاملات المدنية)",
+   "has_amount": true,
+   "amount_aed": 60000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Total claimed jointly against both defendants with fees, expenses and lawyer fees",
+   "item_ar": "الإجمالي، يُلزم به المدعى عليهما بالتضامن مع الرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": true,
+   "amount_aed": 346640.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "On 16/06/2026 around 21:40 at Umm Suqeim-Al Wasl intersection in Dubai, first vehicle ran red light and hit left side of claimant's vehicle which was crossing on green.",
+   "fact_ar": "بتاريخ 16/06/2026 نحو الساعة 21:40 عند تقاطع شارع أم سقيم مع شارع الوصل في دبي تجاوزت المركبة الأولى الإشارة الحمراء واصطدمت بالجانب الأيسر لمركبة المدعي التي كانت تعبر والإشارة خضراء.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Traffic report assigned 100% liability to first vehicle driver (first defendant) and found second driver (claimant) not at fault.",
+   "fact_ar": "حمّل تقرير المرور المسؤولية بنسبة 100% على قائد المركبة الأولى (المدعى عليه الأول) واعتبر قائد المركبة الثانية (المدعي) غير متسبب.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant suffered comminuted tibia/fibula fracture in right leg and right ankle fracture with bruises, had internal fixation surgery on 17/06/2026 and stayed in hospital until 29/06/2026.",
+   "fact_ar": "أصيب المدعي بكسر مفتت في عظمتي القصبة والشظية بالساق اليمنى وكسر في الكاحل الأيمن مع رضوض، وأجريت له عملية تثبيت داخلي بتاريخ 17/06/2026 وبقي بالمستشفى حتى 29/06/2026.",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant left with 15% permanent partial disability in right lower limb with partial ankle stiffness, limited movement and slight limp.",
+   "fact_ar": "تخلف لدى المدعي عجز دائم جزئي بنسبة 15% في الطرف السفلي الأيمن مع تيبس جزئي في مفصل الكاحل ومحدودية الحركة وعرج خفيف.",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Traffic Misdemeanor Court convicted first defendant on 28/07/2026 in case 3471/2026 and fined him AED 10,000; judgment became final per 03/09/2026 certificate.",
+   "fact_ar": "أدانت محكمة جنح السير المدعى عليه الأول بتاريخ 28/07/2026 في القضية 3471 لسنة 2026 جنح سير وغرمته 10,000 درهم، وصار الحكم باتاً وفق شهادة 03/09/2026.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "First vehicle insured with second defendant (Sanam Al-Rimal Insurance) under policy No. 000000.",
+   "fact_ar": "المركبة الأولى مؤمنة لدى المدعى عليها الثانية (شركة سنام الرمال للتأمين ش.م.ع) بالوثيقة رقم 000000.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant had sick leave from 16/06/2026 to 15/10/2026, had 36 physio sessions from 06/07/2026 to 30/09/2026, and was fit to return to work from 16/10/2026.",
+   "fact_ar": "منح المدعي إجازة مرضية من 16/06/2026 حتى 15/10/2026 وخضع لـ 36 جلسة علاج طبيعي من 06/07/2026 حتى 30/09/2026، وأصبح لائقاً للعودة للعمل من 16/10/2026.",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "لوقوع الحادث بعد 01/06/2026 يسري عليه قانون المعاملات المدنية الصادر بالمرسوم بقانون اتحادي رقم (25) لسنة 2025، وتلزم المادة (246) منه فاعل الإضرار بالغير بضمان الضرر، وتنص المادة (255) على أنه: \"يُقدَّر التعويض في جميع الأحوال بقدر ما لحق المضرور من ضرر وما فاته من كسب، بشرط أن يكون ذلك نتيجة محتملة للفعل الضار\".",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Civil Transactions Law",
+   "article": "246",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "246",
+   "check": {
+    "law_id": "uae-fdl-25-2025-civil-transactions-2025",
+    "law_title_en": "Federal Decree-Law No. 25 of 2025 (Civil Transactions Law (NEW Civil Code))",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (25) لسنة 2025 (قانون المعاملات المدنية (الجديد))",
+    "article_count": 1422,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/4011",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/4011",
+    "article": "246",
+    "status": "valid",
+    "label_en": "Article 246 of the Civil Transactions Law (2025) exists in the official text.",
+    "label_ar": "المادة (246) من قانون المعاملات المدنية (2025) موجودة في النص الرسمي.",
+    "official_text_ar": "كل إضرار بالغير يلزم فاعله ولو غير مميز بضمان الضرر.",
+    "official_text_en": "Every act causing harm to another shall obligate its perpetrator to compensate for the damage, even if the perpetrator lacks discernment."
+   }
+  },
+  {
+   "text_ar": "لوقوع الحادث بعد 01/06/2026 يسري عليه قانون المعاملات المدنية الصادر بالمرسوم بقانون اتحادي رقم (25) لسنة 2025، وتلزم المادة (246) منه فاعل الإضرار بالغير بضمان الضرر، وتنص المادة (255) على أنه: \"يُقدَّر التعويض في جميع الأحوال بقدر ما لحق المضرور من ضرر وما فاته من كسب، بشرط أن يكون ذلك نتيجة محتملة للفعل الضار\".",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Civil Transactions Law",
+   "article": "246",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "255",
+   "check": {
+    "law_id": "uae-fdl-25-2025-civil-transactions-2025",
+    "law_title_en": "Federal Decree-Law No. 25 of 2025 (Civil Transactions Law (NEW Civil Code))",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (25) لسنة 2025 (قانون المعاملات المدنية (الجديد))",
+    "article_count": 1422,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/4011",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/4011",
+    "article": "255",
+    "status": "valid",
+    "label_en": "Article 255 of the Civil Transactions Law (2025) exists in the official text.",
+    "label_ar": "المادة (255) من قانون المعاملات المدنية (2025) موجودة في النص الرسمي.",
+    "official_text_ar": "يُقدّر التعويض في جميع الأحوال بقدر ما لحق المضرور من ضرر وما فاته من كسب، بشرط أن يكون ذلك نتيجة طبيعية للفعل الضار.",
+    "official_text_en": "In all cases, compensation shall be assessed based on the extent of the loss suffered by the injured party and the loss of their profit, provided that this is a natural consequence of the harmful act."
+   }
+  },
+  {
+   "text_ar": "وتلتزم المدعى عليها الثانية بالتعويض بصفتها المؤمِّنة من المسؤولية المدنية بعد مطالبة المؤمَّن له، عملاً بالمادة (965) من القانون ذاته.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Civil Transactions Law",
+   "article": "965",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "965",
+   "check": {
+    "law_id": "uae-fdl-25-2025-civil-transactions-2025",
+    "law_title_en": "Federal Decree-Law No. 25 of 2025 (Civil Transactions Law (NEW Civil Code))",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (25) لسنة 2025 (قانون المعاملات المدنية (الجديد))",
+    "article_count": 1422,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/4011",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/4011",
+    "article": "965",
+    "status": "valid",
+    "label_en": "Article 965 of the Civil Transactions Law (2025) exists in the official text.",
+    "label_ar": "المادة (965) من قانون المعاملات المدنية (2025) موجودة في النص الرسمي.",
+    "official_text_ar": "لا ينتج التزام المؤمن أثره في التأمين من المسؤولية المدنية إلا إذا قام المتضرر بمطالبة المستفيد بعد وقوع الحادث الذي نجمت عنه هذه المسؤولية.",
+    "official_text_en": "The insurer's obligation under civil liability insurance shall not arise unless the injured party asserts a claim against the beneficiary after the occurrence of the event giving rise to such liability."
+   }
+  },
+  {
+   "text_ar": "ويتقيد القاضي المدني بالحكم الجزائي في الوقائع التي فصل فيها وكان فصله فيها ضرورياً، ومنها خطأ المدعى عليه الأول، عملاً بالمادة (88) من قانون الإثبات في المعاملات المدنية والتجارية الصادر بالمرسوم بقانون اتحادي رقم (35) لسنة 2022.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "35",
+   "law_year": 2022,
+   "law_title_en": "Law of Evidence in Civil and Commercial Transactions",
+   "article": "88",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "88",
+   "check": {
+    "law_id": "uae-fdl-35-2022-evidence-law",
+    "law_title_en": "Federal Decree-Law No. 35 of 2022 (Law of Evidence in Civil and Commercial Transactions)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (35) لسنة 2022 (قانون الإثبات في المعاملات المدنية والتجارية)",
+    "article_count": 125,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1612",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1612",
+    "article": "88",
+    "status": "valid",
+    "label_en": "Article 88 of the Evidence Law exists in the official text.",
+    "label_ar": "المادة (88) من قانون الإثبات في المعاملات المدنية والتجارية موجودة في النص الرسمي.",
+    "official_text_ar": "لا تتقيد المحكمة بالحكم الجزائي المرتبط بالدعوى المعروضة عليها إلا في الوقائع التي فصل فيها ذلك الحكم وكان فصله فيها ضرورياً، ومع ذلك لا تتقيد المحكمة بالحكم الصادر بعدم الإدانة إلا إذا قام على نفي نسبة الواقعة إلى المتهم.",
+    "official_text_en": "The court shall not be bound by the penal judgment on the case pending before it, except in the facts adjudicated by such judgment and such adjudication is essential. However, the court shall not be bound by the judgment of acquittal, except if it relies on denying that the facts are attributed to the convict."
+   }
+  },
+  {
+   "text_ar": "التعويض عن الضرر الأدبي (البند (1) من المادة (254) من قانون المعاملات المدنية)",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Civil Transactions Law",
+   "article": "254",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "254",
+   "check": {
+    "law_id": "uae-fdl-25-2025-civil-transactions-2025",
+    "law_title_en": "Federal Decree-Law No. 25 of 2025 (Civil Transactions Law (NEW Civil Code))",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (25) لسنة 2025 (قانون المعاملات المدنية (الجديد))",
+    "article_count": 1422,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/4011",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/4011",
+    "article": "254",
+    "status": "valid",
+    "label_en": "Article 254 of the Civil Transactions Law (2025) exists in the official text.",
+    "label_ar": "المادة (254) من قانون المعاملات المدنية (2025) موجودة في النص الرسمي.",
+    "official_text_ar": "1. يشمل الضمان الضرر الأدبي، ويُعتبر من الضرر الأدبي التعدي على الغير في حريته أو في عرضه أو في شرفه أو في سمعته أو في مركزه الاجتماعي أو في اعتباره المالي.\n2. يجوز أن يُقضى بالتعويض للأزواج وللأقربين من الأسرة إلى الدرجة الثانية عمّا يصيبهم من ضرر أدبي بسبب عجز المصاب أو موته.\n3. لا ينتقل الحق في طلب التعويض عن الضرر الأدبي إلى الغير إلا إذا تحددت قيمته بمقتضى اتفاق أو حكم قضائي نهائي.",
+    "official_text_en": "1. Liability shall include moral harm. An infringement on another's freedom, honor, reputation, social standing, or financial status shall constitute moral harm.\n2. Compensation may be awarded to spouses and relatives up to the second degree for the moral harm suffered as a result of the incapacity or death of the injured person.\n3. The right to claim compensation for moral harm shall not be transferred to another unless its value has been determined by an agreement or a final judicial judgment."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.31375,
+    0.02872,
+    0.50875,
+    0.1118
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.9024390578269958,
+   "text_ar": "قلم القيد نموذج تدريبي 26/10/2026",
+   "meaning_en": "Filing clerk stamp dated 26/10/2026 recording registration (training model).",
+   "meaning_ar": "ختم قلم القيد بتاريخ 26/10/2026 يفيد قيد الصحيفة (نموذج تدريبي).",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.44625,
+    0.8418,
+    0.7525,
+    0.93902
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.921951174736023,
+   "text_ar": "مكتب ضفاف العدالة للمحاماة Difaf Al Adala Advocates دبي - الإمارات",
+   "meaning_en": "Stamp of claimant's law office, Difaf Al Adala Advocates, Dubai.",
+   "meaning_ar": "ختم مكتب ضفاف العدالة للمحاماة في دبي، وكيل المدعي.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.14625,
+    0.89129,
+    0.35,
+    0.93062
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8552036285400391,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's lawyer Reem Abdulaziz Al-Jarwan.",
+   "meaning_ar": "توقيع وكيلة المدعي المحامية ريم عبدالعزيز الجروان.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.15188,
+    0.74945,
+    0.33875,
+    0.7848
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.7770034670829773,
+   "text_ar": "",
+   "meaning_en": "Signature of investigation officer First Lieutenant Hamad Saif Al-Fughli on accident report.",
+   "meaning_ar": "توقيع ضابط التحقيق الملازم أول حمد سيف الفغلي على تقرير الحادث.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "box": [
+    0.43188,
+    0.65179,
+    0.73875,
+    0.75387
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.8827838897705078,
+   "text_ar": "مستشفى رواسي التخصصي Rawasi Specialty Hospital قسم جراحة العظام - دبي",
+   "meaning_en": "Stamp of Rawasi Specialty Hospital, Orthopedics Department, Dubai.",
+   "meaning_ar": "ختم مستشفى رواسي التخصصي، قسم جراحة العظام في دبي.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M6",
+   "page": 3,
+   "box": [
+    0.16312,
+    0.65444,
+    0.34563,
+    0.711
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8241757750511169,
+   "text_ar": "",
+   "meaning_en": "Signature of treating doctor Dr. Nader Salim Al-Nakhouri.",
+   "meaning_ar": "توقيع الطبيب المعالج د. نادر سليم النخوري.",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 3,
+   "box": null,
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "(خمسة عشر بالمئة) 15%",
+   "meaning_en": "Blue-ink handwriting stating fifteen percent, confirming printed 15% disability rate.",
+   "meaning_ar": "كتابة يدوية بالحبر الأزرق توضح نسبة العجز بخمسة عشر بالمئة وتؤكد النسبة المطبوعة 15%.",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "2026-10-26 (Filing clerk stamp date) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-10-26 (تاريخ ختم قلم القيد) وارد فقط في ختم في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "File footer on all pages states it is a fictional test document, not a real case, limiting reliance.",
+   "flag_ar": "الملف يذكر في تذييل كل صفحة أنه وثيقة خيالية لأغراض الاختبار فقط وليست قضية حقيقية، مما يحد من الاعتماد عليها.",
+   "page": 1,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Court civil case number not shown; only law office reference DA/CIV/2026/64 appears.",
+   "flag_ar": "لم يظهر رقم الدعوى المدنية للمحكمة في الأوراق؛ الموجود فقط مرجع مكتب المحاماة DA/CIV/2026/64.",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Traffic report summary states it is a training model, not an official report.",
+   "flag_ar": "ملخص تقرير الحادث يذكر أنه نموذج تدريبي وليس تقريراً رسمياً.",
+   "page": 2,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Policy and plate numbers shown as zeros (000000), appearing as placeholder or incomplete.",
+   "flag_ar": "أرقام الوثائق واللوحات وردت كأصفار (000000) وهي أرقام غير كاملة أو افتراضية.",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

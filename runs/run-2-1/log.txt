@@ -1,0 +1,17 @@
+case-01: 3 pages
+case-01: SAM 3.1 found 7 boxes, kept 5 marks
+case-01: Muse Spark answered (json_schema): 6 parties, 11 dates, 8 citations
+case-01: citations valid 6, invalid 1, not checked 0; 5 points flagged
+case-05: 3 pages
+case-05: SAM 3.1 found 5 boxes, kept 3 marks
+case-05: Muse Spark answered (json_schema): 6 parties, 14 dates, 8 citations
+case-05: citations valid 7, invalid 1, not checked 0; 7 points flagged
+case-07: 3 pages
+case-07: SAM 3.1 found 9 boxes, kept 6 marks
+case-07: Muse Spark answered (json_schema): 7 parties, 15 dates, 5 citations
+case-07: citations valid 5, invalid 0, not checked 0; 5 points flagged
+case-11: 2 pages
+case-11: SAM 3.1 found 6 boxes, kept 5 marks
+case-11: Muse Spark answered (json_schema): 4 parties, 9 dates, 3 citations
+case-11: citations valid 2, invalid 0, not checked 0; 6 points flagged
+Read 4 of 4 case files into runs/run-2-1

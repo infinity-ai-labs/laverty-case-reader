@@ -1,0 +1,62 @@
+[
+ {
+  "page": 1,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.16875,
+   0.86832,
+   0.3675,
+   0.92532
+  ],
+  "confidence": 0.8518518805503845
+ },
+ {
+  "page": 1,
+  "type": "signature",
+  "found_as": "handwritten signature",
+  "box": [
+   0.16875,
+   0.86832,
+   0.3675,
+   0.92532
+  ],
+  "confidence": 0.7620818018913269
+ },
+ {
+  "page": 2,
+  "type": "stamp",
+  "found_as": "stamp",
+  "box": [
+   0.37875,
+   0.67609,
+   0.66187,
+   0.78303
+  ],
+  "confidence": 0.8439024686813354
+ },
+ {
+  "page": 2,
+  "type": "signature",
+  "found_as": "signature",
+  "box": [
+   0.1525,
+   0.70393,
+   0.32562,
+   0.73531
+  ],
+  "confidence": 0.7419355511665344
+ },
+ {
+  "page": 2,
+  "type": "signature",
+  "found_as": "handwritten signature",
+  "box": [
+   0.1525,
+   0.70393,
+   0.32562,
+   0.73575
+  ],
+  "confidence": 0.5151515007019043
+ }
+]

@@ -1,0 +1,24 @@
+{
+ "mock": false,
+ "model": "muse-spark-1.3",
+ "effort": "high",
+ "sweep": true,
+ "cases": [
+  {
+   "case": "case-01",
+   "status": "done"
+  },
+  {
+   "case": "case-05",
+   "status": "done"
+  },
+  {
+   "case": "case-07",
+   "status": "done"
+  },
+  {
+   "case": "case-11",
+   "status": "done"
+  }
+ ]
+}
