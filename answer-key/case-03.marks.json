@@ -1,0 +1,110 @@
+{
+  "case": "case-03",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height",
+  "marks": [
+    {
+      "id": "c3-p1-signature-landlord",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1366,
+        0.6814,
+        0.3663,
+        0.7494
+      ],
+      "label_en": "Landlord's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c3-p1-hand-hearing",
+      "page": 1,
+      "type": "handwriting",
+      "box": [
+        0.4143,
+        0.7794,
+        0.7068,
+        0.8192
+      ],
+      "label_en": "Centre clerk's handwritten hearing date",
+      "text_ar": "جلسة 12/11/2026 — الساعة 10:00 صباحاً"
+    },
+    {
+      "id": "c3-p1-stamp-centre",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.2896,
+        0.022,
+        0.4894,
+        0.1158
+      ],
+      "label_en": "Registration desk stamp (training sample)",
+      "text_ar": "قسم التسجيل — نموذج تدريبي — 07/10/2026"
+    },
+    {
+      "id": "c3-p2-signature-landlord",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.0853,
+        0.3781,
+        0.3045,
+        0.4465
+      ],
+      "label_en": "Landlord's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c3-p2-stamp-notary",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.3543,
+        0.4356,
+        0.5621,
+        0.5411
+      ],
+      "label_en": "Notary stamp (training sample)",
+      "text_ar": "الكاتب العدل — نموذج تدريبي — 02/09/2026"
+    },
+    {
+      "id": "c3-p2-hand-receipt",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.3711,
+        0.7336,
+        0.748,
+        0.7759
+      ],
+      "label_en": "Tenant staff's handwritten receipt note",
+      "text_ar": "استلمت الأصل — 2/9/2026 — أمين الصندوق"
+    },
+    {
+      "id": "c3-p2-signature-receiver",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.4678,
+        0.7784,
+        0.6524,
+        0.8446
+      ],
+      "label_en": "Tenant staff's signature on receipt",
+      "text_ar": null
+    },
+    {
+      "id": "c3-p2-stamp-tenant",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.1022,
+        0.7656,
+        0.3884,
+        0.8559
+      ],
+      "label_en": "Tenant company stamp",
+      "text_ar": "مسار الواحة للتجارة العامة — ذ.م.م — دبي"
+    }
+  ]
+}

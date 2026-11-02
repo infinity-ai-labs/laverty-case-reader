@@ -1,0 +1,110 @@
+{
+  "case": "case-01",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height",
+  "marks": [
+    {
+      "id": "c1-p1-stamp-registry",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0538,
+        0.1206,
+        0.2624,
+        0.2275
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 06/10/2026"
+    },
+    {
+      "id": "c1-p1-hand-registration",
+      "page": 1,
+      "type": "handwriting",
+      "box": [
+        0.0907,
+        0.7063,
+        0.3477,
+        0.7412
+      ],
+      "label_en": "Registry clerk's handwritten case number",
+      "text_ar": "قيدت برقم 1234 / 2026 عمالي جزئي"
+    },
+    {
+      "id": "c1-p2-signature-lawyer",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.1361,
+        0.6544,
+        0.3828,
+        0.735
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c1-p2-stamp-lawfirm",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.3727,
+        0.663,
+        0.6751,
+        0.7731
+      ],
+      "label_en": "Law firm stamp",
+      "text_ar": "مكتب نجم السدرة للمحاماة — دبي"
+    },
+    {
+      "id": "c1-p3-signature-clerk",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.5984,
+        0.3853,
+        0.8042,
+        0.4501
+      ],
+      "label_en": "Court clerk's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c1-p3-signature-judge",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1684,
+        0.3822,
+        0.3904,
+        0.457
+      ],
+      "label_en": "Presiding judge's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c1-p3-stamp-sessions",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.3657,
+        0.4323,
+        0.5842,
+        0.5395
+      ],
+      "label_en": "Hearings desk stamp (training sample)",
+      "text_ar": "قلم الجلسات — نموذج تدريبي — 27/10/2026"
+    },
+    {
+      "id": "c1-p3-hand-lawyer-note",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.1851,
+        0.5767,
+        0.6469,
+        0.6203
+      ],
+      "label_en": "Lawyer's handwritten follow-up note",
+      "text_ar": "متابعة: مذكرة رد الشركة بتاريخ 10/11 — الجلسة القادمة 17/11"
+    }
+  ]
+}

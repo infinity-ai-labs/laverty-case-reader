@@ -1,0 +1,17 @@
+# Secrets and local settings
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Run outputs that may hold model responses
+runs/
+tmp/
+
+# OS
+.DS_Store

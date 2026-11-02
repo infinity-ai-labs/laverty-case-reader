@@ -1,0 +1,149 @@
+{
+  "case": "case-02",
+  "box_format": "[x0, y0, x1, y1] as fractions of page width/height",
+  "marks": [
+    {
+      "id": "c2-p1-signature-gm",
+      "page": 1,
+      "type": "signature",
+      "box": [
+        0.1347,
+        0.6658,
+        0.3665,
+        0.7376
+      ],
+      "label_en": "General manager's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c2-p1-stamp-company",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.3706,
+        0.6707,
+        0.6852,
+        0.7814
+      ],
+      "label_en": "Claimant company stamp",
+      "text_ar": "الأفق الأزرق لتوريد مواد البناء — دبي"
+    },
+    {
+      "id": "c2-p1-stamp-notary",
+      "page": 1,
+      "type": "stamp",
+      "box": [
+        0.0584,
+        0.1276,
+        0.2684,
+        0.2366
+      ],
+      "label_en": "Notary stamp (training sample)",
+      "text_ar": "الكاتب العدل — نموذج تدريبي — 01/09/2026"
+    },
+    {
+      "id": "c2-p1-hand-service",
+      "page": 1,
+      "type": "handwriting",
+      "box": [
+        0.5275,
+        0.7806,
+        0.7726,
+        0.821
+      ],
+      "label_en": "Handwritten note: notice served on the debtor",
+      "text_ar": "سلم للمنذر إليه بتاريخ 3/9/2026"
+    },
+    {
+      "id": "c2-p2-signature-lawyer",
+      "page": 2,
+      "type": "signature",
+      "box": [
+        0.149,
+        0.7461,
+        0.3823,
+        0.8211
+      ],
+      "label_en": "Signature of the claimant's lawyer",
+      "text_ar": null
+    },
+    {
+      "id": "c2-p2-stamp-registry",
+      "page": 2,
+      "type": "stamp",
+      "box": [
+        0.0426,
+        0.1054,
+        0.2418,
+        0.2043
+      ],
+      "label_en": "Registry date stamp (training sample)",
+      "text_ar": "قلم القيد — نموذج تدريبي — 06/10/2026"
+    },
+    {
+      "id": "c2-p2-hand-hearing",
+      "page": 2,
+      "type": "handwriting",
+      "box": [
+        0.042,
+        0.8474,
+        0.5094,
+        0.8864
+      ],
+      "label_en": "Registry clerk's handwritten hearing date",
+      "text_ar": "حددت جلسة 24/11/2026 أمام الدائرة التجارية الكلية الثانية"
+    },
+    {
+      "id": "c2-p3-hand-correction",
+      "page": 3,
+      "type": "handwriting",
+      "box": [
+        0.1261,
+        0.4101,
+        0.2728,
+        0.4465
+      ],
+      "label_en": "Handwritten correction of the balance to 386,500, with initials",
+      "text_ar": "386,500 — م.ح"
+    },
+    {
+      "id": "c2-p3-signature-accountant",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.5998,
+        0.4977,
+        0.8071,
+        0.5641
+      ],
+      "label_en": "Accountant's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c2-p3-signature-cfo",
+      "page": 3,
+      "type": "signature",
+      "box": [
+        0.1708,
+        0.4989,
+        0.3923,
+        0.5722
+      ],
+      "label_en": "Finance manager's signature",
+      "text_ar": null
+    },
+    {
+      "id": "c2-p3-stamp-company",
+      "page": 3,
+      "type": "stamp",
+      "box": [
+        0.3681,
+        0.5317,
+        0.6626,
+        0.6484
+      ],
+      "label_en": "Company accounts stamp",
+      "text_ar": "الأفق الأزرق لتوريد مواد البناء — قسم الحسابات — دبي"
+    }
+  ]
+}

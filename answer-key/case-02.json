@@ -1,0 +1,61 @@
+{
+  "case": "case-02",
+  "file": "test-files/case-02-commercial/case-02-commercial.pdf",
+  "fictional": true,
+  "title_en": "Commercial claim: unpaid supply invoices and a returned cheque",
+  "pages": [
+    {"page": 1, "document_en": "Formal payment notice served through the notary public", "document_ar": "إنذار رسمي بالوفاء"},
+    {"page": 2, "document_en": "Statement of claim, commercial case", "document_ar": "صحيفة دعوى تجارية"},
+    {"page": 3, "document_en": "Customer statement of account", "document_ar": "كشف حساب العميل"}
+  ],
+  "court": {"name_en": "Dubai Court of First Instance, commercial circuits", "name_ar": "محكمة دبي الابتدائية — الدوائر التجارية", "hearing_before_ar": "الدائرة التجارية الكلية الثانية", "pages": [2]},
+  "parties": [
+    {"role": "claimant (creditor)", "name_ar": "شركة الأفق الأزرق لتوريد مواد البناء ذ.م.م", "name_en": "Blue Horizon Building Materials Supply LLC", "pages": [1, 2, 3]},
+    {"role": "claimant's general manager", "name_ar": "طارق ماهر السويدي", "name_en": "Tariq Maher Al Suwaidi", "pages": [1]},
+    {"role": "claimant's lawyer", "name_ar": "عمر فاروق الزرعوني", "name_en": "Omar Farouk Al Zarouni", "details_en": "Al Zarouni Advocates", "pages": [2]},
+    {"role": "defendant (debtor)", "name_ar": "مؤسسة الصقر الذهبي للمقاولات", "name_en": "Al Saqr Al Thahabi Contracting Establishment", "details_en": "Sole establishment", "pages": [1, 2, 3]},
+    {"role": "defendant's owner", "name_ar": "راشد حمد الفلاسي", "name_en": "Rashid Hamad Al Falasi", "pages": [1, 2]}
+  ],
+  "dates": [
+    {"date": "2026-01-10", "what_en": "Supply agreement signed", "page": 1},
+    {"date": "2026-03-15", "what_en": "Invoice INV-2026-114 (AED 142,000), due 2026-04-14", "page": 1},
+    {"date": "2026-04-20", "what_en": "Invoice INV-2026-131 (AED 128,500), due 2026-05-20", "page": 1},
+    {"date": "2026-05-10", "what_en": "Debtor paid AED 120,000 by bank transfer", "page": 1},
+    {"date": "2026-05-28", "what_en": "Invoice INV-2026-147 (AED 236,000), due 2026-06-27", "page": 1},
+    {"date": "2026-06-30", "what_en": "Date on cheque no. 004512 (AED 150,000)", "page": 1},
+    {"date": "2026-07-02", "what_en": "Cheque no. 004512 returned unpaid, insufficient funds", "page": 1},
+    {"date": "2026-09-01", "what_en": "Formal notice issued through the notary public", "page": 1},
+    {"date": "2026-09-03", "what_en": "Notice served on the debtor (handwritten note)", "page": 1, "source": "handwriting"},
+    {"date": "2026-09-30", "what_en": "Statement of account dated", "page": 3},
+    {"date": "2026-10-05", "what_en": "Statement of claim dated", "page": 2},
+    {"date": "2026-10-06", "what_en": "Claim registered (registry stamp)", "page": 2, "source": "stamp"},
+    {"date": "2026-11-24", "what_en": "Hearing before the Second Major Commercial Circuit (handwritten note)", "page": 2, "source": "handwriting"}
+  ],
+  "deadlines": [
+    {"date": "2026-09-18", "who": "debtor", "what_en": "Pay within 15 days of receiving the notice (received 3 Sep 2026); passed without payment", "page": 1, "computed": true},
+    {"date": "2026-11-24", "who": "both parties", "what_en": "Hearing", "page": 2}
+  ],
+  "claims": [
+    {"item_en": "Principal amount owed", "amount_aed": 386500, "page": 2},
+    {"item_en": "Delay interest at 6% a year from each invoice's due date until full payment (agreed in clause 9)", "amount_aed": null, "page": 2},
+    {"item_en": "Court fees, costs and lawyer's fees", "amount_aed": null, "page": 2}
+  ],
+  "key_facts": [
+    {"fact_en": "Total invoiced AED 506,500; paid AED 120,000; balance AED 386,500", "page": 1},
+    {"fact_en": "Cheque no. 004512 for AED 150,000 bounced and does not count as payment", "page": 1},
+    {"fact_en": "The parties agreed delay interest of 6% a year in clause 9 of the supply agreement", "page": 1},
+    {"fact_en": "On the statement of account the printed balance 380,500 is struck through and corrected by hand to 386,500, with initials; the corrected figure matches the notice and the claim", "page": 3, "source": "handwriting"}
+  ],
+  "citations": [
+    {"text_ar": "المادة (81) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "81", "valid": true, "page": 1},
+    {"text_ar": "المادة (73) من قانون المعاملات التجارية", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "73", "valid": true, "quote_matches_official_text": true, "page": 2},
+    {"text_ar": "المادة (88) من القانون ذاته", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "88", "valid": true, "page": 2},
+    {"text_ar": "المادة (712) من القانون ذاته", "law": "Federal Decree-Law No. 50 of 2022 issuing the Commercial Transactions Law", "article": "712", "valid": false, "why_invalid_en": "This law has 684 articles; there is no Article 712.", "page": 2}
+  ],
+  "marks_file": "answer-key/case-02.marks.json",
+  "reader_should_flag": [
+    "Article 712 of the Commercial Transactions Law does not exist.",
+    "The balance on page 3 was corrected by hand from 380,500 to 386,500.",
+    "The service date of the notice (3 Sep 2026) is handwritten only."
+  ]
+}
