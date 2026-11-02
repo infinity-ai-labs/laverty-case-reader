@@ -1,0 +1,560 @@
+{
+ "case_title_en": "Wamdat Al Noor Electrical Equipment Supply v Aamdat Al Shurooq Contracting — Returned cheques claim AED 297,750",
+ "case_title_ar": "شركة ومضة النور لتوريد المعدات الكهربائية ضد شركة أعمدة الشروق للمقاولات — مطالبة بقيمة شيكات مرتجعة 297,750 درهم",
+ "case_type": "commercial",
+ "summary_en": "Commercial claim before Sharjah Federal Court of First Instance where Wamdat Al Noor seeks AED 297,750 for three dishonoured cheques (insufficient funds and signature mismatch) plus 5% interest, costs and fees, and validation of precautionary attachment granted 09/09/2026 in Request 412/2026. Supported by Al Kuthban National Bank return certificate dated 03/09/2026. Main claim filed 15/09/2026 within the 8-day period to file the substantive case.",
+ "summary_ar": "دعوى تجارية أمام محكمة الشارقة الاتحادية الابتدائية تطالب فيها شركة ومضة النور بإلزام شركة أعمدة الشروق بأداء 297,750 درهم قيمة ثلاثة شيكات ارتدت (عدم كفاية الرصيد وعدم مطابقة التوقيع) مع الفائدة 5% والرسوم وأتعاب المحاماة، وصحة الحجز التحفظي الموقع بالأمر 412/2026 بتاريخ 09/09/2026. أرفقت إفادة مصرف الكثبان الوطني المؤرخة 03/09/2026، وقيدت الدعوى بتاريخ 15/09/2026 خلال مهلة الثمانية أيام المقررة لرفع دعوى الثبوت.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Commercial lawsuit pleading from Diraa Al Qanoon office",
+   "document_ar": "صحيفة دعوى تجارية مقدمة من مكتب درع القانون"
+  },
+  {
+   "page": 2,
+   "document_en": "Cheque-return certificate from Al Kuthban National Bank",
+   "document_ar": "إفادة بارتجاع شيكات من مصرف الكثبان الوطني"
+  },
+  {
+   "page": 3,
+   "document_en": "Precautionary attachment decision from urgent matters judge",
+   "document_ar": "قرار في طلب حجز تحفظي من قاضي الأمور المستعجلة"
+  }
+ ],
+ "court": {
+  "name_en": "Sharjah Federal Court of First Instance — Commercial Circuit (and Urgent Matters Judge - Orders on Petitions)",
+  "name_ar": "محكمة الشارقة الاتحادية الابتدائية — الدائرة التجارية (وقاضي الأمور المستعجلة — الأوامر على العرائض)",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1,
+   3
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant / Applicant / Holder",
+   "role_ar": "المدعية / الطالبة / الحامل",
+   "name_ar": "شركة ومضة النور لتوريد المعدات الكهربائية ذ.م.م.",
+   "name_en": "Wamdat Al Noor Electrical Equipment Supply LLC",
+   "details_en": "Trade licence No. 000000, Sharjah. Holder of three cheques.",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant / Respondent / Drawer",
+   "role_ar": "المدعى عليها / المطلوب ضدها / الساحب",
+   "name_ar": "شركة أعمدة الشروق للمقاولات ذ.م.م.",
+   "name_en": "Aamdat Al Shurooq Contracting LLC",
+   "details_en": "Sharjah, Al Sajaa Industrial Area. Drawer of cheques, account No. 000-000000-0000 at Al Sajaa branch.",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant_representative",
+   "role_en": "Manager representing defendant",
+   "role_ar": "مدير ويمثل المدعى عليها",
+   "name_ar": "عمار سليم القباني",
+   "name_en": "Ammar Salim Al Qubani",
+   "details_en": "Manager representing defendant company.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's agent — Lawyer",
+   "role_ar": "وكيل المدعية — المحامي",
+   "name_ar": "ماجد عيسى البلوشي",
+   "name_en": "Majed Eissa Al Blooshi",
+   "details_en": "Counsel for claimant, signatory of lawsuit pleading.",
+   "pages": [
+    1,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant lawyer's office",
+   "role_ar": "مكتب وكيل المدعية",
+   "name_ar": "مكتب درع القانون للمحاماة والاستشارات القانونية",
+   "name_en": "Diraa Al Qanoon Advocates & Legal Consultants",
+   "details_en": "Letterhead Ref DQ/COM/2026/233 dated 14/09/2026.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Drawee bank and issuer of certificate",
+   "role_ar": "البنك المسحوب عليه ومصدر الإفادة",
+   "name_ar": "مصرف الكثبان الوطني (ش.م.ع.) — فرع الصجعة — الشارقة",
+   "name_en": "Al Kuthban National Bank PJSC — Al Sajaa Branch — Sharjah",
+   "details_en": "PJSC, Al Sajaa branch Sharjah. Drawee bank and issuer of return certificate Ref KNB/CLR/2026/1187 dated 03/09/2026; Clearing and Operations Dept.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Urgent Matters Judge — Judge",
+   "role_ar": "قاضي الأمور المستعجلة — القاضي",
+   "name_ar": "سعيد مبارك الطنيجي",
+   "name_en": "Saeed Mubarak Al Teneiji",
+   "details_en": "Urgent Matters Judge — Orders on Petitions, Sharjah Federal Court of First Instance.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Central Bank",
+   "role_ar": "المصرف المركزي",
+   "name_ar": "المصرف المركزي",
+   "name_en": "Central Bank",
+   "details_en": "Notified of account holder data for two insufficient-funds cheques per applicable rules.",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-02-10",
+   "what_en": "Date of supply agreement between the parties",
+   "what_ar": "تاريخ اتفاقية التوريد بين الطرفين",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-15",
+   "what_en": "Date of cheque No. 000731 and its presentation date",
+   "what_ar": "تاريخ الشيك رقم 000731 وتاريخ تقديمه",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-16",
+   "what_en": "Return date of cheque No. 000731",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000731",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-15",
+   "what_en": "Date of cheque No. 000732 and its presentation date",
+   "what_ar": "تاريخ الشيك رقم 000732 وتاريخ تقديمه",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-16",
+   "what_en": "Return date of cheque No. 000732",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000732",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-15",
+   "what_en": "Date of cheque No. 000733",
+   "what_ar": "تاريخ الشيك رقم 000733",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-17",
+   "what_en": "Presentation date of cheque No. 000733",
+   "what_ar": "تاريخ تقديم الشيك رقم 000733",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-18",
+   "what_en": "Return date of cheque No. 000733",
+   "what_ar": "تاريخ ارتجاع الشيك رقم 000733",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Date of Al Kuthban National Bank cheque-return certificate",
+   "what_ar": "تاريخ إفادة مصرف الكثبان الوطني بارتجاع الشيكات",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-07",
+   "what_en": "Filing date of precautionary attachment Request No. 412/2026",
+   "what_ar": "تاريخ تقديم طلب الحجز التحفظي رقم 412/2026",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-09",
+   "what_en": "Date of urgent judge decision ordering precautionary attachment",
+   "what_ar": "تاريخ قرار قاضي الأمور المستعجلة بتوقيع الحجز التحفظي",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": [
+    "M5"
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "what_en": "Date of commercial lawsuit pleading issued by law office",
+   "what_ar": "تاريخ مذكرة صحيفة الدعوى التجارية الصادرة عن مكتب المحاماة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Case filing date per court filing clerk stamp",
+   "what_ar": "تاريخ قيد الدعوى بختم قلم قيد الدعاوى",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "what_en": "Deadline to file substantive claim within 8 days of attachment order",
+   "what_ar": "آخر موعد لرفع دعوى ثبوت الحق خلال 8 أيام من قرار الحجز",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-09-17",
+   "time": "",
+   "who_en": "Claimant (attachment applicant)",
+   "what_en": "Applicant to file substantive claim within 8 days of attachment decision date, otherwise attachment deemed void — Met (commercial claim filed 15/09/2026)",
+   "what_ar": "على الطالبة رفع دعوى ثبوت الحق خلال (8) ثمانية أيام من تاريخ صدور قرار الحجز وإلا اعتبر الحجز كأن لم يكن — تم الامتثال بقيد الدعوى التجارية بتاريخ 15/09/2026",
+   "page": 3,
+   "computed": true,
+   "basis_en": "Handwritten decision dated 09/09/2026 orders claimant to file substantive claim within 8 days from issuance; 09/09/2026 + 8 days = 17/09/2026",
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Value of three returned cheques Nos. 000731, 000732 and 000733",
+   "item_ar": "مبلغ الشيكات الثلاثة المرتجعة رقم 000731 و000732 و000733",
+   "has_amount": true,
+   "amount_aed": 297750.0,
+   "page": 1
+  },
+  {
+   "item_en": "Legal interest at 5% per year from each cheque's due date",
+   "item_ar": "الفائدة بواقع (5%) سنوياً من تاريخ استحقاق كل شيك",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Court fees, expenses and attorney fees",
+   "item_ar": "الرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Confirm and validate the precautionary attachment made under Request No. 412/2026",
+   "item_ar": "الحكم بصحة الحجز التحفظي الموقع في الطلب رقم (412/2026) وتثبيته",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Under a supply agreement dated 10/02/2026 the defendant issued three cheques to the claimant that were returned unpaid totalling AED 297,750.",
+   "fact_ar": "بموجب اتفاقية توريد مؤرخة 10/02/2026 حررت المدعى عليها ثلاثة شيكات للمدعية ارتدت دون صرف بإجمالي 297,750 درهم.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque 000731 dated 15/06/2026 for AED 96,400 — return reason: insufficient funds.",
+   "fact_ar": "الشيك 000731 بتاريخ 15/06/2026 بمبلغ 96,400 درهم — سبب الارتجاع: عدم كفاية الرصيد.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque 000732 dated 15/07/2026 for AED 112,750 — return reason: insufficient funds.",
+   "fact_ar": "الشيك 000732 بتاريخ 15/07/2026 بمبلغ 112,750 درهم — سبب الارتجاع: عدم كفاية الرصيد.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque 000733 dated 15/08/2026 for AED 88,600 — return reason: signature mismatch.",
+   "fact_ar": "الشيك 000733 بتاريخ 15/08/2026 بمبلغ 88,600 درهم — سبب الارتجاع: عدم مطابقة التوقيع.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Al Kuthban National Bank certified presentment on the drawer's account on 15/06, 15/07 and 17/08 and return on 16/06, 16/07 and 18/08, and reported the two insufficient-funds cheques to the Central Bank.",
+   "fact_ar": "أفاد مصرف الكثبان الوطني بتقديم الشيكات على الحساب الجاري للساحب وتواريخ التقديم 15/06 و15/07 و17/08 وتواريخ الارتجاع 16/06 و16/07 و18/08، وأخطر المصرف المركزي ببيانات الشيكين لعدم كفاية الرصيد.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "On 09/09/2026 the urgent judge in Request No. 412/2026 ordered precautionary attachment of the respondent's funds with banks operating in the State up to AED 297,750.",
+   "fact_ar": "بتاريخ 09/09/2026 قرر قاضي الأمور المستعجلة في الطلب رقم 412/2026 توقيع الحجز التحفظي على أرصدة المطلوب ضدها لدى المصارف العاملة في الدولة في حدود مبلغ 297,750 درهم.",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2",
+    "M5"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "وفقاً للمادة (648) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "648",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "663",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "664",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "بالمواد (663-665) من قانون المعاملات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 50 of 2022 Promulgating the Commercial Transactions Law",
+   "article": "665",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وفقاً للمادة (247) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 42 of 2022 Promulgating the Civil Procedure Law",
+   "article": "247",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وترُفع هذه الدعوى في الميعاد المقرر في المادة (250) من القانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 42 of 2022 Promulgating the Civil Procedure Law",
+   "article": "250",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "ومقابل أتعاب المحاماة عملاً بالمادة (350) من قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 42 of 2022 Promulgating the Civil Procedure Law",
+   "article": "350",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وعلى المادة (249) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 42 of 2022 Promulgating the Civil Procedure Law",
+   "article": "249",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "قلم قيد الدعاوى نموذج تدريبي 15/09/2026",
+   "meaning_en": "Court filing clerk stamp recording filing on 15/09/2026.",
+   "meaning_ar": "ختم قلم قيد الدعاوى يفيد قيد الدعوى بتاريخ 15/09/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's lawyer Majed Eissa Al Blooshi.",
+   "meaning_ar": "توقيع وكيل المدعية المحامي ماجد عيسى البلوشي.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "مصرف الكثبان الوطني نموذج تدريبي فرع الصجعة — الشارقة",
+   "meaning_en": "Stamp of Al Kuthban National Bank Al Sajaa branch — Sharjah.",
+   "meaning_ar": "ختم مصرف الكثبان الوطني فرع الصجعة — الشارقة.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of bank Clearing and Operations authorized signatory.",
+   "meaning_ar": "توقيع المفوض بالتوقيع بقسم المقاصة والعمليات بالمصرف.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "محكمة الشارقة الاتحادية الابتدائية نموذج تدريبي 09/09/2026",
+   "meaning_en": "Sharjah Federal Court of First Instance stamp dated 09/09/2026.",
+   "meaning_ar": "ختم محكمة الشارقة الاتحادية الابتدائية بتاريخ القرار 09/09/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of urgent matters judge Saeed Mubarak Al Teneiji.",
+   "meaning_ar": "توقيع قاضي الأمور المستعجلة سعيد مبارك الطنيجي.",
+   "changes_printed_text": false,
+   "x_from_pct": 13.0,
+   "x_to_pct": 32.0,
+   "y_from_pct": 72.0,
+   "y_to_pct": 79.0
+  },
+  {
+   "mark_id": "X2",
+   "page": 3,
+   "type": "handwriting",
+   "text_ar": "قررنا: توقيع الحجز التحفظي على أرصدة المطلوب ضدها لدى المصارف العاملة في الدولة في حدود مبلغ 297,750 درهماً، وعلى الطالبة رفع دعوى ثبوت الحق خلال (8) ثمانية أيام من تاريخ صدور هذا القرار وإلا اعتبر الحجز كأن لم يكن.",
+   "meaning_en": "Handwritten operative order granting attachment up to AED 297,750 and requiring claimant to sue within 8 days failing which attachment is void.",
+   "meaning_ar": "منطوق القرار بخط اليد بتوقيع الحجز التحفظي في حدود 297,750 درهم وتكليف الطالبة برفع الدعوى خلال 8 أيام وإلا اعتبر الحجز كأن لم يكن.",
+   "changes_printed_text": false,
+   "x_from_pct": 11.0,
+   "x_to_pct": 88.0,
+   "y_from_pct": 46.0,
+   "y_to_pct": 57.0
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Main commercial case number not shown; file only shows filing stamp dated 15/09/2026 and attachment Request No. 412/2026.",
+   "flag_ar": "رقم الدعوى التجارية غير مذكور في الملف؛ الوارد فقط ختم القيد بتاريخ 15/09/2026 ورقم طلب الحجز 412/2026.",
+   "page": 1,
+   "severity": "high"
+  },
+  {
+   "flag_en": "All stamps marked as training model and footer states fictional test document, not a real case.",
+   "flag_ar": "جميع الأختام تحمل عبارة (نموذج تدريبي) والتذييل يذكر أن الوثيقة خيالية لأغراض الاختبار فقط — لا تمثل قضية حقيقية.",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Operative order on page 3 is handwritten and partly hard to read, but amount and 8-day period are legible and match printed text.",
+   "flag_ar": "منطوق القرار في الصفحة 3 مكتوب بخط اليد ويصعب قراءة بعض الكلمات، لكن المبلغ والمهلة (8 أيام) واضحان ويتطابقان مع المطبوع.",
+   "page": 3,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Defendant manager name shown as Ammar/Om ar Salim Al-Qubani — official spelling to be verified.",
+   "flag_ar": "اسم مدير الشركة المدعى عليها ورد (عمار سليم القباني) — يلزم التحقق من التهجئة الرسمية.",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

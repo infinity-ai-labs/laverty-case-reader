@@ -1,0 +1,653 @@
+{
+ "case_title_en": "Faisal Nasser Al Hammadi v Karim Anwar Al Sharif and Nakhlat Al Sabah Foodstuff Trading LLC",
+ "case_title_ar": "فيصل ناصر الحمادي ضد كريم أنور الشريف وشركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م",
+ "case_type": "commercial",
+ "summary_en": "40% partner Faisal Al Hammadi seeks removal of manager-partner Karim Al Sharif (45%) and annulment of the 30/09/2026 discharge passed 60% over his objection, because the auditor refused to approve 2025 statements over AED 1,284,600 unsupported items, and seeks an expert and preliminary payment of that amount.",
+ "summary_ar": "يطالب الشريك فيصل الحمادي (40%) عزل الشريك المدير كريم الشريف (45%) وابطال ابراء ذمته الصادر بتاريخ 30/09/2026 بأغلبية 60% رغم اعتراضه، بسبب امتناع المدقق عن اعتماد بيانات 2025 لوجود بنود غير موثقة بمبلغ 1,284,600 درهم، ويطلب ندب خبير والزام المدير بالمبلغ مبدئياً.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Commercial statement of claim to Dubai Court of First Instance, dated 20/10/2026",
+   "document_ar": "صحيفة دعوى تجارية مقدمة إلى محكمة دبي الابتدائية – الدائرة التجارية الكلية بتاريخ 20/10/2026"
+  },
+  {
+   "page": 2,
+   "document_en": "Minutes of ordinary general meeting (minutes No. 1/2026 dated 30/09/2026)",
+   "document_ar": "محضر اجتماع الجمعية العمومية العادية (محضر رقم 1/2026 بتاريخ 30/09/2026)"
+  },
+  {
+   "page": 3,
+   "document_en": "Auditor letter abstaining from signing 2025 statements, dated 15/09/2026",
+   "document_ar": "خطاب مدقق الحسابات بالامتناع عن التوقيع على بيانات 2025 بتاريخ 15/09/2026"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance – Full Commercial Division",
+  "name_ar": "محكمة دبي الابتدائية — الدائرة التجارية الكلية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعي",
+   "name_ar": "فيصل ناصر الحمادي",
+   "name_en": "Faisal Nasser Al Hammadi",
+   "details_en": "ID 784-1979-0-0000000, owns 120 shares (40%)",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "First defendant",
+   "role_ar": "المدعى عليه الأول",
+   "name_ar": "كريم أنور الشريف",
+   "name_en": "Karim Anwar Al Sharif",
+   "details_en": "Owns 135 shares (45%), manager of company per memorandum of association",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Second defendant",
+   "role_ar": "المدعى عليها الثانية",
+   "name_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م",
+   "name_en": "Nakhlat Al Sabah Foodstuff Trading LLC",
+   "details_en": "Trade licence No. 000000, Dubai, capital AED 300,000",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel",
+   "role_ar": "وكيل المدعي – المحامي",
+   "name_ar": "مروان عبدالرحمن الظاهري",
+   "name_en": "Marwan Abdelrahman Al Dhaheri",
+   "details_en": "Lawyer for claimant, signatory of claim",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel office",
+   "role_ar": "مكتب وكيل المدعي",
+   "name_ar": "مكتب مروان الظاهري للمحاماة",
+   "name_en": "Marwan Al Dhaheri Advocates",
+   "details_en": "Dubai-UAE law office filing the claim, Ref MD/COM/2026/64",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Partner (15% shareholder)",
+   "role_ar": "شريكة",
+   "name_ar": "سلمى راشد النقي",
+   "name_en": "Salma Rashid Al Naqbi",
+   "details_en": "Owns 45 shares (15%), voted with manager for discharge",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Secretary – Company accountant",
+   "role_ar": "أمين السر – محاسب الشركة",
+   "name_ar": "نادر حسين العلي",
+   "name_en": "Nader Hussein Al Ali",
+   "details_en": "Company accountant and meeting secretary",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Auditor",
+   "role_ar": "مدقق الحسابات",
+   "name_ar": "الركن المتين لتدقيق الحسابات",
+   "name_en": "Al Rukn Al Mateen Auditing",
+   "details_en": "Auditor appointed for 2025, abstained from signing; PO Box 00000, professional licence 000000",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Partner in charge of audit",
+   "role_ar": "الشريك المسؤول عن التدقيق",
+   "name_ar": "سامي فؤاد عطية",
+   "name_en": "Sami Fouad Attia",
+   "details_en": "Partner in charge of audit at Al Rukn Al Mateen Auditing",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Payee mentioned",
+   "role_ar": "جهة مدفوع لها",
+   "name_ar": "مؤسسة الضفة الشرقية للنقل",
+   "name_en": "Al Daffa Al Sharqiya Transport Establishment",
+   "details_en": "Payee of AED 596,000 without contract or original invoices per auditor table",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-10-20",
+   "what_en": "Date of statement of claim letterhead",
+   "what_ar": "تاريخ صحيفة الدعوى (ترويسة المكتب)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Court filing clerk stamp date",
+   "what_ar": "ختم قلم القيد (نموذج تجاري)",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of challenged general meeting",
+   "what_ar": "تاريخ انعقاد الجمعية العمومية المطعون على قرارها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of ordinary general meeting (minutes 1/2026)",
+   "what_ar": "تاريخ اجتماع الجمعية العمومية العادية (محضر 1/2026)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Date of claimant inspection request to manager",
+   "what_ar": "تاريخ طلب المدعي الاطلاع على دفاتر الشركة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-07",
+   "what_en": "Date of meeting invitation sent to partners",
+   "what_ar": "تاريخ الدعوة الموجهة إلى الشركاء للاجتماع",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Date of auditor abstention letter",
+   "what_ar": "تاريخ خطاب مدقق الحسابات بالامتناع عن التوقيع",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-17",
+   "what_en": "Company incoming stamp date on auditor letter",
+   "what_ar": "تاريخ ختم وارد شركة نخلة الصباح (رقم القيد 0412)",
+   "page": 3,
+   "source": "stamp",
+   "mark_ids": [
+    "M7"
+   ]
+  },
+  {
+   "date": "2026-05-11",
+   "what_en": "Date draft financial statements were delivered to auditor",
+   "what_ar": "تاريخ تسليم مسودة البيانات المالية للمدقق",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-02",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-14",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-20",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-12",
+   "what_en": "End of 7-day period to answer 05/10/2026 inspection request",
+   "what_ar": "انتهاء مهلة السبعة أيام للرد على طلب الاطلاع",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": []
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-12",
+   "time": "",
+   "who_en": "First defendant (manager Karim Anwar Al Sharif)",
+   "what_en": "Allow claimant to inspect company books (request dated 05/10/2026) — file states it was not answered",
+   "what_ar": "تمكين المدعي من الاطلاع على دفاتر الشركة — يقول الملف إنه لم يُجب",
+   "page": 1,
+   "computed": true,
+   "basis_en": "7 days from inspection request date 05/10/2026 stated on page 1",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-03-31",
+   "time": "",
+   "who_en": "Company management",
+   "what_en": "Provide draft financial statements to auditor — not met (delivered 11/05/2026)",
+   "what_ar": "تسليم مسودة البيانات المالية للمدقق — لم يُحترم (سُلمت بتاريخ 11/05/2026)",
+   "page": 3,
+   "computed": true,
+   "basis_en": "3 months following end of financial year ending 31/12/2025 under Article 87 of Federal Decree-Law No. 32 of 2021; file states draft was only delivered 11/05/2026, after expiry",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Remove first defendant from management and annul the 30/09/2026 general meeting resolution discharging him",
+   "item_ar": "عزل المدعى عليه الأول من الإدارة، وبطلان قرار الجمعية العمومية المنعقدة بتاريخ 30/09/2026 بإبراء ذمته",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Appoint an accounting expert to examine the company accounts for 2025 and 2026",
+   "item_ar": "ندب خبير حسابي لفحص حسابات الشركة عن عامي 2025 و2026",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Order first defendant to pay the company a preliminary amount of AED 1,284,600, with right to amend after expert report, plus fees, expenses and advocacy fees",
+   "item_ar": "إلزام المدعى عليه الأول بأن يؤدي إلى الشركة مبلغ (1,284,600) درهم مبدئياً، مع حفظ حق تعديل الطلبات بعد تقرير الخبرة، وبالرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": true,
+   "amount_aed": 1284600.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Company is Nakhlat Al Sabah Foodstuff Trading LLC, Dubai trade licence 000000, capital AED 300,000 (300 shares)",
+   "fact_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م، رخصة تجارية رقم 000000، دبي، رأس المال 300,000 درهم (300 حصة)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Karim Al Sharif holds 135 shares (45%) and is manager per MOA; Faisal Al Hammadi 120 shares (40%); Salma Al Naqbi 45 shares (15%)",
+   "fact_ar": "كريم أنور الشريف يملك 135 حصة (45%) وهو مدير الشركة بموجب عقد التأسيس، وفيصل ناصر الحمادي 120 حصة (40%)، وسلمى راشد النقي 45 حصة (15%)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Ordinary general meeting held 30/09/2026 with 100% quorum, chaired by manager with Nader Al Ali as secretary, on invitation dated 07/09/2026",
+   "fact_ar": "انعقدت الجمعية العمومية العادية بتاريخ 30/09/2026 بحضور كامل رأس المال برئاسة المدير وأمانة السر نادر حسين العلي بناء على دعوة مؤرخة 07/09/2026",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Meeting approved by 60% the 2025 balance sheet and profit/loss, discharge of manager and new auditor appointment, with Faisal Al Hammadi (40%) objecting",
+   "fact_ar": "وافقت الجمعية بأغلبية (60%) على الميزانية وحساب الأرباح والخسائر لسنة 2025 وعلى ابراء ذمة المدير وتعيين مدقق جديد، وعارض فيصل الحمادي (40%)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Faisal Al Hammadi signed with objection to resolutions 2, 3 and 4: budget unaudited and manager may not vote on his discharge",
+   "fact_ar": "أوقع فيصل الحمادي مع الاعتراض على القرارات (2) و(3) و(4): الميزانية غير مدققة ولا يجوز للمدير التصويت على ابراء ذمته",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Auditor abstained from approving 2025 financials for lack of supporting documents for AED 1,284,600; his letter reached the company about two weeks before the meeting per incoming stamp",
+   "fact_ar": "امتنع مدقق الحسابات عن اعتماد البيانات المالية لسنة 2025 لعدم تزويده بالمستندات المؤيدة لبنود بمبلغ 1,284,600 درهم وورد كتابه للشركة ووفق ختم الوارد قبل الجمعية بنحو اسبوعين",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M7"
+   ]
+  },
+  {
+   "fact_en": "Unsupported items are AED 418,500 cash withdrawals, AED 596,000 payments to Eastern company without contract, AED 270,100 inventory shortage, total 1,284,600",
+   "fact_ar": "تتكون البنود غير الموثقة من: 418,500 درهم مسحوبات نقدية، و596,000 درهم دفعات لمؤسسة الضفة الشرقية بدون عقد، و270,100 درهم عجز مخزون، والاجمالي 1,284,600",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Manager did not answer claimant request dated 05/10/2026 to inspect company books within seven days",
+   "fact_ar": "لم يُجب المدير طلب المدعي المؤرخ 05/10/2026 الاطلاع على دفاتر الشركة خلال سبعة أيام",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "وفقاً للبند (1) من المادة (84) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "84",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وفقاً للبند (1) من المادة (85) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "85",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "تنص المادة (99) على أنه: \"لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بابراء ذمته من المسؤولية عن الإدارة\"",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "99",
+   "clause": "",
+   "quoted_text_ar": "لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بإبراء ذمته من المسؤولية عن الإدارة",
+   "page": 1
+  },
+  {
+   "text_ar": "وفقاً للمادة (100)",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "100",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وفقاً للبند (2) من المادة (380) من المرسوم بقانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "380",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "عملاً بالبند (1) من المادة (109) من المرسوم بقانون اتحادي رقم (35) لسنة 2022 بإصدار قانون الإثبات في المعاملات المدنية والتجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "35",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 35 of 2022 Promulgating the Law of Evidence in Civil and Commercial Transactions",
+   "article": "109",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "في المادة (87) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "87",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3
+  },
+  {
+   "text_ar": "عملاً بالبند (4) من المادة (248) من المرسوم بقانون ذاته، التي تسري على الشركة ذات المسؤولية المحدودة بموجب المادة (102) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "248",
+   "clause": "4",
+   "quoted_text_ar": "",
+   "page": 3
+  },
+  {
+   "text_ar": "عملاً بالبند (4) من المادة (248) من المرسوم بقانون ذاته، التي تسري على الشركة ذات المسؤولية المحدودة بموجب المادة (102) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "102",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "قلم القيد نموذج تجاري 20/10/2026",
+   "meaning_en": "Court filing clerk stamp (commercial model) dated 20/10/2026",
+   "meaning_ar": "ختم قلم القيد (نموذج تجاري) بتاريخ 20/10/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب مروان الظاهري للمحاماة Marwan Al Dhaheri Advocates دبي — الإمارات",
+   "meaning_en": "Stamp of Marwan Al Dhaheri Advocates, Dubai-UAE, claimant counsel office",
+   "meaning_ar": "ختم مكتب مروان الظاهري للمحاماة – دبي – الإمارات",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of claimant counsel Marwan Abdelrahman Al Dhaheri",
+   "meaning_ar": "توقيع وكيل المدعي المحامي مروان عبدالرحمن الظاهري",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of meeting chairman Karim Anwar Al Sharif",
+   "meaning_ar": "توقيع رئيس الاجتماع كريم أنور الشريف",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of partner Salma Rashid Al Naqbi",
+   "meaning_ar": "توقيع الشريكة سلمى راشد النقي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of secretary Nader Hussein Al Ali",
+   "meaning_ar": "توقيع أمين السر نادر حسين العلي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M7",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "شركة نخلة الصباح — الوارد رقم القيد: 0412 17/09/2026",
+   "meaning_en": "Company incoming stamp of Nakhlat Al Sabah, entry No. 0412 dated 17/09/2026",
+   "meaning_ar": "ختم وارد شركة نخلة الصباح رقم القيد 0412 بتاريخ 17/09/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M8",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "الركن المتين لتدقيق الحسابات Al Rukn Al Mateen Auditing دبي",
+   "meaning_en": "Stamp of Al Rukn Al Mateen Auditing, Dubai",
+   "meaning_ar": "ختم الركن المتين لتدقيق الحسابات – دبي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M9",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of audit partner Sami Fouad Attia",
+   "meaning_ar": "توقيع الشريك المسؤول عن التدقيق سامي فؤاد عطية",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "أوقع مع الاعتراض على القرارات (2) و(3) و(4): الميزانية غير مدققة، ولا يجوز للمدير التصويت على ابراء ذمته — فيصل الحمادي",
+   "meaning_en": "Handwritten note recording Faisal Al Hammadi objection to resolutions 2,3,4: budget unaudited and manager may not vote on discharge",
+   "meaning_ar": "ملاحظة بخط اليد تثبت اعتراض فيصل الحمادي على القرارات",
+   "changes_printed_text": false,
+   "x_from_pct": 10.0,
+   "x_to_pct": 95.0,
+   "y_from_pct": 86.0,
+   "y_to_pct": 94.0
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of partner Faisal Nasser Al Hammadi",
+   "meaning_ar": "توقيع الشريك فيصل ناصر الحمادي",
+   "changes_printed_text": false,
+   "x_from_pct": 20.0,
+   "x_to_pct": 37.0,
+   "y_from_pct": 66.0,
+   "y_to_pct": 72.0
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "No court case number stated; only law-firm reference MD/COM/2026/64 appears",
+   "flag_ar": "لا يذكر الملف رقم الدعوى القضائي، والمرجع الوحيد هو مرجع مكتب المحاماة MD/COM/2026/64",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Manager-partner allegedly voted on his own discharge despite Article 99 prohibition, per claim and handwritten objection; resolution passed 60% vs 40% objection",
+   "flag_ar": "صوّت المدير الشريك على إبراء ذمته رغم الحظر الوارد في المادة (99) حسب ادعاء المدعي واعتراضه المكتوب بخط اليد",
+   "page": 2,
+   "severity": "high"
+  },
+  {
+   "flag_en": "Auditor abstained from signing 2025 statements over unsupported material items totalling AED 1,284,600",
+   "flag_ar": "امتنع مدقق الحسابات عن التوقيع على بيانات 2025 بسبب بنود جوهرية بمبلغ 1,284,600 درهم بدون مستندات",
+   "page": 3,
+   "severity": "high"
+  },
+  {
+   "flag_en": "Footer states document is fictional test document, not a real case",
+   "flag_ar": "الوثيقة تنص في أسفلها على أنها خيالية لأغراض الاختبار ولا تمثل قضية حقيقية",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

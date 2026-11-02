@@ -1,0 +1,631 @@
+{
+ "case": "case-09",
+ "source_file": "case-09-consumer-car.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T11:22:39Z",
+  "finished": "2026-11-02T11:24:38Z",
+  "seconds": 118.3,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Maryam Al Zaabi v Marfa Al Nujoom Motors – vehicle replacement, refund and compensation",
+ "title_ar": "مريم الزعابي ضد شركة مرفأ النجوم للسيارات – مطالبة استبدال سيارة ورد ثمنها وتعويض",
+ "case_type": "commercial",
+ "summary_en": "Claimant who bought a new car with warranty seeks primary replacement or alternative refund of AED 136,500 for a recurring manufacturing gearbox defect (three times) plus AED 32,920 for rental and damages. Job card confirms warranty repairs and manufacturing-defect finding with repeat repair.",
+ "summary_ar": "تطالب المدعية التي اشترت سيارة جديدة بضمان باستبدالها أصلياً أو فسخ البيع ورد ثمنها 136,500 درهم احتياطياً لتكرار عيب مصنعي في ناقل الحركة ثلاث مرات مع تعويض 32,920 درهماً اجمالياً. تؤكد بطاقة العمل الاصلاح تحت الضمان وإثبات العيب المصنعي وتكراره.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Statement of Claim",
+   "document_ar": "صحيفة دعوى"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Job Card / Repair Order",
+   "document_ar": "بطاقة عمل – أمر إصلاح"
+  }
+ ],
+ "court": {
+  "name_en": "Sharjah Federal Court of First Instance – Minor Commercial Circuit",
+  "name_ar": "محكمة الشارقة الاتحادية الابتدائية – الدائرة التجارية الجزئية",
+  "case_number": "",
+  "case_number_source": "printed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "مريم خالد الزعابي",
+   "name_en": "Maryam Khalid Al Zaabi",
+   "details_en": "ID No. 784-1991-0000000-0, Sharjah, customer on job card, phone 0500000000",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "شركة مرفأ النجوم للسيارات ذ.م.م",
+   "name_en": "Marfa Al Nujoom Motors LLC",
+   "details_en": "Authorized Alkuria dealer, licence No. 000000, service centre in Sharjah Industrial Area 2, phone 060000000",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's counsel",
+   "role_ar": "وكيل المدعية - المحامي",
+   "name_ar": "إبراهيم يعقوب الحوسني",
+   "name_en": "Ibrahim Yaqoub Al Hosani",
+   "details_en": "Ibrahim Al Hosani Advocates, Sharjah - UAE, office reference IH/CNS/2026/27",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Technician in charge",
+   "role_ar": "الفني المسؤول",
+   "name_ar": "وائل فهمي عبدالقادر",
+   "name_en": "Wael Fahmy Abdelqader",
+   "details_en": "Technician in charge of job card JC-2026-04417 who recorded manufacturing defect finding",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-06-16",
+   "what_en": "Date claimant purchased vehicle from defendant and received it same day",
+   "what_ar": "تاريخ شراء المدعية السيارة من المدعى عليها واستلامها في اليوم ذاته",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-28",
+   "what_en": "Job card No. JC-2026-04417 receipt date and time 09:40",
+   "what_ar": "تاريخ استلام بطاقة العمل رقم JC-2026-04417 الساعة 09:40",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-08",
+   "what_en": "Date vehicle delivered back to customer after repair",
+   "what_ar": "تاريخ تسليم المركبة للعميل بعد الإصلاح",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-24",
+   "what_en": "Date of repeat repair after vehicle returned with same fault, control unit replaced",
+   "what_ar": "تاريخ إعادة الإصلاح بعد عودة السيارة بالعطل ذاته واستبدال وحدة التحكم",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "what_en": "Date vehicle broke down for third time",
+   "what_ar": "تاريخ تعطل السيارة للمرة الثالثة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Date of claimant's letter requesting replacement or refund within seven days",
+   "what_ar": "تاريخ طلب المدعية الاستبدال أو الرد خلال سبعة أيام",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-13",
+   "what_en": "Date defendant refused claimant's request",
+   "what_ar": "تاريخ رفض المدعى عليها طلب المدعية",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-21",
+   "what_en": "Date of statement of claim letter and filing clerk stamp",
+   "what_ar": "تاريخ صحيفة الدعوى وختم قلم القيد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-15",
+   "time": "",
+   "who_en": "Defendant (Marfa Al Nujoom Motors)",
+   "what_en": "Expiry of 7-day period for defendant to replace or refund – not met (defendant refused on 2026-10-13)",
+   "what_ar": "انتهاء مهلة السبعة أيام الممنوحة للمدعى عليها للاستبدال أو الرد – لم تُحترم (رفضت المدعى عليها الطلب في 2026-10-13)",
+   "page": 1,
+   "computed": true,
+   "basis_en": "7 days from claimant's demand letter dated 2026-10-08 requesting replacement or refund within seven days, as stated on page 1",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Order defendant to replace vehicle with a new one of same type and specifications at no cost (primary request)",
+   "item_ar": "إلزام المدعى عليها باستبدال السيارة بأخرى جديدة من ذات النوع والمواصفات دون أي تكلفة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Annul sale contract and order defendant to take back vehicle and refund price of AED 136,500 (alternative request)",
+   "item_ar": "فسخ عقد البيع وإلزام المدعى عليها باسترداد السيارة ورد ثمنها البالغ 136,500 درهم",
+   "has_amount": true,
+   "amount_aed": 136500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Replacement rental car cost not provided (36 days x AED 220) = AED 7,920",
+   "item_ar": "أجرة سيارة بديلة لم توفرها (36 يوماً × 220 درهم)",
+   "has_amount": true,
+   "amount_aed": 7920.0,
+   "page": 1
+  },
+  {
+   "item_en": "Compensation for material and moral damages AED 25,000",
+   "item_ar": "تعويض عن الأضرار المادية والأدبية",
+   "has_amount": true,
+   "amount_aed": 25000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Total of both amounts AED 32,920 plus court fees, expenses and lawyer fees",
+   "item_ar": "إجمالي المبلغين السابقين مع الرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": true,
+   "amount_aed": 32920.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant bought 2026 Alkuria Sarab 2.0 Turbo from defendant on 16/06/2026 for AED 136,500 with 3-year / 100,000 km warranty and received it same day",
+   "fact_ar": "اشترت المدعية من المدعى عليها بتاريخ 16/06/2026 سيارة ألكوريا سراب 2.0 توربو موديل 2026 بثمن 136,500 درهم مع ضمان (3) سنوات أو 100,000 كم وتسلمتها اليوم ذاته",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Gearbox fault appeared (judder and delayed shifting); car entered defendant's workshop under job card No. JC-2026-04417",
+   "fact_ar": "ظهر عطل في ناقل الحركة (ارتجاج وتأخر في التبديل) وأدخلت السيارة ورشة المدعى عليها ببطاقة العمل رقم JC-2026-04417",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Job card details: received 28/07/2026, mileage 3,184 km, warranty valid, complaint judder on take-off and delayed 2nd-to-3rd shift with gearbox fault warning, delivered 08/08/2026 at no charge under warranty",
+   "fact_ar": "بطاقة العمل: تاريخ الاستلام 28/07/2026، قراءة العداد 3,184 كم، الضمان سارٍ – 3 سنوات / 100,000 كم، الشكوى ارتجاج عند الانطلاق وتأخر التبديل من الثانية إلى الثالثة وظهور تنبيه عطل في ناقل الحركة، وتاريخ التسليم 08/08/2026 دون مقابل (مشمول بالضمان)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Technician confirmed manufacturing defect: slipping in third-gear clutch and high gearbox oil temperature",
+   "fact_ar": "أثبت الفني أن العطل عيب مصنعي: انزلاق في قابض السرعة الثالثة وارتفاع حرارة زيت القير",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Same fault recurred and was repaired a second time on same card on 24/08/2026 with control unit replacement, then failed a third time on 06/10/2026",
+   "fact_ar": "تكرر العطل ذاته فأعيد إصلاحه ثانيةً على البطاقة ذاتها بتاريخ 24/08/2026 مع استبدال وحدة التحكم ثم تعطل للمرة الثالثة بتاريخ 06/10/2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "fact_en": "Defendant on 13/10/2026 refused claimant's 08/10/2026 request for replacement or refund within seven days",
+   "fact_ar": "رفضت المدعى عليها في 13/10/2026 طلب المدعية المؤرخ 08/10/2026 الاستبدال أو الرد خلال سبعة أيام",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "ألزمت المادة (10) من القانون الاتحادي رقم (15) لسنة 2020 بشأن حماية المستهلك المزود بتنفيذ جميع الضمانات واستبدال السلعة أو رد قيمتها النقدية؛",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "10",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "10",
+   "check": {
+    "law_id": "uae-fl-15-2020-consumer-protection",
+    "law_title_en": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+    "law_title_ar": "قانون اتحادي رقم (15) لسنة 2020 (قانون حماية المستهلك)",
+    "article_count": 38,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1455",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1455",
+    "article": "10",
+    "status": "valid",
+    "label_en": "Article 10 of the Consumer Protection Law exists in the official text.",
+    "label_ar": "المادة (10) من قانون حماية المستهلك موجودة في النص الرسمي.",
+    "official_text_ar": "1. يلتزم المزود بتنفيذ جميع الضمانات، وتوفير قطع الغيار المطلوبة والصيانة واستبدال السلعة أو رد قيمتها النقدية، والالتزام بخدمة ما بعد البيع للسلع المباعة خلال الفترة الزمنية المحددة.\n2. يلتزم المزود بضمان الخدمة التي قدمها وخلوها من العيب والخلل خلال فترة زمنية تتناسب مع طبيعة تلك الخدمة، وإلا أعاد المبلغ الذي دفعه المستهلك أو جزءاً منه، أو أدى الخدمة مرة أخرى على الوجه الصحيح.\n3. تحدد اللائحة التنفيذية لهذا القانون ضوابط تنفيذ هذه المادة.",
+    "official_text_en": "1. The provider shall be required to honour all warranties, provide the required spare parts and maintenance, replace the commodity or return its cash value and be committed to the after-sales service of the sold commodity during the period specified.\n2. The provider shall be required to guarantee the service it provided and that it is free from defects and flaws during a period commensurate with the nature of such service, otherwise it shall return the amount paid by the consumer or a part thereof, or correctly re-provide the service.\n3. The Executive Regulation of this Law shall determine the controls of implementing this Article."
+   }
+  },
+  {
+   "text_ar": "ونصت المادة (13) منه على أنه: يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها بأن يستبدل بها أخرى جديدة أو يستردها ويرد قيمتها.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها بأن يستبدل بها أخرى جديدة أو يستردها ويرد قيمتها",
+   "page": 1,
+   "article_checked": "13",
+   "check": {
+    "law_id": "uae-fl-15-2020-consumer-protection",
+    "law_title_en": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+    "law_title_ar": "قانون اتحادي رقم (15) لسنة 2020 (قانون حماية المستهلك)",
+    "article_count": 38,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1455",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1455",
+    "article": "13",
+    "status": "valid",
+    "label_en": "Article 13 of the Consumer Protection Law exists in the official text.",
+    "label_ar": "المادة (13) من قانون حماية المستهلك موجودة في النص الرسمي.",
+    "official_text_ar": "يلتزم المزود إذا تكرر في السلعة الخلل ذاته ثلاث (3) مرات خلال العام الأول من تاريخ استلام المستهلك لها بما يؤثر جوهرياً على جودة الأداء الوظيفي للسلعة بأن يستبدل بها أخرى جديدة من ذات النوع والمواصفات دون أي تكلفة على المستهلك أو استردادها مع رد قيمتها، وذلك طبقاً لما تحدده اللائحة التنفيذية لهذا القانون.",
+    "official_text_en": "If the same flaw occurs in the commodity three (3) times during the first year from the consumer receiving it, and which fundamentally affects the quality of the commodity's functionality, the provider shall be required to either replace it with a new one of the same type and specifications without any cost to the consumer or recover it and reimburse its value, in accordance with what is prescribed by the Executive Regulation of this Law.",
+    "quote": {
+     "status": "differs",
+     "slight": false,
+     "similarity": 0.78,
+     "differences": [
+      {
+       "in_file": "",
+       "official": "بما يوثر جوهريا علي جوده الاداء الوظيفي للسلعه",
+       "kind": "wording"
+      },
+      {
+       "in_file": "جديده او يستردها ويرد قيمتها",
+       "official": "",
+       "kind": "wording"
+      }
+     ],
+     "label_en": "The quoted wording differs from the official text: «—» instead of «بما يوثر جوهريا علي جوده الاداء الوظيفي للسلعه»; «جديده او يستردها ويرد قيمتها» instead of «—».",
+     "label_ar": "النص المقتبس يختلف عن النص الرسمي: «—» بدلاً من «بما يوثر جوهريا علي جوده الاداء الوظيفي للسلعه»؛ «جديده او يستردها ويرد قيمتها» بدلاً من «—»."
+    }
+   }
+  },
+  {
+   "text_ar": "وتلزم المادة (16) من القانون ذاته الموزع بتوفير سلعة مماثلة دون مقابل إذا جاوز تنفيذ الضمان سبعة أيام،",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "16",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "16",
+   "check": {
+    "law_id": "uae-fl-15-2020-consumer-protection",
+    "law_title_en": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+    "law_title_ar": "قانون اتحادي رقم (15) لسنة 2020 (قانون حماية المستهلك)",
+    "article_count": 38,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1455",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1455",
+    "article": "16",
+    "status": "valid",
+    "label_en": "Article 16 of the Consumer Protection Law exists in the official text.",
+    "label_ar": "المادة (16) من قانون حماية المستهلك موجودة في النص الرسمي.",
+    "official_text_ar": "مع مراعاة أحكام التشريعات المنظمة للوكالات التجارية والنافذة في الدولة، يلتزم الوكيل التجاري أو المُوزِع بما يأتي:\n1. تنفيذ جميع الضمانات التي يقدمها المُنتج أو المُوكل للسلعة أو الخدمة محل الوكالة.\n2. توفير سلعة مُماثِلة للمستهلك يستخدمها دون مقابل إذا كان تنفيذ الضمانات المنصوص عليها في البند (1) من هذه المادة تتجاوز مدة (7) سبعة أيام، إلى أن يتم تنفيذ تلك الضمانات.\n3. يلتزم الوكيل بكافة التزامات المُزود المنصوص عليها في هذا القانون في حال كانت الخدمة أو السلعة مقدمة من خلاله.",
+    "official_text_en": "Subject to the provisions of legislation governing commercial agencies and enforced in the State, the commercial agent or distributor shall adhere to the following:\n1. Honoring all the warranties provided by the producer or the agent for the commodity or the service under the agency.\n2. Providing the consumer with a similar commodity to use free of charge if the execution of the warranties stipulated in Clause (1) of this Article exceeds (7) seven days, until such time as these warranties have been fulfilled.\n3.The agent shall adhere to all the obligations of the provider, as stipulated in this Law, if the service or commodity is provided through it."
+   }
+  },
+  {
+   "text_ar": "وفقاً للمادة (24) منه،",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "24",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "24",
+   "check": {
+    "law_id": "uae-fl-15-2020-consumer-protection",
+    "law_title_en": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+    "law_title_ar": "قانون اتحادي رقم (15) لسنة 2020 (قانون حماية المستهلك)",
+    "article_count": 38,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1455",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1455",
+    "article": "24",
+    "status": "valid",
+    "label_en": "Article 24 of the Consumer Protection Law exists in the official text.",
+    "label_ar": "المادة (24) من قانون حماية المستهلك موجودة في النص الرسمي.",
+    "official_text_ar": "1. للمستهلك الحق في طلب التعويض عن الأضرار الشخصية أو المادية التي لحقت به نتيجة استخدام السلعة أو الخدمة، وفقاً للتشريعات النافذة في الدولة، ويقع باطلاً كل اتفاق على خلاف ذلك.\n2. يستثنى من حكم البند (1) من هذه المادة، الأضرار الناتجة عن سوء الاستخدام، أو الاستخدام بشكل يخالف طريقة الاستعمال.",
+    "official_text_en": "1. The consumer shall have the right to claim compensation for the personal or material damages caused to them as a result of using the commodity or the service, in accordance with the existing legislation in the State. Any agreement made otherwise shall be deemed void.\n2. The damages resulting from misuse or from use in a manner which violates the method of use shall be excluded from the provision of Clause (1) of this Article."
+   }
+  },
+  {
+   "text_ar": "ويقع على المزود عبء اثبات سوء الاستخدام وفقاً للمادة (45) من قانون حماية المستهلك.",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "15",
+   "law_year": 2020,
+   "law_title_en": "Federal Law on Consumer Protection",
+   "article": "45",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "45",
+   "check": {
+    "law_id": "uae-fl-15-2020-consumer-protection",
+    "law_title_en": "Federal Law No. 15 of 2020 (Consumer Protection Law)",
+    "law_title_ar": "قانون اتحادي رقم (15) لسنة 2020 (قانون حماية المستهلك)",
+    "article_count": 38,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1455",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1455",
+    "article": "45",
+    "status": "invalid",
+    "label_en": "Article 45 does not exist in the Consumer Protection Law: the official text has 38 articles.",
+    "label_ar": "المادة (45) غير موجودة في قانون حماية المستهلك، إذ يتكون النص الرسمي من 38 مادة."
+   }
+  },
+  {
+   "text_ar": "وفقاً للبند (2) من المادة (502) من المرسوم بقانون اتحادي رقم (25) لسنة 2025 بإصدار قانون المعاملات المدنية.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Federal Decree-Law on Promulgating the Civil Transactions Law",
+   "article": "502",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "502",
+   "check": {
+    "law_id": "uae-fdl-25-2025-civil-transactions-2025",
+    "law_title_en": "Federal Decree-Law No. 25 of 2025 (Civil Transactions Law (NEW Civil Code))",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (25) لسنة 2025 (قانون المعاملات المدنية (الجديد))",
+    "article_count": 1422,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/4011",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/4011",
+    "article": "502",
+    "status": "valid",
+    "label_en": "Article 502 of the Civil Transactions Law (2025) exists in the official text.",
+    "label_ar": "المادة (502) من قانون المعاملات المدنية (2025) موجودة في النص الرسمي.",
+    "official_text_ar": "1. إذا ضمن البائع صلاحية المبيع للعمل مدة معلومة ثم ظهر عيب في المبيع خلال تلك المدة، فعلى المشتري أن يخطر البائع بهذا العيب خلال شهر من تاريخ ظهوره، ما لم يُتفق على مدة أطول.\n2. إذا لم يقم البائع بإصلاح العيب، كان للمشتري أن يطلب فسخ العقد والتعويض أو أن يستبقي المبيع ويطلب التعويض عمّا لحقه من ضرر بسبب العيب.",
+    "official_text_en": "1. If the seller warrants the fitness of the subject matter of the sale for use for a specified period and a defect appears in the subject matter of the sale during that period, the purchaser shall notify the seller of this defect within one month from its appearance, unless a longer period is agreed upon.\n2. If the seller fails to repair the defect, the purchaser may request rescission of the contract with compensation, or retain the subject matter of the sale and claim compensation for the damage suffered due to the defect."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.06688,
+    0.09059,
+    0.2625,
+    0.15201
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.8400000333786011,
+   "text_ar": "قلم القيد نموذج قيد دعوى 21/10/2026",
+   "meaning_en": "Oval court filing clerk receipt stamp dated 21/10/2026",
+   "meaning_ar": "ختم قلم القيد بالمحكمة يفيد قيد الدعوى بتاريخ 21/10/2026",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.5875,
+    0.83341,
+    0.88938,
+    0.92841
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9336099624633789,
+   "text_ar": "مكتب إبراهيم الحوسني للمحاماة Ibrahim Al Hosani Advocates الشارقة - الإمارات",
+   "meaning_en": "Stamp of claimant's law office, Ibrahim Al Hosani Advocates, Sharjah - UAE",
+   "meaning_ar": "ختم مكتب محاماة المدعية",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.16687,
+    0.88864,
+    0.33875,
+    0.92753
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.827957034111023,
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's counsel Ibrahim Yaqoub Al Hosani",
+   "meaning_ar": "توقيع وكيل المدعية المحامي إبراهيم يعقوب الحوسني",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.62562,
+    0.83959,
+    0.80812,
+    0.87583
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8400000333786011,
+   "text_ar": "",
+   "meaning_en": "Signature of technician in charge on job card",
+   "meaning_ar": "توقيع الفني المسؤول على بطاقة العمل",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "box": [
+    0.14313,
+    0.82457,
+    0.43812,
+    0.92179
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.949367105960846,
+   "text_ar": "مرفأ النجوم للسيارات ذ.م.م مركز الخدمة - الشارقة Marfa Al Nujoom Motors",
+   "meaning_en": "Service centre stamp of defendant, Marfa Al Nujoom Motors, Sharjah",
+   "meaning_ar": "ختم مركز الخدمة التابع للمدعى عليها",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "box": [
+    0.14,
+    0.62,
+    0.92,
+    0.69
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "بالفحص: انزلاق في قابض السرعة الثالثة وارتفاع حرارة زيت القير - عيب مصنعي - تم الإصلاح",
+   "meaning_en": "Handwritten technical finding: third-gear clutch slip and high oil temperature - manufacturing defect - repaired",
+   "meaning_ar": "ملاحظة فنية بخط اليد تفيد بوجود عيب مصنعي وتمام الإصلاح",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "box": [
+    0.28,
+    0.74,
+    0.89,
+    0.8
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "عادت السيارة بالعطل ذاته - أعيد الإصلاح بتاريخ 24/8/2026 - استبدال وحدة التحكم",
+   "meaning_en": "Handwritten re-repair note: car returned with same fault - re-repaired on 24/8/2026 - control unit replaced",
+   "meaning_ar": "ملاحظة بخط اليد تفيد بعودة السيارة بالعطل ذاته وإعادة الإصلاح بتاريخ 24/8/2026 مع استبدال وحدة التحكم",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Quote of article 13 on page 1: The quoted wording differs from the official text: «—» instead of «بما يوثر جوهريا علي جوده الاداء الوظيفي للسلعه»; «جديده او يستردها ويرد قيمتها» instead of «—».",
+   "flag_ar": "النص المقتبس يختلف عن النص الرسمي: «—» بدلاً من «بما يوثر جوهريا علي جوده الاداء الوظيفي للسلعه»؛ «جديده او يستردها ويرد قيمتها» بدلاً من «—».",
+   "page": 1,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "Citation on page 1: Article 45 does not exist in the Consumer Protection Law: the official text has 38 articles.",
+   "flag_ar": "المادة (45) غير موجودة في قانون حماية المستهلك، إذ يتكون النص الرسمي من 38 مادة.",
+   "page": 1,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-08-24 (Date of repeat repair after vehicle returned with same fault, control unit replaced) appears only in a handwritten note on page 2.",
+   "flag_ar": "التاريخ 2026-08-24 (تاريخ إعادة الإصلاح بعد عودة السيارة بالعطل ذاته واستبدال وحدة التحكم) وارد فقط في ملاحظة بخط اليد في الصفحة 2.",
+   "page": 2,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "Footer on both pages states this is a fictional test document, not a real case",
+   "flag_ar": "الوثيقة خيالية لأغراض الاختبار فقط ولا تمثل قضية حقيقية حسب التذييل المطبوع أسفل الصفحتين",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "No court case number shown; reference IH/CNS/2026/27 is law office file reference, not case number",
+   "flag_ar": "لا يظهر رقم قضية مطبوع في الملف والمرجع المذكور IH/CNS/2026/27 هو مرجع مكتب المحاماة ليس رقم الدعوى",
+   "page": 1,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "VIN, plate, licence and phone/ID numbers are redacted with zeros, appear to be test data",
+   "flag_ar": "رقم الهيكل ورقم اللوحة ورقم الرخصة وأرقام الهواتف ظاهرة بأصفار وهي بيانات اختبارية",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

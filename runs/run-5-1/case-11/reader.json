@@ -1,0 +1,447 @@
+{
+ "case_title_en": "Silver Bright Kitchen Equipment Trading LLC v Layali Al Marsa Restaurant Management LLC - Payment Order Petition",
+ "case_title_ar": "شركة البريق الفضي لتجارة معدات المطابخ ذ.م.م ضد شركة ليالي المرسى لإدارة المطاعم ذ.م.م — عريضة استصدار أمر أداء",
+ "case_type": "commercial",
+ "summary_en": "Petition by Silver Bright seeks payment order against Layali Al Marsa for AED 293,450 net kitchen-equipment invoices (126,000 + 104,250 + 88,200 less 25,000 return) plus 5% yearly interest from petition date 12/10/2026. Based on written acknowledgment dated 06/08/2026 by GM Wael Al-Khatib promising payment by 31/08/2026, and notary demand dated 01/10/2026 with 7 days expired unpaid, under Articles 143 and 144 of Federal Decree-Law 42/2022. Acknowledgment printed amount 318,450 hand-corrected to 293,450.",
+ "summary_ar": "عريضة من شركة البريق الفضي تطلب أمر أداء ضد شركة ليالي المرسى بمبلغ 293,450 درهم صافي فواتير معدات مطابخ (126,000 + 104,250 + 88,200 ناقص 25,000 مرتجع) مع فائدة 5% سنويًا من تاريخ العريضة 12/10/2026. تستند إلى إقرار كتابي بالدين بتاريخ 06/08/2026 من المدير العام وائل الخطيب وتعهد بالسداد بحلول 31/08/2026، وإنذار كاتب عدل بتاريخ 01/10/2026 بمهلة سبعة أيام انقضت دون وفاء، ووفق المواد 143 و144 من المرسوم بقانون اتحادي 42/2022. المبلغ في الإقرار صُحح بخط اليد من 318,450 إلى 293,450.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Payment Order Petition",
+   "document_ar": "عريضة استصدار أمر أداء"
+  },
+  {
+   "page": 2,
+   "document_en": "Written Acknowledgment of Debt",
+   "document_ar": "إقرار بالمديونية"
+  }
+ ],
+ "court": {
+  "name_en": "Sharjah Federal Court of First Instance - Judge competent for payment orders",
+  "name_ar": "محكمة الشارقة الاتحادية الابتدائية — السيد القاضي المختص بأوامر الأداء",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "الطالبة (المدعية)",
+   "name_ar": "شركة البريق الفضي لتجارة معدات المطابخ ذ.م.م",
+   "name_en": "Al Bareeq Al Faddi Kitchen Equipment Trading LLC",
+   "details_en": "Claimant, Sharjah, kitchen equipment trader",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المطلوب ضدها (المدينة)",
+   "name_ar": "شركة ليالي المرسى لإدارة المطاعم ذ.م.م",
+   "name_en": "Layali Al Marsa Restaurant Management LLC",
+   "details_en": "Defendant, Sharjah - Al Majaz, trade licence No. 000000, restaurant manager",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيل الطالبة - المحامي",
+   "name_ar": "مازن طلال العويس",
+   "name_en": "Mazen Talal Al Owais",
+   "details_en": "Lawyer for claimant, signatory of petition",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Law firm",
+   "role_ar": "مكتب المحاماة",
+   "name_ar": "مكتب نخلة الوادي للمحاماة والاستشارات القانونية",
+   "name_en": "Nakhlat Al Wadi Advocates & Legal Consultants",
+   "details_en": "Law firm issuing petition, Sharjah, ref NW/CIV/2026/214",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "defendant_representative",
+   "role_en": "General Manager - declarant for company",
+   "role_ar": "المدير العام - المقر عن الشركة",
+   "name_ar": "وائل جمال الخطيب",
+   "name_en": "Wael Jamal Al-Khatib",
+   "details_en": "General Manager of defendant, signatory of acknowledgment dated 06/08/2026",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Judge",
+   "role_ar": "القاضي",
+   "name_ar": "السيد القاضي المختص بأوامر الأداء - محكمة الشارقة الاتحادية الابتدائية",
+   "name_en": "Judge competent for payment orders - Sharjah Federal Court of First Instance",
+   "details_en": "Competent judge applied to for payment order",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "notary",
+   "role_en": "Notary",
+   "role_ar": "الكاتب العدل",
+   "name_ar": "الكاتب العدل",
+   "name_en": "Notary Public",
+   "details_en": "Authority through which demand dated 01/10/2026 was served",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Case office",
+   "role_ar": "مكتب إدارة الدعوى",
+   "name_ar": "مكتب إدارة الدعوى",
+   "name_en": "Case Management Office",
+   "details_en": "Office appearing on filing stamp dated 12/10/2026 (training template)",
+   "pages": [
+    1
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-03-09",
+   "what_en": "Date of invoice SG-2026-041 for AED 126,000",
+   "what_ar": "تاريخ الفاتورة رقم SG-2026-041 بمبلغ 126,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-21",
+   "what_en": "Date of invoice SG-2026-077 for AED 104,250",
+   "what_ar": "تاريخ الفاتورة رقم SG-2026-077 بمبلغ 104,250 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-02",
+   "what_en": "Date of invoice SG-2026-112 for AED 88,200",
+   "what_ar": "تاريخ الفاتورة رقم SG-2026-112 بمبلغ 88,200 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-18",
+   "what_en": "Date of credit note CN-2026-019 (returned goods) for AED 25,000 deduction",
+   "what_ar": "تاريخ إشعار دائن رقم CN-2026-019 (بضاعة مرتجعة) بمبلغ 25,000 درهم خصمًا",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-06",
+   "what_en": "Date of written acknowledgment of debt signed by General Manager",
+   "what_ar": "تاريخ تحرير إقرار المديونية وتوقيعه من المدير العام",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-06",
+   "what_en": "Date of defendant's written acknowledgment as referred in petition",
+   "what_ar": "تاريخ إقرار المطلوب ضدها بالدين المشار إليه في العريضة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-31",
+   "what_en": "Agreed payment date in single instalment in acknowledgment",
+   "what_ar": "موعد السداد المتفق عليه دفعة واحدة في الإقرار",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-01",
+   "what_en": "Date of notary demand for payment served on defendant",
+   "what_ar": "تاريخ إنذار الطالبة للمطلوب ضدها بالوفاء عن طريق الكاتب العدل",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Expiry of 7-day period granted by notice dated 01/10/2026 without payment",
+   "what_ar": "انتهاء مهلة السبعة أيام الممنوحة بموجب الإنذار المؤرخ 01/10/2026 دون وفاء",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-12",
+   "what_en": "Date of payment order petition, ref NW/CIV/2026/214, and case office stamp",
+   "what_ar": "تاريخ عريضة استصدار أمر الأداء والمرجع NW/CIV/2026/214 وختم مكتب إدارة الدعوى",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-08-31",
+   "time": "",
+   "who_en": "Defendant (Layali Al Marsa Restaurant Management LLC)",
+   "what_en": "Pay acknowledged debt in single payment - not met (later demand and petition state non-payment)",
+   "what_ar": "سداد مبلغ الدين دفعة واحدة في الموعد المبين أعلاه — لم يتم الوفاء بحسب الإنذار والعريضة اللاحقين",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Acknowledgment table page 2: single payment by 31/08/2026",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "time": "",
+   "who_en": "Defendant (Layali Al Marsa Restaurant Management LLC)",
+   "what_en": "Pay within 7 days of notification dated 01/10/2026 - expired without payment",
+   "what_ar": "الوفاء بالمبلغ خلال سبعة أيام من تاريخ الإعلان للسداد — انقضت المهلة دون وفاء",
+   "page": 1,
+   "computed": true,
+   "basis_en": "7 days from notary notice dated 01/10/2026 per para 3 page 1 (01/10/2026 + 7 days = 08/10/2026)",
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "time": "",
+   "who_en": "Payment Order Judge, Sharjah Federal Court of First Instance",
+   "what_en": "Issue payment order within three working days of petition - not shown as met on file",
+   "what_ar": "إصدار أمر الأداء خلال ثلاثة أيام عمل من تقديم العريضة — غير ظاهر في الملف إن تم",
+   "page": 1,
+   "computed": true,
+   "basis_en": "Article 144(4) cited page 1: order within three working days of petition dated 12/10/2026 (13, 14, 15 Oct = 15/10/2026)",
+   "source": "computed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Net outstanding balance for commercial kitchen equipment (three invoices less credit note)",
+   "item_ar": "صافي المبلغ المستحق قيمة معدات مطابخ تجارية بعد خصم إشعار دائن (الفواتير الثلاث مطروحًا منها المرتجع)",
+   "has_amount": true,
+   "amount_aed": 293450.0,
+   "page": 1
+  },
+  {
+   "item_en": "Interest at 5% per year from petition date",
+   "item_ar": "الفائدة بنسبة (5%) سنويًا من تاريخ العريضة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Court fees and expenses",
+   "item_ar": "الرسوم والمصروفات",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant supplied commercial kitchen equipment to defendant's Sharjah branches, received without reservation under three invoices and one credit note, net AED 293,450.",
+   "fact_ar": "وردت الطالبة إلى المطلوب ضدها معدات مطابخ تجارية لفروعها في الشارقة فتسلمتها دون تحفظ بموجب ثلاث فواتير وإشعار دائن واحد وصافيها 293,450 درهم.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant acknowledged the debt in writing dated 06/08/2026 signed by its General Manager Wael Jamal Al-Khatib as established, due and undisputed.",
+   "fact_ar": "أقرت المطلوب ضدها كتابة بالدين بتاريخ 06/08/2026 ووقع الإقرار مديرها العام السيد وائل جمال الخطيب وأقرت بأن ذمتها مشغولة وأن الدين ثابت وحال الأداء وغير متنازع عليه.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant undertook to pay the amount in a single payment by 31/08/2026.",
+   "fact_ar": "تعهدت المطلوب ضدها بسداد المبلغ دفعة واحدة في موعد أقصاه 31/08/2026.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant served a notary demand dated 01/10/2026 giving 7 days to pay, which expired without payment.",
+   "fact_ar": "كلفت الطالبة المطلوب ضدها بالوفاء بموجب إنذار أعلن إليها عن طريق الكاتب العدل بتاريخ 01/10/2026 ومنحتها مهلة سبعة أيام فانقضت دون وفاء.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Printed amount in acknowledgment AED 318,450 (gross invoices) was hand-corrected in red ink to AED 293,450, the net after AED 25,000 deduction.",
+   "fact_ar": "المبلغ المطبوع في الإقرار 318,450 درهم (مجموع الفواتير قبل الخصم) صُحح بخط اليد بالحبر الأحمر إلى 293,450 درهم وهو الصافي بعد خصم 25,000 درهم.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "وفقًا للمادة (143) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Promulgation of the Civil Procedure Law",
+   "article": "143",
+   "clause": "",
+   "quoted_text_ar": "إذا كان حق الدائن ثابتًا بالكتابة -إلكترونيًا أو ورقيًا- وحال الأداء وكان كل ما يطالب به دينًا من النقود معين المقدار،",
+   "page": 1
+  },
+  {
+   "text_ar": "إعمالاً للبند (1) من المادة (144) من القانون ذاته، الذي يوجب تكليف المدين أولاً بالوفاء",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Promulgation of the Civil Procedure Law",
+   "article": "144",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "ويصدر الأمر خلال ثلاثة أيام عمل من تقديم العريضة وفقًا للبند (4) من المادة ذاتها",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Promulgation of the Civil Procedure Law",
+   "article": "144",
+   "clause": "4",
+   "quoted_text_ar": "",
+   "page": 1
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب إدارة الدعوى\nنموذج تدريبي\n12/10/2026",
+   "meaning_en": "Purple oval Case Management Office stamp (training template) dated 12/10/2026 recording receipt/filing.",
+   "meaning_ar": "ختم بيضاوي بنفسجي لمكتب إدارة الدعوى (نموذج تدريبي) مؤرخ 12/10/2026 يفيد قيد/استلام العريضة.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب نخلة الوادي للمحاماة\nNakhlat Al Wadi Advocates\nالشارقة — الإمارات",
+   "meaning_en": "Blue rectangular stamp of Nakhlat Al Wadi Advocates - Sharjah - UAE confirming petition issued by the office.",
+   "meaning_ar": "ختم مستطيل أزرق لمكتب نخلة الوادي للمحاماة — الشارقة — الإمارات يثبت صدور العريضة من المكتب.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's lawyer Mazen Talal Al Owais.",
+   "meaning_ar": "توقيع وكيل الطالبة المحامي مازن طلال العويس.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of declarant for company, General Manager Wael Jamal Al-Khatib, on acknowledgment.",
+   "meaning_ar": "توقيع المقر عن الشركة المدير العام وائل جمال الخطيب على الإقرار.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "ليالي المرسي لإدارة المطاعم\nLayali Al Marsa Restaurant Mgmt\nالشارقة — ذ.م.م",
+   "meaning_en": "Blue rectangular company stamp of Layali Al Marsa Restaurant Mgmt - Sharjah - LLC confirming acknowledgment issued by company.",
+   "meaning_ar": "ختم مستطيل أزرق لشركة ليالي المرسي لإدارة المطاعم — الشارقة — ذ.م.م يثبت صدور الإقرار من الشركة.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "293,450 — و.غ (شطب 318,450)",
+   "meaning_en": "Red-ink handwritten correction striking printed 318,450 and writing 293,450 with unclear abbreviation; changes printed text.",
+   "meaning_ar": "تصحيح بخط اليد بالحبر الأحمر شطب المبلغ المطبوع 318,450 وكتب بدلًا منه 293,450 مع اختصار غير واضح (و.غ)؛ غيّر النص المطبوع.",
+   "changes_printed_text": true,
+   "x_from_pct": 38.0,
+   "x_to_pct": 60.0,
+   "y_from_pct": 41.5,
+   "y_to_pct": 44.5
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Handwriting corrects printed amount in acknowledgment from AED 318,450 to AED 293,450; corrected value used.",
+   "flag_ar": "تصحيح بخط اليد غيّر المبلغ المطبوع في الإقرار من 318,450 درهم إلى 293,450 درهم؛ اعتُمدت القيمة المصححة.",
+   "page": 2,
+   "severity": "high"
+  },
+  {
+   "flag_en": "No court case number printed on file; case number left blank, only law-firm ref shown.",
+   "flag_ar": "لا يوجد رقم قضية مطبوع في الملف؛ تُرك رقم القضية فارغًا والمرجع الظاهر هو مرجع مكتب المحاماة فقط.",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Handwritten abbreviation next to corrected amount (w.gh) unclear.",
+   "flag_ar": "الاختصار المكتوب بخط اليد (و.غ) بجانب المبلغ المصحح غير واضح المعنى.",
+   "page": 2,
+   "severity": "low"
+  },
+  {
+   "flag_en": "Footer states fictional test document, not a real case, and case office stamp says training template.",
+   "flag_ar": "التذييل يذكر أن الوثيقة خيالية لأغراض الاختبار فقط وليست قضية حقيقية، وختم مكتب إدارة الدعوى مدون عليه نموذج تدريبي.",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

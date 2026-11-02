@@ -1,0 +1,701 @@
+{
+ "case_title_en": "Contracting dues claim for residential villa in Al Awir Al Oula - Dubai",
+ "case_title_ar": "دعوى مستحقات عقد مقاولة فيلا سكنية في العوير الأولى – دبي",
+ "case_type": "civil",
+ "summary_en": "Contractor claimant sues employer for 320,500 AED (net final 167,850 plus retention 152,650) under lump-sum villa contract of 1,480,000 AED dated 12/01/2026, after consultant issued completion certificate on 21/09/2026 with actual completion 14/09/2026 and final payment certificate No.8 on 24/09/2026, villa handover on 05/10/2026 and non-payment despite notice on 12/10/2026, plus 5% interest, relying on Federal Law 5 of 1985. Hearing noted for 18/11/2026.",
+ "summary_ar": "تطالب شركة المقاولات المدعية صاحب العمل بمبلغ 320,500 درهم (صافي الدفعة النهائية 167,850 والمحتجـزات 152,650) بموجب عقد مقاولة فيلا بمبلغ مقطوع 1,480,000 درهم مؤرخ 12/01/2026، بعد إصدار الاستشاري شهادة الإنجاز في 21/09/2026 بتاريخ إنجاز فعلي 14/09/2026 وشهادة الدفع النهائية رقم 8 في 24/09/2026 وتسليم الفيلا في 05/10/2026 والامتناع عن السداد رغم الإنذار في 12/10/2026، مع الفائدة 5%، مستندة لأحكام القانون الاتحادي 5 لسنة 1985. حددت جلسة في 18/11/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Statement of Claim for Contracting Dues",
+   "document_ar": "صحيفة دعوى مستحقات عقد مقاولة"
+  },
+  {
+   "page": 2,
+   "document_en": "Certificate of Completion of Works (Initial Handover)",
+   "document_ar": "شهادة إنجاز الأعمال (الاستلام الابتدائي)"
+  },
+  {
+   "page": 3,
+   "document_en": "Final Payment Certificate No. 8",
+   "document_ar": "شهادة الدفع النهائية رقم (8)"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance - Civil Circuits",
+  "name_ar": "محكمة دبي الابتدائية - الدوائر المدنية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "شركة بنيان الربى للمقاولات العامة ذ.م.م",
+   "name_en": "Bunyan Al Ruba General Contracting LLC",
+   "details_en": "Claimant contractor, trade licence No. 000000, Dubai",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant (employer)",
+   "role_ar": "المدعى عليه",
+   "name_ar": "سلطان خليفة المهيري",
+   "name_en": "Sultan Khalifa Al Muhairi",
+   "details_en": "Emirati owner, ID No. 784-1979-0-0000000, Dubai",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيل المدعية - المحامي",
+   "name_ar": "مازن وليد الشحي",
+   "name_en": "Mazen Waleed Al Shehhi",
+   "details_en": "Lawyer for claimant signing pleading",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Claimant's law firm",
+   "role_ar": "مكتب محاماة المدعية",
+   "name_ar": "مكتب سنا الحق للمحاماة والاستشارات القانونية",
+   "name_en": "Sana Al Haq Advocates & Legal Consultants",
+   "details_en": "Claimant's law office, Dubai, stamp and letterhead SH/CIV/2026/207",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Supervising consultant",
+   "role_ar": "الاستشاري المشرف",
+   "name_ar": "مكتب المرسام للاستشارات الهندسية",
+   "name_en": "Al Mirsam Engineering Consultants",
+   "details_en": "Supervising engineering consultant, Dubai, issuer of completion and payment certificates",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Supervising engineer",
+   "role_ar": "المهندس المشرف",
+   "name_ar": "كريم فؤاد الحلي",
+   "name_en": "Karim Fouad Al Hilli",
+   "details_en": "Supervising engineer signing certificates",
+   "pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_representative",
+   "role_en": "Contractor's representative",
+   "role_ar": "ممثل المقاول",
+   "name_ar": "أنس طارق الخطيب",
+   "name_en": "Anas Tariq Al Khatib",
+   "details_en": "Contractor's representative attending joint inspection",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Quantity engineer",
+   "role_ar": "مهندسة الكميات",
+   "name_ar": "نادية سمير عوض",
+   "name_en": "Nadia Samir Awad",
+   "details_en": "Quantity engineer signing final payment certificate",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-10-26",
+   "what_en": "Date of statement of claim from claimant's office",
+   "what_ar": "تاريخ صحيفة الدعوى الصادرة عن مكتب المدعية",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-27",
+   "what_en": "Filing clerk stamp date on statement of claim",
+   "what_ar": "تاريخ ختم قلم القيد على صحيفة الدعوى",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "what_en": "Handwritten session date on top of pleading",
+   "what_ar": "الجلسة المحددة بخط اليد أعلى الصحيفة",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-01-12",
+   "what_en": "Date of lump-sum contracting contract",
+   "what_ar": "تاريخ عقد المقاولة بمبلغ مقطوع",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-02-02",
+   "what_en": "Site handover date and start of 8-month execution period",
+   "what_ar": "تاريخ استلام الموقع وبدء مدة التنفيذ ثمانية أشهر",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-14",
+   "what_en": "Approval date of variation order No. 1",
+   "what_ar": "تاريخ اعتماد أمر التغيير رقم (1)",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-14",
+   "what_en": "Handwritten actual completion date in completion certificate",
+   "what_ar": "تاريخ الإنجاز الفعلي المكتوب بخط اليد في شهادة الإنجاز",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "what_en": "Date of joint inspection of works",
+   "what_ar": "تاريخ المعاينة المشتركة للأعمال بحضور ممثل المقاول",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-21",
+   "what_en": "Date of works completion certificate",
+   "what_ar": "تاريخ شهادة إنجاز الأعمال (الاستلام الابتدائي)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-22",
+   "what_en": "Date of submission of bank maintenance guarantee",
+   "what_ar": "تاريخ تقديم ضمان الصيانة البنكي",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-24",
+   "what_en": "Date of final payment certificate No. 8",
+   "what_ar": "تاريخ شهادة الدفع النهائية رقم (8)",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Date defendant took over villa after snags completion",
+   "what_ar": "تاريخ تسلم المدعى عليه الفيلا بعد إنجاز الملاحظات",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-12",
+   "what_en": "Date of formal payment demand notice",
+   "what_ar": "تاريخ الإنذار الرسمي بالسداد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-01",
+   "what_en": "Effective date of Federal Decree-Law No. 25 of 2025",
+   "what_ar": "تاريخ نفاذ المرسوم بقانون اتحادي رقم (25) لسنة 2025",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Due date for final payment, 14 days from certificate",
+   "what_ar": "تاريخ استحقاق الدفعة النهائية (14 يوماً من شهادة الدفع)",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-21",
+   "what_en": "Due date for retention release, 30 days from completion certificate",
+   "what_ar": "تاريخ الإفراج عن المحتجـزات (30 يوماً من شهادة الإنجاز)",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-02",
+   "time": "",
+   "who_en": "Contractor",
+   "what_en": "Contractor to complete works - met with actual completion on 2026-09-14 before due date",
+   "what_ar": "إنجاز المقاول للأعمال – تم الوفاء بالإنجاز الفعلي في 14/09/2026 قبل الموعد",
+   "page": 1,
+   "computed": true,
+   "basis_en": "8 months from site handover on 2026-02-02 under lump-sum contract dated 2026-01-12",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "time": "",
+   "who_en": "Contractor",
+   "what_en": "Contractor to rectify minor snags within 14 days - met with handover on 2026-10-05",
+   "what_ar": "إنجاز المقاول للملاحظات البسيطة خلال 14 يوماً من تاريخه – تم الوفاء بالتسليم في 05/10/2026",
+   "page": 2,
+   "computed": true,
+   "basis_en": "14 days from completion certificate dated 2026-09-21 as stated for snag rectification in handwritten snag list",
+   "source": "handwriting",
+   "mark_ids": [
+    "X3"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "time": "",
+   "who_en": "Employer (defendant)",
+   "what_en": "Employer to pay final payment within 14 days of certificate date - not met despite notice on 2026-10-12",
+   "what_ar": "سداد صاحب العمل للدفعة النهائية خلال 14 يوماً من تاريخ الشهادة – لم يتم، رغم الإنذار في 12/10/2026",
+   "page": 3,
+   "computed": true,
+   "basis_en": "14 days from date of final payment certificate dated 2026-09-24 under Clause 9/3 of contract",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-21",
+   "time": "",
+   "who_en": "Employer (defendant)",
+   "what_en": "Release of retention against bank guarantee within 30 days of completion certificate - not done as of pleading date 2026-10-26",
+   "what_ar": "الإفراج عن المحتجـزات مقابل ضمان الصيانة البنكي خلال 30 يوماً من شهادة الإنجاز – لم يتم حتى تاريخ الصحيفة 26/10/2026",
+   "page": 3,
+   "computed": true,
+   "basis_en": "30 days from date of completion certificate dated 2026-09-21 under Clause 9/4 of contract against bank maintenance guarantee",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-18",
+   "time": "",
+   "who_en": "Parties and lawyers",
+   "what_en": "Scheduled hearing of case - to appear before court",
+   "what_ar": "الجلسة المحددة للدعوى – الحضور أمام المحكمة",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Handwritten note on top of pleading",
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Net final payment due under payment certificate No. 8",
+   "item_ar": "صافي الدفعة النهائية بموجب شهادة الدفع رقم (8)",
+   "has_amount": true,
+   "amount_aed": 167850.0,
+   "page": 1
+  },
+  {
+   "item_en": "Retention (10%) due for release",
+   "item_ar": "المحتجـزات (10%) المستحق الإفراج عنها",
+   "has_amount": true,
+   "amount_aed": 152650.0,
+   "page": 1
+  },
+  {
+   "item_en": "Total claimed principal",
+   "item_ar": "الإجمالي",
+   "has_amount": true,
+   "amount_aed": 320500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Legal interest at 5% per year from date of claim until full payment, plus court fees, expenses and lawyer fees",
+   "item_ar": "الفائدة القانونية (5%) سنوياً من تاريخ المطالبة حتى السداد التام، والرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant undertook to build a villa for defendant in Al Awir Al Oula for 1,480,000 AED under lump-sum contract dated 12/01/2026 within 8 months from site handover on 02/02/2026 under Al Mirsam supervision",
+   "fact_ar": "تعهدت المدعية بإنشاء فيلا للمدعى عليه في العوير الأولى بقيمة 1,480,000 درهم بموجب عقد مقاولة بمبلغ مقطوع مؤرخ 12/01/2026 خلال ثمانية أشهر من استلام الموقع في 02/02/2026 بإشراف مكتب المرسام",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Variation order No. 1 for 46,500 AED was approved on 14/04/2026 bringing total completed works to 1,526,500 AED",
+   "fact_ar": "اعتمد أمر التغيير رقم (1) بقيمة 46,500 درهم بتاريخ 14/04/2026 ليصبح إجمالي قيمة الأعمال المنجزة 1,526,500 درهم",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Consultant carried out joint inspection on 17/09/2026 and issued completion certificate on 21/09/2026 showing handwritten actual completion date 14/09/2026 with minor snags to be done within 14 days",
+   "fact_ar": "أجرى الاستشاري معاينة مشتركة بتاريخ 17/09/2026 وأصدر شهادة الإنجاز بتاريخ 21/09/2026 مثبتاً فيها تاريخ الإنجاز الفعلي 14/09/2026 بخط اليد مع ملاحظات بسيطة تنجز خلال 14 يوماً",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2",
+    "X3"
+   ]
+  },
+  {
+   "fact_en": "Works became fit for intended use except minor snags not preventing handover; 12-month maintenance period runs from actual completion date",
+   "fact_ar": "أصبحت الأعمال صالحة للاستعمال للغرض المخصص لها عدا ملاحظات بسيطة لا تحول دون الاستلام وتبدأ فترة الصيانة 12 شهراً من تاريخ الإنجاز الفعلي",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Contractor submitted bank maintenance guarantee on 22/09/2026 and final payment certificate No. 8 issued on 24/09/2026 for net due 167,850 AED after deducting retention and prior payments of 1,206,000 AED",
+   "fact_ar": "قدم المقاول ضمان الصيانة البنكي في 22/09/2026 وصدرت شهادة الدفع النهائية رقم (8) في 24/09/2026 بصافي مستحق 167,850 درهم بعد خصم المحتجـزات والدفعات السابقة 1,206,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant took over villa on 05/10/2026 after snags completion and refused payment despite formal notice on 12/10/2026",
+   "fact_ar": "تسلم المدعى عليه الفيلا في 05/10/2026 بعد إنجاز الملاحظات وامتنع عن السداد رغم إنذاره رسمياً في 12/10/2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Consultant hand-corrected retention amount from 125,650 to 152,650 AED equal to 10% of total works",
+   "fact_ar": "صحح الاستشاري مبلغ المحتجـزات بخط اليد من 125,650 إلى 152,650 درهم بما يعادل 10% من إجمالي الأعمال",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X4"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "قانون المعاملات المدنية الصادر بالمرسوم بقانون اتحادي رقم (25) لسنة 2025 في 01/06/2026",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "25",
+   "law_year": 2025,
+   "law_title_en": "Civil Transactions Law",
+   "article": "",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "القانون الاتحادي رقم (5) لسنة 1985، إذ لا يسري الأخير على ما سبقه من تصرفات وفقاً للبند (1) من المادة (4) منه",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "4",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "توافرت في العقد أركان المقاولة التي نصت عليها المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "872",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "توافرت في العقد أركان المقاولة التي نصت عليها المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "873",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "توافرت في العقد أركان المقاولة التي نصت عليها المواد من (872) إلى (874) من القانون الاتحادي رقم (5) لسنة 1985",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "874",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "تنص المادة (885) على أن “يلتزم صاحب العمل بدفع البدل عند تسليم المعقود عليه إلا إذا نص الاتفاق أو جرى العرف على غير ذلك”",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "885",
+   "clause": "",
+   "quoted_text_ar": "يلتزم صاحب العمل بدفع البدل عند تسليم المعقود عليه إلا إذا نص الاتفاق أو جرى العرف على غير ذلك",
+   "page": 1
+  },
+  {
+   "text_ar": "صدر أمر التغيير رقم (1) برضا المدعى عليه، فيُراعى بشأنه الاتفاق الجاري عملاً بالبند (2) من المادة (887) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "5",
+   "law_year": 1985,
+   "law_title_en": "Civil Transactions Law",
+   "article": "887",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "قلم القيد 27/10/2026",
+   "meaning_en": "Filing clerk registration stamp dated 27/10/2026",
+   "meaning_ar": "ختم قلم القيد بتاريخ 27/10/2026 يفيد تسجيل الصحيفة",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب سنا الحق للمحاماة Sana Al Haq Advocates دبي - الإمارات",
+   "meaning_en": "Stamp of Sana Al Haq Advocates law office in Dubai",
+   "meaning_ar": "ختم مكتب سنا الحق للمحاماة والاستشارات القانونية في دبي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's representative on pleading overlapping stamp",
+   "meaning_ar": "توقيع وكيل المدعية على الصحيفة فوق الختم",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of supervising engineer on completion certificate",
+   "meaning_ar": "توقيع المهندس المشرف على شهادة الإنجاز",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of contractor's representative on completion certificate",
+   "meaning_ar": "توقيع ممثل المقاول على شهادة الإنجاز",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "مكتب المرسام للاستشارات الهندسية Al Mirsam Engineering Consultants دبي",
+   "meaning_en": "Stamp of Al Mirsam Engineering Consultants in Dubai on completion certificate",
+   "meaning_ar": "ختم مكتب المرسام للاستشارات الهندسية في دبي على شهادة الإنجاز",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M7",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of quantity engineer on final payment certificate",
+   "meaning_ar": "توقيع مهندسة الكميات على شهادة الدفع النهائية",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M8",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "مكتب المرسام للاستشارات الهندسية Al Mirsam Engineering Consultants دبي",
+   "meaning_en": "Stamp of Al Mirsam Engineering Consultants in Dubai on payment certificate",
+   "meaning_ar": "ختم مكتب المرسام للاستشارات الهندسية في دبي على شهادة الدفع",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M9",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of supervising engineer on final payment certificate",
+   "meaning_ar": "توقيع المهندس المشرف على شهادة الدفع النهائية",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 1,
+   "type": "handwriting",
+   "text_ar": "صدرت جلسة 18/11/2026",
+   "meaning_en": "Handwritten note indicating a hearing scheduled on 18/11/2026",
+   "meaning_ar": "ملاحظة بخط اليد تفيد تحديد جلسة بتاريخ 18/11/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 6.0,
+   "x_to_pct": 33.0,
+   "y_from_pct": 10.5,
+   "y_to_pct": 14.0
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "14/9/2026",
+   "meaning_en": "Handwritten actual completion date",
+   "meaning_ar": "تاريخ الإنجاز الفعلي مكتوب بخط اليد",
+   "changes_printed_text": false,
+   "x_from_pct": 49.0,
+   "x_to_pct": 60.0,
+   "y_from_pct": 48.5,
+   "y_to_pct": 52.0
+  },
+  {
+   "mark_id": "X3",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "1- تسرب مياه بسيط أسفل مغسلة حمام الضيوف 2- إعادة دهان أجزاء من السور الخارجي 3- تركيب مقابض خزائن المطبخ — تنجز خلال 14 يوماً من تاريخه",
+   "meaning_en": "Handwritten list of minor snags to be completed within 14 days",
+   "meaning_ar": "قائمة الملاحظات البسيطة ومدة إنجازها خلال 14 يوماً مكتوبة بخط اليد",
+   "changes_printed_text": false,
+   "x_from_pct": 14.0,
+   "x_to_pct": 88.0,
+   "y_from_pct": 57.0,
+   "y_to_pct": 64.0
+  },
+  {
+   "mark_id": "X4",
+   "page": 3,
+   "type": "handwriting",
+   "text_ar": "152,650 — ك.ح",
+   "meaning_en": "Handwritten correction of retention to 152,650 changing crossed-out printed 125,650",
+   "meaning_ar": "تصحيح بخط اليد لمبلغ المحتجـزات إلى 152,650 يغير المبلغ المطبوع المشطوب 125,650",
+   "changes_printed_text": true,
+   "x_from_pct": 21.0,
+   "x_to_pct": 38.0,
+   "y_from_pct": 34.5,
+   "y_to_pct": 38.5
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "No court case number shown; only reference SH/CIV/2026/207 is law firm file reference",
+   "flag_ar": "لا يظهر رقم قضائي مطبوع أو مختوم في الملف؛ المرجع الوحيد SH/CIV/2026/207 هو مرجع مكتب المحاماة",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Red handwritten correction changes printed retention from 125,650 to 152,650 AED; corrected value matches 10% of 1,526,500",
+   "flag_ar": "تصحيح بخط اليد باللون الأحمر يغير المبلغ المطبوع للمحتجـزات من 125,650 إلى 152,650 درهم؛ القيمة المصححة تطابق 10% من 1,526,500",
+   "page": 3,
+   "severity": "high"
+  },
+  {
+   "flag_en": "Actual completion date 14/09/2026 and snag list are handwritten in blue ink only, not printed",
+   "flag_ar": "تاريخ الإنجاز الفعلي 14/09/2026 وقائمة الملاحظات مكتوبة بخط اليد بالحبر الأزرق فقط دون طباعة",
+   "page": 2,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Session note 18/11/2026 is handwritten on page 1 without stamp showing its source",
+   "flag_ar": "ملاحظة الجلسة 18/11/2026 مكتوبة بخط اليد أعلى الصفحة الأولى دون ختم يوضح مصدرها",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

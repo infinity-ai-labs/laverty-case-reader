@@ -1,0 +1,909 @@
+{
+ "case": "case-08",
+ "source_file": "case-08-llc-partners.pdf",
+ "mock": false,
+ "run": {
+  "started": "2026-11-02T11:20:09Z",
+  "finished": "2026-11-02T11:22:39Z",
+  "seconds": 150.0,
+  "reader_model": "muse-spark-1.3",
+  "marks_model": "sam-3.1",
+  "reasoning_effort": "high",
+  "concepts": {
+   "stamp": [
+    "stamp",
+    "blue stamp",
+    "purple stamp"
+   ],
+   "signature": [
+    "signature"
+   ],
+   "handwriting": []
+  },
+  "min_confidence": 0.3,
+  "reader_output_mode": "json_schema",
+  "mock": false,
+  "case_reader_version": "0.1.0"
+ },
+ "title_en": "Faisal Nasser Al Hammadi v Karim Anwar Al Sharif and Nakhlat Al Sabah Foodstuff Trading LLC",
+ "title_ar": "فيصل ناصر الحمادي ضد كريم أنور الشريف وشركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م",
+ "case_type": "commercial",
+ "summary_en": "40% partner Faisal Al Hammadi seeks removal of manager-partner Karim Al Sharif (45%) and annulment of the 30/09/2026 discharge passed 60% over his objection, because the auditor refused to approve 2025 statements over AED 1,284,600 unsupported items, and seeks an expert and preliminary payment of that amount.",
+ "summary_ar": "يطالب الشريك فيصل الحمادي (40%) عزل الشريك المدير كريم الشريف (45%) وابطال ابراء ذمته الصادر بتاريخ 30/09/2026 بأغلبية 60% رغم اعتراضه، بسبب امتناع المدقق عن اعتماد بيانات 2025 لوجود بنود غير موثقة بمبلغ 1,284,600 درهم، ويطلب ندب خبير والزام المدير بالمبلغ مبدئياً.",
+ "pages": [
+  {
+   "page": 1,
+   "image": "pages/page-1.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Commercial statement of claim to Dubai Court of First Instance, dated 20/10/2026",
+   "document_ar": "صحيفة دعوى تجارية مقدمة إلى محكمة دبي الابتدائية – الدائرة التجارية الكلية بتاريخ 20/10/2026"
+  },
+  {
+   "page": 2,
+   "image": "pages/page-2.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Minutes of ordinary general meeting (minutes No. 1/2026 dated 30/09/2026)",
+   "document_ar": "محضر اجتماع الجمعية العمومية العادية (محضر رقم 1/2026 بتاريخ 30/09/2026)"
+  },
+  {
+   "page": 3,
+   "image": "pages/page-3.jpg",
+   "width": 1600,
+   "height": 2263,
+   "document_en": "Auditor letter abstaining from signing 2025 statements, dated 15/09/2026",
+   "document_ar": "خطاب مدقق الحسابات بالامتناع عن التوقيع على بيانات 2025 بتاريخ 15/09/2026"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance – Full Commercial Division",
+  "name_ar": "محكمة دبي الابتدائية — الدائرة التجارية الكلية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعي",
+   "name_ar": "فيصل ناصر الحمادي",
+   "name_en": "Faisal Nasser Al Hammadi",
+   "details_en": "ID 784-1979-0-0000000, owns 120 shares (40%)",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "First defendant",
+   "role_ar": "المدعى عليه الأول",
+   "name_ar": "كريم أنور الشريف",
+   "name_en": "Karim Anwar Al Sharif",
+   "details_en": "Owns 135 shares (45%), manager of company per memorandum of association",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Second defendant",
+   "role_ar": "المدعى عليها الثانية",
+   "name_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م",
+   "name_en": "Nakhlat Al Sabah Foodstuff Trading LLC",
+   "details_en": "Trade licence No. 000000, Dubai, capital AED 300,000",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel",
+   "role_ar": "وكيل المدعي – المحامي",
+   "name_ar": "مروان عبدالرحمن الظاهري",
+   "name_en": "Marwan Abdelrahman Al Dhaheri",
+   "details_en": "Lawyer for claimant, signatory of claim",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel office",
+   "role_ar": "مكتب وكيل المدعي",
+   "name_ar": "مكتب مروان الظاهري للمحاماة",
+   "name_en": "Marwan Al Dhaheri Advocates",
+   "details_en": "Dubai-UAE law office filing the claim, Ref MD/COM/2026/64",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Partner (15% shareholder)",
+   "role_ar": "شريكة",
+   "name_ar": "سلمى راشد النقي",
+   "name_en": "Salma Rashid Al Naqbi",
+   "details_en": "Owns 45 shares (15%), voted with manager for discharge",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Secretary – Company accountant",
+   "role_ar": "أمين السر – محاسب الشركة",
+   "name_ar": "نادر حسين العلي",
+   "name_en": "Nader Hussein Al Ali",
+   "details_en": "Company accountant and meeting secretary",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Auditor",
+   "role_ar": "مدقق الحسابات",
+   "name_ar": "الركن المتين لتدقيق الحسابات",
+   "name_en": "Al Rukn Al Mateen Auditing",
+   "details_en": "Auditor appointed for 2025, abstained from signing; PO Box 00000, professional licence 000000",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "expert",
+   "role_en": "Partner in charge of audit",
+   "role_ar": "الشريك المسؤول عن التدقيق",
+   "name_ar": "سامي فؤاد عطية",
+   "name_en": "Sami Fouad Attia",
+   "details_en": "Partner in charge of audit at Al Rukn Al Mateen Auditing",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Payee mentioned",
+   "role_ar": "جهة مدفوع لها",
+   "name_ar": "مؤسسة الضفة الشرقية للنقل",
+   "name_en": "Al Daffa Al Sharqiya Transport Establishment",
+   "details_en": "Payee of AED 596,000 without contract or original invoices per auditor table",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-05-11",
+   "what_en": "Date draft financial statements were delivered to auditor",
+   "what_ar": "تاريخ تسليم مسودة البيانات المالية للمدقق",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-02",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-14",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-20",
+   "what_en": "Date of auditor document request",
+   "what_ar": "تاريخ طلب المدقق تزويده بالمستندات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-07",
+   "what_en": "Date of meeting invitation sent to partners",
+   "what_ar": "تاريخ الدعوة الموجهة إلى الشركاء للاجتماع",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Date of auditor abstention letter",
+   "what_ar": "تاريخ خطاب مدقق الحسابات بالامتناع عن التوقيع",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-17",
+   "what_en": "Company incoming stamp date on auditor letter",
+   "what_ar": "تاريخ ختم وارد شركة نخلة الصباح (رقم القيد 0412)",
+   "page": 3,
+   "source": "stamp",
+   "mark_ids": [
+    "M7"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of challenged general meeting",
+   "what_ar": "تاريخ انعقاد الجمعية العمومية المطعون على قرارها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of ordinary general meeting (minutes 1/2026)",
+   "what_ar": "تاريخ اجتماع الجمعية العمومية العادية (محضر 1/2026)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Date of claimant inspection request to manager",
+   "what_ar": "تاريخ طلب المدعي الاطلاع على دفاتر الشركة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-12",
+   "what_en": "End of 7-day period to answer 05/10/2026 inspection request",
+   "what_ar": "انتهاء مهلة السبعة أيام للرد على طلب الاطلاع",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Date of statement of claim letterhead",
+   "what_ar": "تاريخ صحيفة الدعوى (ترويسة المكتب)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Court filing clerk stamp date",
+   "what_ar": "ختم قلم القيد (نموذج تجاري)",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-03-31",
+   "time": "",
+   "who_en": "Company management",
+   "what_en": "Provide draft financial statements to auditor — not met (delivered 11/05/2026)",
+   "what_ar": "تسليم مسودة البيانات المالية للمدقق — لم يُحترم (سُلمت بتاريخ 11/05/2026)",
+   "page": 3,
+   "computed": true,
+   "basis_en": "3 months following end of financial year ending 31/12/2025 under Article 87 of Federal Decree-Law No. 32 of 2021; file states draft was only delivered 11/05/2026, after expiry",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-12",
+   "time": "",
+   "who_en": "First defendant (manager Karim Anwar Al Sharif)",
+   "what_en": "Allow claimant to inspect company books (request dated 05/10/2026) — file states it was not answered",
+   "what_ar": "تمكين المدعي من الاطلاع على دفاتر الشركة — يقول الملف إنه لم يُجب",
+   "page": 1,
+   "computed": true,
+   "basis_en": "7 days from inspection request date 05/10/2026 stated on page 1",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Remove first defendant from management and annul the 30/09/2026 general meeting resolution discharging him",
+   "item_ar": "عزل المدعى عليه الأول من الإدارة، وبطلان قرار الجمعية العمومية المنعقدة بتاريخ 30/09/2026 بإبراء ذمته",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Appoint an accounting expert to examine the company accounts for 2025 and 2026",
+   "item_ar": "ندب خبير حسابي لفحص حسابات الشركة عن عامي 2025 و2026",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Order first defendant to pay the company a preliminary amount of AED 1,284,600, with right to amend after expert report, plus fees, expenses and advocacy fees",
+   "item_ar": "إلزام المدعى عليه الأول بأن يؤدي إلى الشركة مبلغ (1,284,600) درهم مبدئياً، مع حفظ حق تعديل الطلبات بعد تقرير الخبرة، وبالرسوم والمصروفات وأتعاب المحاماة",
+   "has_amount": true,
+   "amount_aed": 1284600.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Company is Nakhlat Al Sabah Foodstuff Trading LLC, Dubai trade licence 000000, capital AED 300,000 (300 shares)",
+   "fact_ar": "شركة نخلة الصباح لتجارة المواد الغذائية ذ.م.م، رخصة تجارية رقم 000000، دبي، رأس المال 300,000 درهم (300 حصة)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Karim Al Sharif holds 135 shares (45%) and is manager per MOA; Faisal Al Hammadi 120 shares (40%); Salma Al Naqbi 45 shares (15%)",
+   "fact_ar": "كريم أنور الشريف يملك 135 حصة (45%) وهو مدير الشركة بموجب عقد التأسيس، وفيصل ناصر الحمادي 120 حصة (40%)، وسلمى راشد النقي 45 حصة (15%)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Ordinary general meeting held 30/09/2026 with 100% quorum, chaired by manager with Nader Al Ali as secretary, on invitation dated 07/09/2026",
+   "fact_ar": "انعقدت الجمعية العمومية العادية بتاريخ 30/09/2026 بحضور كامل رأس المال برئاسة المدير وأمانة السر نادر حسين العلي بناء على دعوة مؤرخة 07/09/2026",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Meeting approved by 60% the 2025 balance sheet and profit/loss, discharge of manager and new auditor appointment, with Faisal Al Hammadi (40%) objecting",
+   "fact_ar": "وافقت الجمعية بأغلبية (60%) على الميزانية وحساب الأرباح والخسائر لسنة 2025 وعلى ابراء ذمة المدير وتعيين مدقق جديد، وعارض فيصل الحمادي (40%)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Faisal Al Hammadi signed with objection to resolutions 2, 3 and 4: budget unaudited and manager may not vote on his discharge",
+   "fact_ar": "أوقع فيصل الحمادي مع الاعتراض على القرارات (2) و(3) و(4): الميزانية غير مدققة ولا يجوز للمدير التصويت على ابراء ذمته",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Auditor abstained from approving 2025 financials for lack of supporting documents for AED 1,284,600; his letter reached the company about two weeks before the meeting per incoming stamp",
+   "fact_ar": "امتنع مدقق الحسابات عن اعتماد البيانات المالية لسنة 2025 لعدم تزويده بالمستندات المؤيدة لبنود بمبلغ 1,284,600 درهم وورد كتابه للشركة ووفق ختم الوارد قبل الجمعية بنحو اسبوعين",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M7"
+   ]
+  },
+  {
+   "fact_en": "Unsupported items are AED 418,500 cash withdrawals, AED 596,000 payments to Eastern company without contract, AED 270,100 inventory shortage, total 1,284,600",
+   "fact_ar": "تتكون البنود غير الموثقة من: 418,500 درهم مسحوبات نقدية، و596,000 درهم دفعات لمؤسسة الضفة الشرقية بدون عقد، و270,100 درهم عجز مخزون، والاجمالي 1,284,600",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Manager did not answer claimant request dated 05/10/2026 to inspect company books within seven days",
+   "fact_ar": "لم يُجب المدير طلب المدعي المؤرخ 05/10/2026 الاطلاع على دفاتر الشركة خلال سبعة أيام",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "وفقاً للبند (1) من المادة (84) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "84",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "84",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "84",
+    "status": "valid",
+    "label_en": "Article 84 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (84) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. يُسأل كل مدير في الشركة ذات المسؤولية المحدودة تجاه الشركة والشركاء والغير عن أية أعمال غش يقوم بها كما يلتزم بتعويض الشركة عن أية خسائر أو مصاريف تتكبدها بسبب يرجع إلى سوء استخدام الصلاحية أو مخالفة أحكام أي قانون نافذ أو عقد تأسيس الشركة أو عقد تعيينه أو خطأ جسيم من جانب المدير ويبطل أي نص في عقد التأسيس أو في عقد تعيين المدير يتعارض مع أحكام هذا البند.\n2. مع مراعاة أحكام الشركة ذات المسؤولية المحدودة وفقًا لهذا المرسوم بقانون، تسري على مديري الشركات ذات المسؤولية المحدودة الأحكام الخاصة بأعضاء مجلس الإدارة في شركات المساهمة الواردة في هذا المرسوم بقانون.",
+    "official_text_en": "1. Every manager of the Limited Liability Company shall be held liable vis-à-vis the Company, the partners and third parties for any fraudulent acts committed by such manager. He shall also be liable for any losses or expenses incurred by the company due to improper exercise of the powers or violation of the provisions of any law in force, the MOA of the Company or the appointment contract of the manager or for any gross error committed by the manager. Any provision in the MOA or the appointment contract of the manager in conflict with the provisions of this Clause shall be null and void.\n2. Subject to the provisions on Limited Liability Companies set out in this Decree Law, the provisions that apply to the Directors of Joint Stock Companies as set forth in this Decree Law shall also apply to the managers of Limited Liability Companies."
+   }
+  },
+  {
+   "text_ar": "وفقاً للبند (1) من المادة (85) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "85",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "85",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "85",
+    "status": "valid",
+    "label_en": "Article 85 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (85) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. ما لم ينص عقد تأسيس الشركة أو عقد التعيين على خلاف ذلك، يعزل المدير بقرار من الجمعية العمومية سواء كان المدير شريكاً أو غير شريك، كما يجوز للمحكمة عزل المدير بناءً على طلب شريك أو أكثر في الشركة إذا رأت المحكمة سبباً مشروعاً يُبرر العزل.\n2. للمدير أن يتقدم باستقالة مكتوبة إلى الجمعية العمومية على أن يخطر السلطة المختصة بنسخة منها، وعلى الجمعية العمومية أن تبت في استقالته خلال (30) ثلاثين يوماً من تاريخ تقديمها، وإلا اعتبرت استقالته نافذة بعد انتهاء هذه المدة، وذلك ما لم ينص في عقد تأسيس الشركة أو عقد تعيينه على خلاف ذلك.\n3. على الشركة إخطار السلطة المختصة بانتهاء مدة عقد تعيين المدير خلال مدة أقصاها (30) ثلاثين يوماً من تاريخ انتهاء مدة عقد التعيين، دون تجديده، ويجب عليها تعيين من يحل محله خلال تلك الفترة.\n4. إذا انتهت مدة عضوية مجلس المديرين للشركة، ولم يتم إعادة تشكيل مجلس المديرين، يستمر مجلس المديرين في تسيير أعمال الشركة وذلك لمدة لا تزيد على (6) ستة أشهر من تاريخ انتهاء المدد المشار إليها، وعلى الجمعية العمومية فور انتهاء فترة الـ (6) ستة أشهر، تشكيل مجلس المديرين وإلا جاز للسلطة المختصة بالتنسيق مع الجهات المعنية بالنشاط -إن وجدت- بعد انتهاء تلك المدة، تعيين مدير أو مجلس للمديرين من الشركاء أو من غيرهم، لمدة لا تجاوز سنة يتم خلالها الدعوة لجمعية عمومية لانتخاب أعضاء مجلس المديرين.",
+    "official_text_en": "1. Unless otherwise provided in the Company’s MOA or in the appointment contract, the manager shall be dismissed by a resolution of the General Assembly, whether the manager is a partner or not. The court may also dismiss the manager at the request of one or more partners of the Company if the court finds a legitimate cause justifying the dismissal.\n2. The manager may submit a written resignation to the General Assembly, provided that a copy thereof is notified to the Competent Authority. The General Assembly shall decide on the resignation within (30) thirty days from the date of submission; otherwise, the resignation shall be deemed effective after the expiry of this period, unless the MOA of the Company or their appointment contract provides otherwise.\n3. The Company shall notify the Competent Authority of the expiration of the manager's term within a maximum period of (30) thirty days from the date of expiration of the appointment contract, if it is not renewed, and shall appoint a replacement during that period.\n4. If the term of office of the Board of Managers of the Company expires and the Board of Managers is not reconstituted, it shall continue to manage the Company’s affairs for a period not exceeding (6) six months from the date of expiration of the said term. Upon expiration of the (6) six-month period, the General Assembly shall form the Board of Managers. Otherwise, the Competent Authority may, in coordination with the authorities concerned with the activity, if any, after the expiration of that period, appoint a manager or a Board of Managers from among the partners or from others, for a period not exceeding one year, during which a General Assembly shall be convened to elect the members of the Board of Managers."
+   }
+  },
+  {
+   "text_ar": "تنص المادة (99) على أنه: \"لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بابراء ذمته من المسؤولية عن الإدارة\"",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "99",
+   "clause": "",
+   "quoted_text_ar": "لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بإبراء ذمته من المسؤولية عن الإدارة",
+   "page": 1,
+   "article_checked": "99",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "99",
+    "status": "valid",
+    "label_en": "Article 99 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (99) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "لا يجوز للمدير الشريك الاشتراك في التصويت على القرارات الخاصة بإبراء ذمته من المسؤولية عن الإدارة.",
+    "official_text_en": "A managing partner may not vote on resolutions to discharge himself from liability for management.",
+    "quote": {
+     "status": "matches",
+     "similarity": 1.0,
+     "differences": [],
+     "label_en": "The quoted wording matches the official text word for word.",
+     "label_ar": "النص المقتبس مطابق للنص الرسمي حرفياً."
+    }
+   }
+  },
+  {
+   "text_ar": "وفقاً للمادة (100)",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "100",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "100",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "100",
+    "status": "valid",
+    "label_en": "Article 100 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (100) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يحرر محضر بخلاصة وافية لمناقشات الجمعية العمومية، وتُدوّن محاضرها وقراراتها في سجل خاص يودع في مقر الشركة ويكون لأي من الشركاء الاطلاع عليه بنفسه أو بوكيل عنه، كما يكون له الاطلاع على الميزانية العمومية وحساب الأرباح والخسائر والتقرير السنوي.",
+    "official_text_en": "A minutes adequately summarizing all deliberations of the General Assembly shall be drafted, and the minutes and resolutions of the General Assembly shall be recorded in a special register to be kept at the headquarters of the Company. Any partner may access to the minutes either in person or through a proxy, and may also inspect the balance sheet, the profit and loss account and the annual report."
+   }
+  },
+  {
+   "text_ar": "وفقاً للبند (2) من المادة (380) من المرسوم بقانون ذاته",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "380",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "380",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "380",
+    "status": "invalid",
+    "label_en": "Article 380 does not exist in the Commercial Companies Law: the official text has 366 articles.",
+    "label_ar": "المادة (380) غير موجودة في قانون الشركات التجارية، إذ يتكون النص الرسمي من 366 مادة."
+   }
+  },
+  {
+   "text_ar": "عملاً بالبند (1) من المادة (109) من المرسوم بقانون اتحادي رقم (35) لسنة 2022 بإصدار قانون الإثبات في المعاملات المدنية والتجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "35",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 35 of 2022 Promulgating the Law of Evidence in Civil and Commercial Transactions",
+   "article": "109",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1,
+   "article_checked": "109",
+   "check": {
+    "law_id": "uae-fdl-35-2022-evidence-law",
+    "law_title_en": "Federal Decree-Law No. 35 of 2022 (Law of Evidence in Civil and Commercial Transactions)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (35) لسنة 2022 (قانون الإثبات في المعاملات المدنية والتجارية)",
+    "article_count": 125,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1612",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1612",
+    "article": "109",
+    "status": "valid",
+    "label_en": "Article 109 of the Evidence Law exists in the official text.",
+    "label_ar": "المادة (109) من قانون الإثبات في المعاملات المدنية والتجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. للمحكمة أو للقاضي المشرف بحسب الأحوال، من تلقاء نفسها أو بناءً على طلب أحد الخصوم، أن تقرر ندب خبير أو أكثر من بين موظفي الدولة أو من بين الخبراء أو أن تندب أحد بيوت الخبرة المحلية أو الدولية المقيدين في جدول الخبراء وفقاً للقوانين النافذة في هذا الشأن، لإبداء رأيه في المسائل الفنيّة التي يستلزمها الفصل في الدعوى.\n2. يراعي في اختيار الخبير تناسب معارفه الفنيّة وخبراته مع موضوع النزاع.\n3. إذا اتفق الخصوم على اختيار خبير أو أكثر أقرّت المحكمة اتفاقهم.",
+    "official_text_en": "1.The court or supervising judge, as the case may be, may, sua sponte or at a litigant's request, decide to assign one or more expert(s) selected from the civil servants or experts, or assign a local or international consulting firm enrolled in the roll of experts, pursuant to the laws in force in this regard, in order to solicit their opinion on technical matters required for adjudicating the case.\n2.When selecting an expert, his technical knowledge and expertise shall be appropriate for the subject matter of the dispute.\n3.If the litigants agree on selecting one or more expert(s), the court shall approve their agreement."
+   }
+  },
+  {
+   "text_ar": "في المادة (87) من المرسوم بقانون اتحادي رقم (32) لسنة 2021 بشأن الشركات التجارية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "87",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "87",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "87",
+    "status": "valid",
+    "label_en": "Article 87 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (87) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يتولى مدير الشركة إعداد الميزانية السنوية وحساب الأرباح والخسائر، كما يقوم بإعداد تقرير سنوي عن نشاط الشركة ووضعها المالي ويقدم اقتراحه بشأن توزيع الأرباح للجمعية العمومية، وذلك خلال ثلاثة أشهر من تاريخ انتهاء السنة المالية.",
+    "official_text_en": "The manager of the Company shall prepare the annual balance sheet and profit and loss account, shall also prepare an annual report on the activities and financial position of the Company, and shall provide his recommendations on the distribution of the profits to the General Assembly, within [3] months of the end of the fiscal year."
+   }
+  },
+  {
+   "text_ar": "عملاً بالبند (4) من المادة (248) من المرسوم بقانون ذاته، التي تسري على الشركة ذات المسؤولية المحدودة بموجب المادة (102) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "248",
+   "clause": "4",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "248",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "248",
+    "status": "valid",
+    "label_en": "Article 248 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (248) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "1. يتولى مدقق الحسابات تدقيق حسابات الشركة وفحص الميزانية وحساب الأرباح والخسائر ومراجعة صفقات الشركة مع الأطراف ذات العلاقة وملاحظة تطبيق أحكام هذا المرسوم بقانون ونظام الشركة، وعليه تقديم تقرير بنتيجة هذا الفحص إلى الجمعية العمومية ويرسل صورة منه إلى الهيئة والسلطة المختصة.\n2. يجب على مدقق الحسابات، عند إعداده تقريره، التأكد مما يأتي:\nأ. مدى صحة السجلات المحاسبية التي تحتفظ بها الشركة.\nب. مدى اتفاق حسابات الشركة مع السجلات المحاسبية.\n3. لمدقق الحسابات مراجعة جميع السجلات والأوراق والمستندات الأخرى للشركة، ويجوز له أن يطلب التوضيحات التي يعتبرها ضرورية لتنفيذ مهامه، كما يجوز له التحقق من أصول وحقوق والتزامات الشركة.\n4. إذا لم يتم تقديم تسهيلات إلى مدقق الحسابات لتنفيذ مهامه، التزم بإثبات ذلك في تقرير يقدمه إلى مجلس الإدارة وإذا قصر مجلس الإدارة في تسهيل مهمة مدقق الحسابات، تعين عليه إرسال نسخة من التقرير إلى الهيئة.\n5. تلتزم الشركة التابعة ومدقق حساباتها بتقديم المعلومات والتوضيحات التي يطلبها مدقق حسابات الشركة القابضة لأغراض التدقيق.",
+    "official_text_en": "1. The auditor shall audit the accounts of the Company, inspect the balance sheet and the profit and loss account, review the Company's transactions with the Concerned Parties, and ensure the application of the provisions of this Decree Law and the AOA of the Company. The auditor shall submit a report on the result of such inspection to the General Assembly and forward a copy to the SCA and the Competent Authority.\n2. When preparing his report, the auditor shall verify the following:\na. The accuracy of the accounting records kept by the Company.\nb. The extent of conformity of Company records with accounting records.\n3. The auditor may review all the records, paperwork and other documents of the Company. The auditor may require clarifications as he may deem necessary to perform his duties. The auditor may also verify the assets, rights and obligations of the Company.\n4. If no facilities are extended to the auditor to enable him to fulfill his responsibilities, the auditor shall note this in his report to the board of directors. If the board of directors fails to facilitate the auditing process, the auditor shall send a copy of the report to the SCA.\n5. A subsidiary and its auditor shall provide such information and clarifications as requested by the auditor of the holding company for the purposes of the audit."
+   }
+  },
+  {
+   "text_ar": "عملاً بالبند (4) من المادة (248) من المرسوم بقانون ذاته، التي تسري على الشركة ذات المسؤولية المحدودة بموجب المادة (102) منه",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "32",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 32 of 2021 on Commercial Companies",
+   "article": "248",
+   "clause": "4",
+   "quoted_text_ar": "",
+   "page": 3,
+   "article_checked": "102",
+   "check": {
+    "law_id": "uae-fdl-32-2021-companies-law",
+    "law_title_en": "Federal Decree-Law No. 32 of 2021 (Commercial Companies Law)",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (32) لسنة 2021 (قانون الشركات التجارية)",
+    "article_count": 366,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1542",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1542",
+    "article": "102",
+    "status": "valid",
+    "label_en": "Article 102 of the Commercial Companies Law exists in the official text.",
+    "label_ar": "المادة (102) من قانون الشركات التجارية موجودة في النص الرسمي.",
+    "official_text_ar": "يكون للشركة ذات المسؤولية المحدودة تعيين مدقق حسابات أو أكثر، تعينهم الجمعية العمومية للشركاء كل سنة، وفيما عدا أحكام المادة (246) من هذا المرسوم بقانون، تسري في شأن مدقق حسابات الشركة ذات المسؤولية المحدودة الأحكام الخاصة بمدققي الحسابات في الشركات المساهمة العامة، وتحل \"السلطة المختصة\" محل \"الهيئة\" في كل موضع وردت فيه.",
+    "official_text_en": "The Limited Liability Company shall have one or more auditors to be appointed each year by the General Assembly of Partners and, notwithstanding the provisions of Article [246] of this Decree Law, the provisions on auditors of public joint stock companies shall also apply to the auditor of the Limited Liability Company. The words \"Competent Authority\" shall replace the term \"Authority\" wherever it appears."
+   }
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "box": [
+    0.06125,
+    0.09368,
+    0.25188,
+    0.15555
+   ],
+   "type": "stamp",
+   "found_as": "stamp",
+   "confidence": 0.8202247023582458,
+   "text_ar": "قلم القيد نموذج تجاري 20/10/2026",
+   "meaning_en": "Court filing clerk stamp (commercial model) dated 20/10/2026",
+   "meaning_ar": "ختم قلم القيد (نموذج تجاري) بتاريخ 20/10/2026",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "box": [
+    0.58813,
+    0.83208,
+    0.88938,
+    0.92576
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.941605806350708,
+   "text_ar": "مكتب مروان الظاهري للمحاماة Marwan Al Dhaheri Advocates دبي — الإمارات",
+   "meaning_en": "Stamp of Marwan Al Dhaheri Advocates, Dubai-UAE, claimant counsel office",
+   "meaning_ar": "ختم مكتب مروان الظاهري للمحاماة – دبي – الإمارات",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "box": [
+    0.17062,
+    0.88113,
+    0.34937,
+    0.9346
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8987342119216919,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of claimant counsel Marwan Abdelrahman Al Dhaheri",
+   "meaning_ar": "توقيع وكيل المدعي المحامي مروان عبدالرحمن الظاهري",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "box": [
+    0.63313,
+    0.72779,
+    0.79875,
+    0.77508
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.5428571701049805,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of meeting chairman Karim Anwar Al Sharif",
+   "meaning_ar": "توقيع رئيس الاجتماع كريم أنور الشريف",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "box": [
+    0.64187,
+    0.81441,
+    0.8075,
+    0.8608
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.5460992455482483,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of partner Salma Rashid Al Naqbi",
+   "meaning_ar": "توقيع الشريكة سلمى راشد النقي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "box": [
+    0.21937,
+    0.82457,
+    0.36625,
+    0.85329
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.5395683646202087,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of secretary Nader Hussein Al Ali",
+   "meaning_ar": "توقيع أمين السر نادر حسين العلي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M7",
+   "page": 3,
+   "box": [
+    0.08063,
+    0.15776,
+    0.33,
+    0.24216
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.949367105960846,
+   "text_ar": "شركة نخلة الصباح — الوارد رقم القيد: 0412 17/09/2026",
+   "meaning_en": "Company incoming stamp of Nakhlat Al Sabah, entry No. 0412 dated 17/09/2026",
+   "meaning_ar": "ختم وارد شركة نخلة الصباح رقم القيد 0412 بتاريخ 17/09/2026",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M8",
+   "page": 3,
+   "box": [
+    0.41563,
+    0.69244,
+    0.69,
+    0.79496
+   ],
+   "type": "stamp",
+   "found_as": "blue stamp",
+   "confidence": 0.9375000596046448,
+   "text_ar": "الركن المتين لتدقيق الحسابات Al Rukn Al Mateen Auditing دبي",
+   "meaning_en": "Stamp of Al Rukn Al Mateen Auditing, Dubai",
+   "meaning_ar": "ختم الركن المتين لتدقيق الحسابات – دبي",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "M9",
+   "page": 3,
+   "box": [
+    0.14188,
+    0.69642,
+    0.34313,
+    0.74238
+   ],
+   "type": "signature",
+   "found_as": "signature",
+   "confidence": 0.8439024686813354,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of audit partner Sami Fouad Attia",
+   "meaning_ar": "توقيع الشريك المسؤول عن التدقيق سامي فؤاد عطية",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "box": [
+    0.1,
+    0.86,
+    0.95,
+    0.94
+   ],
+   "type": "handwriting",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "أوقع مع الاعتراض على القرارات (2) و(3) و(4): الميزانية غير مدققة، ولا يجوز للمدير التصويت على ابراء ذمته — فيصل الحمادي",
+   "meaning_en": "Handwritten note recording Faisal Al Hammadi objection to resolutions 2,3,4: budget unaudited and manager may not vote on discharge",
+   "meaning_ar": "ملاحظة بخط اليد تثبت اعتراض فيصل الحمادي على القرارات",
+   "changes_printed_text": false,
+   "reviewed": true
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "box": [
+    0.2,
+    0.66,
+    0.37,
+    0.72
+   ],
+   "type": "signature",
+   "found_as": "reader",
+   "confidence": null,
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of partner Faisal Nasser Al Hammadi",
+   "meaning_ar": "توقيع الشريك فيصل ناصر الحمادي",
+   "changes_printed_text": false,
+   "reviewed": true
+  }
+ ],
+ "rejected_marks": [],
+ "flags": [
+  {
+   "flag_en": "Citation on page 1: Article 380 does not exist in the Commercial Companies Law: the official text has 366 articles.",
+   "flag_ar": "المادة (380) غير موجودة في قانون الشركات التجارية، إذ يتكون النص الرسمي من 366 مادة.",
+   "page": 1,
+   "severity": "high",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-09-17 (Company incoming stamp date on auditor letter) appears only in a stamp on page 3.",
+   "flag_ar": "التاريخ 2026-09-17 (تاريخ ختم وارد شركة نخلة الصباح (رقم القيد 0412)) وارد فقط في ختم في الصفحة 3.",
+   "page": 3,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "2026-10-20 (Court filing clerk stamp date) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-10-20 (ختم قلم القيد (نموذج تجاري)) وارد فقط في ختم في الصفحة 1.",
+   "page": 1,
+   "severity": "medium",
+   "by": "check"
+  },
+  {
+   "flag_en": "No court case number stated; only law-firm reference MD/COM/2026/64 appears",
+   "flag_ar": "لا يذكر الملف رقم الدعوى القضائي، والمرجع الوحيد هو مرجع مكتب المحاماة MD/COM/2026/64",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Manager-partner allegedly voted on his own discharge despite Article 99 prohibition, per claim and handwritten objection; resolution passed 60% vs 40% objection",
+   "flag_ar": "صوّت المدير الشريك على إبراء ذمته رغم الحظر الوارد في المادة (99) حسب ادعاء المدعي واعتراضه المكتوب بخط اليد",
+   "page": 2,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Auditor abstained from signing 2025 statements over unsupported material items totalling AED 1,284,600",
+   "flag_ar": "امتنع مدقق الحسابات عن التوقيع على بيانات 2025 بسبب بنود جوهرية بمبلغ 1,284,600 درهم بدون مستندات",
+   "page": 3,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Footer states document is fictional test document, not a real case",
+   "flag_ar": "الوثيقة تنص في أسفلها على أنها خيالية لأغراض الاختبار ولا تمثل قضية حقيقية",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  }
+ ]
+}

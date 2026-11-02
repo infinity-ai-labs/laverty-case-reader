@@ -1,0 +1,472 @@
+{
+ "case_title_en": "Mazen Riad Al Attar v Qaws Al Nada General Trading LLC",
+ "case_title_ar": "مازن رياض العطار ضد شركة قوس الندى للتجارة العامة ذ.م.م",
+ "case_type": "labour",
+ "summary_en": "Labour claim by Mazen Riad Al Attar (employed since 01/03/2022 on AED 22,000, AED 14,000 basic) against Qaws Al Nada LLC for AED 121,300 for July-August 2026 wages, 24 days leave pay, end-of-service gratuity and notice pay after termination on 31/08/2026 without notice. Amicable settlement of complaint AUH-2026-47102 failed despite employer's offer of AED 60,000 in instalments, so MOHRE referred the case to Abu Dhabi Labour Court on 28/09/2026 under Article 54, filed 08/10/2026. A handwritten note records a later verbal AED 85,000 offer rejected and first hearing on 10/11/2026.",
+ "summary_ar": "دعوى عمالية يطالب فيها مازن رياض العطار (يعمل منذ 01/03/2022 براتب 22,000 درهم وأساسي 14,000 درهم) شركة قوس الندى بمبلغ 121,300 درهم عن أجور يوليو وأغسطس 2026 وبدل إجازة 24 يوماً ومكافأة نهاية خدمة وبدل إنذار بعد إنهاء خدمته في 31/08/2026 دون إنذار. تعذرت التسوية الودية للشكوى AUH-2026-47102 رغم عرض صاحب العمل سداد 60,000 درهم على أقساط، فأحالت الوزارة النزاع إلى محكمة أبوظبي العمالية الابتدائية بمذكرة 28/09/2026 عملاً بالمادة 54، وقُيدت الصحيفة في 08/10/2026. توجد ملاحظة بخط اليد عن عرض شفهي لاحق بـ85,000 درهم رفضه الموكل وتحديد الجلسة الأولى في 10/11/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Labour claim sheet to Abu Dhabi Labour Court from Manarat Al Haq office",
+   "document_ar": "صحيفة دعوى عمالية مقدمة إلى محكمة أبوظبي العمالية الابتدائية من مكتب منارة الحق"
+  },
+  {
+   "page": 2,
+   "document_en": "Memo referring labour dispute to competent court (failure of amicable settlement) from MOHRE",
+   "document_ar": "مذكرة إحالة نزاع عمالي إلى المحكمة المختصة (لتعذر التسوية الودية) من وزارة الموارد البشرية والتوطين"
+  }
+ ],
+ "court": {
+  "name_en": "Abu Dhabi Labour Court of First Instance",
+  "name_ar": "محكمة أبوظبي العمالية الابتدائية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   1,
+   2
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant / Worker",
+   "role_ar": "المدعي / العامل",
+   "name_ar": "مازن رياض العطار",
+   "name_en": "Mazen Riad Al Attar",
+   "details_en": "Lebanese, Sales Manager, ID 784-1986-0-0000000. Worker/complainant. Monthly salary AED 22,000, basic AED 14,000.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant / Employer",
+   "role_ar": "المدعى عليها / صاحب العمل",
+   "name_ar": "شركة قوس الندى للتجارة العامة ذ.م.م",
+   "name_en": "Qaws Al Nada General Trading LLC",
+   "details_en": "Commercial licence No. 000000, Abu Dhabi - Mussafah. Employer.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's law office",
+   "role_ar": "مكتب وكيل المدعي",
+   "name_ar": "مكتب منارة الحق للمحاماة والاستشارات القانونية",
+   "name_en": "Manarat Al Haq Advocates & Legal Consultants",
+   "details_en": "Law office filing claim Ref MH/LAB/2026/064, Abu Dhabi, P.O. Box 00000.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيلة المدعي - المحامية",
+   "name_ar": "نورة سالم المهيري",
+   "name_en": "Noura Salem Al Muhairi",
+   "details_en": "Signed the claim sheet as claimant's agent.",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Referring Ministry",
+   "role_ar": "الوزارة المحيلة للنزاع",
+   "name_ar": "وزارة الموارد البشرية والتوطين - إدارة علاقات العمل أبوظبي",
+   "name_en": "Ministry of Human Resources and Emiratisation - Labour Relations Department Abu Dhabi",
+   "details_en": "Abu Dhabi Labour Relations Administration. Issued complaint AUH-2026-47102 memo dated 28/09/2026 referring dispute to court.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "defendant_representative",
+   "role_en": "Represented by HR Manager",
+   "role_ar": "يمثلها مدير الموارد البشرية",
+   "name_ar": "فراس حسن الدباغ",
+   "name_en": "Firas Hassan Al Dabagh",
+   "details_en": "HR Manager representing the employer in the Ministry proceedings; admitted wage delay and made settlement offer.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Legal Researcher",
+   "role_ar": "الباحثة القانونية",
+   "name_ar": "موزة خلفان الرميثي",
+   "name_en": "Mawza Khalfan Al Rumaithi",
+   "details_en": "Signed the Ministry referral memo.",
+   "pages": [
+    2
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2022-03-01",
+   "what_en": "Claimant's employment start date",
+   "what_ar": "تاريخ بدء عمل المدعي لدى المدعى عليها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-08-31",
+   "what_en": "End of claimant's service without notice",
+   "what_ar": "تاريخ إنهاء خدمة المدعي دون إنذار",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-07",
+   "what_en": "Date of labour complaint No. AUH-2026-47102",
+   "what_ar": "تاريخ الشكوى العمالية رقم AUH-2026-47102",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Date of employer's letter offering AED 60,000 in three instalments",
+   "what_ar": "تاريخ كتاب صاحب العمل المتضمن عرض سداد مبلغ 60,000 درهم على ثلاثة أقساط",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-16",
+   "what_en": "Date of amicable settlement session where worker rejected offer",
+   "what_ar": "تاريخ جلسة التسوية الودية التي رفض فيها العامل العرض وتمسك بطلباته",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-28",
+   "what_en": "Date of Ministry memo referring dispute to court",
+   "what_ar": "تاريخ مذكرة وزارة الموارد البشرية والتوطين بإحالة النزاع إلى المحكمة",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": [
+    "M4"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "what_en": "Date of labour claim sheet",
+   "what_ar": "تاريخ صحيفة الدعوى العمالية المحررة من مكتب منارة الحق",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-08",
+   "what_en": "Court registration filing date",
+   "what_ar": "تاريخ قيد الدعوى لدى قلم قيد محكمة أبوظبي العمالية",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "what_en": "First hearing date noted by hand",
+   "what_ar": "تاريخ الجلسة الأولى المشار إليه بخط اليد",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-09-14",
+   "time": "",
+   "who_en": "defendant employer",
+   "what_en": "Pay dues within 14 days of termination per Article 53 - not met",
+   "what_ar": "أداء المستحقات خلال (14) يوماً من الإنهاء وفق المادة (53) – لم يتم الالتزام بها",
+   "page": 1,
+   "computed": true,
+   "basis_en": "Article 53 cited on page 1 requires payment of dues within 14 days of end of service on 31/08/2026; 31/08/2026 + 14 days = 14/09/2026. Not met: employer only offered payment on 15/09/2026.",
+   "source": "computed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-10",
+   "time": "",
+   "who_en": "parties",
+   "what_en": "First court hearing to be attended",
+   "what_ar": "الجلسة الأولى أمام المحكمة",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Handwritten note X1 states the first hearing is on 10/11/2026.",
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Delayed wages for July and August 2026",
+   "item_ar": "الأجور المتأخرة عن شهري يوليو وأغسطس 2026",
+   "has_amount": true,
+   "amount_aed": 44000.0,
+   "page": 1
+  },
+  {
+   "item_en": "Annual leave balance pay (24 days on basic wage)",
+   "item_ar": "بدل رصيد الإجازة السنوية (24 يوماً على أساس الأجر الأساسي)",
+   "has_amount": true,
+   "amount_aed": 11200.0,
+   "page": 1
+  },
+  {
+   "item_en": "End-of-service gratuity (4 years 6 months x 21 days)",
+   "item_ar": "مكافأة نهاية الخدمة (4 سنوات و6 أشهر × 21 يوماً)",
+   "has_amount": true,
+   "amount_aed": 44100.0,
+   "page": 1
+  },
+  {
+   "item_en": "Notice pay (30 days)",
+   "item_ar": "بدل الإنذار (30 يوماً)",
+   "has_amount": true,
+   "amount_aed": 22000.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Claimant worked for defendant since 01/03/2022 on AED 22,000 monthly, AED 14,000 basic, 30-day notice.",
+   "fact_ar": "عمل المدعي لدى المدعى عليها منذ 01/03/2022 براتب شهري قدره 22,000 درهم منه أجر أساسي قدره 14,000 درهم ومهلة إنذار 30 يوماً.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "July and August 2026 wages unpaid, service ended 31/08/2026 without notice, 24 days leave balance.",
+   "fact_ar": "لم تصرف أجور شهري يوليو وأغسطس 2026 وأُنهيت خدمته في 31/08/2026 دون إنذار وله رصيد إجازة 24 يوماً.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Amicable settlement of complaint AUH-2026-47102 filed 07/09/2026 failed, Ministry referred dispute to court on 28/09/2026.",
+   "fact_ar": "تعذرت التسوية الودية للشكوى رقم AUH-2026-47102 المقدمة بتاريخ 07/09/2026 فأحالت الوزارة النزاع إلى المحكمة بمذكرة مؤرخة 28/09/2026.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Employer admitted wage delay for financial reasons, disputed notice claiming mutual termination, offered in writing on 15/09/2026 AED 60,000 in three monthly instalments as final settlement.",
+   "fact_ar": "أقر ممثل صاحب العمل بتأخر صرف الأجور لظروف مالية ونازع في بدل الإنذار بدعوى أن الإنهاء تم باتفاق الطرفين وقدم عرضاً كتابياً مؤرخاً 15/09/2026 بسداد 60,000 درهم على ثلاثة أقساط شهرية كتسوية نهائية.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Worker rejected the offer at settlement session on Wednesday 16/09/2026 and insisted on full AED 121,300 claim.",
+   "fact_ar": "رفض العامل العرض في جلسة التسوية المنعقدة يوم الأربعاء الموافق 16/09/2026 وتمسك بكامل طلباته البالغة 121,300 درهم.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Ministry views worker entitled to wages, leave pay and gratuity, leaves notice pay to court, and refers case as claim exceeds AED 50,000.",
+   "fact_ar": "ترى الوزارة أحقية العامل في أجوره وبدل إجازته ومكافأة نهاية الخدمة وتترك تقدير بدل الإنذار للمحكمة، وقررت الإحالة لتجاوز المطالبة 50,000 درهم.",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claim seeks order for defendant to pay claimant AED 121,300 plus fees, costs and lawyer fees.",
+   "fact_ar": "تطالب الدعوى بإلزام المدعى عليها بأن تؤدي للمدعي 121,300 درهم مع الرسوم والمصروفات ومقابل أتعاب المحاماة.",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "فأحالت الوزارة النزاع إلى المحكمة بمذكرة مؤرخة 28/09/2026 عملاً بالمادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "54",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "توجب المادة (22) من المرسوم بقانون المشار إليه أداء الأجور في مواعيد استحقاقها.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "22",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "يستحق المدعي أجر أيام إجازته غير المستعملة على أساس الأجر الأساسي وفقاً للبند (9) من المادة (29).",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "29",
+   "clause": "9",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "تستحق له مكافأة نهاية الخدمة بواقع أجر (21) يوماً عن كل سنة على أساس الأجر الأساسي، عملاً بالمادة رقم (51).",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "51",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "لم تلتزم المدعى عليها بمهلة الإنذار وفق المادة (43)، ولا بأداء المستحقات خلال (14) يوماً وفق المادة (53).",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "43",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "لم تلتزم المدعى عليها بمهلة الإنذار وفق المادة (43)، ولا بأداء المستحقات خلال (14) يوماً وفق المادة (53).",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "53",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "لتعذر التسوية الودية، ولتجاوز قيمة المطالبة مبلغ (50,000) درهم، يُحال النزاع إلى المحكمة المختصة عملاً بالمادة (54) من المرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل، مرفقاً به ملف الشكوى.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 on Regulation of Labour Relations",
+   "article": "54",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "محكمة أبوظبي العمالية قلم القيد — ... 08/10/2026",
+   "meaning_en": "Filing stamp of Abu Dhabi Labour Court registration dated 08/10/2026.",
+   "meaning_ar": "ختم قيد الدعوى لدى محكمة أبوظبي العمالية بتاريخ 08/10/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب منارة الحق للمحاماة Manarat Al Haq Advocates أبوظبي — الإمارات",
+   "meaning_en": "Law firm stamp of Manarat Al Haq Advocates in Abu Dhabi.",
+   "meaning_ar": "ختم مكتب منارة الحق للمحاماة والاستشارات القانونية في أبوظبي.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "توقيع بخط اليد بالحبر الأزرق",
+   "meaning_en": "Signature of claimant's lawyer.",
+   "meaning_ar": "توقيع وكيلة المدعي المحامية.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "وزارة الموارد البشرية والتوطين نموذج تدريبي 28/09/2026",
+   "meaning_en": "Stamp of Ministry of Human Resources and Emiratisation dated 28/09/2026.",
+   "meaning_ar": "ختم وزارة الموارد البشرية والتوطين بتاريخ 28/09/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "عرض الشركة شفهياً بعد الإحالة: 85,000 درهم — رفضه الموكل. الجلسة الأولى: 10/11/2026: ن.م",
+   "meaning_en": "Handwritten note records a post-referral verbal company offer of AED 85,000 rejected by the client, and that the first hearing is 10/11/2026.",
+   "meaning_ar": "ملاحظة بخط اليد تفيد بعرض شفهي من الشركة بعد الإحالة بمبلغ 85,000 درهم رفضه الموكل، وأن الجلسة الأولى بتاريخ 10/11/2026.",
+   "changes_printed_text": false,
+   "x_from_pct": 51.0,
+   "x_to_pct": 92.0,
+   "y_from_pct": 82.0,
+   "y_to_pct": 91.0
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Footer on both pages states this is a fictional test document, not a real case.",
+   "flag_ar": "تذييل الصفحتين ينص على أن الوثيقة خيالية لأغراض الاختبار فقط وليست قضية حقيقية.",
+   "page": 1,
+   "severity": "high"
+  },
+  {
+   "flag_en": "Handwritten note adds a new post-referral verbal offer of AED 85,000 rejected by the client, not in printed text.",
+   "flag_ar": "الملاحظة المكتوبة بخط اليد تتضمن عرضاً شفهياً جديداً بمبلغ 85,000 درهم بعد الإحالة ورفض الموكل له، وهو غير وارد في المتن المطبوع.",
+   "page": 2,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "No printed court case number in file; only labour complaint number and law office reference appear.",
+   "flag_ar": "لا يوجد رقم دعوى مطبوع في الملف؛ يوجد فقط رقم الشكوى العمالية ورقم مرجع مكتب المحاماة.",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

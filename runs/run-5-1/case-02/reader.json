@@ -1,0 +1,673 @@
+{
+ "case_title_en": "Blue Horizon Building Materials Supply LLC v. Golden Falcon Contracting Establishment (owner Rashed Hamad Al Falasi)",
+ "case_title_ar": "شركة الأفق الأزرق لتوريد مواد البناء ذ.م.م ضد مؤسسة الصقر الذهبي للمقاولات (ومالكها راشد حمد الفلاسي)",
+ "case_type": "commercial",
+ "summary_en": "Blue Horizon Building Materials Supply LLC claims AED 386,500 balance from Golden Falcon Contracting Establishment for rebar and cement supplied under 10/01/2026 agreement under invoices totalling AED 506,500, of which only AED 120,000 was paid by transfer; a AED 150,000 cheque bounced for insufficient funds. A notarial demand dated 01/09/2026 was served 03/09/2026 with 15 days to pay, with 6% late interest per Clause 9, with no payment. A commercial claim dated 05/10/2026 (filed 06/10/2026) before Dubai Court of First Instance seeks principal, 6% interest from each invoice due date, and fees, with hearing fixed 24/11/2026. The 30/09/2026 account statement supports the balance after handwritten correction from 380,500 to 386,500.",
+ "summary_ar": "تطالب شركة الأفق الأزرق لتوريد مواد البناء مؤسسة الصقر الذهبي للمقاولات بمبلغ (386,500) درهم متبقٍ من توريد حديد وأسمنت بموجب اتفاقية 10/01/2026 وفواتير بإجمالي (506,500) درهم، سُدد منها (120,000) درهم فقط، بينما ارتد شيك (150,000) درهم لعدم كفاية الرصيد. وُجّه إنذار عبر الكاتب العدل بتاريخ 01/09/2026 وسُلّم بتاريخ 03/09/2026 مع مهلة 15 يوماً دون سداد، فأُقيمت دعوى تجارية أمام محكمة دبي الابتدائية بتاريخ 05/10/2026 (قيد 06/10/2026) تطلب الأصل وفائدة تأخيرية 6% سنوياً من استحقاق كل فاتورة والرسوم والأتعاب، وحُددت جلسة 24/11/2026. كشف الحساب بتاريخ 30/09/2026 يؤيد الرصيد بعد تصحيح بخط اليد من (380,500) إلى (386,500).",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Formal demand for payment",
+   "document_ar": "إنذار رسمي بالوفاء"
+  },
+  {
+   "page": 2,
+   "document_en": "Commercial statement of claim",
+   "document_ar": "صحيفة دعوى تجارية"
+  },
+  {
+   "page": 3,
+   "document_en": "Client account statement",
+   "document_ar": "كشف حساب العميل"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Court of First Instance — Commercial Circuits",
+  "name_ar": "محكمة دبي الابتدائية — الدوائر التجارية",
+  "case_number": "",
+  "case_number_source": "computed",
+  "pages": [
+   2
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant",
+   "role_ar": "المدعية",
+   "name_ar": "شركة الأفق الأزرق لتوريد مواد البناء ذ.م.م",
+   "name_en": "Blue Horizon Building Materials Supply LLC",
+   "details_en": "Claimant, supplier under 10/01/2026 agreement, Dubai P.O. Box 00000, Trade Licence No. 000000",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant",
+   "role_ar": "المدعى عليها",
+   "name_ar": "مؤسسة الصقر الذهبي للمقاولات (مؤسسة فردية)",
+   "name_en": "Golden Falcon Contracting Establishment (Sole Establishment)",
+   "details_en": "Defendant sole establishment, client under account statement",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Owner of the defendant establishment",
+   "role_ar": "مالك المؤسسة المدعى عليها",
+   "name_ar": "راشد حمد الفلاسي",
+   "name_en": "Rashed Hamad Al Falasi",
+   "details_en": "Owner of defendant establishment, Dubai",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's counsel — Advocate",
+   "role_ar": "وكيل المدعية — المحامي",
+   "name_ar": "عمر فاروق الزرعوني",
+   "name_en": "Omar Farouk Al Zarouni",
+   "details_en": "Claimant's counsel, signatory of statement of claim",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant's law firm",
+   "role_ar": "مكتب محاماة المدعية",
+   "name_ar": "مكتب الزرعوني للمحاماة",
+   "name_en": "Al Zarouni Advocates",
+   "details_en": "Law firm filing the commercial claim",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "claimant_representative",
+   "role_en": "General Manager",
+   "role_ar": "المدير العام",
+   "name_ar": "طارق ماهر السويدي",
+   "name_en": "Tarek Maher Al Suwaidi",
+   "details_en": "General Manager of claimant company, signatory of 01/09/2026 notice",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "notary",
+   "role_en": "Notary Public",
+   "role_ar": "الكاتب العدل",
+   "name_ar": "الكاتب العدل",
+   "name_en": "Notary Public",
+   "details_en": "Authority through which notice was directed per Article 81",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "clerk",
+   "role_en": "Filing clerk",
+   "role_ar": "قلم القيد",
+   "name_ar": "قلم القيد",
+   "name_en": "Filing Department",
+   "details_en": "Registration seal dated 06/10/2026 on statement of claim",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Accountant",
+   "role_ar": "المحاسب",
+   "name_ar": "المحاسب (دون اسم مذكور)",
+   "name_en": "Accountant (name not stated)",
+   "details_en": "Unnamed signatory as Accountant on 30/09/2026 statement",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Financial Manager",
+   "role_ar": "المدير المالي",
+   "name_ar": "المدير المالي (دون اسم مذكور)",
+   "name_en": "Financial Manager (name not stated)",
+   "details_en": "Unnamed signatory as Financial Manager on 30/09/2026 statement",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-10",
+   "what_en": "Supply agreement date",
+   "what_ar": "تاريخ اتفاقية التوريد المبرمة بين الطرفين",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-03-15",
+   "what_en": "Date of invoice INV-2026-114",
+   "what_ar": "تاريخ الفاتورة رقم INV-2026-114",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-14",
+   "what_en": "Due date of invoice INV-2026-114",
+   "what_ar": "تاريخ استحقاق الفاتورة رقم INV-2026-114",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-20",
+   "what_en": "Date of invoice INV-2026-131",
+   "what_ar": "تاريخ الفاتورة رقم INV-2026-131",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-10",
+   "what_en": "Date of bank transfer payment of AED 120,000 by client",
+   "what_ar": "تاريخ التحويل البنكي المسدد من العميل بمبلغ (120,000) درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-20",
+   "what_en": "Due date of invoice INV-2026-131",
+   "what_ar": "تاريخ استحقاق الفاتورة رقم INV-2026-131",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-28",
+   "what_en": "Date of invoice INV-2026-147",
+   "what_ar": "تاريخ الفاتورة رقم INV-2026-147",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-27",
+   "what_en": "Due date of invoice INV-2026-147",
+   "what_ar": "تاريخ استحقاق الفاتورة رقم INV-2026-147",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-30",
+   "what_en": "Date of cheque No. 004512 for AED 150,000",
+   "what_ar": "تاريخ تحرير الشيك رقم (004512) بمبلغ (150,000) درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-07-02",
+   "what_en": "Date cheque returned unpaid for insufficient funds",
+   "what_ar": "تاريخ ارتداد الشيك دون صرف لعدم كفاية الرصيد",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-01",
+   "what_en": "Date of formal demand for payment letter",
+   "what_ar": "تاريخ الإنذار الرسمي بالوفاء",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-01",
+   "what_en": "Notary seal date on the notice",
+   "what_ar": "تاريخ ختم الكاتب العدل على الإنذار",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Date of service of notice on addressee",
+   "what_ar": "تاريخ تسليم الإنذار للمنذر إليه",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "what_en": "Notice receipt date as stated in statement of claim",
+   "what_ar": "تاريخ استلام الإنذار حسب ما ورد في صحيفة الدعوى",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-18",
+   "what_en": "Expiry of 15-day payment period from receipt",
+   "what_ar": "تاريخ انتهاء مهلة الـ(15) يوماً للسداد من تاريخ الاستلام",
+   "page": 1,
+   "source": "computed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "what_en": "Date of client account statement",
+   "what_ar": "تاريخ كشف حساب العميل",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-05",
+   "what_en": "Date of commercial statement of claim",
+   "what_ar": "تاريخ صحيفة الدعوى التجارية",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-06",
+   "what_en": "Filing department stamp date",
+   "what_ar": "تاريخ ختم قلم القيد",
+   "page": 2,
+   "source": "stamp",
+   "mark_ids": [
+    "M4"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "what_en": "Hearing date before the Second Full Commercial Circuit",
+   "what_ar": "تاريخ الجلسة المحددة أمام الدائرة التجارية الكلية الثانية",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-04-14",
+   "time": "",
+   "who_en": "Defendant (Golden Falcon Contracting Establishment)",
+   "what_en": "Pay invoice INV-2026-114 AED 142,000 by defendant — not paid on time",
+   "what_ar": "سداد الفاتورة رقم INV-2026-114 بمبلغ 142,000 درهم — لم يتم السداد في الموعد",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Due date stated in invoice table in 01/09/2026 notice",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-05-20",
+   "time": "",
+   "who_en": "Defendant (Golden Falcon Contracting Establishment)",
+   "what_en": "Pay invoice INV-2026-131 AED 128,500 by defendant — not paid on time",
+   "what_ar": "سداد الفاتورة رقم INV-2026-131 بمبلغ 128,500 درهم — لم يتم السداد في الموعد",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Due date stated in invoice table in 01/09/2026 notice",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-06-27",
+   "time": "",
+   "who_en": "Defendant (Golden Falcon Contracting Establishment)",
+   "what_en": "Pay invoice INV-2026-147 AED 236,000 by defendant — not paid on time",
+   "what_ar": "سداد الفاتورة رقم INV-2026-147 بمبلغ 236,000 درهم — لم يتم السداد في الموعد",
+   "page": 1,
+   "computed": false,
+   "basis_en": "Due date stated in invoice table in 01/09/2026 notice",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-18",
+   "time": "",
+   "who_en": "Defendant (Golden Falcon Contracting Establishment)",
+   "what_en": "Pay outstanding AED 386,500 within 15 days of receipt or face legal action — not complied with per statement of claim",
+   "what_ar": "سداد المبلغ المستحق (386,500) درهم خلال (15) يوماً من تاريخ الاستلام وإلا اتخاذ الإجراءات القضائية — لم يتم السداد بحسب صحيفة الدعوى",
+   "page": 1,
+   "computed": true,
+   "basis_en": "15 days from service date 03/09/2026 as stated in 01/09/2026 notice",
+   "source": "computed",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "who_en": "Parties (Claimant and Defendant)",
+   "what_en": "Attend hearing before the Second Full Commercial Circuit",
+   "what_ar": "حضور الجلسة أمام الدائرة التجارية الكلية الثانية",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Handwritten scheduling note on statement of claim",
+   "source": "handwriting",
+   "mark_ids": [
+    "X2"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Order defendant to pay claimant AED 386,500 principal",
+   "item_ar": "إلزام المدعى عليها بأن تؤدي للمدعية مبلغ (386,500) درهم",
+   "has_amount": true,
+   "amount_aed": 386500.0,
+   "page": 2
+  },
+  {
+   "item_en": "Late interest at 6% per year from each invoice due date until full payment",
+   "item_ar": "الفائدة التأخيرية بواقع (6%) سنوياً من تاريخ استحقاق كل فاتورة وحتى السداد التام",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  },
+  {
+   "item_en": "Order defendant to pay court fees, expenses and advocate fees",
+   "item_ar": "إلزام المدعى عليها بالرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Under supply agreement dated 10/01/2026 claimant supplied building materials (rebar and cement) to defendant's project in Al Khawaneej",
+   "fact_ar": "بموجب اتفاقية توريد مؤرخة 10/01/2026 وردت المدعية مواد بناء (حديد تسليح وأسمنت) إلى مشروع المدعى عليها في منطقة الخوانيج",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Total of three invoices (114, 131 and 147) is AED 506,500",
+   "fact_ar": "بلغ إجمالي الفواتير الثلاث (114 و131 و147) مبلغ (506,500) درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Defendant paid AED 120,000 by bank transfer on 10/05/2026",
+   "fact_ar": "سددت المدعى عليها مبلغ (120,000) درهم بتحويل بنكي بتاريخ 10/05/2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Cheque No. 004512 for AED 150,000 dated 30/06/2026 was returned unpaid on 02/07/2026 for insufficient funds and does not count as payment",
+   "fact_ar": "الشيك رقم (004512) بمبلغ (150,000) درهم المؤرخ 30/06/2026 ارتد دون صرف بتاريخ 02/07/2026 لعدم كفاية الرصيد ولا يحتسب سداداً",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Remaining outstanding balance AED 386,500 after deducting only the bank payment",
+   "fact_ar": "المبلغ المستحق المتبقي (386,500) درهم بعد خصم المدفوعة البنكية فقط",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant sent formal demand dated 01/09/2026 via Notary Public seeking payment within 15 days of receipt with 6% annual late interest per Clause 9 of agreement",
+   "fact_ar": "وجهت المدعية إنذاراً رسمياً بالوفاء بتاريخ 01/09/2026 عن طريق الكاتب العدل تطالب بالسداد خلال (15) يوماً من الاستلام مع الفائدة التأخيرية بنسبة (6%) سنوياً وفقاً للبند (9) من الاتفاقية",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "fact_en": "Notice was served on addressee on 03/09/2026 and no payment was made by claim date",
+   "fact_ar": "تم تسليم الإنذار للمنذر إليه بتاريخ 03/09/2026 ولم يتم السداد حتى تاريخ صحيفة الدعوى",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "يوجّه هذا الإنذار عن طريق الكاتب العدل وفقاً للمادة (81) من المرسوم بقانون اتحادي رقم (50) لسنة 2022 بإصدار قانون المعاملات التجارية.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "81",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "تنص المادة (73) من قانون المعاملات التجارية الصادر بالمرسوم بقانون اتحادي رقم (50) لسنة 2022 على أنه: \"إذا تضمن العقد اتفاقاً على سعر الفائدة، وتأخر المدين في الوفاء، احتسبت الفائدة التأخيرية على أساس السعر المتفق عليه حتى تمام السداد\"، وقد اتفق الطرفان في البند (9) على فائدة تأخيرية بنسبة (6%) سنوياً.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "73",
+   "clause": "",
+   "quoted_text_ar": "إذا تضمن العقد اتفاقاً على سعر الفائدة، وتأخر المدين في الوفاء، احتسبت الفائدة التأخيرية على أساس السعر المتفق عليه حتى تمام السداد",
+   "page": 2
+  },
+  {
+   "text_ar": "لا تطالب المدعية بفائدة مركبة، التزاماً بالمادة (88) من القانون ذاته.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "88",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2
+  },
+  {
+   "text_ar": "تستحق المدعية التعويض عن الشيك المرتجع وفقاً للمادة (712) من القانون ذاته.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "50",
+   "law_year": 2022,
+   "law_title_en": "Commercial Transactions Law",
+   "article": "712",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "الكاتب العدل نموذج تدريبي 01/09/2026",
+   "meaning_en": "Oval Notary Public training-model seal dated 01/09/2026 on the notice",
+   "meaning_ar": "ختم بيضاوي للكاتب العدل (نموذج تدريبي) بتاريخ 01/09/2026 يؤشر على الإنذار",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "الأفق الأزرق لتوريد مواد البناء Blue Horizon Building Materials دبي — ذ.م.م",
+   "meaning_en": "Claimant company seal (Blue Horizon Building Materials - Dubai LLC) on the notice",
+   "meaning_ar": "ختم الشركة المدعية (الأفق الأزرق لتوريد مواد البناء — دبي ذ.م.م) على الإنذار",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of General Manager Tarek Maher Al Suwaidi on the notice",
+   "meaning_ar": "توقيع المدير العام طارق ماهر السويدي على الإنذار",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "قلم القيد نموذج تدريبي 06/10/2026",
+   "meaning_en": "Oval filing department training-model seal dated 06/10/2026 marking registration of claim",
+   "meaning_ar": "ختم بيضاوي لقلم القيد (نموذج تدريبي) بتاريخ 06/10/2026 يؤشر على قيد صحيفة الدعوى",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of the Accountant on the account statement",
+   "meaning_ar": "توقيع المحاسب على كشف الحساب",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M6",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "الأفق الأزرق لتوريد مواد البناء قسم الحسابات دبي",
+   "meaning_en": "Accounts department seal of claimant company (Blue Horizon - Dubai) on the statement",
+   "meaning_ar": "ختم قسم الحسابات للشركة المدعية (الأفق الأزرق لتوريد مواد البناء — دبي) على كشف الحساب",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M7",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of the Financial Manager on the account statement",
+   "meaning_ar": "توقيع المدير المالي على كشف الحساب",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 1,
+   "type": "handwriting",
+   "text_ar": "سُلم للمنذر إليه بتاريخ 3/9/2026",
+   "meaning_en": "Handwritten note recording service of the notice on the addressee on 3/9/2026",
+   "meaning_ar": "ملاحظة بخط اليد تفيد بتسليم الإنذار للمنذر إليه بتاريخ 3/9/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 43.0,
+   "x_to_pct": 82.0,
+   "y_from_pct": 80.0,
+   "y_to_pct": 86.0
+  },
+  {
+   "mark_id": "X2",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "حُددت جلسة 24/11/2026 أمام الدائرة التجارية الكلية الثانية",
+   "meaning_en": "Handwritten note scheduling hearing on 24/11/2026 before the Second Full Commercial Circuit",
+   "meaning_ar": "ملاحظة بخط اليد بتحديد جلسة 24/11/2026 أمام الدائرة التجارية الكلية الثانية",
+   "changes_printed_text": false,
+   "x_from_pct": 8.0,
+   "x_to_pct": 55.0,
+   "y_from_pct": 83.0,
+   "y_to_pct": 88.0
+  },
+  {
+   "mark_id": "X3",
+   "page": 3,
+   "type": "handwriting",
+   "text_ar": "386,500 — م.ع",
+   "meaning_en": "Red handwritten correction of printed balance (380,500) to (386,500)",
+   "meaning_ar": "تصحيح بخط اليد باللون الأحمر للرصيد المطبوع (380,500) إلى (386,500) — م.ع",
+   "changes_printed_text": true,
+   "x_from_pct": 11.0,
+   "x_to_pct": 28.0,
+   "y_from_pct": 42.0,
+   "y_to_pct": 46.0
+  },
+  {
+   "mark_id": "X4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Signature of claimant's counsel Omar Farouk Al Zarouni on the statement of claim",
+   "meaning_ar": "توقيع وكيل المدعية المحامي عمر فاروق الزرعوني على صحيفة الدعوى",
+   "changes_printed_text": false,
+   "x_from_pct": 14.0,
+   "x_to_pct": 33.0,
+   "y_from_pct": 75.0,
+   "y_to_pct": 81.0
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Printed balance in account statement (380,500) corrected by hand to (386,500) — corrected value used",
+   "flag_ar": "الرصيد المطبوع في كشف الحساب (380,500) تم تصحيحه بخط اليد إلى (386,500) — تم اعتماد القيمة المصححة",
+   "page": 3,
+   "severity": "high"
+  },
+  {
+   "flag_en": "Seals bear 'training model' wording and footer states fictional test document only — not a real case",
+   "flag_ar": "الأختام تحمل عبارة (نموذج تدريبي) والتذييل يذكر أن الوثيقة خيالية لأغراض الاختبار فقط — لا تمثل قضية حقيقية",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "No case number shown despite filing stamp dated 06/10/2026",
+   "flag_ar": "لا يظهر رقم دعوى مطبوع رغم وجود ختم قلم القيد بتاريخ 06/10/2026",
+   "page": 2,
+   "severity": "medium"
+  }
+ ]
+}
