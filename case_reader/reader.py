@@ -38,7 +38,9 @@ file states no amount.
 text, use the corrected value, set changes_printed_text on that mark, and add a flag naming both values.
 6. Deadlines: what must be done, by whom and by when. When the file sets a deadline relative to another \
 date (for example "within 15 days of receipt"), compute the date, set computed to true and explain the \
-basis in basis_en.
+basis in basis_en. This includes periods the file takes from a law or a contract clause ("within 14 days \
+under Article 53", "at least 90 days before the lease ends"), and deadlines that have already passed or \
+were met: list them too, and say in what_en whether they were met.
 7. Citations: copy each citation exactly as written in Arabic (text_ar). Give the law's kind, number, year \
 and emirate (for a local law), also when the text says "the same law" (resolve it to the law named before). \
 Make one entry per article: when one citation names two articles, make two entries with the same text_ar. \
@@ -52,7 +54,11 @@ records. Report any stamp, signature or handwriting you see that has no mark id,
 For each X mark, give where it is on its page, tight around the ink: x_from_pct and x_to_pct (0 at the \
 left edge, 100 at the right) and y_from_pct and y_to_pct (0 at the top, 100 at the bottom). For marks \
 with an M id, set these four to 0.
-9. Parties: use the role codes, and put the role as the file words it in role_en and role_ar.
+9. Parties: list every person, company, bank, firm or authority the file names in the case, on every \
+page and in every document (letterheads, signature blocks and stamps included): the parties and their \
+lawyers and representatives, and also judges, clerks, experts, doctors, engineers, auditors, banks and \
+other people involved. Use the role codes ("expert" for a professional giving an opinion, "other" when \
+none fits), and put the role as the file words it in role_en and role_ar.
 10. Write English in plain words for a busy lawyer, and Arabic in formal legal Arabic.
 """
 

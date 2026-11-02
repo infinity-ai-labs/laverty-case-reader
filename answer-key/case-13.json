@@ -26,7 +26,7 @@
     {"role": "supervising consultant", "name_ar": "مكتب المرسام للاستشارات الهندسية", "name_en": "Al Mirsam Engineering Consultants", "details_en": "Issued the completion certificate and the final payment certificate", "pages": [1, 2, 3]},
     {"role": "supervising engineer", "name_ar": "كريم فؤاد الحلبي", "name_en": "Karim Fouad Al Halabi", "details_en": "Signed both certificates; his initials 'ك.ح' are on the retention correction", "pages": [2, 3]},
     {"role": "quantity surveyor", "name_ar": "نادية سمير عوض", "name_en": "Nadia Samir Awad", "pages": [3]},
-    {"role": "contractor's representative", "name_ar": "أنس طارق الخطيب", "name_en": "Anas Tariq Al Khatib", "details_en": "Engineer; signed the completion certificate for the contractor", "pages": [2]}
+    {"role": "claimant's representative (contractor's engineer)", "name_ar": "أنس طارق الخطيب", "name_en": "Anas Tariq Al Khatib", "details_en": "Engineer; signed the completion certificate for the contractor", "pages": [2]}
   ],
   "dates": [
     {"date": "2026-01-12", "what_en": "Construction contract signed (before 1 June 2026, so the 1985 Civil Transactions Law governs it)", "page": 1},

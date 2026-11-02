@@ -30,6 +30,11 @@ def _ratio(correct: int, total: int) -> str:
     return f"{correct}/{total}"
 
 
+# People in the file who are not parties (a doctor, an auditor, an arbitrator): the key calls them "other";
+# naming them "expert" or "witness" is just as right.
+NON_PARTY_ROLES = {"other", "expert", "witness"}
+
+
 def score_parties(found: list[dict], key: list[dict]) -> dict[str, Any]:
     used: set[int] = set()
     correct, misses = 0, []
@@ -40,7 +45,7 @@ def score_parties(found: list[dict], key: list[dict]) -> dict[str, Any]:
             if i in used:
                 continue
             sim = similarity(kp["name_ar"], p["name_ar"]) if p.get("name_ar") else similarity(kp["name_en"], p["name_en"])
-            role_ok = p.get("role") == want_role
+            role_ok = p.get("role") == want_role or (want_role == "other" and p.get("role") in NON_PARTY_ROLES)
             if sim >= NAME_MATCH and (sim, role_ok) > (best_sim, best_role_ok):
                 best, best_sim, best_role_ok = i, sim, role_ok
         if best is not None:
