@@ -3,7 +3,7 @@
 One pair of files per test case:
 
 - `case-0N.json`: what a careful lawyer would extract from the file, checked by hand. Each item carries the page it comes from.
-- `case-0N.marks.json`: where every stamp, signature and handwritten note sits, as `[x0, y0, x1, y1]` fractions of the page width and height. These come from the generator, so they are exact.
+- `case-0N.marks.json`: where every stamp, signature and handwritten note sits, as `[x0, y0, x1, y1]` fractions of the page width and height. The generator measures each box tight around the mark's ink, by rendering the page again with that one mark hidden and comparing the two images.
 
 ## Fields in `case-0N.json`
 
@@ -24,9 +24,11 @@ One pair of files per test case:
 | Item | Counted as correct when |
 |---|---|
 | Party | Name matches (Arabic letters normalised) and the role is right |
-| Date or deadline | Same calendar date, on the right page |
+| Date | Same calendar date, on the right page, in the reader's list of dates (each found date counts once) |
+| Deadline | Same calendar date, on the right page, in the reader's list of deadlines |
 | Claim | Same amount |
 | Citation | Same law and article, and the valid or invalid verdict is right |
+| Case not read | A case the run could not read scores zero on every item |
 | Stamp, signature or handwriting | Same type, and the boxes overlap by at least half (IoU ≥ 0.5) |
 
 The two invalid citations (Labour Law Article 145, Commercial Transactions Law Article 712) must be flagged, never passed quietly.

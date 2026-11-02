@@ -5,9 +5,11 @@ For each page: HTML (Arabic, right to left) -> Chromium screenshot at about 192 
 "scanner" effects (paper tone, slight tilt, blur, noise, uneven light, JPEG) -> page JPG.
 Pages are then joined into one PDF per case. The exact position of every stamp, signature
 and handwritten note is written to answer-key/<case>.marks.json, in page fractions (0-1),
-so the reader's detections can be scored.
+so the reader's detections can be scored. Each box is the tight box around the mark's ink,
+found by rendering the page again with that one mark hidden and comparing the two images.
 
-Usage: python3 tools/make_test_files/build.py
+Usage: python3 tools/make_test_files/build.py               # pages, PDFs and mark positions
+       python3 tools/make_test_files/build.py --marks-only  # mark positions only
 """
 import json
 import math
@@ -160,6 +162,22 @@ def scan_effect(img, rnd):
     return np.clip(f, 0, 255).astype(np.uint8), M
 
 
+def ink_boxes(page_obj, clean):
+    """Tight pixel box around each mark's ink: hide one mark, render again, compare."""
+    ids = page_obj.evaluate("() => [...document.querySelectorAll('[data-mark]')].map(e => e.dataset.mark)")
+    out = {}
+    for mid in ids:
+        page_obj.evaluate("id => { document.querySelector(`[data-mark='${id}']`).style.visibility = 'hidden'; }", mid)
+        png = page_obj.screenshot(clip={"x": 0, "y": 0, "width": W, "height": H})
+        page_obj.evaluate("id => { document.querySelector(`[data-mark='${id}']`).style.visibility = ''; }", mid)
+        hidden = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_COLOR)
+        changed = np.abs(clean.astype(np.int16) - hidden.astype(np.int16)).max(axis=2) > 40
+        ys, xs = np.nonzero(changed)
+        if len(xs):
+            out[mid] = [int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1]
+    return out
+
+
 def transform_box(box, M):
     x0, y0, x1, y1 = box
     pts = np.array([[x0, y0, 1], [x1, y0, 1], [x0, y1, 1], [x1, y1, 1]], dtype=np.float32)
@@ -168,6 +186,7 @@ def transform_box(box, M):
 
 
 def main():
+    marks_only = "--marks-only" in sys.argv[1:]
     OUT.mkdir(exist_ok=True)
     KEY.mkdir(exist_ok=True)
     tmp = ROOT / "tmp"
@@ -192,15 +211,21 @@ def main():
                     "const r = e.getBoundingClientRect(); return [e.dataset.mark, r.left, r.top, r.right, r.bottom]; })")
                 png = page_obj.screenshot(clip={"x": 0, "y": 0, "width": W, "height": H})
                 clean = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_COLOR)
+                ink = ink_boxes(page_obj, clean)
                 scanned, M = scan_effect(clean, rnd)
                 ok, jpg = cv2.imencode(".jpg", scanned, [cv2.IMWRITE_JPEG_QUALITY, 74])
                 jpg_path = folder / f"page-{pno}.jpg"
-                jpg_path.write_bytes(jpg.tobytes())
-                images.append(Image.open(jpg_path).convert("RGB"))
+                if marks_only:
+                    same = jpg_path.exists() and jpg_path.read_bytes() == jpg.tobytes()
+                    print(f'  {jpg_path.relative_to(ROOT)}: {"same image as before" if same else "DIFFERENT from the saved page"}')
+                else:
+                    jpg_path.write_bytes(jpg.tobytes())
+                    images.append(Image.open(jpg_path).convert("RGB"))
                 ih, iw = scanned.shape[:2]
                 spec = {m["id"]: m for m in page["marks"]}
                 for mid, l, t, r, b in boxes:
-                    x0, y0, x1, y1 = transform_box([l * SCALE, t * SCALE, r * SCALE, b * SCALE], M)
+                    px = ink.get(mid) or [l * SCALE, t * SCALE, r * SCALE, b * SCALE]
+                    x0, y0, x1, y1 = transform_box(px, M)
                     m = spec[mid]
                     marks_out.append({
                         "id": mid, "page": pno, "type": m["type"],
@@ -209,11 +234,13 @@ def main():
                         "label_en": m["label_en"], "text_ar": m.get("text_ar"),
                     })
             pdf_path = folder / f'{case["id"]}-{case["slug"]}.pdf'
-            images[0].save(pdf_path, save_all=True, append_images=images[1:], resolution=SCALE * 96)
+            if not marks_only:
+                images[0].save(pdf_path, save_all=True, append_images=images[1:], resolution=SCALE * 96)
             (KEY / f'{case["id"]}.marks.json').write_text(
-                json.dumps({"case": case["id"], "box_format": "[x0, y0, x1, y1] as fractions of page width/height",
+                json.dumps({"case": case["id"],
+                            "box_format": "[x0, y0, x1, y1] as fractions of page width/height, tight around the ink",
                             "marks": marks_out}, ensure_ascii=False, indent=2), encoding="utf-8")
-            print(f'{case["id"]}: {len(images)} pages, {len(marks_out)} marks -> {pdf_path.relative_to(ROOT)}')
+            print(f'{case["id"]}: {len(case["pages"])} pages, {len(marks_out)} marks -> {pdf_path.relative_to(ROOT)}')
         browser.close()
 
 
