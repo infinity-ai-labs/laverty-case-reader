@@ -15,16 +15,17 @@ from typing import Any
 
 from .answer_key import parse_law, role_code
 from .citations import LawIndex
-from .marks import SWEEP_CONCEPTS, iou
+from .marks import DEFAULT_CONCEPTS, SWEEP_CONCEPTS, iou
 from .pages import Page, image_data_url
 
 _MARK_LINE = re.compile(r"Mark (M\d+): page (\d+), found as (\w+), at x (\d+)-(\d+)%, y (\d+)-(\d+)%")
 
 
 def _concept_type(concept: str) -> str:
-    for mark_type, phrases in SWEEP_CONCEPTS.items():
-        if concept in phrases:
-            return mark_type
+    for concepts in (DEFAULT_CONCEPTS, SWEEP_CONCEPTS):
+        for mark_type, phrases in concepts.items():
+            if concept in phrases:
+                return mark_type
     return "handwriting"
 
 
