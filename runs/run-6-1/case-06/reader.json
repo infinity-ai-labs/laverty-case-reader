@@ -1,0 +1,477 @@
+{
+ "case_title_en": "Objection to Rent Increase on Renewal and to Eviction Demand",
+ "case_title_ar": "دعوى الاعتراض على زيادة الأجرة عند التجديد وعلى المطالبة بالإخلاء",
+ "case_type": "tenancy",
+ "summary_en": "Tenant Naseem Al Ghaf claims landlord notice of 24/09/2026 raising rent from AED 210,000 to 252,000 on renewal is late, fails 90-day rule before expiry 31/12/2026, and eviction demand fails exclusive grounds and 12-month notice rule. Seeks renewal at same rent, alternatively fair rent capped at AED 220,500, and rejection of eviction. Handwritten receipt shows 16/10/2026 with reply dated 15/10/2026.",
+ "summary_ar": "تدعي المستأجرة (شركة نسيم الغاف) أن إخطار المؤجر المؤرخ 24/09/2026 بزيادة الأجرة من 210,000 إلى 252,000 درهم عند التجديد متأخر ولم يحترم مهلة التسعين يوماً قبل انتهاء العقد في 31/12/2026، وأن طلب الإخلاء غير جائز دون الحالات الحصرية وإخطار اثني عشر شهراً، وتطلب تجديد العقد بالأجرة ذاتها واحتياطياً بالأجرة العادلة بما لا يجاوز 220,500 درهم ورفض الإخلاء. يظهر استلام الإخطار بخط اليد بتاريخ 16/10/2026 والرد بتاريخ 15/10/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Tenancy statement of claim to Rental Disputes Center dated 20/10/2026",
+   "document_ar": "صحيفة دعوى إيجارية مقدمة إلى مركز فض المنازعات الإيجارية مؤرخة 20/10/2026"
+  },
+  {
+   "page": 2,
+   "document_en": "Notice to amend rent dated 24/09/2026 with receipt note dated 16/10/2026",
+   "document_ar": "إخطار بتعديل بدل الإيجار مؤرخ 24/09/2026 مع تأشيرة استلام بتاريخ 16/10/2026"
+  }
+ ],
+ "court": {
+  "name_en": "Rental Disputes Center - Emirate of Dubai",
+  "name_ar": "مركز فض المنازعات الإيجارية — إمارة دبي",
+  "case_number": "",
+  "case_number_source": "printed",
+  "pages": [
+   1
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant (tenant)",
+   "role_ar": "المدعية",
+   "name_ar": "شركة نسيم الغاف لتجارة المواد الغذائية ذ.م.م",
+   "name_en": "Naseem Al Ghaf Foodstuff Trading LLC",
+   "details_en": "Tenant of warehouse, represented by its manager Basel Adnan Al-Tahan",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Defendant (landlord)",
+   "role_ar": "المدعى عليه",
+   "name_ar": "مبارك سالم بن عتيق القمزي",
+   "name_en": "Mubarak Salem bin Ateeq Al Qamzi",
+   "details_en": "Landlord, UAE national, Dubai, P.O. Box 00000",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "claimant_representative",
+   "role_en": "Manager for claimant",
+   "role_ar": "المدير ممثل المدعية",
+   "name_ar": "باسل عدنان الطحان",
+   "name_en": "Basel Adnan Al-Tahan",
+   "details_en": "Manager signing for claimant",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Reception",
+   "role_ar": "الاستقبال",
+   "name_ar": "رنيم",
+   "name_en": "Raneem",
+   "details_en": "Reception staff who signed handwritten receipt of notice",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Judicial body",
+   "role_ar": "الجهة القضائية",
+   "name_ar": "مركز فض المنازعات الإيجارية — إمارة دبي",
+   "name_en": "Rental Disputes Center - Emirate of Dubai",
+   "details_en": "Authority to which claim is addressed and whose registration stamp appears",
+   "pages": [
+    1
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-01",
+   "what_en": "Start of lease contract",
+   "what_ar": "بداية عقد الإيجار",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-24",
+   "what_en": "Date of landlord's rent-increase notice",
+   "what_ar": "تاريخ إخطار المؤجر بزيادة الأجرة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "what_en": "Date of tenant reply rejecting increase",
+   "what_ar": "تاريخ رد المستأجرة برفض الزيادة",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Date of statement of claim and registration stamp",
+   "what_ar": "تاريخ صحيفة الدعوى وختم التسجيل",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-12-31",
+   "what_en": "End of lease and demanded vacating date",
+   "what_ar": "نهاية عقد الإيجار والتاريخ المطلوب فيه الإخلاء",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-24",
+   "what_en": "Date printed on landlord notice",
+   "what_ar": "تاريخ الإخطار المطبوع أعلى الكتاب",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-12-31",
+   "what_en": "Contract expiry date stated in notice",
+   "what_ar": "تاريخ انتهاء مدة العقد الوارد في الإخطار",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-16",
+   "what_en": "Date of receipt of original notice in handwriting",
+   "what_ar": "تاريخ استلام أصل الإخطار بخط اليد",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-09",
+   "time": "00:00",
+   "who_en": "Tenant",
+   "what_en": "15-day deadline to approve and sign renewal, otherwise contract deemed ended - not met, tenant replied 15/10/2026",
+   "what_ar": "مهلة الخمسة عشر يوماً من تاريخ الإخطار للموافقة وتوقيع عقد التجديد وإلا اعتبر العقد منتهياً",
+   "page": 2,
+   "computed": true,
+   "basis_en": "15 days from notice date 24/09/2026 as set in the notice itself",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-02",
+   "time": "00:00",
+   "who_en": "Landlord",
+   "what_en": "Latest date for valid Article 14 amendment notice - allegedly not met, notice dated 24/09/2026 and received 16/10/2026",
+   "what_ar": "آخر موعد للإخطار بتعديل الشروط قبل تسعين يوماً على الأقل من انتهاء العقد - لم يُحترم بحسب الادعاء",
+   "page": 1,
+   "computed": true,
+   "basis_en": "Article 14 requires notice at least 90 days before expiry on 31/12/2026, so latest valid date was 02/10/2026",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-12-31",
+   "time": "00:00",
+   "who_en": "Tenant",
+   "what_en": "Deadline to vacate and hand over vacant premises as demanded",
+   "what_ar": "الموعد المطلوب فيه إخلاء العين وتسليمها خالية من الشواغل",
+   "page": 2,
+   "computed": false,
+   "basis_en": "Date expressly demanded in the notice for vacating if no agreement",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2025-12-31",
+   "time": "00:00",
+   "who_en": "Landlord",
+   "what_en": "Latest date for 12-month eviction notice - allegedly not given",
+   "what_ar": "آخر موعد للإخطار بالإخلاء قبل اثني عشر شهراً على الأقل - لم يتم بحسب الادعاء",
+   "page": 1,
+   "computed": true,
+   "basis_en": "Article 25(2) cited in file requires at least 12 months prior notice by notary or registered mail for eviction on expiry; 12 months before 31/12/2026 is 31/12/2025",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Claimant seeks disregard of 24/09/2026 notice and renewal for one year at same rent of AED 210,000",
+   "item_ar": "عدم الاعتداد بالإخطار المؤرخ 24/09/2026 وتجديد العقد لمدة سنة بالأجرة ذاتها وقدرها (210,000) درهم",
+   "has_amount": true,
+   "amount_aed": 210000.0,
+   "page": 1
+  },
+  {
+   "item_en": "In the alternative, claimant seeks fair rent for renewal year capped at AED 220,500",
+   "item_ar": "احتياطياً: تحديد الأجرة العادلة لسنة التجديد بما لا يجاوز (220,500) درهم",
+   "has_amount": true,
+   "amount_aed": 220500.0,
+   "page": 1
+  },
+  {
+   "item_en": "Claimant seeks rejection of eviction demand on 31/12/2026 and costs against defendant",
+   "item_ar": "رفض مطالبة المدعى عليه بالإخلاء في 31/12/2026 وإلزامه بالرسوم والمصروفات",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Landlord demands increase of annual rent on renewal to AED 252,000 failing which vacating on 31/12/2026",
+   "item_ar": "مطالبة المؤجر بتعديل بدل الإيجار السنوي عند التجديد ليصبح (252,000) درهم وإلا الإخلاء في 31/12/2026",
+   "has_amount": true,
+   "amount_aed": 252000.0,
+   "page": 2
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Premises is warehouse No. 9, Ras Al Khor Industrial 2, Dubai, Ejari No. 000000, 01/01/2026 to 31/12/2026 at AED 210,000 per year",
+   "fact_ar": "العين مستودع رقم (9) في منطقة رأس الخور الصناعية الثانية، دبي، بعقد مسجل في إيجاري برقم 000000 من 01/01/2026 إلى 31/12/2026 بأجرة سنوية 210,000 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Landlord notified tenant on 24/09/2026 to increase renewal rent to AED 252,000 (20%), giving 15 days failing which contract deemed ended 31/12/2026 with eviction",
+   "fact_ar": "أخطر المؤجر المستأجرة بتاريخ 24/09/2026 بزيادة الأجرة السنوية عند التجديد إلى 252,000 درهم بنسبة 20% وأمهلها خمسة عشر يوماً وإلا اعتبر العقد منتهياً في 31/12/2026 ووجب الإخلاء",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Notice delivered by hand, received only on handwritten receipt date 16/10/2026 after 90-day period expired; tenant replied 15/10/2026 rejecting increase and offering renewal at same rent",
+   "fact_ar": "سُلّم الإخطار باليد ولم تتسلمه المدعية إلا في التاريخ الثابت بتأشيرة الاستلام بخط اليد وهو 16/10/2026 بعد فوات مهلة التسعين يوماً، وردت بتاريخ 15/10/2026 برفض الزيادة وعرض التجديد بالأجرة ذاتها",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1",
+    "M5",
+    "M6"
+   ]
+  },
+  {
+   "fact_en": "Average similar rent per index is AED 240,000, current rent 12.5% below, so new rent should not exceed AED 220,500 per claimant calculation",
+   "fact_ar": "متوسط أجر المثل للعين وفق مؤشر بدل الإيجارات (240,000) درهم فتقل عنه الأجرة الحالية بنسبة (12.5%) ولا تجاوز الأجرة الجديدة (220,500) درهم وفق حساب المدعية",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "أوجبت المادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "14",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "ويتجدد العقد بذات شروطه عملاً بالمادة (6) من القانون ذاته",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "6",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "تحدد اللجنة الأجر العادل وفقاً للمادة (13)",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "13",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "آخذة في الاعتبار المعايير الواردة في البند (2) من المادة (9)",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "9",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وتحدد المادة (1) من المرسوم رقم (43) لسنة 2013 بشأن تحديد الزيادة في بدل إيجار العقارات في إمارة دبي",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "43",
+   "law_year": 2013,
+   "law_title_en": "Determining Rent Increases for Properties in the Emirate of Dubai",
+   "article": "1",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "لا يجوز طلب الإخلاء عند انتهاء العقد إلا في الحالات الواردة حصراً في البند (2) من المادة (25)",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "25",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "وذلك عملاً بالمادة (14) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "law_kind": "local_law",
+   "emirate": "Dubai",
+   "law_number": "26",
+   "law_year": 2007,
+   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "14",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 2
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "فض المنازعات الإيجارية قسم التسجيل — ختم دبي 20/10/2026",
+   "meaning_en": "Registration stamp of Rental Disputes Center, Registration Section, dated 20/10/2026",
+   "meaning_ar": "ختم قيد الدعوى في قسم التسجيل بمركز فض المنازعات الإيجارية بتاريخ 20/10/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "نسيم الغاف لتجارة المواد الغذائية Naseem Al Ghaf Foodstuff Trading دبي — ذ.م.م",
+   "meaning_en": "Company stamp of claimant Naseem Al Ghaf Foodstuff Trading",
+   "meaning_ar": "ختم الشركة المدعية نسيم الغاف لتجارة المواد الغذائية بالعربية والإنجليزية",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature for claimant by manager Basel Adnan Al-Tahan",
+   "meaning_ar": "توقيع بخط اليد عن المدعية من المدير باسل عدنان الطحان",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature of landlord Mubarak Salem bin Ateeq Al Qamzi",
+   "meaning_ar": "توقيع المؤجر مبارك سالم بن عتيق القمزي بخط اليد",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "",
+   "meaning_en": "Handwritten signature next to receipt note",
+   "meaning_ar": "توقيع بخط اليد بجانب تأشيرة الاستلام",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "نسيم الغاف لتجارة المواد الغذائية ذ.م.م — دبي",
+   "meaning_en": "Company stamp of Naseem Al Ghaf Foodstuff Trading LLC - Dubai",
+   "meaning_ar": "ختم الشركة نسيم الغاف لتجارة المواد الغذائية ذ.م.م — دبي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 2,
+   "type": "handwriting",
+   "text_ar": "استلمت الأصل بتاريخ 16/10/2026 — الاستقبال / رنيم",
+   "meaning_en": "Handwritten receipt note stating original received on 16/10/2026 by reception / Raneem",
+   "meaning_ar": "ملاحظة استلام بخط اليد تفيد باستلام الأصل بتاريخ 16/10/2026 من الاستقبال / رنيم",
+   "changes_printed_text": false,
+   "x_from_pct": 33.0,
+   "x_to_pct": 86.0,
+   "y_from_pct": 68.96,
+   "y_to_pct": 74.2,
+   "rough_box": [
+    0.32,
+    0.63,
+    0.88,
+    0.7
+   ],
+   "placed_by": "close-up"
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Reply date 15/10/2026 is earlier than handwritten receipt date 16/10/2026, chronology needs clarification",
+   "flag_ar": "تاريخ الرد (15/10/2026) يسبق تاريخ الاستلام المدون بخط اليد (16/10/2026) وهو ترتيب زمني غير منطقي يحتاج توضيحاً",
+   "page": 1,
+   "severity": "high"
+  },
+  {
+   "flag_en": "No court case number printed, only reference NG/ADM/2026/31; footer states fictional test document",
+   "flag_ar": "لا يوجد رقم قضية مطبوع على الصحيفة، يوجد فقط المرجع NG/ADM/2026/31 وتذييل بأن الوثيقة خيالية لأغراض الاختبار",
+   "page": 1,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Ejari contract number shown as 000000 placeholder, not a real number",
+   "flag_ar": "رقم عقد إيجاري يظهر كأصفار 000000 بما يشير إلى رقم غير حقيقي",
+   "page": 1,
+   "severity": "low"
+  }
+ ]
+}

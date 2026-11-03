@@ -1,0 +1,620 @@
+{
+ "case_title_en": "Application No. 318/2026 for Ratification and Enforcement of Arbitration Award No. 47/2026 – Naseem Al Jabal Ready-Mix Concrete LLC v Al Qaws Al Aali Construction Contracting LLC",
+ "case_title_ar": "طلب المصادقة على حكم التحكيم رقم 47 لسنة 2026 وتنفيذه – شركة نسيم الجبل للخرسانة الجاهزة ذ.م.م ضد شركة القوس العالي للمقاولات الإنشائية ذ.م.م – الطلب رقم 318 لسنة 2026 تحكيم",
+ "case_type": "commercial",
+ "summary_en": "Naseem Al Jabal seeks ratification of the unanimous 10/09/2026 award in Case 47/2026 at White Sail Centre against Al Qaws Al Aali, ordering payment of AED 846,300 supply value plus AED 96,400 costs plus AED 40,000 fees totalling AED 982,700 with 5% yearly interest from 06/04/2026, on grounds Article 55 documents are complete and no nullity suit was filed within 30 days of 15/09/2026 notification. On 26/10/2026 the Dubai Court of Appeal in Application 318/2026 ordered ratification with executory formula and costs on respondent, subject to challenge within 30 days from day after announcement under Article 57; commercial enforcement file 752/2026 was registered on 28/10/2026.",
+ "summary_ar": "تطلب شركة نسيم الجبل المصادقة على حكم التحكيم الصادر لصالحها بالإجماع بتاريخ 10/09/2026 في القضية 47 لسنة 2026 لدى مركز الشراع الأبيض ضد شركة القوس العالي، والذي ألزمها بأداء 846,300 درهم قيمة توريدات و96,400 درهم مصروفات تحكيم و40,000 درهم أتعاب محاماة بإجمالي 982,700 درهم وفائدة 5% سنوياً من 06/04/2026 حتى السداد، لاكتمال مستندات المادة 55 وعدم رفع دعوى البطلان خلال 30 يوماً من الإعلان في 15/09/2026. فأصدرت محكمة الاستئناف بدبي بتاريخ 26/10/2026 في الطلب 318 لسنة 2026 تحكيم أمراً بالمصادقة وتذييل الحكم بالصيغة التنفيذية وإلزام المطلوب ضدها بالرسوم، مع جواز التظلم خلال 30 يوماً من اليوم التالي للإعلان وفق المادة 57، وقُيد ملف تنفيذ تجاري 752/2026 بتاريخ 28/10/2026.",
+ "pages": [
+  {
+   "page": 1,
+   "document_en": "Application for ratification and enforcement of arbitration award filed by law firm dated 20/10/2026",
+   "document_ar": "طلب المصادقة على حكم التحكيم والأمر بتنفيذه المقدم من مكتب المحاماة بتاريخ 20/10/2026"
+  },
+  {
+   "page": 2,
+   "document_en": "Operative part of unanimous arbitration award in Arbitration Case No. 47/2026 dated 10/09/2026",
+   "document_ar": "منطوق حكم التحكيم الصادر بالإجماع في قضية التحكيم رقم 47 لسنة 2026 بتاريخ 10/09/2026"
+  },
+  {
+   "page": 3,
+   "document_en": "Order ratifying and enforcing arbitral award issued by Dubai Courts – Court of Appeal on 26/10/2026 in Application No. 318/2026",
+   "document_ar": "أمر بالمصادقة على حكم تحكيم وتنفيذه الصادر من محاكم دبي – محكمة الاستئناف بتاريخ 26/10/2026 في الطلب رقم 318 لسنة 2026 تحكيم"
+  }
+ ],
+ "court": {
+  "name_en": "Dubai Courts – Court of Appeal",
+  "name_ar": "محاكم دبي – محكمة الاستئناف",
+  "case_number": "318/2026",
+  "case_number_source": "printed",
+  "pages": [
+   1,
+   3
+  ]
+ },
+ "parties": [
+  {
+   "role": "claimant",
+   "role_en": "Claimant (Award creditor)",
+   "role_ar": "الطالبة (المحتكمة)",
+   "name_ar": "شركة نسيم الجبل للخرسانة الجاهزة ذ.م.م",
+   "name_en": "Naseem Al Jabal Ready-Mix Concrete LLC",
+   "details_en": "Claimant (award creditor), Dubai, Al Quoz Industrial; commercial licence placeholder 000000",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "defendant",
+   "role_en": "Respondent (Award debtor)",
+   "role_ar": "المطلوب ضدها (المحكم ضدها)",
+   "name_ar": "شركة القوس العالي للمقاولات الإنشائية ذ.م.م",
+   "name_en": "Al Qaws Al Aali Construction Contracting LLC",
+   "details_en": "Respondent (party against whom award made), Dubai; commercial licence placeholder 000000",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Claimant lawyer",
+   "role_ar": "وكيلة الطالبة: المحامية",
+   "name_ar": "ريم ماجد الشحي",
+   "name_en": "Reem Majed Al Shehhi",
+   "details_en": "Lawyer for claimant, signatory of application",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "claimant_lawyer",
+   "role_en": "Law firm filing application",
+   "role_ar": "مكتب المحاماة مقدم الطلب",
+   "name_ar": "مكتب درة الساحل للمحاماة والاستشارات القانونية",
+   "name_en": "Durrat Al Sahel Advocates & Legal Consultants",
+   "details_en": "Law firm filing application, PO Box 00000 Dubai",
+   "pages": [
+    1
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Arbitration Centre",
+   "role_ar": "مركز تحكيم",
+   "name_ar": "مركز الشراع الأبيض للتحكيم التجاري",
+   "name_en": "White Sail Commercial Arbitration Centre",
+   "details_en": "Arbitration institution administering Case 47/2026, Dubai, Arabic language",
+   "pages": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "President of Arbitral Tribunal",
+   "role_ar": "رئيس هيئة التحكيم",
+   "name_ar": "د. عادل منصور الحوسني",
+   "name_en": "Dr. Adel Mansour Al Hosni",
+   "details_en": "President of arbitral tribunal, unanimous award",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Member of Arbitral Tribunal – Engineer",
+   "role_ar": "عضو هيئة التحكيم – المهندس",
+   "name_ar": "كريم وليد السعدي",
+   "name_en": "Karim Walid Al Saadi",
+   "details_en": "Member of arbitral tribunal, engineer",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "other",
+   "role_en": "Member of Arbitral Tribunal – Lawyer",
+   "role_ar": "عضو هيئة التحكيم – المحامي",
+   "name_ar": "ناصر عيسى البلوشي",
+   "name_en": "Nasser Eissa Al Balushi",
+   "details_en": "Member of arbitral tribunal, lawyer",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Judge delegated by President of Court",
+   "role_ar": "القاضي بالندب من رئيس المحكمة",
+   "name_ar": "سعيد عبيد الرميثي",
+   "name_en": "Saeed Obaid Al Rumaithi",
+   "details_en": "Judge delegated by President of Court, issued ratification order",
+   "pages": [
+    3
+   ]
+  }
+ ],
+ "dates": [
+  {
+   "date": "2026-01-12",
+   "what_en": "Supply contract date between parties (Clause 18 arbitration clause)",
+   "what_ar": "تاريخ عقد التوريد بين الطرفين (البند 18 شرط التحكيم)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-04-06",
+   "what_en": "Date claimant filed arbitration request",
+   "what_ar": "تاريخ تقدم الطالبة بطلب التحكيم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-10",
+   "what_en": "Date unanimous arbitration award in Case 47/2026 issued",
+   "what_ar": "تاريخ صدور حكم التحكيم بالإجماع في القضية رقم 47 لسنة 2026",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-15",
+   "what_en": "Date award notified to respondent",
+   "what_ar": "تاريخ إعلان الحكم إلى المطلوب ضدها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-15",
+   "what_en": "Expiry of 30-day period for nullity action without filing",
+   "what_ar": "تاريخ انقضاء ميعاد الثلاثين يوماً المقرر لرفع دعوى البطلان دون أن ترفع",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Date of ratification application letter to court",
+   "what_ar": "تاريخ الطلب المقدم للمحكمة (تاريخ رسالة مكتب المحاماة)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-20",
+   "what_en": "Filing clerk stamp date on application",
+   "what_ar": "تاريخ ختم قلم القيد على طلب المصادقة",
+   "page": 1,
+   "source": "stamp",
+   "mark_ids": [
+    "M1"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "what_en": "Date of order ratifying and enforcing award",
+   "what_ar": "تاريخ الأمر بالمصادقة على حكم التحكيم وتنفيذه",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-10-26",
+   "what_en": "Court of Appeal stamp date on order",
+   "what_ar": "تاريخ ختم محكمة الاستئناف على الأمر",
+   "page": 3,
+   "source": "stamp",
+   "mark_ids": [
+    "M8"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "what_en": "Date commercial enforcement file registered per handwritten note",
+   "what_ar": "تاريخ قيد ملف التنفيذ التجاري حسب الملاحظة بخط اليد",
+   "page": 3,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-10-15",
+   "time": "",
+   "who_en": "Respondent",
+   "what_en": "Deadline to file nullity action under Article 54(2) – lapsed without filing",
+   "what_ar": "ميعاد رفع دعوى البطلان في البند (2) من المادة (54) – انقضى دون أن ترفع",
+   "page": 1,
+   "computed": true,
+   "basis_en": "30 days from notification on 2026-09-15 under Article 54(2) of Federal Law No. 6 of 2018; file states period expired on 2026-10-15",
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-11-26",
+   "time": "",
+   "who_en": "Any concerned party",
+   "what_en": "Deadline to challenge ratification order before competent Court of Appeal within 30 days from day after announcement – announcement date not shown",
+   "what_ar": "ميعاد التظلم من أمر المصادقة أمام محكمة الاستئناف المختصة خلال (30) يوماً من اليوم التالي للإعلان – لم يذكر تاريخ الإعلان",
+   "page": 3,
+   "computed": true,
+   "basis_en": "30 days from the day following announcement under Article 57 of the same law; announcement date not shown, computed from order date 2026-10-26 as proxy (27/10 day 1 to 26/11 day 30)",
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "claims": [
+  {
+   "item_en": "Value of supplied ready-mix concrete and precast elements awarded",
+   "item_ar": "قيمة التوريدات (الخرسانة الجاهزة والعناصر مسبقة الصب الموردة وغير المسددة) المحكوم بها",
+   "has_amount": true,
+   "amount_aed": 846300.0,
+   "page": 2
+  },
+  {
+   "item_en": "Arbitration costs awarded",
+   "item_ar": "مصروفات التحكيم المحكوم بها",
+   "has_amount": true,
+   "amount_aed": 96400.0,
+   "page": 2
+  },
+  {
+   "item_en": "Lawyers fees awarded",
+   "item_ar": "مقابل أتعاب المحاماة المحكوم به",
+   "has_amount": true,
+   "amount_aed": 40000.0,
+   "page": 2
+  },
+  {
+   "item_en": "Total awarded (846,300 + 96,400 + 40,000)",
+   "item_ar": "إجمالي المبالغ المحكوم بها (846,300 + 96,400 + 40,000)",
+   "has_amount": true,
+   "amount_aed": 982700.0,
+   "page": 1
+  },
+  {
+   "item_en": "Delay interest at 5% per year on item (1) amount from arbitration request date until payment",
+   "item_ar": "فائدة تأخيرية بواقع (5%) سنوياً على المبلغ المقضي به في البند (1) من تاريخ طلب التحكيم حتى السداد",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 2
+  },
+  {
+   "item_en": "Request to ratify arbitration award and order enforcement with costs on respondent",
+   "item_ar": "طلب المصادقة على حكم التحكيم والأمر بتنفيذه مع إلزام المطلوب ضدها بالرسوم والمصروفات",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  }
+ ],
+ "key_facts": [
+  {
+   "fact_en": "Under supply contract dated 12/01/2026 claimant supplied ready-mix and precast to respondent's Dubai project; Clause 18 refers disputes to White Sail Commercial Arbitration Centre",
+   "fact_ar": "بموجب عقد توريد مؤرخ 12/01/2026 تورد الطالبة الخرسانة الجاهزة والعناصر مسبقة الصب لمشروع تنفذه المطلوب ضدها بدبي، وينص البند (18) على حسم أي نزاع بالتحكيم لدى مركز الشراع الأبيض للتحكيم التجاري",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Respondent failed to pay balance so claimant filed arbitration on 06/04/2026",
+   "fact_ar": "امتنعت المطلوب ضدها عن سداد باقي قيمة التوريدات فتقدمت الطالبة بطلب التحكيم بتاريخ 06/04/2026",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Tribunal unanimously awarded on 10/09/2026 in Case 47/2026 ordering respondent to pay 846,300 supply value plus 96,400 costs plus 40,000 fees totalling 982,700 with 5% yearly interest on first amount from arbitration request until payment",
+   "fact_ar": "أصدرت هيئة التحكيم حكمها بالإجماع في القضية رقم 47 لسنة 2026 بتاريخ 10/09/2026 بإلزام المطلوب ضدها بأداء 846,300 درهم قيمة توريدات و96,400 درهم مصروفات تحكيم و40,000 درهم أتعاب محاماة بإجمالي 982,700 درهم وفائدة 5% سنوياً على المبلغ الأول من تاريخ طلب التحكيم حتى السداد",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Award notified to respondent on 15/09/2026 and 30-day nullity period expired on 15/10/2026 without filing",
+   "fact_ar": "أُعلن الحكم إلى المطلوب ضدها بتاريخ 15/09/2026 وانقضى ميعاد الثلاثين يوماً لرفع دعوى البطلان في 15/10/2026 دون أن ترفعها",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Claimant attached award original, arbitration agreement copy and deposit minutes as required by Article 55(1)",
+   "fact_ar": "أرفقت الطالبة أصل الحكم وصورة اتفاق التحكيم وصورة محضر إيداع الحكم في المحكمة وهي المستندات التي يتطلبها البند (1) من المادة (55)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Counterclaim for delay penalties rejected and all other requests rejected",
+   "fact_ar": "رفض الطلب المقابل بغرامات التأخير في التوريد ورفض ما عدا ذلك من طلبات",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Court ordered ratification of award with executory formula for full enforcement and costs on respondent",
+   "fact_ar": "أمرت المحكمة بالمصادقة على حكم التحكيم وتذييله بالصيغة التنفيذية لتنفيذه بكامل ما قضى به وإلزام المطلوب ضدها بالرسوم والمصروفات",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Order may be challenged before competent Court of Appeal within 30 days from day after announcement per Article 57",
+   "fact_ar": "يجوز التظلم من الأمر أمام محكمة الاستئناف المختصة خلال 30 يوماً من اليوم التالي للإعلان وفقاً للمادة 57",
+   "page": 3,
+   "source": "printed",
+   "mark_ids": []
+  }
+ ],
+ "citations": [
+  {
+   "text_ar": "البند (2) من المادة (54) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "54",
+   "clause": "2",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "البند (1) من المادة (55) من قانون التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "55",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "52",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "المادة (212) من المرسوم بقانون اتحادي رقم (42) لسنة 2022 بإصدار قانون الإجراءات المدنية",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "42",
+   "law_year": 2022,
+   "law_title_en": "Federal Decree-Law No. 42 of 2022 Promulgating the Civil Procedure Law",
+   "article": "212",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 1
+  },
+  {
+   "text_ar": "المادة (52) من القانون الاتحادي رقم (6) لسنة 2018 في شأن التحكيم",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "52",
+   "clause": "",
+   "quoted_text_ar": "يعتبر حكم التحكيم الصادر وفقاً لأحكام هذا القانون ملزماً للأطراف، ويكون له ذات القوة التنفيذية كما لو كان حكماً قضائياً، إلا أنه يشترط لتنفيذه الحصول على قرار بالمصادقة عليه من المحكمة",
+   "page": 3
+  },
+  {
+   "text_ar": "البند (1) من المادة (55) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "55",
+   "clause": "1",
+   "quoted_text_ar": "",
+   "page": 3
+  },
+  {
+   "text_ar": "المادة (53) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "53",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3
+  },
+  {
+   "text_ar": "المادة (57) من القانون ذاته",
+   "law_kind": "federal_law",
+   "emirate": "",
+   "law_number": "6",
+   "law_year": 2018,
+   "law_title_en": "Federal Law No. 6 of 2018 on Arbitration",
+   "article": "57",
+   "clause": "",
+   "quoted_text_ar": "",
+   "page": 3
+  }
+ ],
+ "marks": [
+  {
+   "mark_id": "M1",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "قلم القيد نموذج تدريبي 20/10/2026",
+   "meaning_en": "Oval filing clerk stamp recording submission on 20/10/2026 (training model)",
+   "meaning_ar": "ختم بيضاوي لقلم القيد يوثق تقديم الطلب بتاريخ 20/10/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M2",
+   "page": 1,
+   "type": "stamp",
+   "text_ar": "مكتب درة الساحل للمحاماة Durrat Al Sahel Advocates دبي – الإمارات",
+   "meaning_en": "Rectangular law firm stamp identifying Durrat Al Sahel Advocates Dubai",
+   "meaning_ar": "ختم مستطيل لمكتب درة الساحل للمحاماة – دبي الإمارات يوثق جهة مقدم الطلب",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M3",
+   "page": 1,
+   "type": "signature",
+   "text_ar": "توقيع غير مقروء",
+   "meaning_en": "Blue ink handwritten signature of claimant lawyer",
+   "meaning_ar": "توقيع بخط اليد بالحبر الأزرق لوكيلة الطالبة المحامية ريم ماجد الشحي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M4",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "توقيع غير مقروء",
+   "meaning_en": "Handwritten signature of tribunal president Dr. Adel Mansour Al Hosni",
+   "meaning_ar": "توقيع بخط اليد لرئيس هيئة التحكيم د. عادل منصور الحوسني",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M5",
+   "page": 2,
+   "type": "stamp",
+   "text_ar": "مركز الشراع الأبيض للتحكيم نموذج تدريبي دبي",
+   "meaning_en": "Oval stamp of White Sail Arbitration Centre Dubai authenticating award (training model)",
+   "meaning_ar": "ختم بيضاوي لمركز الشراع الأبيض للتحكيم – دبي يوثق صدور الحكم (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M6",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "توقيع غير مقروء",
+   "meaning_en": "Black ink handwritten signature of tribunal member Eng. Karim Walid Al Saadi over stamp",
+   "meaning_ar": "توقيع بخط اليد بالحبر الأسود لعضو الهيئة المهندس كريم وليد السعدي فوق الختم",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M7",
+   "page": 2,
+   "type": "signature",
+   "text_ar": "توقيع غير مقروء",
+   "meaning_en": "Blue ink handwritten signature of tribunal member Nasser Eissa Al Balushi",
+   "meaning_ar": "توقيع بخط اليد بالحبر الأزرق لعضو الهيئة المحامي ناصر عيسى البلوشي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M8",
+   "page": 3,
+   "type": "stamp",
+   "text_ar": "محكمة الاستئناف نموذج تدريبي 26/10/2026",
+   "meaning_en": "Oval Court of Appeal stamp recording order on 26/10/2026 (training model)",
+   "meaning_ar": "ختم بيضاوي لمحكمة الاستئناف يوثق صدور الأمر بتاريخ 26/10/2026 (نموذج تدريبي)",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "M9",
+   "page": 3,
+   "type": "signature",
+   "text_ar": "توقيع غير مقروء",
+   "meaning_en": "Black ink handwritten signature of Judge Saeed Obaid Al Rumaithi",
+   "meaning_ar": "توقيع بخط اليد بالحبر الأسود للقاضي سعيد عبيد الرميثي",
+   "changes_printed_text": false,
+   "x_from_pct": 0.0,
+   "x_to_pct": 0.0,
+   "y_from_pct": 0.0,
+   "y_to_pct": 0.0
+  },
+  {
+   "mark_id": "X1",
+   "page": 3,
+   "type": "handwriting",
+   "text_ar": "قُيد ملف التنفيذ رقم 752/2026 تنفيذ تجاري بتاريخ 28/10/2026",
+   "meaning_en": "Blue handwritten note recording registration of commercial enforcement file No. 752/2026 on 28/10/2026",
+   "meaning_ar": "ملاحظة بخط اليد بالحبر الأزرق تفيد بقيد ملف تنفيذ تجاري رقم 752/2026 بتاريخ 28/10/2026",
+   "changes_printed_text": false,
+   "x_from_pct": 33.0,
+   "x_to_pct": 92.0,
+   "y_from_pct": 80.49,
+   "y_to_pct": 84.06,
+   "rough_box": [
+    0.4,
+    0.8,
+    0.87,
+    0.86
+   ],
+   "placed_by": "close-up"
+  }
+ ],
+ "flags": [
+  {
+   "flag_en": "Footer on each page states this is a fictional test document, not a real case",
+   "flag_ar": "يذكر تذييل كل صفحة أن الوثيقة خيالية لأغراض الاختبار فقط ولا تمثل قضية حقيقية",
+   "page": 1,
+   "severity": "low"
+  },
+  {
+   "flag_en": "Trade licence numbers shown as 000000 – placeholder/redacted",
+   "flag_ar": "أرقام الرخص التجارية ظهرت كأصفار (000000) وهي أرقام غير كاملة / مستعارة",
+   "page": 1,
+   "severity": "low"
+  },
+  {
+   "flag_en": "Enforcement file registration date 28/10/2026 known only from unmarked handwriting X1",
+   "flag_ar": "تاريخ قيد ملف التنفيذ 28/10/2026 معروف فقط من ملاحظة بخط اليد ليس لها رقم mark (X1)",
+   "page": 3,
+   "severity": "medium"
+  },
+  {
+   "flag_en": "Announcement date starting 30-day challenge period not shown, deadline computed from order date as proxy",
+   "flag_ar": "تاريخ الإعلان الذي يبدأ منه ميعاد التظلم (30 يوماً) غير مذكور في الملف، واحتسب الموعد افتراضاً من تاريخ الأمر",
+   "page": 3,
+   "severity": "medium"
+  }
+ ]
+}

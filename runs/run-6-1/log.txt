@@ -1,0 +1,66 @@
+case-01: 3 pages
+case-01: SAM 3.1 found 7 boxes, kept 5 marks
+case-01: Muse Spark answered (json_schema): 8 parties, 11 dates, 8 citations
+case-01: Muse Spark close-ups placed 1 of 3 marks again
+case-01: citations valid 7, invalid 1, not checked 0; 4 points flagged
+case-02: 3 pages
+case-02: SAM 3.1 found 12 boxes, kept 7 marks
+case-02: Muse Spark answered (json_schema): 10 parties, 17 dates, 4 citations
+case-02: Muse Spark close-ups placed 4 of 4 marks again
+case-02: citations valid 3, invalid 1, not checked 0; 11 points flagged
+case-03: 2 pages
+case-03: SAM 3.1 found 9 boxes, kept 5 marks
+case-03: Muse Spark answered (json_schema): 5 parties, 10 dates, 4 citations
+case-03: Muse Spark close-ups placed 2 of 3 marks again
+case-03: citations valid 4, invalid 0, not checked 0; 7 points flagged
+case-04: 2 pages
+case-04: SAM 3.1 found 6 boxes, kept 4 marks
+case-04: Muse Spark answered (json_schema): 7 parties, 9 dates, 7 citations
+case-04: Muse Spark close-ups placed 1 of 1 marks again
+case-04: citations valid 7, invalid 0, not checked 0; 6 points flagged
+case-05: 3 pages
+case-05: SAM 3.1 found 6 boxes, kept 5 marks
+case-05: Muse Spark answered (json_schema): 9 parties, 15 dates, 8 citations
+case-05: Muse Spark close-ups placed 2 of 2 marks again
+case-05: citations valid 7, invalid 1, not checked 0; 9 points flagged
+case-06: 2 pages
+case-06: SAM 3.1 found 10 boxes, kept 6 marks
+case-06: Muse Spark answered (json_schema): 5 parties, 8 dates, 7 citations
+case-06: Muse Spark close-ups placed 1 of 1 marks again
+case-06: citations valid 6, invalid 0, not checked 1; 5 points flagged
+case-07: 3 pages
+case-07: SAM 3.1 found 11 boxes, kept 7 marks
+case-07: Muse Spark answered (json_schema): 12 parties, 17 dates, 5 citations
+case-07: Muse Spark close-ups placed 1 of 1 marks again
+case-07: citations valid 5, invalid 0, not checked 0; 8 points flagged
+case-08: 3 pages
+case-08: SAM 3.1 found 15 boxes, kept 9 marks
+case-08: Muse Spark answered (json_schema): 10 parties, 10 dates, 9 citations
+case-08: Muse Spark close-ups placed 2 of 2 marks again
+case-08: citations valid 8, invalid 1, not checked 0; 7 points flagged
+case-09: 2 pages
+case-09: SAM 3.1 found 9 boxes, kept 5 marks
+case-09: Muse Spark answered (json_schema): 5 parties, 8 dates, 6 citations
+case-09: Muse Spark close-ups placed 2 of 2 marks again
+case-09: citations valid 5, invalid 1, not checked 0; 6 points flagged
+case-10: 3 pages
+case-10: SAM 3.1 found 12 boxes, kept 9 marks
+case-10: Muse Spark answered (json_schema): 9 parties, 10 dates, 8 citations
+case-10: Muse Spark close-ups placed 1 of 1 marks again
+case-10: citations valid 8, invalid 0, not checked 0; 8 points flagged
+case-11: 2 pages
+case-11: SAM 3.1 found 8 boxes, kept 5 marks
+case-11: Muse Spark answered (json_schema): 7 parties, 12 dates, 3 citations
+case-11: Muse Spark close-ups placed 1 of 1 marks again
+case-11: citations valid 3, invalid 0, not checked 0; 5 points flagged
+case-12: 2 pages
+case-12: SAM 3.1 found 12 boxes, kept 6 marks
+case-12: Muse Spark answered (json_schema): 6 parties, 12 dates, 8 citations
+case-12: Muse Spark close-ups placed 1 of 1 marks again
+case-12: citations valid 6, invalid 1, not checked 0; 10 points flagged
+case-13: 3 pages
+case-13: SAM 3.1 found 15 boxes, kept 9 marks
+case-13: Muse Spark answered (json_schema): 8 parties, 14 dates, 6 citations
+case-13: Muse Spark close-ups placed 2 of 4 marks again
+case-13: citations valid 6, invalid 0, not checked 0; 15 points flagged
+Read 13 of 13 case files into runs/run-6-1
