@@ -3,9 +3,9 @@
  "source_file": "case-03-tenancy.pdf",
  "mock": false,
  "run": {
-  "started": "2026-11-02T11:13:58Z",
-  "finished": "2026-11-02T11:14:52Z",
-  "seconds": 54.4,
+  "started": "2026-11-03T21:37:04Z",
+  "finished": "2026-11-03T21:39:12Z",
+  "seconds": 128.3,
   "reader_model": "muse-spark-1.3",
   "marks_model": "sam-3.1",
   "reasoning_effort": "high",
@@ -22,22 +22,23 @@
   },
   "min_confidence": 0.3,
   "reader_output_mode": "json_schema",
+  "close_ups": true,
   "mock": false,
   "case_reader_version": "0.1.0"
  },
- "title_en": "Eviction and Arrears Claim - Aisha Al Ketbi v Masar Al Waha General Trading LLC",
- "title_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة - عائشة الكتبي ضد شركة مسار الواحة للتجارة العامة",
+ "title_en": "Eviction and Overdue Rent Claim - Al Qusais Industrial 2 Shop Dubai",
+ "title_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة - محل القصيص الصناعية الثانية دبي",
  "case_type": "tenancy",
- "summary_en": "Lessor seeks eviction of a Dubai shop for two bounced quarterly rent cheques due 01/04/2026 and 01/07/2026 totalling AED 47,500, after a notarised demand on 02/09/2026 and expiry of the 30-day cure period on 02/10/2026 unpaid, claiming eviction, arrears plus accruing rent, and costs. Filed 07/10/2026; hearing noted 16/11/2026 at 10:00 AM.",
- "summary_ar": "مؤجرة تطالب بإخلاء محل في القصيص الصناعية الثانية بدبي لارتداد شيكي الأجرة المستحقين في 01/04/2026 و01/07/2026 بمجموع 47,500 درهم، بعد إنذار موثق لدى الكاتب العدل بتاريخ 02/09/2026 وانقضاء مهلة الثلاثين يوماً في 02/10/2026 دون سداد، وتطلب الإخلاء والمتأخرات وما يستجد والرسوم. قيد الطلب في 07/10/2026 وحددت جلسة 16/11/2026.",
+ "summary_en": "Lessor seeks eviction of a shop in Al Qusais Industrial 2, Dubai and payment of AED 47,500 for two returned cheques due 01/04/2026 and 01/07/2026, after notary notice on 02/09/2026 and expiry of 30 days on 02/10/2026 without payment, relying on Articles 19, 25(1)(a) and 31 of Law No. 26 of 2007. Hearing set for 16/11/2026.",
+ "summary_ar": "مؤجرة تطالب بإخلاء محل في القصيص الصناعية الثانية بدبي وإلزام الشركة المستأجرة بسداد 47,500 درهم عن شيكين مرتدين مستحقين في 01/04/2026 و01/07/2026، بعد إنذارها عن طريق الكاتب العدل بتاريخ 02/09/2026 وانقضاء مهلة الثلاثين يوماً في 02/10/2026 دون سداد، استناداً إلى المواد 19 و25 (1/أ) و31 من القانون رقم 26 لسنة 2007. حددت الجلسة بتاريخ 16/11/2026.",
  "pages": [
   {
    "page": 1,
    "image": "pages/page-1.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Eviction and Late Rent Claim Request",
-   "document_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة",
+   "document_en": "Request for Eviction and Overdue Rent Claim to Rental Disputes Center - Dubai",
+   "document_ar": "طلب إخلاء ومطالبة بالأجرة المتأخرة مقدم إلى مركز فض المنازعات الإيجارية - دبي",
    "src": "../test-files/case-03-tenancy/page-1.jpg"
   },
   {
@@ -54,7 +55,7 @@
   "name_en": "Rental Disputes Center - Dubai",
   "name_ar": "مركز فض المنازعات الإيجارية – دبي",
   "case_number": "",
-  "case_number_source": "computed",
+  "case_number_source": "printed",
   "pages": [
    1
   ]
@@ -62,11 +63,11 @@
  "parties": [
   {
    "role": "claimant",
-   "role_en": "Lessor (Claimant)",
+   "role_en": "Lessor",
    "role_ar": "المؤجرة",
    "name_ar": "عائشة محمد بن حارب الكتبي",
-   "name_en": "Aisha Mohamed bin Hareb Al Ketbi",
-   "details_en": "Emirati lessor, Dubai, claimant seeking eviction and arrears",
+   "name_en": "Aisha Mohammed Bin Harib Al Ketbi",
+   "details_en": "Lessor, UAE national, Dubai; claimant seeking eviction and rent",
    "pages": [
     1,
     2
@@ -74,11 +75,23 @@
   },
   {
    "role": "defendant",
-   "role_en": "Lessee (Defendant)",
+   "role_en": "Tenant",
    "role_ar": "المستأجرة",
    "name_ar": "شركة مسار الواحة للتجارة العامة ذ.م.م",
    "name_en": "Masar Al Waha General Trading LLC",
-   "details_en": "Lessee, trade licence No. 000000, address Shop 12 Building 7 Al Qusais Industrial 2 Dubai",
+   "details_en": "Tenant, commercial licence No. 000000; defendant in eviction and rent claim; address Shop 12, Building 7, Al Qusais Industrial 2",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "role": "notary",
+   "role_en": "Notary Public",
+   "role_ar": "الكاتب العدل",
+   "name_ar": "الكاتب العدل (نموذج تدربي)",
+   "name_en": "Notary Public (training model)",
+   "details_en": "Notary that served the payment notice on 02/09/2026; training model stamp",
    "pages": [
     1,
     2
@@ -88,31 +101,20 @@
    "role": "other",
    "role_en": "Registration Section",
    "role_ar": "قسم التسجيل",
-   "name_ar": "قسم التسجيل",
-   "name_en": "Registration Section",
-   "details_en": "Stamped registration on claim on 07/10/2026",
+   "name_ar": "قسم التسجيل (نموذج تدربي)",
+   "name_en": "Registration Section (training model)",
+   "details_en": "Section that registered the request on 07/10/2026; training model stamp",
    "pages": [
     1
    ]
   },
   {
-   "role": "notary",
-   "role_en": "Notary Public",
-   "role_ar": "الكاتب العدل",
-   "name_ar": "الكاتب العدل",
-   "name_en": "Notary Public",
-   "details_en": "Attested payment demand notice on 02/09/2026",
-   "pages": [
-    2
-   ]
-  },
-  {
-   "role": "defendant_representative",
-   "role_en": "Cashier",
+   "role": "other",
+   "role_en": "Fund Custodian",
    "role_ar": "أمين الصندوق",
-   "name_ar": "أمين صندوق شركة مسار الواحة",
-   "name_en": "Cashier of Masar Al Waha (name not stated)",
-   "details_en": "Received original notice on 02/09/2026 on behalf of defendant company, signature and company stamp affixed",
+   "name_ar": "أمين الصندوق",
+   "name_en": "Fund Custodian",
+   "details_en": "Person who acknowledged receipt of original notice on 02/09/2026",
    "pages": [
     2
    ]
@@ -121,7 +123,7 @@
  "dates": [
   {
    "date": "2026-01-01",
-   "what_en": "Lease start date",
+   "what_en": "Lease contract start date",
    "what_ar": "بداية عقد الإيجار",
    "page": 1,
    "source": "printed",
@@ -129,36 +131,48 @@
   },
   {
    "date": "2026-04-01",
-   "what_en": "Second cheque No. 100002 for AED 23,750 due",
-   "what_ar": "استحقاق الشيك الثاني رقم (100002) بقيمة 23,750 درهم",
+   "what_en": "Second cheque No. 100002 due for AED 23,750",
+   "what_ar": "تاريخ استحقاق الشيك الثاني رقم 100002 بقيمة 23,750 درهم",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-07-01",
-   "what_en": "Third cheque No. 100003 for AED 23,750 due",
-   "what_ar": "استحقاق الشيك الثالث رقم (100003) بقيمة 23,750 درهم",
+   "what_en": "Third cheque No. 100003 due for AED 23,750",
+   "what_ar": "تاريخ استحقاق الشيك الثالث رقم 100003 بقيمة 23,750 درهم",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-09-01",
-   "what_en": "Date of payment demand notice",
-   "what_ar": "تاريخ تحرير الإنذار بالسداد",
+   "what_en": "Payment demand notice date",
+   "what_ar": "تاريخ الإنذار بالسداد",
    "page": 2,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-09-02",
-   "what_en": "Notary notification and receipt of original notice",
-   "what_ar": "الإخطار بالسداد عن طريق الكاتب العدل واستلام الأصل",
+   "what_en": "Service of payment notice through Notary Public",
+   "what_ar": "الإخطار بالسداد عن طريق الكاتب العدل",
    "page": 2,
-   "source": "stamp",
+   "source": "printed",
    "mark_ids": [
     "M3"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "what_en": "Receipt of original notice by fund custodian",
+   "what_ar": "استلام أصل الإنذار من قبل أمين الصندوق",
+   "page": 2,
+   "source": "handwriting",
+   "mark_ids": [
+    "X3",
+    "M4",
+    "M5"
    ]
   },
   {
@@ -171,8 +185,8 @@
   },
   {
    "date": "2026-10-07",
-   "what_en": "Date of eviction request and registration stamp",
-   "what_ar": "تاريخ طلب الإخلاء وختم قسم التسجيل",
+   "what_en": "Date of eviction and claim request to the Center",
+   "what_ar": "تاريخ طلب الإخلاء والمطالبة المقدم للمركز",
    "page": 1,
    "source": "printed",
    "mark_ids": [
@@ -181,8 +195,8 @@
   },
   {
    "date": "2026-11-16",
-   "what_en": "Handwritten hearing appointment at 10:00 AM",
-   "what_ar": "جلسة محددة بخط اليد الساعة 10:00 صباحاً",
+   "what_en": "Hearing session at 10:00 AM",
+   "what_ar": "موعد الجلسة الساعة 10:00 صباحاً",
    "page": 1,
    "source": "handwriting",
    "mark_ids": [
@@ -191,7 +205,7 @@
   },
   {
    "date": "2026-12-31",
-   "what_en": "Lease end date",
+   "what_en": "Lease contract end date",
    "what_ar": "نهاية عقد الإيجار",
    "page": 1,
    "source": "printed",
@@ -200,50 +214,28 @@
  ],
  "deadlines": [
   {
-   "date": "2026-04-01",
-   "time": "",
-   "who_en": "Defendant",
-   "what_en": "Defendant to pay second cheque - not met (bounced)",
-   "what_ar": "سداد الشيك الثاني على المستأجرة - لم يتم (ارتد دون صرف)",
-   "page": 1,
-   "computed": false,
-   "basis_en": "Quarterly lease schedule: second cheque due 01/04/2026; stated as dishonoured",
-   "source": "printed",
-   "mark_ids": []
-  },
-  {
-   "date": "2026-07-01",
-   "time": "",
-   "who_en": "Defendant",
-   "what_en": "Defendant to pay third cheque - not met (bounced)",
-   "what_ar": "سداد الشيك الثالث على المستأجرة - لم يتم (ارتد دون صرف)",
-   "page": 1,
-   "computed": false,
-   "basis_en": "Quarterly lease schedule: third cheque due 01/07/2026; stated as dishonoured",
-   "source": "printed",
-   "mark_ids": []
-  },
-  {
    "date": "2026-10-02",
    "time": "",
-   "who_en": "Defendant",
-   "what_en": "Defendant to pay AED 47,500 within 30 days of notice - not met, no payment by 02/10/2026",
-   "what_ar": "سداد المبلغ المتأخر 47,500 درهم خلال ثلاثين يوماً من الاستلام - لم يتم",
+   "who_en": "Tenant: Masar Al Waha General Trading LLC",
+   "what_en": "Tenant to pay AED 47,500 within 30 days of receiving notice or face eviction claim - NOT MET, period expired without payment",
+   "what_ar": "سداد المبلغ المتأخر 47,500 درهم خلال ثلاثين يوماً من تاريخ استلام الإخطار وإلا التقدم بطلب الإخلاء - لم يتم السداد وانقضت المهلة",
    "page": 1,
    "computed": true,
-   "basis_en": "30 days from receipt on 2026-09-02 under Article 25(1)(a) of Law No. 26 of 2007; expiry expressly stated as 02/10/2026",
+   "basis_en": "30 days from notary notification on 02/09/2026 under Article 25(1)(a) = 02/10/2026; file states period expired on 02/10/2026 without payment",
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "M3"
+   ]
   },
   {
    "date": "2026-11-16",
    "time": "10:00",
-   "who_en": "Claimant and Defendant",
-   "what_en": "Parties to attend hearing",
+   "who_en": "Parties before the Center",
+   "what_en": "Attend hearing session",
    "what_ar": "حضور الجلسة",
    "page": 1,
    "computed": false,
-   "basis_en": "As written in handwritten session note on page 1",
+   "basis_en": "",
    "source": "handwriting",
    "mark_ids": [
     "X1"
@@ -252,22 +244,29 @@
  ],
  "claims": [
   {
-   "item_en": "Evict defendant from leased shop and hand over vacant",
+   "item_en": "Evict tenant from leased shop and hand over vacant",
    "item_ar": "إخلاء المستأجرة من العين المؤجرة وتسليمها خالية من الشواغل",
    "has_amount": false,
    "amount_aed": 0.0,
    "page": 1
   },
   {
-   "item_en": "Pay overdue rent of AED 47,500 plus further rent accruing until actual eviction",
-   "item_ar": "سداد الأجرة المتأخرة وقدرها (47,500) درهم، وما يستجد من أجرة حتى تاريخ الإخلاء الفعلي",
+   "item_en": "Pay overdue rent of AED 47,500",
+   "item_ar": "سداد الأجرة المتأخرة وقدرها (47,500) درهم",
    "has_amount": true,
    "amount_aed": 47500.0,
    "page": 1
   },
   {
-   "item_en": "Order defendant to pay fees and costs",
-   "item_ar": "إلزام المستأجرة بالرسوم والمصروفات",
+   "item_en": "Pay further rent accruing until actual eviction date",
+   "item_ar": "سداد ما يستجد من أجرة حتى تاريخ الإخلاء الفعلي",
+   "has_amount": false,
+   "amount_aed": 0.0,
+   "page": 1
+  },
+  {
+   "item_en": "Fees and expenses",
+   "item_ar": "الرسوم والمصروفات",
    "has_amount": false,
    "amount_aed": 0.0,
    "page": 1
@@ -275,64 +274,51 @@
  ],
  "key_facts": [
   {
-   "fact_en": "Leased shop No. 12, Building No. 7, Al Qusais Industrial Area 2, Dubai, leased 01/01/2026 to 31/12/2026 for AED 95,000 yearly payable in four cheques of AED 23,750 each",
-   "fact_ar": "العين المؤجرة محل رقم (12)، مبنى رقم (7)، منطقة القصيص الصناعية الثانية، دبي، بعقد من 01/01/2026 إلى 31/12/2026 بأجرة سنوية 95,000 درهم تدفع بأربعة شيكات قيمة كل منها 23,750 درهم",
+   "fact_en": "Lessor is Aisha Mohammed Bin Harib Al Ketbi, UAE national, Dubai; tenant is Masar Al Waha General Trading LLC",
+   "fact_ar": "المؤجرة عائشة محمد بن حارب الكتبي، مواطنة، دبي، والمستأجرة شركة مسار الواحة للتجارة العامة ذ.م.م",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Second cheque due 01/04/2026 and third cheque due 01/07/2026, Nos. 100002 and 100003, bounced unpaid, total arrears AED 47,500",
-   "fact_ar": "ارتد الشيكان الثاني بتاريخ 01/04/2026 والثالث بتاريخ 01/07/2026 رقما (100002) و(100003) دون صرف، فبلغت المتأخرات 47,500 درهم",
+   "fact_en": "Leased unit is Shop No. 12, Building No. 7, Al Qusais Industrial Area 2, Dubai",
+   "fact_ar": "العين المؤجرة محل رقم (12)، مبنى رقم (7)، منطقة القصيص الصناعية الثانية، دبي",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Lessor notified lessee via Notary Public on 02/09/2026 demanding payment within 30 days of receipt failing which eviction would be sought",
-   "fact_ar": "أخطرت المؤجرة المستأجرة بالسداد عن طريق الكاتب العدل بتاريخ 02/09/2026 وطالبته بالسداد خلال ثلاثين يوماً من الاستلام وإلا طلبت الإخلاء",
-   "page": 2,
-   "source": "stamp",
-   "mark_ids": [
-    "M3"
-   ]
-  },
-  {
-   "fact_en": "30-day period expired on 02/10/2026 without payment",
-   "fact_ar": "انقضت مهلة الثلاثين يوماً بتاريخ 02/10/2026 دون سداد",
+   "fact_en": "Lease from 01/01/2026 to 31/12/2026 for annual rent AED 95,000 payable in four cheques of AED 23,750 each",
+   "fact_ar": "عقد الإيجار من 01/01/2026 إلى 31/12/2026 بأجرة سنوية 95,000 درهم تدفع بأربعة شيكات قيمة كل منها 23,750 درهم",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Defendant company's cashier received the original notice on 02/09/2026",
-   "fact_ar": "استلم أمين صندوق الشركة المستأجرة أصل الإنذار بتاريخ 02/09/2026",
-   "page": 2,
-   "source": "handwriting",
-   "mark_ids": [
-    "M4",
-    "M5"
-   ]
+   "fact_en": "Second cheque due 01/04/2026 and third cheque due 01/07/2026, Nos. 100002 and 100003, were returned unpaid; arrears total AED 47,500",
+   "fact_ar": "ارتد الشيكان الثاني المستحق بتاريخ 01/04/2026 والثالث المستحق بتاريخ 01/07/2026 دون صرف فبلغت المتأخرات 47,500 درهم والشيكان رقمهما 100002 و100003",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
   },
   {
-   "fact_en": "Lessor filed eviction request on 07/10/2026; handwritten note sets hearing on 16/11/2026 at 10:00 AM",
-   "fact_ar": "قدمت المؤجرة طلب الإخلاء بتاريخ 07/10/2026 وحددت جلسة بخط اليد بتاريخ 16/11/2026 الساعة 10:00 صباحاً",
+   "fact_en": "Tenant was notified to pay via Notary Public on 02/09/2026 and 30-day period expired on 02/10/2026 without payment",
+   "fact_ar": "أخطرت المستأجرة بالسداد عن طريق الكاتب العدل بتاريخ 02/09/2026 وانقضت مهلة الثلاثين يوماً بتاريخ 02/10/2026 دون سداد",
    "page": 1,
    "source": "printed",
    "mark_ids": [
-    "M1",
-    "X1"
+    "M3"
    ]
   }
  ],
  "citations": [
   {
-   "text_ar": "المادة (19) بشأن التزام المستأجر بسداد الأجرة في مواعيدها",
+   "text_ar": "المادة (19) بشأن التزام المستأجر بسداد الأجرة في مواعيدها، والبند (1/أ) من المادة (25) بشأن الإخلاء لعدم السداد خلال ثلاثين يوماً من تاريخ الإخطار، والمادة (31) التي تنص على أن رفع دعوى الإخلاء لا يعفي المستأجر من سداد الأجرة، وذلك من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي.",
    "law_kind": "local_law",
    "emirate": "Dubai",
    "law_number": "26",
    "law_year": 2007,
-   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "law_title_en": "Law Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
    "article": "19",
    "clause": "",
    "quoted_text_ar": "",
@@ -354,14 +340,14 @@
    }
   },
   {
-   "text_ar": "والبند (1/أ) من المادة (25) بشأن الإخلاء لعدم السداد خلال ثلاثين يوماً من تاريخ الإخطار",
+   "text_ar": "المادة (19) بشأن التزام المستأجر بسداد الأجرة في مواعيدها، والبند (1/أ) من المادة (25) بشأن الإخلاء لعدم السداد خلال ثلاثين يوماً من تاريخ الإخطار، والمادة (31) التي تنص على أن رفع دعوى الإخلاء لا يعفي المستأجر من سداد الأجرة، وذلك من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي.",
    "law_kind": "local_law",
    "emirate": "Dubai",
    "law_number": "26",
    "law_year": 2007,
-   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
-   "article": "25",
-   "clause": "1/أ",
+   "law_title_en": "Law Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "19",
+   "clause": "",
    "quoted_text_ar": "",
    "page": 1,
    "article_checked": "25",
@@ -381,13 +367,13 @@
    }
   },
   {
-   "text_ar": "والمادة (31) التي تنص على أن رفع دعوى الإخلاء لا يعفي المستأجر من سداد الأجرة، وذلك من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "text_ar": "المادة (19) بشأن التزام المستأجر بسداد الأجرة في مواعيدها، والبند (1/أ) من المادة (25) بشأن الإخلاء لعدم السداد خلال ثلاثين يوماً من تاريخ الإخطار، والمادة (31) التي تنص على أن رفع دعوى الإخلاء لا يعفي المستأجر من سداد الأجرة، وذلك من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي.",
    "law_kind": "local_law",
    "emirate": "Dubai",
    "law_number": "26",
    "law_year": 2007,
-   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
-   "article": "31",
+   "law_title_en": "Law Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "article": "19",
    "clause": "",
    "quoted_text_ar": "",
    "page": 1,
@@ -408,12 +394,12 @@
    }
   },
   {
-   "text_ar": "وذلك عملاً بالبند (1/أ) من المادة (25) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي",
+   "text_ar": "وذلك عملاً بالبند (1/أ) من المادة (25) من القانون رقم (26) لسنة 2007 بشأن تنظيم العلاقة بين مؤجري ومستأجري العقارات في إمارة دبي.",
    "law_kind": "local_law",
    "emirate": "Dubai",
    "law_number": "26",
    "law_year": 2007,
-   "law_title_en": "Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
+   "law_title_en": "Law Regulating the Relationship between Landlords and Tenants in the Emirate of Dubai",
    "article": "25",
    "clause": "1/أ",
    "quoted_text_ar": "",
@@ -448,9 +434,9 @@
    "type": "stamp",
    "found_as": "purple stamp",
    "confidence": 0.8865247964859009,
-   "text_ar": "قسم التسجيل نموذج تدريبي 07/10/2026",
-   "meaning_en": "Registration Section stamp recording filing on 07/10/2026 (training model)",
-   "meaning_ar": "ختم قسم التسجيل يفيد تقديم الطلب بتاريخ 07/10/2026 (نموذج تدريبي)",
+   "text_ar": "قسم التسجيل نموذج تدربي 07/10/2026",
+   "meaning_en": "Registration Section stamp dated 07/10/2026, the filing date",
+   "meaning_ar": "ختم قسم التسجيل بتاريخ 07/10/2026 وهو تاريخ تقديم الطلب",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -467,8 +453,8 @@
    "found_as": "signature",
    "confidence": 0.7419355511665344,
    "text_ar": "",
-   "meaning_en": "Signature of lessor Aisha Mohamed bin Hareb Al Ketbi on the claim",
-   "meaning_ar": "توقيع المؤجرة عائشة محمد بن حارب الكتبي على طلب الإخلاء",
+   "meaning_en": "Blue ink signature of the lessor below her name on the eviction request",
+   "meaning_ar": "توقيع المؤجرة بالحبر الأزرق أسفل اسمها على طلب الإخلاء",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -484,9 +470,9 @@
    "type": "stamp",
    "found_as": "stamp",
    "confidence": 0.8128654956817627,
-   "text_ar": "الكاتب العدل نموذج تدريبي 02/09/2026",
-   "meaning_en": "Notary Public stamp evidencing notification on 02/09/2026 (training model)",
-   "meaning_ar": "ختم الكاتب العدل يفيد الإخطار بتاريخ 02/09/2026 (نموذج تدريبي)",
+   "text_ar": "الكاتب العدل نموذج تدربي 02/09/2026",
+   "meaning_en": "Notary Public stamp dated 02/09/2026 documenting service of payment notice",
+   "meaning_ar": "ختم الكاتب العدل بتاريخ 02/09/2026 يوثق الإخطار بالسداد",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -503,8 +489,8 @@
    "found_as": "signature",
    "confidence": 0.8241757750511169,
    "text_ar": "",
-   "meaning_en": "Signature of recipient (cashier) acknowledging receipt",
-   "meaning_ar": "توقيع مستلم الأصل (أمين الصندوق) على الإنذار",
+   "meaning_en": "Black ink signature next to company stamp on original receipt acknowledgement",
+   "meaning_ar": "توقيع بالحبر الأسود بجانب ختم الشركة على إقرار استلام الأصل",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -521,8 +507,8 @@
    "found_as": "blue stamp",
    "confidence": 0.9139785170555115,
    "text_ar": "مسار الواحة للتجارة العامة ذ.م.م — دبي",
-   "meaning_en": "Stamp of defendant company: Masar Al Waha General Trading LLC - Dubai",
-   "meaning_ar": "ختم الشركة المستأجرة: مسار الواحة للتجارة العامة ذ.م.م - دبي",
+   "meaning_en": "Company stamp of the tenant Masar Al Waha General Trading LLC - Dubai",
+   "meaning_ar": "ختم الشركة المستأجرة مسار الواحة للتجارة العامة ذ.م.م - دبي",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -530,17 +516,18 @@
    "mark_id": "X1",
    "page": 1,
    "box": [
-    0.34,
-    0.79,
-    0.71,
-    0.84
+    0.4054,
+    0.7841,
+    0.7942,
+    0.8259
    ],
    "type": "handwriting",
    "found_as": "reader",
+   "placed_by": "close-up",
    "confidence": null,
    "text_ar": "جلسة 16/11/2026 — الساعة 10:00 صباحاً",
-   "meaning_en": "Handwritten note setting hearing on 16/11/2026 at 10:00 AM",
-   "meaning_ar": "ملاحظة بخط اليد تحدد موعد الجلسة 16/11/2026 الساعة 10:00 صباحاً",
+   "meaning_en": "Handwritten note scheduling hearing on 16/11/2026 at 10:00 AM",
+   "meaning_ar": "ملاحظة بخط اليد تحدد موعد الجلسة يوم 16/11/2026 الساعة 10:00 صباحاً",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -548,17 +535,18 @@
    "mark_id": "X2",
    "page": 2,
    "box": [
-    0.32,
-    0.75,
-    0.73,
-    0.79
+    0.102,
+    0.385,
+    0.297,
+    0.4373
    ],
-   "type": "handwriting",
+   "type": "signature",
    "found_as": "reader",
+   "placed_by": "close-up",
    "confidence": null,
-   "text_ar": "استلمت الأصل — 2/9/2026 — أمين الصندوق",
-   "meaning_en": "Handwritten acknowledgement of receipt of original on 2/9/2026 by cashier",
-   "meaning_ar": "إقرار بخط اليد باستلام الأصل بتاريخ 2/9/2026 من أمين الصندوق",
+   "text_ar": "",
+   "meaning_en": "Blue ink signature of the lessor on the payment notice",
+   "meaning_ar": "توقيع المؤجرة بالحبر الأزرق على الإنذار بالسداد",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -566,17 +554,18 @@
    "mark_id": "X3",
    "page": 2,
    "box": [
-    0.09,
-    0.37,
-    0.27,
-    0.44
+    0.38,
+    0.76,
+    0.73,
+    0.8
    ],
-   "type": "signature",
+   "type": "handwriting",
    "found_as": "reader",
+   "placed_by": "first look",
    "confidence": null,
-   "text_ar": "المؤجرة",
-   "meaning_en": "Signature of lessor on the payment demand notice",
-   "meaning_ar": "توقيع المؤجرة على الإنذار بالسداد",
+   "text_ar": "استلمت الأصل — 2/9/2026 — أمين الصندوق",
+   "meaning_en": "Handwritten acknowledgement of receipt of original on 2/9/2026 by fund custodian",
+   "meaning_ar": "إقرار بخط اليد باستلام الأصل بتاريخ 2/9/2026 من أمين الصندوق",
    "changes_printed_text": false,
    "reviewed": true
   }
@@ -584,50 +573,50 @@
  "rejected_marks": [],
  "flags": [
   {
-   "flag_en": "2026-09-02 (Notary notification and receipt of original notice) appears only in a stamp on page 2.",
-   "flag_ar": "التاريخ 2026-09-02 (الإخطار بالسداد عن طريق الكاتب العدل واستلام الأصل) وارد فقط في ختم في الصفحة 2.",
+   "flag_en": "2026-09-02 (Receipt of original notice by fund custodian) appears only in a handwritten note on page 2.",
+   "flag_ar": "التاريخ 2026-09-02 (استلام أصل الإنذار من قبل أمين الصندوق) وارد فقط في ملاحظة بخط اليد في الصفحة 2.",
    "page": 2,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "2026-11-16 (Handwritten hearing appointment at 10:00 AM) appears only in a handwritten note on page 1.",
-   "flag_ar": "التاريخ 2026-11-16 (جلسة محددة بخط اليد الساعة 10:00 صباحاً) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "flag_en": "2026-11-16 (Hearing session at 10:00 AM) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-11-16 (موعد الجلسة الساعة 10:00 صباحاً) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
    "page": 1,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "2026-11-16 (Parties to attend hearing) appears only in a handwritten note on page 1.",
+   "flag_en": "2026-11-16 (Attend hearing session) appears only in a handwritten note on page 1.",
    "flag_ar": "التاريخ 2026-11-16 (حضور الجلسة) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
    "page": 1,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "Document footer states it is a fictional test document, not a real case",
-   "flag_ar": "الوثيقة خيالية لأغراض الاختبار وليست قضية حقيقية حسب التذييل في الصفحتين",
-   "page": 1,
-   "severity": "high",
-   "by": "reader"
-  },
-  {
-   "flag_en": "No case number stated in file",
-   "flag_ar": "لم يرد رقم قضية في الملف",
+   "flag_en": "No case number appears on file in print or marks",
+   "flag_ar": "الملف لا يتضمن رقم دعوى، ولم يرد أي رقم في المطبوع أو الأختام",
    "page": 1,
    "severity": "medium",
    "by": "reader"
   },
   {
-   "flag_en": "Trade licence number shown as 000000, appears to be placeholder",
-   "flag_ar": "رقم الرخصة التجارية ورد بصيغة 000000 ويبدو رقماً افتراضياً",
+   "flag_en": "Footer on both pages states this is a fictional test document, not a real case",
+   "flag_ar": "تذييل الصفحتين ينص على أن الوثيقة خيالية لأغراض الاختبار وليست قضية حقيقية",
    "page": 1,
-   "severity": "medium",
+   "severity": "low",
    "by": "reader"
   },
   {
-   "flag_en": "Handwritten hearing date read as 16/11/2026 but handwriting is not fully clear",
-   "flag_ar": "تاريخ الجلسة بخط اليد قد يقرأ 16/11/2026 والقراءة غير مؤكدة تماماً",
+   "flag_en": "Tenant trade licence number shown as 000000, appears to be a placeholder",
+   "flag_ar": "رقم الرخصة التجارية للمستأجرة ورد بصيغة 000000 بما يشير إلى رقم افتراضي",
+   "page": 1,
+   "severity": "low",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Text says without disbursement with apparent typo for without payment",
+   "flag_ar": "وردت عبارة دون ضرف والمقصود فيما يظهر دون صرف",
    "page": 1,
    "severity": "low",
    "by": "reader"

@@ -3,9 +3,9 @@
  "source_file": "case-12-trademark.pdf",
  "mock": false,
  "run": {
-  "started": "2026-11-02T11:26:46Z",
-  "finished": "2026-11-02T11:28:48Z",
-  "seconds": 122.2,
+  "started": "2026-11-03T21:57:02Z",
+  "finished": "2026-11-03T21:58:55Z",
+  "seconds": 113.0,
   "reader_model": "muse-spark-1.3",
   "marks_model": "sam-3.1",
   "reasoning_effort": "high",
@@ -22,21 +22,22 @@
   },
   "min_confidence": 0.3,
   "reader_output_mode": "json_schema",
+  "close_ups": true,
   "mock": false,
   "case_reader_version": "0.1.0"
  },
- "title_en": "Zahranova Perfumes v Ghaimat Al Raihan Perfume Trading – Registered trademark infringement claim",
- "title_ar": "شركة زهرانوفا للعطور ومستحضرات التجميل ضد مؤسسة غيمة الريحان لتجارة العطور – دعوى تعد على علامة تجارية مسجلة",
+ "title_en": "Zahranova Perfumes v. Gheimat Al Rayhan Perfume Trading – Registered Trademark Infringement (ZAHRANOVA No. 000417)",
+ "title_ar": "شركة زهرانوفا للعطور ضد مؤسسة غيمة الريحان لتجارة العطور – دعوى تعد على علامة تجارية مسجلة (زهرانوفا رقم 000417)",
  "case_type": "commercial",
- "summary_en": "Zahranova company claims it owns registered mark ZAHRANOVA No. 000417 class 3 and that the defendant sold bottles bearing the mark at a low price proved by a 24/09/2026 test purchase, then obtained a conservatory order executed by seizure on 08/10/2026 valued at AED 201,250, and seeks confirmation of seizure, injunction, confiscation and destruction plus AED 350,000 compensation under Articles 17, 18, 21, 47, 47-bis, 48 and 50 of Federal Decree-Law No. 36 of 2021.",
- "summary_ar": "تدعي شركة زهرانوفا أنها مالكة العلامة المسجلة ZAHRANOVA رقم 000417 فئة 3 وأن المدعى عليها باعت عبوات تحمل العلامة بسعر مخفض ثبت بالشراء التجريبي بتاريخ 24/09/2026، ثم حصلت على أمر حجز تحفظي نفذ بالضبط في 08/10/2026 بقيمة تقديرية 201,250 درهماً، وتطلب تثبيت الحجز والمنع والمصادرة والإتلاف وتعويض 350,000 درهم استناداً للمواد 17 و20 و21 و47 و47 مكرر و48 و50 من المرسوم بقانون اتحادي رقم 36 لسنة 2021.",
+ "summary_en": "Fictional test lawsuit sheet by Zahranova to Dubai Full Civil Court against Gheimat Al Rayhan and its owner for alleged infringement of registered mark Zahranova No. 000417 Class 3. Based on 24/09/2026 trial purchase and precautionary order 731/2026 issued 06/10/2026 executed 08/10/2026 seizing goods worth AED 201,250. Seeks confirmation of seizure, injunction, confiscation/destruction and AED 350,000 damages. Handwritten hearing 9/11/2026. Attachments: registration statement and trial invoice excerpt.",
+ "summary_ar": "صحيفة دعوى خيالية للاختبار مقدمة من شركة زهرانوفا إلى مدنية دبي الكلية ضد مؤسسة غيمة الريحان ومالكها بزعم التعدي على العلامة المسجلة زهرانوفا رقم 000417 فئة 3. تستند إلى شراء تجريبي بتاريخ 24/09/2026 وأمر حجز تحفظي 731/2026 الصادر 06/10/2026 والمنفذ 08/10/2026 بضبط بضائع بقيمة 201,250 درهم. تطلب تثبيت الحجز والمنع والمصادرة والإتلاف وتعويض 350,000 درهم. حُددت جلسة 9/11/2026 بخط اليد. المرفقات: بيان التسجيل ومقتطف فاتورة الشراء.",
  "pages": [
   {
    "page": 1,
    "image": "pages/page-1.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Trademark infringement statement of claim to Dubai Court of First Instance",
+   "document_en": "Lawsuit sheet for infringement of registered trademark filed to Dubai Court of First Instance",
    "document_ar": "صحيفة دعوى تعد على علامة تجارية مسجلة مقدمة إلى محكمة دبي الابتدائية",
    "src": "../test-files/case-12-trademark/page-1.jpg"
   },
@@ -45,8 +46,8 @@
    "image": "pages/page-2.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Trademark registration data extract and trial purchase invoice excerpt",
-   "document_ar": "بيانات شهادة تسجيل علامة تجارية ومقتطف من فاتورة الشراء التجريبي",
+   "document_en": "Trademark registration certificate details (Attachment 1) and trial purchase invoice excerpt (Attachment 2)",
+   "document_ar": "بيانات شهادة تسجيل علامة تجارية (مرفق 1) ومقتطف من فاتورة الشراء التجريبي (مرفق 2)",
    "src": "../test-files/case-12-trademark/page-2.jpg"
   }
  ],
@@ -54,7 +55,7 @@
   "name_en": "Dubai Court of First Instance – Full Civil Circuit",
   "name_ar": "محكمة دبي الابتدائية — الدائرة المدنية الكلية",
   "case_number": "",
-  "case_number_source": "computed",
+  "case_number_source": "printed",
   "pages": [
    1
   ]
@@ -64,9 +65,9 @@
    "role": "claimant",
    "role_en": "Claimant",
    "role_ar": "المدعية",
-   "name_ar": "شركة زهرانوفا للعطور ومستحضرات التجميل ذ.م.م.",
+   "name_ar": "شركة زهرانوفا للعطور ومستحضرات التجميل ذ.م.م",
    "name_en": "Zahranova Perfumes and Cosmetics LLC",
-   "details_en": "Commercial licence No. 000000, Dubai; owner of trademark ZAHRANOVA No. 000417",
+   "details_en": "Trade licence No. 000000, Dubai; owner of trademark No. 000417",
    "pages": [
     1,
     2
@@ -77,53 +78,53 @@
    "role_en": "Defendant",
    "role_ar": "المدعى عليها",
    "name_ar": "مؤسسة غيمة الريحان لتجارة العطور",
-   "name_en": "Ghaimat Al Raihan Perfume Trading Establishment",
-   "details_en": "Sole proprietorship, Deira, Dubai; seller in invoice S-2026-0815",
+   "name_en": "Gheimat Al Rayhan Perfume Trading Establishment",
+   "details_en": "Sole establishment, Deira, Dubai; seller in invoice S-2026-0815; tax No. 000000000000000",
    "pages": [
     1,
     2
    ]
   },
   {
-   "role": "defendant",
-   "role_en": "Owner of defendant establishment",
+   "role": "defendant_representative",
+   "role_en": "Owner of defendant sole establishment",
    "role_ar": "مالك المؤسسة المدعى عليها",
    "name_ar": "فيصل منصور الجابري",
    "name_en": "Faisal Mansour Al Jabri",
-   "details_en": "Owner of defendant sole proprietorship, Deira - Dubai",
+   "details_en": "Owner of defendant sole establishment, Deira, Dubai",
    "pages": [
     1
    ]
   },
   {
    "role": "claimant_lawyer",
-   "role_en": "Claimant's counsel - Lawyer",
-   "role_ar": "وكيلة المدعية – المحامية",
+   "role_en": "Claimant's lawyer",
+   "role_ar": "وكيلة المدعية — المحامية",
    "name_ar": "نوال عيسى الحمادي",
    "name_en": "Nawal Issa Al Hammadi",
-   "details_en": "Signatory of statement of claim, Ref DH/IP/2026/052",
+   "details_en": "Counsel for claimant, signatory on page 1",
    "pages": [
     1
    ]
   },
   {
    "role": "claimant_lawyer",
-   "role_en": "Claimant's law firm",
+   "role_en": "Claimant lawyer's office",
    "role_ar": "مكتب وكيلة المدعية",
    "name_ar": "مكتب درع الحقوق للمحاماة والملكية الفكرية",
    "name_en": "Dir' Al Huquq Advocates & IP Consultants",
-   "details_en": "Dir' Al Huquq Advocates & IP Consultants, Dubai; letterhead and stamp on claim",
+   "details_en": "Dir' Al Huquq Advocates & IP Consultants, Dubai; Ref DH/IP/2026/052; stamp and letterhead on page 1",
    "pages": [
     1
    ]
   },
   {
    "role": "other",
-   "role_en": "Trademark issuing authority",
-   "role_ar": "جهة إصدار العلامة",
-   "name_ar": "وزارة الاقتصاد – إدارة العلامات التجارية",
-   "name_en": "Ministry of Economy - Trademark Department",
-   "details_en": "Trademark Department, issuer of registration data extract",
+   "role_en": "Issuing authority of registration statement",
+   "role_ar": "جهة إصدار بيان التسجيل",
+   "name_ar": "وزارة الاقتصاد — إدارة العلامات التجارية",
+   "name_en": "Ministry of Economy – Trademark Administration",
+   "details_en": "Federal authority issuing trademark registration data; stamp dated 29/09/2026",
    "pages": [
     2
    ]
@@ -132,15 +133,15 @@
  "dates": [
   {
    "date": "2026-01-12",
-   "what_en": "Trademark application date, no priority",
-   "what_ar": "تاريخ طلب العلامة",
+   "what_en": "Filing date of trademark No. 000417 (no priority)",
+   "what_ar": "تاريخ طلب تسجيل العلامة رقم 000417 (لا توجد أولوية)",
    "page": 2,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-05-18",
-   "what_en": "Trademark registration date",
+   "what_en": "Date of trademark registration",
    "what_ar": "تاريخ تسجيل العلامة",
    "page": 2,
    "source": "printed",
@@ -148,16 +149,32 @@
   },
   {
    "date": "2026-09-24",
-   "what_en": "Test purchase from defendant and invoice date",
-   "what_ar": "الشراء التجريبي وتاريخ الفاتورة",
+   "what_en": "Date of trial purchase of two bottles bearing the mark from defendant",
+   "what_ar": "تاريخ الشراء التجريبي لعبوتين تحملان العلامة من المدعى عليها",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
+   "date": "2026-09-24",
+   "what_en": "Date of simplified trial purchase tax invoice No. S-2026-0815",
+   "what_ar": "تاريخ فاتورة الشراء التجريبي الضريبية المبسطة رقم S-2026-0815",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
    "date": "2026-09-29",
-   "what_en": "Trademark data extract date and Ministry stamp date",
-   "what_ar": "تاريخ استخراج بيان العلامة وختم الوزارة",
+   "what_en": "Extraction date of trademark registration statement (Attachment 1)",
+   "what_ar": "تاريخ استخراج بيان شهادة تسجيل العلامة (مرفق رقم 1)",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "date": "2026-09-29",
+   "what_en": "Ministry of Economy stamp date (training template)",
+   "what_ar": "تاريخ ختم وزارة الاقتصاد (نموذج تدريبي)",
    "page": 2,
    "source": "stamp",
    "mark_ids": [
@@ -166,32 +183,32 @@
   },
   {
    "date": "2026-10-06",
-   "what_en": "Conservatory description and seizure order No. 731 of 2026 issued",
-   "what_ar": "صدور الأمر على عريضة رقم (731) لسنة 2026 بالوصف والحجز التحفظي",
+   "what_en": "Date of order on petition No. 731 of 2026 for description and precautionary seizure",
+   "what_ar": "تاريخ صدور الأمر على عريضة رقم (731) لسنة 2026 بالوصف والحجز التحفظي",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-10-08",
-   "what_en": "Seizure executed",
-   "what_ar": "تنفيذ الضبط",
+   "what_en": "Date of execution of order by seizure",
+   "what_ar": "تاريخ تنفيذ الأمر بالضبط",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-10-21",
-   "what_en": "Law firm letter date",
-   "what_ar": "تاريخ رسالة مكتب المحاماة",
+   "what_en": "Date of lawsuit sheet issued by law office (Ref DH/IP/2026/052)",
+   "what_ar": "تاريخ صحيفة الدعوى الصادرة عن مكتب المحاماة (المرجع DH/IP/2026/052)",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-10-22",
-   "what_en": "Filing clerk receipt stamp date",
-   "what_ar": "ختم قلم القيد",
+   "what_en": "Filing clerk stamp date",
+   "what_ar": "تاريخ ختم قلم القيد",
    "page": 1,
    "source": "stamp",
    "mark_ids": [
@@ -200,8 +217,8 @@
   },
   {
    "date": "2026-11-09",
-   "what_en": "Session date noted by hand",
-   "what_ar": "جلسة محددة بخط اليد",
+   "what_en": "Handwritten hearing date set for the case",
+   "what_ar": "تحديد جلسة لنظر الدعوى بخط اليد",
    "page": 1,
    "source": "handwriting",
    "mark_ids": [
@@ -210,8 +227,8 @@
   },
   {
    "date": "2036-01-11",
-   "what_en": "Protection expiry date",
-   "what_ar": "تاريخ انتهاء الحماية",
+   "what_en": "Expiry date of trademark protection",
+   "what_ar": "تاريخ انتهاء حماية العلامة",
    "page": 2,
    "source": "printed",
    "mark_ids": []
@@ -222,11 +239,11 @@
    "date": "2026-11-09",
    "time": "",
    "who_en": "Court and parties",
-   "what_en": "Scheduled court hearing session",
-   "what_ar": "جلسة المحكمة المحددة",
+   "what_en": "Scheduled hearing session for the case",
+   "what_ar": "جلسة محددة لنظر الدعوى",
    "page": 1,
    "computed": false,
-   "basis_en": "",
+   "basis_en": "Handwritten note 'حددت جلسة 9/11/2026' at top of page 1 (mark X1)",
    "source": "handwriting",
    "mark_ids": [
     "X1"
@@ -235,15 +252,15 @@
  ],
  "claims": [
   {
-   "item_en": "Confirm conservatory seizure, enjoin defendant from using the mark or any similar mark, confiscate seized goods and destroy them at defendant's expense",
-   "item_ar": "تثبيت الحجز التحفظي ومنع المدعى عليها من استعمال العلامة أو أي علامة مشابهة لها ومصادرة المضبوطات وإتلافها على نفقتها",
+   "item_en": "Confirm precautionary seizure, prohibit defendant from using the mark or any similar mark, confiscate seized goods and destroy them at defendant's expense",
+   "item_ar": "تثبيت الحجز التحفظي، ومنع المدعى عليها من استعمال العلامة أو أي علامة مشابهة لها، ومصادرة المضبوطات وإتلافها على نفقتها",
    "has_amount": false,
    "amount_aed": 0.0,
    "page": 1
   },
   {
-   "item_en": "Order defendant to pay claimant AED 350,000 in compensation plus court fees, expenses and attorney fees",
-   "item_ar": "إلزام المدعى عليها بأن تؤدي للمدعية تعويضاً قدره (350,000) درهم وبالرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "item_en": "Order defendant to pay claimant AED 350,000 compensation plus court fees, expenses and attorney fees",
+   "item_ar": "إلزام المدعى عليها بأن تؤدي للمدعية تعويضاً قدره (350,000) درهم، وبالرسوم والمصروفات ومقابل أتعاب المحاماة",
    "has_amount": true,
    "amount_aed": 350000.0,
    "page": 1
@@ -251,44 +268,56 @@
  ],
  "key_facts": [
   {
-   "fact_en": "Claimant owns trademark ZAHRANOVA No. 000417 for class 3, applied 12/01/2026, registered 18/05/2026, protected until 11/01/2036 for perfumes, oud oil, cosmetics, body sprays and deodorants",
-   "fact_ar": "تملك المدعية العلامة ZAHRANOVA – زهرانوفا رقم 000417 عن الفئة (3) المسجلة بوزارة الاقتصاد بتاريخ طلب 12/01/2026 وتسجيل 18/05/2026 وحماية حتى 11/01/2036 للعطور ودهن العود ومستحضرات التجميل وبخاخات الجسم ومزيلات العرق",
+   "fact_en": "Claimant owns mark 'ZAHRANOVA – Zahranova' registered at Ministry of Economy No. 000417 in Class 3 (Attachment 1)",
+   "fact_ar": "المدعية مالكة العلامة \"زهرانوفا — ZAHRANOVA\" المسجلة بوزارة الاقتصاد برقم (000417) عن الفئة (3) (المرفق 1)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "On 24/09/2026 claimant's delegate bought two bottles bearing the mark from defendant at AED 95 per bottle versus original price AED 385 (Attachment 2)",
+   "fact_ar": "بتاريخ 24/09/2026 اشترى مندوب المدعية من المدعى عليها عبوتين تحملان العلامة بسعر (95) درهماً للعبوة وسعر الأصلي (385) درهماً (المرفق 2)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Order on petition No. 731 of 2026 for description and precautionary seizure issued 06/10/2026 and executed 08/10/2026 seizing goods with total estimated value AED 201,250",
+   "fact_ar": "صدر الأمر على عريضة رقم (731) لسنة 2026 بالوصف والحجز التحفظي بتاريخ 06/10/2026 ونُفذ بتاريخ 08/10/2026 بضبط أصناف بقيمة تقديرية إجمالية 201,250 درهم",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Seized: Zahranova Classic 100ml (240 x 385 = 92,400); Zahranova Rose 50ml (180 x 245 = 44,100); gift set (60 x 520 = 31,200); Zahranova oud oil 12ml (95 x 290 = 27,550); empty boxes/packaging bearing mark (1,500 x 4 = 6,000)",
+   "fact_ar": "المضبوطات: عطر زهرانوفا كلاسيك 100 مل (240 قطعة بسعر 385 = 92,400)؛ عطر زهرانوفا روز 50 مل (180 بسعر 245 = 44,100)؛ طقم هدايا (60 بسعر 520 = 31,200)؛ دهن عود زهرانوفا 12 مل (95 بسعر 290 = 27,550)؛ علب وأغلفة فارغة تحمل العلامة (1500 بسعر 4 = 6,000)",
+   "page": 1,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Registration details: application 12/01/2026 no priority; registration 18/05/2026; protection ends 11/01/2036; owner Zahranova Perfumes LLC (UAE-Dubai); goods: perfumes, oud oil, cosmetics, body sprays, deodorants; word mark in gold and black",
+   "fact_ar": "بيانات التسجيل: تاريخ الطلب 12/01/2026 بلا أولوية؛ تاريخ التسجيل 18/05/2026؛ انتهاء الحماية 11/01/2036؛ المالك شركة زهرانوفا للعطور ومستحضرات التجميل ذ.م.م (الإمارات – دبي)؛ السلع: العطور ودهن العود ومستحضرات التجميل وبخاخات الجسم ومزيلات العرق؛ العلامة كلمية باللونين الذهبي والأسود",
    "page": 2,
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "M4"
+   ]
   },
   {
-   "fact_en": "On 24/09/2026 claimant's agent made a test purchase of 2 bottles bearing the mark at AED 95 each versus original price AED 385; invoice S-2026-0815 total AED 199.50 cash including tax",
-   "fact_ar": "اشترى مندوب المدعية في 24/09/2026 من المدعى عليها عبوتين تحملان العلامة بسعر 95 درهماً للعبوة مقابل السعر الأصلي 385 درهماً، والفاتورة رقم S-2026-0815 بإجمالي 199.50 درهم نقداً شاملاً الضريبة",
-   "page": 1,
-   "source": "printed",
-   "mark_ids": []
-  },
-  {
-   "fact_en": "Ex parte order No. 731 of 2026 for description and conservatory seizure issued 06/10/2026 and executed by seizure on 08/10/2026",
-   "fact_ar": "صدر الأمر على عريضة رقم (731) لسنة 2026 بالوصف والحجز التحفظي في 06/10/2026 ونفذ بالضبط في 08/10/2026",
-   "page": 1,
-   "source": "printed",
-   "mark_ids": []
-  },
-  {
-   "fact_en": "Estimated value of seized items AED 201,250: 240x 100ml perfume AED 92,400 and 180x 50ml perfume AED 44,100 and 60 gift sets AED 31,200 and 95x 12ml oud oil AED 27,550 and 1,500 boxes/covers AED 6,000",
-   "fact_ar": "بلغت القيمة التقديرية للمضبوطات 201,250 درهماً: 240 عبوة عطر 100 مل بـ 92,400 و180 عبوة عطر 50 مل بـ 44,100 و60 طقم هدايا بـ 31,200 و95 دهن عود 12 مل بـ 27,550 و1500 علب وأغلفة بـ 6,000",
-   "page": 1,
-   "source": "printed",
-   "mark_ids": []
-  },
-  {
-   "fact_en": "Trademark extract is issued at owner's request from the register and is not a substitute for the original registration certificate",
-   "fact_ar": "البيان المستخرج من سجل العلامات بناءً على طلب المالك ولا يعد بديلاً عن أصل شهادة التسجيل",
+   "fact_en": "Trial invoice: seller Gheimat Al Rayhan Perfume Trading (Dubai-Deira-Al Murr); simplified invoice S-2026-0815 dated 24/09/2026 cash customer: Zahranova Classic 100ml (2 x 95.00 = 190.00) + 5% VAT (9.50) = total 199.50 cash; goods non-returnable; receipt No. 3087",
+   "fact_ar": "الفاتورة التجريبية: البائع مؤسسة غيمة الريحان لتجارة العطور (دبي – ديرة – المر)؛ فاتورة مبسطة S-2026-0815 بتاريخ 24/09/2026 لعميل نقدي: عطر زهرانوفا كلاسيك 100 مل (2 × 95.00 = 190.00) + ضريبة 5% (9.50) = الإجمالي 199.50 نقداً؛ البضاعة لا ترد ولا تستبدل؛ رقم الإيصال 3087",
    "page": 2,
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "M5",
+    "M6"
+   ]
   }
  ],
  "citations": [
   {
-   "text_ar": "البند (1) من المادة (18) من المرسوم بقانون اتحادي رقم (36) لسنة 2021 بشأن العلامات التجارية",
+   "text_ar": "تُعد المدعية مالكة العلامة بتسجيلها عملاً بالبند (1) من المادة (18) من المرسوم بقانون اتحادي رقم (36) لسنة 2021 بشأن العلامات التجارية، وتمتد حمايتها عشر سنوات من تاريخ تقديم الطلب وفقاً للبند (1) من المادة (21).",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
@@ -315,13 +344,13 @@
    }
   },
   {
-   "text_ar": "وفقاً للبند (1) من المادة (21)",
+   "text_ar": "تُعد المدعية مالكة العلامة بتسجيلها عملاً بالبند (1) من المادة (18) من المرسوم بقانون اتحادي رقم (36) لسنة 2021 بشأن العلامات التجارية، وتمتد حمايتها عشر سنوات من تاريخ تقديم الطلب وفقاً للبند (1) من المادة (21).",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
    "law_year": 2021,
    "law_title_en": "Federal Decree-Law No. 36 of 2021 on Trademarks",
-   "article": "21",
+   "article": "18",
    "clause": "1",
    "quoted_text_ar": "",
    "page": 1,
@@ -342,7 +371,7 @@
    }
   },
   {
-   "text_ar": "ينص البند (2) من المادة (17) على أن \"لمالك العلامة التجارية المسجلة الحق في منع الغير الذي لم يحصل على موافقته من استعمالها أو استعمال أي إشارة مماثلة أو مشابهة لها\"",
+   "text_ar": "ينص البند (2) من المادة (17) على أن \"لمالك العلامة التجارية المسجلة الحق في منع الغير الذي لم يحصل على موافقته من استعمالها أو استعمال أي إشارة مماثلة أو مشابهة لها\".",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
@@ -376,7 +405,7 @@
    }
   },
   {
-   "text_ar": "استناداً إلى البند (1) من المادة (47)",
+   "text_ar": "صدر الأمر التحفظي استناداً إلى البند (1) من المادة (47)، وتُرفع الدعوى خلال الميعاد المقرر في البند (7) منها،",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
@@ -403,34 +432,7 @@
    }
   },
   {
-   "text_ar": "خلال الميعاد المقرر في البند (7) منها",
-   "law_kind": "federal_decree_law",
-   "emirate": "",
-   "law_number": "36",
-   "law_year": 2021,
-   "law_title_en": "Federal Decree-Law No. 36 of 2021 on Trademarks",
-   "article": "47",
-   "clause": "7",
-   "quoted_text_ar": "",
-   "page": 1,
-   "article_checked": "47",
-   "check": {
-    "law_id": "uae-fdl-36-2021-trademarks-law",
-    "law_title_en": "Federal Decree-Law No. 36 of 2021 (Trademarks Law)",
-    "law_title_ar": "مرسوم بقانون اتحادي رقم (36) لسنة 2021 (قانون العلامات التجارية)",
-    "article_count": 61,
-    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1535",
-    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1535",
-    "article": "47",
-    "status": "valid",
-    "label_en": "Article 47 of the Trademarks Law exists in the official text.",
-    "label_ar": "المادة (47) من قانون العلامات التجارية موجودة في النص الرسمي.",
-    "official_text_ar": "1. لصاحب الحق عند التعدي أو لتفادي تعد وشيك على أي من الحقوق المقررة بموجب أحكام هذا المرسوم بقانون، استصدار أمر على عريضة من قاضي الأمور المستعجلة بالمحكمة المدنية المختصة بأصل النزاع، لاتخاذ إجراء أو أكثر من الإجراءات التحفظية المناسبة، بما في ذلك ما يأتي:\nأ. إجراء وصف تفصيلي عن التعدي، والسلع موضوع هذا التعدي، والمواد والأدوات والمعدات المستخدمة أو التي قد تستخدم في ذلك.\nب. توقيع الحجز على المواد والأدوات والمعدات المشار إليها في الفقرة السابقة من هذا البند، والعوائد الناتجة عن التعدي.\nج. منع السلع موضوع التعدي من الدخول إلى القنوات التجارية ومنع تصديرها، ويشمل ذلك السلع المستوردة فور الإفراج الجمركي عنها.\nد. المحافظة على أي أدلة ذات صلة بموضوع التعدي.\n2. لقاضي الأمور المستعجلة أن يكلف مقدم العريضة بتقديم ما بحوزته من الأدلة التي ترجح وقوع التعدي على الحق أو أن التعدي على وشك الوقوع، وأن يكلفه بتقديم المعلومات التي تكفي لتنفيذ الإجراء التحفظي وتحديد السلع المعنية.\n3. على قاضي الأمور المستعجلة البت في العريضة خلال فترة لا تجاوز (10) عشرة أيام من تاريخ تقديمها، فيما عدا الحالات الاستثنائية التي يقدرها.\n4. لقاضي الأمور المستعجلة عند الاقتضاء أن يصدر الأمر، بناءً على طلب مقدم العريضة، دون استدعاء الطرف الآخر، إذا كان من المرجح أن التأخير في إصدار الأمر قد يلحق بالمدعي ضررًا يتعذر تداركه أو كانت هناك خشية من زوال أو إتلاف الأدلة، ويجب في هذه الحالة إخطار الطرف الآخر بالأمر دون تأخير فور صدوره، ويجوز عند الاقتضاء أن يكون الإخطار بعد تنفيذ الأمر مباشرة.\n5. إذا أمر قاضي الأمور المستعجلة باتخاذ إجراء تحفظي دون استدعاء الطرف الآخر، فللمدعى عليه بعد إخطاره به أن يتظلم منه أمام رئيس المحكمة التي صدر عنها الأمر خلال (15) خمسة عشر يومًا من تاريخ إخطاره، ولرئيس المحكمة في هذه الحالة تأييد الأمر أو تعديله أو إلغاؤه.\n6. لقاضي الأمور المستعجلة تكليف مقدم العريضة بتقديم كفالة مالية مناسبة أو ضمان بنكي يكفي لحماية المدعى عليه من إساءة استعمال الحق، ويراعى في مقدار الكفالة أو الضمان البنكي أن يكون معقولاً ومناسبًا.\n7. لصاحب الحق رفع الدعوى بشأن أصل النزاع خلال (20) عشرين يومًا من تاريخ صدور الأمر باتخاذ الإجراء التحفظي أو من تاريخ إخطاره برفض التظلم المنصوص عليه في البند (5) من هذه المادة، بحسب الأحوال، وإلا تم إلغاء هذا الأمر بناءً على طلب المدعى عليه.",
-    "official_text_en": "1. In the event of an actual or potential infringement of any of the rights established under the provisions hereof, the right holder may apply for a writ on petition from the judge of summary matters at the civil court having jurisdiction over the origin of the dispute, to take one or more appropriate precautionary measures, including the following:\na. Conduct a detailed description of the infringement, the goods involved in such infringement, and the materials, tools and equipment used or that may be used.\nb. Impose attachment over the materials, tools and equipment referred to in the previous paragraph of this Item, and the proceeds resulting from the infringement.\nc. Prevent the goods, subject matter of the infringement, from entering the commercial channels and preventing their export, including the imported goods after their customs release.\nd. Preserve any evidence related to the subject matter of the infringement.\n2. The judge of summary matters may instruct the petitioner to submit his evidence that suggests that the infringement of the right has already occurred or is about to occur, and may instruct him to provide information that is sufficient to implement the precautionary measure and to identify the relevant goods.\n3. The judge of summary matters shall decide on the petition not later than (10) ten days of the date of its submission, with the exception of exceptional cases that he deems appropriate.\n4. The judge of summary matters may, when necessary, issue the order, at the request of the petitioner, without summoning the other party, if it is likely that the delay in issuing the order may cause irreparable harm to the plaintiff or if there is a fear that the evidence will be lost or destroyed. In this case, the other party shall be notified of the order without delay and immediately after its issuance. The notification, when necessary, may be made immediately after the order is executed.\n5. If the judge of summary matters orders a precautionary measure to be taken without summoning the other party, the defendant may, after being notified of it, file a grievance against it before the president of the court in which the order was issued within (15) fifteen days from the date of his notification. In this case, the court president may confirm, modify or cancel such order.\n6. The judge of summary matters may instruct the petitioner to provide an appropriate financial guarantee or a bank guarantee sufficient to protect the defendant from abuse of the right, taking into account that the amount of the guarantee or the bank guarantee shall be reasonable and appropriate.\n7. The owner of the right shall have the right to file a lawsuit on the origin of the dispute within (20) twenty days of the date of the issuance of the order to take the precautionary measure, or from the date of his notification of the rejection of the grievance stipulated in Item (5) of this Article, as the case may be, otherwise this order will be cancelled at the request of the defendant."
-   }
-  },
-  {
-   "text_ar": "كما تجيز المادة (47) مكرراً من المرسوم بقانون ذاته الأمر بإتلاف السلع المقلدة على نفقة المتعدي",
+   "text_ar": "كما تجيز المادة (47) مكرراً من المرسوم بقانون ذاته الأمر بإتلاف السلع المقلدة على نفقة المتعدي.",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
@@ -455,7 +457,7 @@
    }
   },
   {
-   "text_ar": "وفقاً للمادة (48)",
+   "text_ar": "تستحق المدعية التعويض وفقاً للمادة (48)، مع حفظ حقها في الدعوى الجزائية عن الفعل المؤثم بالبند (1) من المادة (50).",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
@@ -482,14 +484,14 @@
    }
   },
   {
-   "text_ar": "بالبند (1) من المادة (50)",
+   "text_ar": "تستحق المدعية التعويض وفقاً للمادة (48)، مع حفظ حقها في الدعوى الجزائية عن الفعل المؤثم بالبند (1) من المادة (50).",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "36",
    "law_year": 2021,
    "law_title_en": "Federal Decree-Law No. 36 of 2021 on Trademarks",
-   "article": "50",
-   "clause": "1",
+   "article": "48",
+   "clause": "",
    "quoted_text_ar": "",
    "page": 1,
    "article_checked": "50",
@@ -522,9 +524,9 @@
    "type": "stamp",
    "found_as": "stamp",
    "confidence": 0.8750000596046448,
-   "text_ar": "قلم القيد - شؤون تدريجي - 22/10/2026",
-   "meaning_en": "Filing clerk stamp recording receipt on 22/10/2026",
-   "meaning_ar": "ختم قلم القيد يثبت الاستلام بتاريخ 22/10/2026",
+   "text_ar": "قلم القيد نموذج تدريبي 22/10/2026",
+   "meaning_en": "Filing clerk receipt stamp dated 22/10/2026 (middle line partly illegible, appears to be training text)",
+   "meaning_ar": "ختم قلم القيد يفيد استلام/قيد الورقة بتاريخ 22/10/2026 (السطر الأوسط غير واضح ويبدو تدريبياً)",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -540,9 +542,9 @@
    "type": "stamp",
    "found_as": "blue stamp",
    "confidence": 0.9179486632347107,
-   "text_ar": "مكتب درع الحقوق للمحاماة - Dir' Al Huquq Advocates - دبي — الإمارات",
-   "meaning_en": "Stamp of claimant's law firm",
-   "meaning_ar": "ختم مكتب المحاماة وكيل المدعية",
+   "text_ar": "مكتب درع الحقوق للمحاماة Dir' Al Huquq Advocates دبي — الإمارات",
+   "meaning_en": "Law office stamp authenticating claimant counsel signature",
+   "meaning_ar": "ختم مكتب درع الحقوق للمحاماة يوثق توقيع وكيلة المدعية",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -557,10 +559,10 @@
    ],
    "type": "signature",
    "found_as": "signature",
-   "confidence": 0.8439024686813354,
+   "confidence": 0.8400000333786011,
    "text_ar": "",
-   "meaning_en": "Signature of claimant's counsel",
-   "meaning_ar": "توقيع وكيلة المدعية",
+   "meaning_en": "Handwritten signature of claimant's lawyer",
+   "meaning_ar": "توقيع بخط اليد لوكيلة المدعية المحامية",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -576,9 +578,9 @@
    "type": "stamp",
    "found_as": "stamp",
    "confidence": 0.7968254089355469,
-   "text_ar": "وزارة الاقتصاد - نموذج تدري - 29/09/2026",
-   "meaning_en": "Ministry of Economy stamp showing extract issued 29/09/2026",
-   "meaning_ar": "ختم وزارة الاقتصاد يثبت استخراج البيان بتاريخ 29/09/2026",
+   "text_ar": "وزارة الاقتصاد نموذج تدريبي 29/09/2026",
+   "meaning_en": "Ministry of Economy stamp (training template) dated 29/09/2026 on trademark statement",
+   "meaning_ar": "ختم وزارة الاقتصاد (نموذج تدريبي) بتاريخ 29/09/2026 على بيان العلامة",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -595,8 +597,8 @@
    "found_as": "signature",
    "confidence": 0.8012422323226929,
    "text_ar": "",
-   "meaning_en": "Seller signature on invoice excerpt",
-   "meaning_ar": "توقيع البائع على مقتطف الفاتورة",
+   "meaning_en": "Seller's handwritten signature on invoice excerpt",
+   "meaning_ar": "توقيع البائع بخط اليد على مقتطف الفاتورة",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -612,9 +614,9 @@
    "type": "stamp",
    "found_as": "blue stamp",
    "confidence": 0.9452055096626282,
-   "text_ar": "غيمة الريحان لتجارة العطور - ديرة — دبي",
-   "meaning_en": "Stamp of defendant seller establishment",
-   "meaning_ar": "ختم مؤسسة المدعى عليها البائعة",
+   "text_ar": "غيمة الريحان لتجارة العطور ديرة — دبي",
+   "meaning_en": "Stamp of defendant establishment Gheimat Al Rayhan Perfume Trading (Deira-Dubai) on invoice",
+   "meaning_ar": "ختم مؤسسة غيمة الريحان لتجارة العطور (ديرة – دبي) على الفاتورة",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -622,17 +624,18 @@
    "mark_id": "X1",
    "page": 1,
    "box": [
-    0.06,
-    0.11,
-    0.28,
-    0.14
+    0.0532,
+    0.1125,
+    0.2033,
+    0.1505
    ],
    "type": "handwriting",
    "found_as": "reader",
+   "placed_by": "close-up",
    "confidence": null,
-   "text_ar": "حدرت جلسة 9/11/2026",
-   "meaning_en": "Handwritten note scheduling a hearing on 9/11/2026",
-   "meaning_ar": "ملاحظة بخط اليد تحدد جلسة بتاريخ 9/11/2026",
+   "text_ar": "حُددت جلسة 9/11/2026",
+   "meaning_en": "Handwritten note setting a hearing on 9/11/2026 at top of page 1",
+   "meaning_ar": "ملاحظة بخط اليد تحدد جلسة بتاريخ 9/11/2026 أعلى الصفحة الأولى",
    "changes_printed_text": false,
    "reviewed": true
   }
@@ -647,50 +650,64 @@
    "by": "check"
   },
   {
-   "flag_en": "2026-09-29 (Trademark data extract date and Ministry stamp date) appears only in a stamp on page 2.",
-   "flag_ar": "التاريخ 2026-09-29 (تاريخ استخراج بيان العلامة وختم الوزارة) وارد فقط في ختم في الصفحة 2.",
+   "flag_en": "2026-09-29 (Ministry of Economy stamp date (training template)) appears only in a stamp on page 2.",
+   "flag_ar": "التاريخ 2026-09-29 (تاريخ ختم وزارة الاقتصاد (نموذج تدريبي)) وارد فقط في ختم في الصفحة 2.",
    "page": 2,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "2026-10-22 (Filing clerk receipt stamp date) appears only in a stamp on page 1.",
-   "flag_ar": "التاريخ 2026-10-22 (ختم قلم القيد) وارد فقط في ختم في الصفحة 1.",
+   "flag_en": "2026-10-22 (Filing clerk stamp date) appears only in a stamp on page 1.",
+   "flag_ar": "التاريخ 2026-10-22 (تاريخ ختم قلم القيد) وارد فقط في ختم في الصفحة 1.",
    "page": 1,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "2026-11-09 (Session date noted by hand) appears only in a handwritten note on page 1.",
-   "flag_ar": "التاريخ 2026-11-09 (جلسة محددة بخط اليد) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "flag_en": "2026-11-09 (Handwritten hearing date set for the case) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-11-09 (تحديد جلسة لنظر الدعوى بخط اليد) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
    "page": 1,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "2026-11-09 (Scheduled court hearing session) appears only in a handwritten note on page 1.",
-   "flag_ar": "التاريخ 2026-11-09 (جلسة المحكمة المحددة) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
+   "flag_en": "2026-11-09 (Scheduled hearing session for the case) appears only in a handwritten note on page 1.",
+   "flag_ar": "التاريخ 2026-11-09 (جلسة محددة لنظر الدعوى) وارد فقط في ملاحظة بخط اليد في الصفحة 1.",
    "page": 1,
    "severity": "medium",
    "by": "check"
   },
   {
-   "flag_en": "No court case number appears on the pages provided",
-   "flag_ar": "لا يظهر رقم دعوى قضائية على الصفحات المقدمة",
+   "flag_en": "No case number appears on the pages; only petition order No. 731 of 2026 is mentioned",
+   "flag_ar": "لا يظهر رقم الدعوى على الصفحتين، والرقم الوحيد المذكور هو الأمر على عريضة رقم 731 لسنة 2026",
+   "page": 1,
+   "severity": "high",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Handwritten hearing note 9/11/2026 appears without a case number, recorded as new mark X1",
+   "flag_ar": "يوجد ملاحظة بخط اليد تحدد جلسة 9/11/2026 دون رقم دعوى، وتم توثيقها كعلامة جديدة X1",
    "page": 1,
    "severity": "medium",
    "by": "reader"
   },
   {
-   "flag_en": "Footer states this is a fictional test document, not a real case",
-   "flag_ar": "يذكر تذييل الصفحات أنها وثيقة خيالية لأغراض الاختبار وليست قضية حقيقية",
+   "flag_en": "Sheet refers to time limit in Article 47(7) without stating its length, so no filing deadline could be computed",
+   "flag_ar": "تشير الصحيفة إلى الميعاد المقرر في البند (7) من المادة (47) دون بيان مدته، فتعذر احتساب موعد نهائي لرفع الدعوى",
+   "page": 1,
+   "severity": "medium",
+   "by": "reader"
+  },
+  {
+   "flag_en": "Second line of filing clerk stamp (M1) is partly illegible and appears to be training text",
+   "flag_ar": "السطر الثاني في ختم قلم القيد (M1) غير واضح تماماً ويحتمل أنه لأغراض تدريبية",
    "page": 1,
    "severity": "low",
    "by": "reader"
   },
   {
-   "flag_en": "Wording of handwritten session note is partly unclear",
-   "flag_ar": "صيغة الملاحظة المكتوبة بخط اليد الخاصة بالجلسة غير واضحة جزئياً",
+   "flag_en": "Footer on both pages states this is a fictional test document, not a real case",
+   "flag_ar": "تذييل الصفحتين ينص على أن الوثيقة خيالية لأغراض الاختبار وليست قضية حقيقية",
    "page": 1,
    "severity": "low",
    "by": "reader"
