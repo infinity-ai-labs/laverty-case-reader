@@ -74,8 +74,12 @@ class MockClient:
 
     # Muse Spark stand-in -----------------------------------------------------
 
-    def chat(self, model: str, messages: list[dict[str, Any]], **_: Any) -> dict[str, Any]:
+    def chat(self, model: str, messages: list[dict[str, Any]], **kw: Any) -> dict[str, Any]:
         self.calls += 1
+        if str(kw.get("label", "")).startswith("refine"):
+            # Close-ups are not simulated: the mock keeps the reader's first position.
+            answer = {"found": False, "x_from_pct": 0, "x_to_pct": 0, "y_from_pct": 0, "y_to_pct": 0}
+            return {"choices": [{"message": {"role": "assistant", "content": json.dumps(answer)}}], "mock": True}
         texts = [part.get("text", "") for part in messages[-1]["content"] if part.get("type") == "text"]
         seen_marks = [m.groups() for t in texts for m in [_MARK_LINE.search(t)] if m]
         answer = self._reader_answer(seen_marks)

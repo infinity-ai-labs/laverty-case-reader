@@ -14,6 +14,7 @@ from .marks import DEFAULT_CONCEPTS, clean_marks, find_marks_on_page
 from .meta_api import SAM_MODEL
 from .pages import Page, load_pages
 from .reader import MAX_PAGES, READER_MODEL, read_case
+from .refine import refine_reader_marks
 
 
 def _now() -> str:
@@ -34,6 +35,7 @@ def read_file(
     reader_model: str = READER_MODEL,
     reasoning_effort: str | None = "high",
     min_confidence: float = 0.3,
+    refine: bool = True,
     mock: bool = False,
     log: Callable[[str], None] = print,
 ) -> dict[str, Any]:
@@ -56,9 +58,13 @@ def read_file(
 
     reader, mode = read_case(client, pages, marks, out_dir=out_dir, model=reader_model,
                              reasoning_effort=reasoning_effort)
-    _write_json(out_dir / "reader.json", reader)
     log(f"{case_id}: Muse Spark answered ({mode}): {len(reader['parties'])} parties, "
         f"{len(reader['dates'])} dates, {len(reader['citations'])} citations")
+    if refine:
+        placed = refine_reader_marks(client, pages, reader, model=reader_model, log=log)
+        log(f"{case_id}: Muse Spark close-ups placed {placed} of "
+            f"{sum(1 for m in reader['marks'] if str(m.get('mark_id', '')).startswith('X'))} marks again")
+    _write_json(out_dir / "reader.json", reader)
 
     run = {
         "started": started_at,
@@ -70,6 +76,7 @@ def read_file(
         "concepts": concepts,
         "min_confidence": min_confidence,
         "reader_output_mode": mode,
+        "close_ups": refine,
         "mock": mock,
         "case_reader_version": __version__,
     }
