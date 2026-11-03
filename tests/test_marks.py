@@ -107,3 +107,44 @@ def test_reader_box_from_muse_spark_percentages():
     assert _reader_box({"x_from_pct": 0, "x_to_pct": 0, "y_from_pct": 0, "y_to_pct": 0}) is None
     assert _reader_box({"x_from_pct": 50, "x_to_pct": 40, "y_from_pct": 5, "y_to_pct": 12}) is None
     assert _reader_box({}) is None
+
+
+def test_close_up_region_and_mapping_back():
+    from case_reader.refine import close_up_region, to_page
+    region = close_up_region([0.40, 0.50, 0.50, 0.53])
+    assert region[0] < 0.40 and region[2] > 0.50 and region[1] < 0.50 and region[3] > 0.53
+    assert region[2] - region[0] >= 0.30 - 1e-9 and region[3] - region[1] >= 0.10 - 1e-9
+    edge = close_up_region([0.90, 0.95, 0.99, 0.99])  # stays on the page
+    assert 0 <= edge[0] and edge[2] <= 1 and 0 <= edge[1] and edge[3] <= 1
+    box = to_page([0.2, 0.4, 0.6, 0.6], {"found": True, "x_from_pct": 25, "x_to_pct": 75, "y_from_pct": 10, "y_to_pct": 60})
+    assert box == [0.3, 0.42, 0.5, 0.52]
+    assert to_page([0.2, 0.4, 0.6, 0.6], {"found": False, "x_from_pct": 25, "x_to_pct": 75, "y_from_pct": 10, "y_to_pct": 60}) is None
+    assert to_page([0.2, 0.4, 0.6, 0.6], {"found": True, "x_from_pct": 50, "x_to_pct": 51, "y_from_pct": 10, "y_to_pct": 11}) is None
+
+
+def test_refine_places_reader_marks_with_a_close_up(tmp_path):
+    import json
+    from PIL import Image
+    from case_reader.pages import Page
+    from case_reader.refine import refine_reader_marks
+    img = tmp_path / "p1.jpg"; Image.new("RGB", (1000, 1400), "white").save(img)
+    page = Page(number=1, path=img, width=1000, height=1400)
+
+    class Client:
+        def __init__(self): self.labels = []
+        def chat(self, model, messages, **kw):
+            self.labels.append(kw["label"])
+            answer = {"found": True, "x_from_pct": 20, "x_to_pct": 80, "y_from_pct": 30, "y_to_pct": 70}
+            return {"choices": [{"message": {"content": json.dumps(answer)}}]}
+
+    reader = {"marks": [
+        {"mark_id": "M1", "page": 1, "type": "stamp", "x_from_pct": 0, "x_to_pct": 0, "y_from_pct": 0, "y_to_pct": 0},
+        {"mark_id": "X1", "page": 1, "type": "handwriting", "text_ar": "جلسة", "x_from_pct": 40, "x_to_pct": 60,
+         "y_from_pct": 50, "y_to_pct": 54},
+    ]}
+    client = Client()
+    assert refine_reader_marks(client, [page], reader, model="m") == 1
+    assert client.labels == ["refine:X1"]
+    x1 = reader["marks"][1]
+    assert x1["placed_by"] == "close-up" and x1["rough_box"] == [0.4, 0.5, 0.6, 0.54]
+    assert x1["x_from_pct"] < x1["x_to_pct"] and 40 <= x1["y_from_pct"] < x1["y_to_pct"] <= 60

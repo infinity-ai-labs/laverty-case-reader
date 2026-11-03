@@ -65,5 +65,26 @@
    "short_en": "Construction contract",
    "short_ar": "عقد مقاولة"
   }
- ]
+ ],
+ "score": {
+  "run": "run-6-1",
+  "files": 13,
+  "pages": 33,
+  "fake": [
+   6,
+   6
+  ],
+  "quote": [
+   1,
+   1
+  ],
+  "verdicts": [
+   80,
+   80
+  ],
+  "dates": [
+   125,
+   131
+  ]
+ }
 }

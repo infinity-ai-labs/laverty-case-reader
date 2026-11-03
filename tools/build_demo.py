@@ -70,6 +70,24 @@ def build(run: Path) -> tuple[list[dict], dict[str, dict]]:
     return cases, data
 
 
+def score_totals(run: Path, data: dict) -> dict | None:
+    """Headline numbers for the demo page from the run's score.json (written by tools/score.py), or None."""
+    f = run / "score.json"
+    if not f.exists():
+        return None
+    cases = json.loads(f.read_text(encoding="utf-8"))
+    if any(c.get("mock") for c in cases):
+        return None  # never show mock numbers as results
+    total = lambda cat, a, b: [sum(c[cat][a] for c in cases), sum(c[cat][b] for c in cases)]
+    return {
+        "run": run.name, "files": len(cases), "pages": sum(len(s["pages"]) for s in data.values()),
+        "fake": total("citations", "invalid_caught", "invalid_total"),
+        "quote": total("citations", "misquotes_caught", "misquotes_total"),
+        "verdicts": total("citations", "correct", "total"),
+        "dates": total("dates", "correct", "total"),
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("run")
@@ -78,9 +96,11 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     cases, data = build(Path(args.run))
+    score = score_totals(Path(args.run), data)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    (out / "cases.json").write_text(json.dumps({"cases": cases}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    index = {"cases": cases, **({"score": score} if score else {})}
+    (out / "cases.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     for case_id, s in data.items():
         (out / f"{case_id}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"Wrote {len(cases)} cases to {out}")
@@ -89,7 +109,7 @@ def main(argv: list[str] | None = None) -> int:
         for s in data.values():
             for p in s["pages"]:
                 p["src"] = _data_url(REPO / "demo" / p["src"])
-        payload = json.dumps({"cases": cases, "data": data}, ensure_ascii=False).replace("</", "<\\/")
+        payload = json.dumps({"cases": cases, "data": data, "score": score}, ensure_ascii=False).replace("</", "<\\/")
         html = (REPO / "demo" / "index.html").read_text(encoding="utf-8")
         html = html.replace("<script>\n\"use strict\";", f"<script>window.CASE_DATA = {payload};</script>\n<script>\n\"use strict\";", 1)
         Path(args.standalone).write_text(html, encoding="utf-8")

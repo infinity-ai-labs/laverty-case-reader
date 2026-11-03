@@ -66,6 +66,26 @@ button { font: inherit; color: inherit; }
 .lang button { background: none; border: 0; padding: 7px 14px; cursor: pointer; color: var(--muted); }
 .lang button[aria-pressed="true"] { background: var(--panel); color: var(--text); }
 
+.hero { margin: 18px 28px 0; padding: 18px 22px; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(37, 99, 235, .14), rgba(124, 58, 237, .10) 55%, rgba(0, 212, 255, .06)); }
+.hero[hidden] { display: none; }
+.hero .kicker { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--cyan); font-weight: 600; }
+.hero .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 12px; }
+.hero .stat { background: rgba(7, 11, 23, .55); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.hero .stat b { display: block; font: 700 26px/1.1 "Space Grotesk", Inter, sans-serif; color: #fff; }
+.hero .stat b.ok { color: var(--ok); }
+.hero .stat span { color: var(--muted); font-size: 13px; }
+.hero .steps { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+.hero .step { border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; background: rgba(7, 11, 23, .5); color: var(--text); }
+.hero .step i { font-style: normal; color: var(--cyan); margin-inline-end: 6px; }
+.hero .arrow { color: var(--muted); }
+.hero .more { margin-top: 10px; font-size: 13px; color: var(--muted); }
+.hero .more a { color: var(--cyan); }
+@media (max-width: 980px) { .hero { margin: 12px 16px 0; } .hero .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@keyframes markIn { from { opacity: 0; transform: scale(1.18); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: no-preference) { .mark { animation: markIn .45s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(var(--i, 0) * 90ms); } }
+.legend .by { margin-inline-start: auto; color: var(--muted); }
+.legend .by::before { display: none; }
 .notice { margin: 16px 28px 0; padding: 10px 14px; border-radius: var(--radius-sm); font-size: 14px;
   border: 1px solid rgba(251, 191, 36, .45); background: rgba(251, 191, 36, .08); color: #fde8b0; }
 .notice[hidden] { display: none; }
@@ -220,6 +240,7 @@ dialog.upload .actions .go:disabled { opacity: .5; cursor: default; }
     <button type="button" data-lang="ar" aria-pressed="false" lang="ar">العربية</button>
   </div>
 </header>
+<section class="hero" id="hero" hidden aria-label="Results on Meta's models"></section>
 <p class="notice" id="notice" hidden></p>
 
 <main class="layout">
@@ -266,9 +287,15 @@ const T = {
     showOfficial: "Show the official text", source: "Official source",
     noneFound: "None found.", says: "Says", conf: "SAM 3.1 confidence", foundAs: "found as",
     court: "Court", caseNo: "Case no.",
-    foot1: "The three case files are fictional: every person, company and case number in them is invented, and every page says so.",
+    foot1: "The 13 case files are fictional: every person, company and case number in them is invented, and every page says so.",
     foot2: "Built during the Meta Global AI Developer Hackathon on Muse Spark 1.3 and SAM 3.1.",
     code: "Code and test files",
+    heroKicker: "Real run on Meta's models",
+    heroFiles: (f, p) => `${f} fictional court files, ${p} scanned pages, scored against a hand-checked answer key`,
+    statFake: "made-up law articles caught", statQuote: "changed quote caught", statVerdicts: "citation verdicts right", statDates: "dates read right",
+    step1: "SAM 3.1 finds stamps and signatures", step2: "Muse Spark 1.3 reads the case and its handwriting", step3: "every citation checked against the official UAE law text",
+    heroMore: "Full scores, every miss and what we learned:",
+    byLegend: "M = found by SAM 3.1 · X = found and placed by Muse Spark",
   },
   ar: {
     product: "قارئ القضايا",
@@ -284,13 +311,19 @@ const T = {
     showOfficial: "عرض النص الرسمي", source: "المصدر الرسمي",
     noneFound: "لا يوجد.", says: "النص", conf: "درجة ثقة SAM 3.1", foundAs: "وُجد باسم",
     court: "المحكمة", caseNo: "رقم الدعوى",
-    foot1: "ملفات القضايا الثلاث خيالية: جميع الأشخاص والشركات وأرقام القضايا فيها مُختلقة، وكل صفحة تنص على ذلك.",
+    foot1: "ملفات القضايا الثلاثة عشر خيالية: جميع الأشخاص والشركات وأرقام القضايا فيها مُختلقة، وكل صفحة تنص على ذلك.",
     foot2: "طُوّر خلال هاكاثون Meta العالمي لمطوري الذكاء الاصطناعي باستخدام Muse Spark 1.3 وSAM 3.1.",
     code: "الشيفرة وملفات الاختبار",
+    heroKicker: "تشغيل حقيقي على نماذج Meta",
+    heroFiles: (f, p) => `${f} ملفاً قضائياً خيالياً، ${p} صفحة ممسوحة، مقارنة بمفتاح إجابات مُراجَع يدوياً`,
+    statFake: "مواد قانونية مختلقة تم كشفها", statQuote: "اقتباس محرّف تم كشفه", statVerdicts: "أحكام صحيحة على الاستشهادات", statDates: "تواريخ قُرئت بشكل صحيح",
+    step1: "SAM 3.1 يحدد الأختام والتواقيع", step2: "Muse Spark 1.3 يقرأ القضية والكتابة اليدوية", step3: "التحقق من كل استشهاد مقابل النص الرسمي للقانون الإماراتي",
+    heroMore: "النتائج الكاملة وكل خطأ وما تعلمناه:",
+    byLegend: "M = حدده SAM 3.1 · X = حدده Muse Spark",
   },
 };
 const REPO = "https://github.com/infinity-ai-labs/laverty-case-reader";
-const state = { lang: "en", cases: [], data: {}, current: null, page: 1, mark: null };
+const state = { lang: "en", cases: [], data: {}, score: null, current: null, page: 1, mark: null };
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -307,9 +340,11 @@ async function load() {
   if (window.CASE_DATA) {
     state.cases = window.CASE_DATA.cases;
     state.data = window.CASE_DATA.data;
+    state.score = window.CASE_DATA.score || null;
   } else {
     const index = await (await fetch("data/cases.json")).json();
     state.cases = index.cases;
+    state.score = index.score || null;
     for (const c of state.cases) state.data[c.case] = await (await fetch(`data/${c.case}.json`)).json();
   }
   const wanted = location.hash.slice(1);
@@ -335,9 +370,28 @@ function render() {
   const notice = $("#notice");
   notice.hidden = !s.mock;
   notice.textContent = s.mock ? t("mock") : "";
+  renderHero();
   renderViewer(s);
   renderSummary(s);
   $("#foot").innerHTML = `<div>${esc(t("foot1"))}</div><div>${esc(t("foot2"))} <a href="${REPO}">${esc(t("code"))}</a></div>`;
+}
+
+function renderHero() {
+  const hero = $("#hero"), sc = state.score;
+  hero.hidden = !sc;
+  if (!sc) return;
+  hero.dir = state.lang === "ar" ? "rtl" : "ltr";
+  const stat = (v, label, ok) => `<div class="stat"><b class="${ok ? "ok" : ""}"><bdi dir="ltr">${esc(v)}</bdi></b><span>${esc(label)}</span></div>`;
+  hero.innerHTML = `<div class="kicker">${esc(t("heroKicker"))}</div>`
+    + `<div class="more" style="margin-top:4px">${esc(t("heroFiles")(sc.files, sc.pages))}</div>`
+    + `<div class="stats">`
+    + stat(`${sc.fake[0]} / ${sc.fake[1]}`, t("statFake"), sc.fake[0] === sc.fake[1])
+    + stat(`${sc.quote[0]} / ${sc.quote[1]}`, t("statQuote"), sc.quote[0] === sc.quote[1])
+    + stat(`${sc.verdicts[0]} / ${sc.verdicts[1]}`, t("statVerdicts"))
+    + stat(`${sc.dates[0]} / ${sc.dates[1]}`, t("statDates"))
+    + `</div><div class="steps"><span class="step"><i>1</i><bdi>${esc(t("step1"))}</bdi></span><span class="arrow">${state.lang === "ar" ? "←" : "→"}</span>`
+    + `<span class="step"><i>2</i><bdi>${esc(t("step2"))}</bdi></span><span class="arrow">${state.lang === "ar" ? "←" : "→"}</span><span class="step"><i>3</i><bdi>${esc(t("step3"))}</bdi></span></div>`
+    + `<div class="more">${esc(t("heroMore"))} <a href="${REPO}#results-on-metas-models">README</a> · <a href="${REPO}/tree/results/runs/${esc(sc.run)}">${esc(sc.run)}</a></div>`;
 }
 
 function renderViewer(s, flash = false) {
@@ -346,13 +400,14 @@ function renderViewer(s, flash = false) {
     + `<span class="doc">${esc(pick(page, "document"))}</span>`;
   const marks = s.marks.filter((m) => m.page === page.page && m.box);
   $("#stage").innerHTML = `<img src="${esc(page.src || page.image)}" alt="${esc(t("page"))} ${page.page}: ${esc(pick(page, "document"))}">`
-    + marks.map((m) => {
+    + marks.map((m, i) => {
       const [x0, y0, x1, y1] = m.box;
-      const style = `left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`;
+      const style = `--i:${i};left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`;
       return `<button type="button" class="mark ${m.type}${state.mark === m.mark_id ? " on" : ""}" data-mark="${m.mark_id}" style="${style}" aria-label="${m.mark_id} ${esc(t(m.type))}"><span class="tag"><i>${m.mark_id}</i><b> ${esc(t(m.type))}</b></span></button>`;
     }).join("");
   if (flash) { const st = $("#stage"); st.classList.remove("flash"); void st.offsetWidth; st.classList.add("flash"); }
-  $("#legend").innerHTML = ["stamp", "signature", "handwriting"].map((k) => `<span class="${k}">${esc(t(k))}</span>`).join("");
+  $("#legend").innerHTML = ["stamp", "signature", "handwriting"].map((k) => `<span class="${k}">${esc(t(k))}</span>`).join("")
+    + `<span class="by">${esc(t("byLegend"))}</span>`;
   const info = $("#markinfo");
   const m = s.marks.find((x) => x.mark_id === state.mark);
   if (!m) { info.hidden = true; return; }

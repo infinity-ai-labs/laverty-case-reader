@@ -51,7 +51,8 @@ def _merge_marks(found: list[dict[str, Any]], reviews: list[dict[str, Any]]) -> 
             continue
         marks.append({
             "mark_id": review["mark_id"], "page": review["page"], "box": _reader_box(review), "type": review["type"],
-            "found_as": "reader", "confidence": None, "text_ar": review["text_ar"],
+            "found_as": "reader", "placed_by": review.get("placed_by") or "first look",
+            "confidence": None, "text_ar": review["text_ar"],
             "meaning_en": review["meaning_en"], "meaning_ar": review["meaning_ar"],
             "changes_printed_text": review["changes_printed_text"], "reviewed": True,
         })

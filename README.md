@@ -12,24 +12,24 @@ The **Case Reader** is a new LAVERTY feature built during this hackathon on Meta
 
 ## Results on Meta's models
 
-Run 5 (2 Nov 2026): all 13 test files, 33 pages, read with `muse-spark-1.3` (reasoning effort high) and `sam-3.1`, scored by `tools/score.py` against the hand-checked answer key. The full run, with every miss listed, is on the [`results` branch](https://github.com/infinity-ai-labs/laverty-case-reader/tree/results/runs/run-5-1).
+Run 6 (4 Nov 2026): all 13 test files, 33 pages, read with `muse-spark-1.3` (reasoning effort high) and `sam-3.1`, scored by `tools/score.py` against the hand-checked answer key. The full run, with every miss listed, is on the [`results` branch](https://github.com/infinity-ai-labs/laverty-case-reader/tree/results/runs/run-6-1).
 
 | What was checked | Result |
 |---|---|
 | Citations of articles that don't exist, caught | **6 of 6** |
 | Quote with one changed word, caught | **1 of 1** |
-| Citation verdicts right (valid, invalid or not checked) | **79 of 80** |
-| Claim amounts | 34 of 35 |
+| Citation verdicts right (valid, invalid or not checked) | **80 of 80** |
+| Claim amounts | **35 of 35** |
+| Parties, with the right role | 65 of 67 |
 | Dates | 125 of 131 |
-| Parties, with the right role | 63 of 67 |
-| Deadlines | 20 of 24 |
-| Stamps, signatures and handwritten notes in the right place (box overlap ≥ 0.5) | 91 of 109 |
+| Deadlines | 19 of 24 |
+| Stamps, signatures and handwritten notes in the right place (box overlap ≥ 0.5) | 98 of 109 |
 | Dates that exist only in handwriting, marked as handwriting | 8 of 10 |
 
 What the runs taught us:
 - **SAM 3.1 phrasings.** "stamp", "blue stamp" and "purple stamp" found 12 of 13 stamps on the first four files, and "signature" found 10 of 11, with no false boxes. "rubber stamp", "official seal" and every phrasing tried for handwriting ("handwritten text", "handwriting", "writing", "note", ...) returned nothing.
-- **Handwriting is placed by Muse Spark.** Muse Spark reads the handwritten notes SAM 3.1 does not find and gives their position on the page. Its positions are rougher than SAM's boxes, which is most of the gap in the last rows.
-- **Quotes are checked wherever they sit.** Muse Spark sometimes leaves a quoted article inside the citation text; the check now finds it there. Two false alarms remain where Muse Spark misread a long quote (cases 09 and 10): the summary says the wording differs and asks the lawyer to check the page, so nothing passes quietly.
+- **Handwriting is placed by Muse Spark, with a close-up second look.** Muse Spark reads the handwritten notes SAM 3.1 does not find and gives their position on the page. That first position is rough, so each note gets a close-up: the area around it is cut out and Muse Spark places the note again inside it. In run 6 this raised the handwritten notes placed right (overlap ≥ 0.5) from 5 to 12 of 22, and all marks from 91 (run 5) to 98 of 109.
+- **Quotes are checked wherever they sit.** Muse Spark sometimes leaves a quoted article inside the citation text; the check now finds it there. One false alarm remains where Muse Spark misread a long quote (case 10): the summary says the wording differs and asks the lawyer to check the page, so nothing passes quietly.
 
 ## How it works
 

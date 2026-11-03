@@ -3,9 +3,9 @@
  "source_file": "case-01-labour.pdf",
  "mock": false,
  "run": {
-  "started": "2026-11-02T11:11:39Z",
-  "finished": "2026-11-02T11:12:42Z",
-  "seconds": 63.0,
+  "started": "2026-11-03T21:28:50Z",
+  "finished": "2026-11-03T21:33:53Z",
+  "seconds": 302.8,
   "reader_model": "muse-spark-1.3",
   "marks_model": "sam-3.1",
   "reasoning_effort": "high",
@@ -22,22 +22,23 @@
   },
   "min_confidence": 0.3,
   "reader_output_mode": "json_schema",
+  "close_ups": true,
   "mock": false,
   "case_reader_version": "0.1.0"
  },
- "title_en": "Samer Khalil Al Haddad v Najmat Al Khaleej General Contracting LLC – Labour Claim for Wages, End-of-Service and Unlawful Termination Compensation",
- "title_ar": "سامر خليل الحداد ضد شركة نجمة الخليج للمقاولات العامة ذ.م.م – مطالبة عمالية بالأجور ومكافأة نهاية الخدمة والتعويض عن الإنهاء غير المشروع",
+ "title_en": "Samer Khalil Al Haddad v Najma Al Khaleej General Contracting LLC",
+ "title_ar": "سامر خليل الحداد ضد شركة نجمة الخليج للمقاولات العامة ذ.م.م",
  "case_type": "labour",
- "summary_en": "Labour claim by a senior accountant against his employer for AED 196,460 in delayed wages, notice pay, end-of-service, leave pay and unlawful-termination compensation after a MOHRE complaint, referred to court as it exceeds AED 50,000 and filed as 1234/2026 partial labour; on 27/10/2026 the court adjourned to 17/11/2026 for the defendant to file its reply and documents by 10/11/2026.",
- "summary_ar": "دعوى عمالية مقامة من محاسب أول ضد جهة عمله للمطالبة بمبلغ 196,460 درهماً كأجور متأخرة وبدل إنذار ومكافأة نهاية خدمة وبدل إجازة وتعويض عن إنهاء غير مشروع بعد شكوى عمالية، أحيلت من الوزارة للمحكمة لتجاوزها 50,000 درهم وقيدت برقم 1234/2026 عمالي جزئي، وفي جلسة 27/10/2026 أجلت المحكمة الدعوى لجلسة 17/11/2026 لتقديم المدعى عليها ردها ومستنداتها بحد أقصى 10/11/2026.",
+ "summary_en": "Partial labour case 1234/2026 before Dubai Labour Court: senior accountant (since 01/03/2019 on AED 18,000) claims AED 196,460 for delayed wages, notice, gratuity, leave and unlawful-termination compensation after dismissal 11 days after MOHRE complaint. At 27/10/2026 hearing both lawyers appeared; court adjourned to 17/11/2026 for defence reply due by 10/11/2026 with original contract and Jan-Aug 2026 payrolls.",
+ "summary_ar": "دعوى عمالية جزئية رقم 1234/‎2026 أمام المحكمة العمالية الابتدائية بدبي يطالب فيها محاسب أول (عمل منذ 01/03/2019 براتب 18,000 درهم) بأجور متأخرة وبدل انذار ومكافأة نهاية خدمة وبدل اجازة وتعويض عن انهاء غير مشروع باجمالي 196,460 درهم بعد انهائه بعد 11 يوماً من شكواه للوزارة. في جلسة 27/10/2026 حضر وكيلا الطرفين وأجلت المحكمة الدعوى إلى 17/11/2026 لرد المدعى عليها بموعد أقصاه 10/11/2026 مع تقديم أصل العقد وكشوف الرواتب.",
  "pages": [
   {
    "page": 1,
    "image": "pages/page-1.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Labour claim sheet – parties and facts",
-   "document_ar": "صحيفة دعوى عمالية – بيانات الأطراف والوقائع",
+   "document_en": "Labour claim statement - facts (first page)",
+   "document_ar": "صحيفة دعوى عمالية - الوقائع (الصفحة الأولى)",
    "src": "../test-files/case-01-labour/page-1.jpg"
   },
   {
@@ -45,8 +46,8 @@
    "image": "pages/page-2.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Claim sheet – legal grounds, claims table and signature",
-   "document_ar": "صحيفة الدعوى – الأسانيد القانونية وجدول الطلبات والتوقيع",
+   "document_en": "Labour claim statement - legal grounds and claims",
+   "document_ar": "صحيفة دعوى عمالية - الأسانيد القانونية والطلبات",
    "src": "../test-files/case-01-labour/page-2.jpg"
   },
   {
@@ -54,15 +55,15 @@
    "image": "pages/page-3.jpg",
    "width": 1600,
    "height": 2263,
-   "document_en": "Third Labour Circuit hearing minutes",
-   "document_ar": "محضر جلسة الدائرة العمالية الثالثة",
+   "document_en": "Hearing minutes of 27/10/2026 - Third Labour Circuit",
+   "document_ar": "محضر جلسة 27/10/2026 - الدائرة العمالية الثالثة",
    "src": "../test-files/case-01-labour/page-3.jpg"
   }
  ],
  "court": {
-  "name_en": "Labour Court of First Instance – Emirate of Dubai – Third Labour Circuit",
-  "name_ar": "المحكمة العمالية الابتدائية – إمارة دبي – الدائرة العمالية الثالثة",
-  "case_number": "1234/2026 عمالي جزئي",
+  "name_en": "Dubai Court of First Instance - Labour Court / Third Labour Circuit",
+  "name_ar": "المحكمة العمالية الابتدائية – إمارة دبي / الدائرة العمالية الثالثة",
+  "case_number": "1234/2026",
   "case_number_source": "printed",
   "pages": [
    1,
@@ -76,7 +77,7 @@
    "role_ar": "المدعي",
    "name_ar": "سامر خليل الحداد",
    "name_en": "Samer Khalil Al Haddad",
-   "details_en": "Jordanian, ID 784-1987-0-0000000, employed by defendant as Senior Accountant",
+   "details_en": "Jordanian, ID 784-1987-0000000-0, employed as Senior Accountant; ref NS/LAB/2026/118",
    "pages": [
     1,
     2,
@@ -88,8 +89,8 @@
    "role_en": "Defendant",
    "role_ar": "المدعى عليها",
    "name_ar": "شركة نجمة الخليج للمقاولات العامة ذ.م.م",
-   "name_en": "Najmat Al Khaleej General Contracting LLC",
-   "details_en": "LLC, trade licence No. 000000, address Dubai – Al Quoz Industrial Third",
+   "name_en": "Najma Al Khaleej General Contracting LLC",
+   "details_en": "Trade licence No. 000000, address Dubai - Al Quoz Industrial Third",
    "pages": [
     1,
     2,
@@ -98,11 +99,11 @@
   },
   {
    "role": "claimant_lawyer",
-   "role_en": "Claimant counsel – Lawyer",
-   "role_ar": "وكيل المدعي – المحامي",
+   "role_en": "Claimant's lawyer/agent",
+   "role_ar": "وكيل المدعي - المحامي",
    "name_ar": "يوسف عبدالله المرزوقي",
-   "name_en": "Youssef Abdulla Al Marzouqi",
-   "details_en": "Counsel for claimant, signatory on claim",
+   "name_en": "Yusuf Abdullah Al Marzouqi",
+   "details_en": "Counsel for claimant, office Najm Al Sidra Advocates",
    "pages": [
     1,
     2,
@@ -110,57 +111,57 @@
    ]
   },
   {
-   "role": "defendant_lawyer",
-   "role_en": "Defendant counsel – Lawyer",
-   "role_ar": "وكيلة المدعى عليها – المحامية",
-   "name_ar": "هند سعيد الكعبي",
-   "name_en": "Hind Saeed Al Kaabi",
-   "details_en": "Counsel appearing for defendant at 27/10/2026 hearing, filed POA",
-   "pages": [
-    3
-   ]
-  },
-  {
-   "role": "judge",
-   "role_en": "Judge – Presiding",
-   "role_ar": "القاضي – رئاسة الجلسة",
-   "name_ar": "خالد سالم النعيمي",
-   "name_en": "Khaled Salem Al Naeimi",
-   "details_en": "Presiding judge of hearing on 27/10/2026",
-   "pages": [
-    3
-   ]
-  },
-  {
-   "role": "clerk",
-   "role_en": "Secretary/Clerk",
-   "role_ar": "أمين السر",
-   "name_ar": "مريم أحمد الشامسي",
-   "name_en": "Mariam Ahmed Al Shamsi",
-   "details_en": "Court secretary present at 27/10/2026 hearing",
-   "pages": [
-    3
-   ]
-  },
-  {
-   "role": "other",
-   "role_en": "Claimant counsel law firm",
+   "role": "claimant_lawyer",
+   "role_en": "Claimant counsel's office",
    "role_ar": "مكتب وكيل المدعي",
    "name_ar": "مكتب نجم السدرة للمحاماة والاستشارات القانونية",
    "name_en": "Najm Al Sidra Advocates & Legal Consultants",
-   "details_en": "Law firm on letterhead ref NS/LAB/2026/118 and rectangular stamp",
+   "details_en": "Law firm letterhead NS/LAB/2026/118, Dubai",
    "pages": [
     1,
     2
    ]
   },
   {
+   "role": "defendant_lawyer",
+   "role_en": "Defendant's lawyer/agent",
+   "role_ar": "وكيلة المدعى عليها - المحامية",
+   "name_ar": "هند سعيد الكعبي",
+   "name_en": "Hind Saeed Al Kaabi",
+   "details_en": "Appeared on behalf of defendant on 27/10/2026 and filed POA",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "judge",
+   "role_en": "Judge - Presiding",
+   "role_ar": "القاضي - رئيس الدائرة",
+   "name_ar": "خالد سالم النعيمي",
+   "name_en": "Khaled Salem Al Nuaimi",
+   "details_en": "Presided over hearing of 27/10/2026",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "role": "clerk",
+   "role_en": "Clerk",
+   "role_ar": "أمين السر",
+   "name_ar": "مريم أحمد الشامسي",
+   "name_en": "Maryam Ahmed Al Shamsi",
+   "details_en": "Present at hearing of 27/10/2026",
+   "pages": [
+    3
+   ]
+  },
+  {
    "role": "other",
-   "role_en": "Complaint authority",
-   "role_ar": "جهة الشكوى",
+   "role_en": "Concerned Ministry",
+   "role_ar": "الوزارة المختصة",
    "name_ar": "وزارة الموارد البشرية والتوطين",
    "name_en": "Ministry of Human Resources and Emiratisation",
-   "details_en": "Authority where complaint MO-2026-58213 filed and amicable settlement failed",
+   "details_en": "MOHRE complaint body, complaint MO-2026-58213",
    "pages": [
     1
    ]
@@ -169,56 +170,56 @@
  "dates": [
   {
    "date": "2019-03-01",
-   "what_en": "Claimant joined defendant under indefinite contract",
-   "what_ar": "تاريخ التحاق المدعي بالعمل لدى المدعى عليها بعقد غير محدد المدة",
+   "what_en": "Employment start date",
+   "what_ar": "تاريخ التحاق المدعي بالعمل لدى المدعى عليها",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-06-01",
-   "what_en": "Defendant stopped paying wages from June 2026",
-   "what_ar": "بدء توقف المدعى عليها عن سداد الأجور اعتباراً من شهر يونيو 2026",
+   "what_en": "Start of wage non-payment (June 2026)",
+   "what_ar": "بدء التوقف عن سداد الأجور (شهر يونيو 2026)",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-08-01",
-   "what_en": "Start of partial wage claim period",
-   "what_ar": "بداية فترة المطالبة بالأجور الجزئية (01/08/2026 حتى 15/08/2026)",
+   "what_en": "Start of partial August wage period claimed",
+   "what_ar": "بداية فترة الأجور الجزئية لشهر أغسطس 2026",
    "page": 2,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-08-04",
-   "what_en": "Claimant filed MOHRE complaint No. MO-2026-58213",
-   "what_ar": "تقدم المدعي بشكوى إلى وزارة الموارد البشرية والتوطين رقم MO-2026-58213",
+   "what_en": "Date of MOHRE complaint No. MO-2026-58213",
+   "what_ar": "تاريخ تقديم الشكوى إلى وزارة الموارد البشرية والتوطين رقم MO-2026-58213",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-08-15",
-   "what_en": "Defendant issued termination letter effective same date without prior notice",
-   "what_ar": "إصدار المدعى عليها كتاباً بإنهاء خدمة المدعي اعتباراً من ذات التاريخ دون إنذار مسبق",
+   "what_en": "Date of written termination of claimant's service",
+   "what_ar": "تاريخ إنهاء المدعى عليها لخدمة المدعي كتابةً",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-09-22",
-   "what_en": "Dispute referred to court after amicable settlement failed as claim exceeds AED 50,000",
-   "what_ar": "إحالة النزاع إلى المحكمة لتعذر التسوية الودية لتجاوز المطالبة 50,000 درهم",
+   "what_en": "Date dispute referred to court after failed settlement",
+   "what_ar": "تاريخ إحالة النزاع إلى المحكمة لتعذر التسوية الودية",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-10-05",
-   "what_en": "Law office memorandum / claim sheet date",
-   "what_ar": "تاريخ مذكرة مكتب المحاماة / صحيفة الدعوى",
+   "what_en": "Date of claim statement (law firm letter date)",
+   "what_ar": "تاريخ صحيفة الدعوى (كتاب مكتب المحاماة)",
    "page": 1,
    "source": "printed",
    "mark_ids": []
@@ -235,39 +236,45 @@
   },
   {
    "date": "2026-10-27",
-   "what_en": "Hearing held on Tuesday before judge with secretary present",
-   "what_ar": "تاريخ انعقاد الجلسة – يوم الثلاثاء – بحضور القاضي وأمين السر",
+   "what_en": "Date of hearing held on Tuesday",
+   "what_ar": "تاريخ الجلسة المنعقدة يوم الثلاثاء",
    "page": 3,
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "X2"
+   ]
   },
   {
    "date": "2026-11-10",
-   "what_en": "Deadline for defendant to file reply memo with documents",
-   "what_ar": "موعد أقصاه لتقديم المدعى عليها مذكرة ردها مع المستندات وأصل عقد العمل وكشوف الرواتب",
+   "what_en": "Latest date to file defendant's reply memo",
+   "what_ar": "الموعد الأقصى لتقديم مذكرة رد المدعى عليها",
    "page": 3,
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "X3"
+   ]
   },
   {
    "date": "2026-11-17",
-   "what_en": "Case adjourned to 17/11/2026 hearing for defendant reply",
-   "what_ar": "تأجيل الدعوى لجلسة 17/11/2026 لرد المدعى عليها",
+   "what_en": "Adjourned next hearing date",
+   "what_ar": "تاريخ الجلسة القادمة المؤجلة إليها الدعوى",
    "page": 3,
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "X3"
+   ]
   }
  ],
  "deadlines": [
   {
    "date": "2026-08-29",
    "time": "",
-   "who_en": "Defendant employer",
-   "what_en": "Employer to pay worker wages and all dues within 14 days of contract end date under Article 53 – not met per claim",
-   "what_ar": "سداد صاحب العمل أجور العامل وجميع مستحقاته خلال 14 يوماً من تاريخ انتهاء العقد – لم يُمتثل بحسب الادعاء",
+   "who_en": "Defendant (employer)",
+   "what_en": "Pay wages and all dues within 14 days of contract end - alleged not met",
+   "what_ar": "سداد الأجور وجميع المستحقات خلال 14 يوماً من انتهاء العقد - لم يلتزم به حسب المذكور",
    "page": 2,
    "computed": true,
-   "basis_en": "15/08/2026 termination date + 14 days under Article 53 stated on page 2",
+   "basis_en": "Article 53 cited in the claim requires the employer to pay the worker's wages and entitlements within 14 days from the contract end date of 2026-08-15, so 15/08/2026 + 14 days = 29/08/2026. Stated as breached.",
    "source": "printed",
    "mark_ids": []
   },
@@ -275,25 +282,27 @@
    "date": "2026-11-10",
    "time": "",
    "who_en": "Defendant",
-   "what_en": "Defendant to file reply memo with documents and original contract and Jan-Aug 2026 payrolls no later than 10/11/2026 – pending",
-   "what_ar": "على المدعى عليها أن تقدم مذكرة ردها مع المستندات وأصل عقد العمل وكشوف رواتب المدعي من يناير إلى أغسطس 2026 في موعد أقصاه 10/11/2026 – لم يحن بعد",
+   "what_en": "File defendant's reply memo with supporting documents",
+   "what_ar": "تقديم مذكرة رد المدعى عليها مع المستندات",
    "page": 3,
    "computed": false,
-   "basis_en": "Court order on 27/10/2026 hearing minutes page 3 sets 10/11/2026 as latest date",
+   "basis_en": "Court order in minutes of 27/10/2026 hearing",
    "source": "printed",
    "mark_ids": []
   },
   {
    "date": "2026-11-17",
    "time": "",
-   "who_en": "Both parties",
-   "what_en": "Next hearing of the case for defendant reply – pending",
-   "what_ar": "الجلسة القادمة للدعوى لرد المدعى عليها – لم تحن بعد",
+   "who_en": "Defendant (and both parties to attend)",
+   "what_en": "Attend adjourned hearing and produce original employment contract and claimant payrolls Jan-Aug 2026",
+   "what_ar": "الحضور في الجلسة القادمة وتقديم أصل عقد العمل وكشوف رواتب المدعي عن الفترة من يناير إلى أغسطس 2026",
    "page": 3,
    "computed": false,
-   "basis_en": "Adjournment decision on page 3 to next session",
+   "basis_en": "Court order adjourning case to 17/11/2026; original contract and Jan-Aug 2026 payroll to be produced for that hearing",
    "source": "printed",
-   "mark_ids": []
+   "mark_ids": [
+    "X3"
+   ]
   }
  ],
  "claims": [
@@ -305,7 +314,7 @@
    "page": 2
   },
   {
-   "item_en": "Notice pay in lieu (30 days)",
+   "item_en": "Pay in lieu of notice (30 days)",
    "item_ar": "بدل الإنذار (30 يوماً)",
    "has_amount": true,
    "amount_aed": 18000.0,
@@ -319,7 +328,7 @@
    "page": 2
   },
   {
-   "item_en": "Unused annual leave pay (20 days)",
+   "item_en": "Unused annual leave balance (20 days)",
    "item_ar": "بدل الإجازة السنوية غير المستخدمة (20 يوماً)",
    "has_amount": true,
    "amount_aed": 8000.0,
@@ -342,43 +351,59 @@
  ],
  "key_facts": [
   {
-   "fact_en": "Claimant joined defendant on 01/03/2019 under indefinite contract as Senior Accountant on AED 18,000 total monthly, AED 12,000 basic",
-   "fact_ar": "التحق المدعي بالعمل لدى المدعى عليها بتاريخ 01/03/2019 بموجب عقد عمل غير محدد المدة بوظيفة محاسب أول براتب إجمالي 18,000 درهم شهرياً منه أجر أساسي 12,000 درهم",
+   "fact_en": "Claimant employed under unlimited contract as Senior Accountant on total AED 18,000 including basic AED 12,000",
+   "fact_ar": "التحق المدعي بالعمل لدى المدعى عليها بموجب عقد عمل غير محدد المدة بوظيفة محاسب أول براتب إجمالي قدره (18,000) درهم منه أجر أساسي قدره (12,000) درهم",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Defendant stopped paying wages from June 2026; claimant complained to MOHRE on 04/08/2026 No. MO-2026-58213",
-   "fact_ar": "توقفت المدعى عليها عن سداد أجور المدعي اعتباراً من شهر يونيو 2026 فتقدم بشكوى إلى وزارة الموارد البشرية والتوطين بتاريخ 04/08/2026 قيدت برقم MO-2026-58213",
+   "fact_en": "Defendant stopped paying wages from June 2026",
+   "fact_ar": "توقفت المدعى عليها عن سداد الأجور اعتباراً من شهر يونيو 2026",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "On 15/08/2026, 11 days after complaint, defendant terminated claimant effective same date without prior notice or payment",
-   "fact_ar": "بتاريخ 15/08/2026 أي بعد أحد عشر يوماً من تقديم الشكوى أصدرت المدعى عليها كتاباً بإنهاء خدمة المدعي اعتباراً من ذات التاريخ دون إنذار مسبق ودون سداد مستحقاته",
+   "fact_en": "Claimant filed MOHRE complaint on 04/08/2026 registered No. MO-2026-58213",
+   "fact_ar": "تقدم المدعي بشكوى إلى وزارة الموارد البشرية والتوطين بتاريخ 04/08/2026 قيدت برقم MO-2026-58213",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Amicable settlement at Ministry failed so dispute referred to court on 22/09/2026 as claim exceeds AED 50,000",
-   "fact_ar": "تعذرت التسوية الودية لدى الوزارة فأحالت النزاع إلى المحكمة بتاريخ 22/09/2026 لتجاوز قيمة المطالبة 50,000 درهم",
+   "fact_en": "Defendant terminated claimant in writing effective 15/08/2026, 11 days after complaint, without prior notice or payment",
+   "fact_ar": "أصدرت المدعى عليها كتاباً بإنهاء خدمة المدعي اعتباراً من التاريخ ذاته 15/08/2026 أي بعد أحد عشر يوماً من تقديم الشكوى دون انذار مسبق ودون سداد مستحقاته",
    "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Claimant counsel and defendant counsel attended 27/10/2026 hearing before Judge Khaled Salem Al Naeimi; defendant counsel filed POA and sought adjournment to review and reply",
-   "fact_ar": "حضر وكيل المدعي ووكيلة المدعى عليها جلسة 27/10/2026 أمام القاضي خالد سالم النعيمي وطلبت وكيلة المدعى عليها أجلا للاطلاع والرد وقدمت سند وكالتها",
-   "page": 3,
+   "fact_en": "Amicable settlement failed and dispute referred to court on 22/09/2026 as claim exceeds AED 50,000",
+   "fact_ar": "تعذرت التسوية الودية لدى الوزارة فأحالت النزاع الى المحكمة بتاريخ 22/09/2026 لتجاوز قيمة المطالبة مبلغ (50,000) درهم",
+   "page": 1,
    "source": "printed",
    "mark_ids": []
   },
   {
-   "fact_en": "Court adjourned to 17/11/2026, ordering defendant to file reply with documents by 10/11/2026 and to submit original contract and Jan-Aug 2026 payrolls",
-   "fact_ar": "قررت المحكمة تأجيل الدعوى لجلسة 17/11/2026 على أن تقدم المدعى عليها مذكرة ردها مع المستندات في موعد أقصاه 10/11/2026 وكلفتها بتقديم أصل عقد العمل وكشوف رواتب المدعي عن الفترة من يناير إلى أغسطس 2026",
+   "fact_en": "Case registered as No. 1234/2026 Partial Labour",
+   "fact_ar": "قيدت الدعوى برقم 1234 / 2026 عمالي جزئي",
+   "page": 1,
+   "source": "handwriting",
+   "mark_ids": [
+    "X1"
+   ]
+  },
+  {
+   "fact_en": "Total claimed AED 196,460 plus experience certificate, fees, expenses and advocacy fees",
+   "fact_ar": "المبلغ الاجمالي المطالب به 196,460 درهم مع الزام المدعى عليها بتسليم شهادة الخبرة والرسوم والمصروفات ومقابل أتعاب المحاماة",
+   "page": 2,
+   "source": "printed",
+   "mark_ids": []
+  },
+  {
+   "fact_en": "Both counsels attended 27/10/2026 hearing; defendant's counsel sought time to review and court adjourned to 17/11/2026",
+   "fact_ar": "حضر وكيلا الطرفين جلسة 27/10/2026 وطلبت وكيلة المدعى عليها أجلاً للاطلاع والرد على صحيفة الدعوى وقررت المحكمة التأجيل إلى 17/11/2026",
    "page": 3,
    "source": "printed",
    "mark_ids": []
@@ -391,7 +416,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "54",
    "clause": "",
    "quoted_text_ar": "",
@@ -413,14 +438,41 @@
    }
   },
   {
-   "text_ar": "إن إنهاء خدمة المدعي جاء بسبب تقدمه بشكوى جديدة إلى الوزارة، مما يجعله إنهاءً غير مشروع وفقاً للبند (1) من المادة (47) من المرسوم بقانون المشار إليه، ويستحق عنه تعويضاً لا يجاوز أجر ثلاثة أشهر وفقاً للبند (2) من المادة ذاتها.",
+   "text_ar": "إن إنهاء خدمة المدعي جاء بسبب تقدمه بشكوى جدية إلى الوزارة، مما يجعله إنهاءاً غير مشروع وفقاً للبند (1) من المادة (47) من المرسوم بقانون المشار إليه، ويستحق عنه تعويضاً لا يجاوز أجر ثلاثة أشهر وفقاً للبند (2) من المادة ذاتها.",
    "law_kind": "federal_decree_law",
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "47",
    "clause": "1",
+   "quoted_text_ar": "",
+   "page": 2,
+   "article_checked": "47",
+   "check": {
+    "law_id": "uae-fdl-33-2021-labour",
+    "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+    "law_title_ar": "مرسوم بقانون اتحادي رقم (33) لسنة 2021 بشأن تنظيم علاقات العمل",
+    "article_count": 74,
+    "source_url_en": "https://uaelegislation.gov.ae/en/legislations/1541",
+    "source_url_ar": "https://uaelegislation.gov.ae/ar/legislations/1541",
+    "article": "47",
+    "status": "valid",
+    "label_en": "Article 47 of the Labour Relations Law exists in the official text.",
+    "label_ar": "المادة (47) من قانون تنظيم علاقات العمل موجودة في النص الرسمي.",
+    "official_text_ar": "1. يعد إنهاء خدمة العامل من قبل صاحب العمل غير مشروع إذا كان إنهاء خدمة العامل بسبب تقدمه بشكوى جدية إلى الوزارة أو إقامة دعوى على صاحب العمل ثبت صحتها.\n2. يلتزم صاحب العمل بدفع تعويض عادل للعامل تقدره المحكمة المختصة، إذا ثبت أن الفصل غير مشروع طبقًا للبند (1) من هذه المادة، ويحدد مقدار التعويض بمراعاة نوع العمل ومقدار الضرر الذي لحق بالعامل ومدة خدمته، ويشترط في جميع الأحوال ألا يزيد مبلغ التعويض على أجر العامل لمدة (3) ثلاثة أشهر تحسب وفق آخر أجر كان يتقاضاه.\n3. لا تخل أحكام البند (2) من هذه المادة بحق العامل في بدل الإنذار ومكافأة نهاية الخدمة المستحقة له وفق أحكام هذا المرسوم بقانون.",
+    "official_text_en": "1. The termination of the Worker's service by the Employer shall be unlawful if the termination of the Worker's service is due to his filing a serious complaint to the Ministry or filing a case against the Employer that has been proven to be true.\n2. The Employer is obligated to pay a fair compensation to the Worker estimated by the competent court, if it is proven that the dismissal is unlawful in accordance with Clause (1) of this Article. The amount of compensation shall be determined taking into account the kind of work, the amount of damage incurred by the Worker and the duration of his service. In all cases, the amount of compensation must not exceed the wage of the Worker for a period of three (3) months, calculated according to the last wage received thereby.\n3. The provisions of Clause (2) of this Article shall not prejudice the right of the Worker to the warning allowance and the end-of-service gratuity entitled thereto in accordance with the provisions of this Decree by law."
+   }
+  },
+  {
+   "text_ar": "إن انهاء خدمة المدعي جاء بسبب تقدمه بشكوى جدية إلى الوزارة، مما يجعله إنهاءاً غير مشروع وفقاً للبند (1) من المادة (47) من المرسوم بقانون المشار إليه، ويستحق عنه تعويضاً لا يجاوز أجر ثلاثة أشهر وفقاً للبند (2) من المادة ذاتها.",
+   "law_kind": "federal_decree_law",
+   "emirate": "",
+   "law_number": "33",
+   "law_year": 2021,
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
+   "article": "47",
+   "clause": "2",
    "quoted_text_ar": "",
    "page": 2,
    "article_checked": "47",
@@ -445,7 +497,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "43",
    "clause": "",
    "quoted_text_ar": "",
@@ -472,7 +524,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "51",
    "clause": "",
    "quoted_text_ar": "",
@@ -499,7 +551,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "53",
    "clause": "",
    "quoted_text_ar": "",
@@ -526,7 +578,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "145",
    "clause": "",
    "quoted_text_ar": "",
@@ -551,7 +603,7 @@
    "emirate": "",
    "law_number": "33",
    "law_year": 2021,
-   "law_title_en": "Regulating Labour Relations",
+   "law_title_en": "Federal Decree-Law No. 33 of 2021 Regulating Labour Relations",
    "article": "55",
    "clause": "",
    "quoted_text_ar": "",
@@ -585,10 +637,10 @@
    ],
    "type": "stamp",
    "found_as": "purple stamp",
-   "confidence": 0.8709677457809448,
-   "text_ar": "قلم القيد\nنموذج تدريبي\n06/10/2026",
-   "meaning_en": "Oval filing clerk receipt stamp dated 06/10/2026 marked training model",
-   "meaning_ar": "ختم بيضاوي لقلم القيد بتاريخ 06/10/2026 ويحمل عبارة نموذج تدريبي",
+   "confidence": 0.8672199249267578,
+   "text_ar": "قلم القيد نموذج تدريبي 06/10/2026",
+   "meaning_en": "Filing clerk stamp (training model) dated 06/10/2026",
+   "meaning_ar": "ختم قلم القيد (نموذج تدريبي) بتاريخ 06/10/2026",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -604,9 +656,9 @@
    "type": "stamp",
    "found_as": "blue stamp",
    "confidence": 0.949367105960846,
-   "text_ar": "مكتب نجم السدرة للمحاماة\nNajm Al Sidra Advocates\nدبي – الإمارات",
-   "meaning_en": "Rectangular stamp of Najm Al Sidra Advocates office in Dubai",
-   "meaning_ar": "ختم مستطيل لمكتب نجم السدرة للمحاماة في دبي",
+   "text_ar": "مكتب نجم السدرة للمحاماة Najm Al Sidra Advocates دبي - الإمارات",
+   "meaning_en": "Stamp of Najm Al Sidra Advocates, Dubai - UAE, claimant counsel's office",
+   "meaning_ar": "ختم مكتب نجم السدرة للمحاماة دبي - الإمارات",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -623,7 +675,7 @@
    "found_as": "signature",
    "confidence": 0.8750000596046448,
    "text_ar": "توقيع غير مقروء",
-   "meaning_en": "Signature of claimant counsel lawyer Youssef Abdulla Al Marzouqi",
+   "meaning_en": "Signature of claimant's counsel Yusuf Abdullah Al Marzouqi",
    "meaning_ar": "توقيع وكيل المدعي المحامي يوسف عبدالله المرزوقي",
    "changes_printed_text": false,
    "reviewed": true
@@ -641,8 +693,8 @@
    "found_as": "signature",
    "confidence": 0.5661016702651978,
    "text_ar": "توقيع غير مقروء",
-   "meaning_en": "Signature of court secretary on hearing minutes",
-   "meaning_ar": "توقيع أمين السر على محضر الجلسة",
+   "meaning_en": "Signature of the court clerk (amin al-sirr)",
+   "meaning_ar": "توقيع أمين السر",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -659,44 +711,46 @@
    "found_as": "signature",
    "confidence": 0.7575758099555969,
    "text_ar": "توقيع غير مقروء",
-   "meaning_en": "Signature of presiding judge/head of circuit on hearing minutes",
-   "meaning_ar": "توقيع رئيس الدائرة على محضر الجلسة",
+   "meaning_en": "Signature of the presiding judge / head of circuit",
+   "meaning_ar": "توقيع رئيس الدائرة",
    "changes_printed_text": false,
    "reviewed": true
   },
   {
    "mark_id": "X1",
-   "page": 3,
+   "page": 1,
    "box": [
-    0.32,
-    0.42,
-    0.58,
-    0.51
+    0.1,
+    0.6,
+    0.33,
+    0.65
    ],
-   "type": "stamp",
+   "type": "handwriting",
    "found_as": "reader",
+   "placed_by": "first look",
    "confidence": null,
-   "text_ar": "قلم الجلسات\nنموذج تدريبي\n27/10/2026",
-   "meaning_en": "Oval court sessions clerk stamp dated 27/10/2026 marked training model",
-   "meaning_ar": "ختم بيضاوي لقلم الجلسات بتاريخ 27/10/2026 ويحمل عبارة نموذج تدريبي",
+   "text_ar": "قُيدت برقم 1234 / 2026 عمالي جزئي",
+   "meaning_en": "Handwritten filing note recording registration as No. 1234/2026 partial labour",
+   "meaning_ar": "ملاحظة قيد بخط اليد تفيد بقيد الدعوى برقم 1234 / 2026 عمالي جزئي",
    "changes_printed_text": false,
    "reviewed": true
   },
   {
    "mark_id": "X2",
-   "page": 1,
+   "page": 3,
    "box": [
-    0.08,
-    0.65,
-    0.36,
-    0.7
+    0.38,
+    0.44,
+    0.6,
+    0.52
    ],
-   "type": "handwriting",
+   "type": "stamp",
    "found_as": "reader",
+   "placed_by": "first look",
    "confidence": null,
-   "text_ar": "قُيدت برقم 1234/2026 عمالي جزئي",
-   "meaning_en": "Handwritten note recording filing under No. 1234/2026 partial labour",
-   "meaning_ar": "ملاحظة بخط اليد تفيد قيد الدعوى برقم 1234 لسنة 2026 عمالي جزئي",
+   "text_ar": "قلم الجلسات نموذج تدريبي 27/10/2026",
+   "meaning_en": "Hearings clerk stamp (training model) dated 27/10/2026",
+   "meaning_ar": "ختم قلم الجلسات (نموذج تدريبي) بتاريخ 27/10/2026",
    "changes_printed_text": false,
    "reviewed": true
   },
@@ -704,17 +758,18 @@
    "mark_id": "X3",
    "page": 3,
    "box": [
-    0.17,
-    0.55,
-    0.63,
-    0.61
+    0.19,
+    0.5986,
+    0.77,
+    0.6382
    ],
    "type": "handwriting",
    "found_as": "reader",
+   "placed_by": "close-up",
    "confidence": null,
-   "text_ar": "متابعة: مذكرة رد الشركة بتاريخ 10/11 — الجلسة القادمة 17/11",
-   "meaning_en": "Handwritten follow-up note: company reply memo dated 10/11 – next hearing 17/11",
-   "meaning_ar": "ملاحظة بخط اليد للمتابعة تفيد مذكرة رد الشركة بتاريخ 10/11 والجلسة القادمة 17/11",
+   "text_ar": "متابعة: مذكرة رد الشركة بتاريخ 10/11 - الجلسة القادمة 17/11",
+   "meaning_en": "Handwritten follow-up note about company reply memo dated 10/11 and next hearing 17/11",
+   "meaning_ar": "ملاحظة متابعة بخط اليد تشير إلى مذكرة رد الشركة بتاريخ 10/11 والجلسة القادمة 17/11",
    "changes_printed_text": false,
    "reviewed": true
   }
@@ -736,15 +791,15 @@
    "by": "check"
   },
   {
-   "flag_en": "Stamps state training model and ID/licence numbers contain zeros, with footer stating fictional test document – not a real case",
-   "flag_ar": "الختم يحمل عبارة نموذج تدريبي وأرقام الهوية والرخصة تحتوي أصفاراً، مع تنبيه أسفل الصفحة بأنها وثيقة خيالية لأغراض الاختبار – لا تمثل قضية حقيقية",
+   "flag_en": "File footer states it is a fictional test document, not a real case; stamps marked as training model",
+   "flag_ar": "الملف مؤشر عليه بأنه وثيقة خيالية لأغراض الاختبار فقط وليس قضية حقيقية",
    "page": 1,
-   "severity": "low",
+   "severity": "medium",
    "by": "reader"
   },
   {
-   "flag_en": "Case number appears printed in minutes and handwritten on claim sheet in consistent form – printed version adopted",
-   "flag_ar": "رقم الدعوى ورد مطبوعاً في محضر الجلسة ومكتوباً بخط اليد في صحيفة الدعوى بصيغتين متوافقتين – يُعتمد الرقم المطبوع",
+   "flag_en": "ID and trade licence numbers shown with placeholder zeros, indicating test data",
+   "flag_ar": "بيانات الهوية والرخصة التجارية واردة بأرقام صفرية استرشادية (000000) مما يشير إلى أنها بيانات اختبارية",
    "page": 1,
    "severity": "low",
    "by": "reader"
