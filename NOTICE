@@ -1,0 +1,13 @@
+LAVERTY Case Reader
+Copyright 2026 Infinity AI Technology Labs, Inc.
+
+This project was built during the Meta Global AI Developer Hackathon (26 Oct - 4 Nov 2026).
+It is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party material keeps its own terms:
+- Fonts in tools/fonts/ are under the SIL Open Font License (see tools/fonts/*/OFL.txt).
+- Law texts in laws/ are official UAE and Dubai legislation (see laws/README.md).
+- The test files in test-files/ are fictional; every person, company and case number in them is invented.
+
+This repository contains only the Case Reader built during the hackathon. It does not include
+LAVERTY's app code or its law library, which are not covered by this licence.

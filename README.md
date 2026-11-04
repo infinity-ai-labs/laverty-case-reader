@@ -114,4 +114,4 @@ python3 tools/make_test_files/build.py
 
 ## Licence
 
-Code, test files and answer keys: Copyright © 2026 Infinity AI Technology Labs, Inc. All rights reserved (see `LICENSE`). The repository is public so the hackathon judges can read and run it; no licence to reuse it is granted. Fonts: SIL Open Font License, see `tools/fonts/*/OFL.txt`. Law texts: official UAE and Dubai legislation, see `laws/README.md`.
+Apache License 2.0: see `LICENSE` and `NOTICE`. Copyright 2026 Infinity AI Technology Labs, Inc. The licence covers this repository only (the Case Reader built during the hackathon); LAVERTY's app code and law library are not part of it. Fonts: SIL Open Font License, see `tools/fonts/*/OFL.txt`. Law texts: official UAE and Dubai legislation, see `laws/README.md`.
